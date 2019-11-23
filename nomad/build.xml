@@ -126,7 +126,7 @@ Note:
   	<delete dir="${dist}" />
   </target>
 
-  <target name="dist" depends="clean-libs,revert,clean-dist,configure,nomadjar,buildutils">
+  <target name="dist" depends="clean-dist,clean-libs,revert,configure,nomadjar,buildutils">
   	
   	<!-- creating dist root -->
 	<mkdir dir="${dist}"/>
@@ -210,6 +210,7 @@ Note:
   <target name="validate-dist">
     <!-- validate class files -->
   	<java jar="${libprojectutils}" dir="." failonerror="true" fork="true">
+  	<!-- No valid value found yet for Java 8 -->
   	  <arg line="-validate-class-version -version J2SE_5.0 nomad-dist"/>
   	</java>
   </target>
@@ -225,13 +226,14 @@ Note:
 	     classpath="ant/jarbundler-1.9.jar"
          classname="net.sourceforge.jarbundler.JarBundler" />
          
-  <target name="osx-dist" depends="dist,clean-osx-dist">
+  <target name="osx-dist" depends="clean-osx-dist,dist">
 	<mkdir dir="${osxdist}"/>
+  	<!-- 1.5+  would mean Java 5 or higher -->
   	<jarbundler dir="${osxdist}"
             name="Nomad"
             icon="artwork/icns/nomad.icns"
             mainclass="org.java.plugin.boot.Boot"
-            jvmversion="1.5*"
+            jvmversion="1.5+"
             workingdirectory="$APP_PACKAGE/Contents/Resources/Java">
        <jarfilelist dir="${dist}" files="nomad.jar"/>
        <javaproperty name="apple.laf.useScreenMenuBar" value="true"/>
