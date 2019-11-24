@@ -64,6 +64,7 @@ import org.java.plugin.PluginLifecycleException;
 import org.java.plugin.PluginManager;
 import org.java.plugin.boot.Boot;
 import org.java.plugin.boot.SplashHandler;
+
 import org.java.plugin.registry.PluginDescriptor;
 import org.java.plugin.registry.PluginRegistry;
 
@@ -89,7 +90,7 @@ public class NomadLoader
         // first get the boot progress callbeck
         final SplashHandler progress = Boot.getSplashHandler();
         // initializing ...
-        progress.setText("Initializing Nomad...");
+        progress.setText("Initializing Nomad 0.4.0 beta...");
         progress.setProgress(0.1f);
         // now we read all property files
         // 1. nomad.properties
@@ -159,7 +160,7 @@ public class NomadLoader
         progress.setText("Initializing services...");
 
         JPFServiceInstallerTool.activateAllServices(plugin);
-        progress.setText("Starting Nomad...");
+        progress.setText("Starting Nomad 0.4.0 beta...");
         
        // SwingUtilities.invokeLater(run);
 
