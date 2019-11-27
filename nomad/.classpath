@@ -25,5 +25,6 @@
 	<classpathentry kind="lib" path="nomad-source/plugins/net.sf.nmedit.patchmodifier/lib/patchmodifier.jar" sourcepath="/nmlibs/patchmodifier/src/"/>
 	<classpathentry kind="lib" path="nomad-source/plugins/net.sf.nmedit.jsynth/lib/jsynth.jar" sourcepath="/nmlibs/jsynth/src"/>
 	<classpathentry kind="lib" path="nomad-source/plugins/net.sf.nmedit.jtheme/lib/jtheme.jar" sourcepath="/nmlibs/jtheme/src"/>
+	<classpathentry kind="lib" path="nomad-source/libs/coremidi4j-1.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
