@@ -64,6 +64,7 @@ import org.java.plugin.PluginLifecycleException;
 import org.java.plugin.PluginManager;
 import org.java.plugin.boot.Boot;
 import org.java.plugin.boot.SplashHandler;
+
 import org.java.plugin.registry.PluginDescriptor;
 import org.java.plugin.registry.PluginRegistry;
 
