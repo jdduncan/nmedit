@@ -90,7 +90,7 @@ public class NomadLoader
         // first get the boot progress callbeck
         final SplashHandler progress = Boot.getSplashHandler();
         // initializing ...
-        progress.setText("Initializing Nomad 0.4.20191212...");
+        progress.setText("Initializing Nomad...");
         progress.setProgress(0.1f);
         // now we read all property files
         // 1. nomad.properties
@@ -160,7 +160,7 @@ public class NomadLoader
         progress.setText("Initializing services...");
 
         JPFServiceInstallerTool.activateAllServices(plugin);
-        progress.setText("Starting Nomad 0.4.20191212...");
+        progress.setText("Starting Nomad...");
         
        // SwingUtilities.invokeLater(run);
 
