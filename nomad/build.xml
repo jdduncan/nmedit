@@ -139,6 +139,7 @@ Note:
 	<copy file="${nomad-source}/commons-logging.properties" todir="${dist}" />
 	<copy file="${nomad-source}/LICENSE_nomad.txt" todir="${dist}" />
 	<copy file="${nomad-source}/nomad.jar" todir="${dist}" />
+	<copy file="${nomad-source}/nomad.cmd" todir="${dist}" />
 	<copy file="${nomad-source}/splash04.png" todir="${dist}" />
   	
   	<copy todir="${dist}/libs">
