@@ -37,14 +37,26 @@ public class FileServiceTool
         {
             FileService service = i.next();
             if (service.isOpenFileOperationSupported())
-                chooser.addChoosableFileFilter(service.getFileFilter());
+            	// setFileFilter also add's it, otherwise you will get two entries.
+            	// set the NmFileChooser as default 
+                if (service.getFileFilter().getExtension().contentEquals("pch"))
+                    chooser.setFileFilter(service.getFileFilter());
+                else
+                    chooser.addChoosableFileFilter(service.getFileFilter());
         }
     }
 
     public static FileService lookupFileService(JFileChooser chooser)
     {
         FileFilter fileFilter = chooser.getFileFilter();
-        return (fileFilter == null) ? null : lookupFileService(fileFilter);
+
+        FileService service = (fileFilter == null) ? null : lookupFileService(fileFilter);
+        
+        // if the service == null, the 'all types' filter is probably choosen, try the FileService based on file type
+        if (service == null)
+        	service = lookupFileService(chooser.getSelectedFiles()[0]);
+
+        return service;
     }
 
     private static FileService lookupFileService(FileFilter fileFilter)

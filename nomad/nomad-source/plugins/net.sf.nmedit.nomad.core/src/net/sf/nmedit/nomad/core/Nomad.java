@@ -539,8 +539,15 @@ public class Nomad
                 (saveAs && fs.isSaveOperationSupported(d))
                 || ((!saveAs)&&fs.isDirectSaveOperationSupported(d));
             
-            if (add)
-                chooser.addChoosableFileFilter(fs.getFileFilter());
+            if (add) {
+//                chooser.addChoosableFileFilter(fs.getFileFilter());
+        	    // setFileFilter also add's it, otherwise you will get two entries.
+                // set the NmFileChooser as default 
+                if (fs.getFileFilter().getExtension().contentEquals("pch"))
+                    chooser.setFileFilter(fs.getFileFilter());
+                else
+                    chooser.addChoosableFileFilter(fs.getFileFilter());
+                }
         }
 
         File sfile = d.getFile();
