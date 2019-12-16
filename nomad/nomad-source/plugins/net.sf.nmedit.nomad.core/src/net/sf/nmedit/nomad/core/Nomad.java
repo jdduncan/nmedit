@@ -16,7 +16,6 @@
  * along with Nomad; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
-
 /*
  * Created on Nov 23, 2006
  * Updated on Dec 16, 2019
@@ -577,7 +576,7 @@ public class Nomad
         }
         else
         {
-            JOptionPane.showMessageDialog(mainWindow, "Could not find service to save file.");
+            JOptionPane.showMessageDialog(mainWindow, "Unknown file type.");
         }
     }
 
@@ -615,7 +614,7 @@ public class Nomad
         
         if (service == null)
         {
-            JOptionPane.showMessageDialog(mainWindow, "Could not find service to open file.");
+            JOptionPane.showMessageDialog(mainWindow, "Unknown file type.");
             return;
         }
         Runnable run = new Runnable() 
