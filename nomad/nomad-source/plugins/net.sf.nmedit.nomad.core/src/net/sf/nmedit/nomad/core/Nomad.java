@@ -1,4 +1,4 @@
-/* Copyright (C) 2006 Christian Schneider
+/* Copyright (C) 2006 Christian Schneider, 2019 Ian Hoogeboom
  * 
  * This file is part of Nomad.
  * 
@@ -16,9 +16,9 @@
  * along with Nomad; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
-
 /*
  * Created on Nov 23, 2006
+ * Updated on Dec 16, 2019
  */
 package net.sf.nmedit.nomad.core;
 
@@ -539,8 +539,15 @@ public class Nomad
                 (saveAs && fs.isSaveOperationSupported(d))
                 || ((!saveAs)&&fs.isDirectSaveOperationSupported(d));
             
-            if (add)
-                chooser.addChoosableFileFilter(fs.getFileFilter());
+            if (add) {
+//                chooser.addChoosableFileFilter(fs.getFileFilter());
+        	    // setFileFilter also add's it, otherwise you will get two entries.
+                // set the NmFileChooser as default 
+                if (fs.getFileFilter().getExtension().contentEquals("pch"))
+                    chooser.setFileFilter(fs.getFileFilter());
+                else
+                    chooser.addChoosableFileFilter(fs.getFileFilter());
+                }
         }
 
         File sfile = d.getFile();
@@ -569,7 +576,7 @@ public class Nomad
         }
         else
         {
-            JOptionPane.showMessageDialog(mainWindow, "Could not find service to save file.");
+            JOptionPane.showMessageDialog(mainWindow, "Unknown file type.");
         }
     }
 
@@ -607,7 +614,7 @@ public class Nomad
         
         if (service == null)
         {
-            JOptionPane.showMessageDialog(mainWindow, "Could not find service to open file.");
+            JOptionPane.showMessageDialog(mainWindow, "Unknown file type.");
             return;
         }
         Runnable run = new Runnable() 

@@ -1,4 +1,4 @@
-/* Copyright (C) 2006 Christian Schneider
+/* Copyright (C) 2006 Christian Schneider, 2019 Ian Hoogeboom
  * 
  * This file is part of Nomad.
  * 
@@ -15,6 +15,10 @@
  * You should have received a copy of the GNU General Public License
  * along with Nomad; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+ */
+
+/*
+ * Updated on Dec 16, 2019
  */
 package net.sf.nmedit.nomad.core.service.fileService;
 
@@ -37,14 +41,26 @@ public class FileServiceTool
         {
             FileService service = i.next();
             if (service.isOpenFileOperationSupported())
-                chooser.addChoosableFileFilter(service.getFileFilter());
+            	// setFileFilter also add's it, otherwise you will get two entries.
+            	// set the NmFileChooser as default 
+                if (service.getFileFilter().getExtension().contentEquals("pch"))
+                    chooser.setFileFilter(service.getFileFilter());
+                else
+                    chooser.addChoosableFileFilter(service.getFileFilter());
         }
     }
 
     public static FileService lookupFileService(JFileChooser chooser)
     {
         FileFilter fileFilter = chooser.getFileFilter();
-        return (fileFilter == null) ? null : lookupFileService(fileFilter);
+
+        FileService service = (fileFilter == null) ? null : lookupFileService(fileFilter);
+        
+        // if the service == null, the 'all types' filter is probably choosen, try the FileService based on file type
+        if (service == null)
+        	service = lookupFileService(chooser.getSelectedFiles()[0]);
+
+        return service;
     }
 
     private static FileService lookupFileService(FileFilter fileFilter)
