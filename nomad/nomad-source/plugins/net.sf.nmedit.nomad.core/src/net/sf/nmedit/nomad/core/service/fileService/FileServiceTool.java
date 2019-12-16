@@ -1,4 +1,4 @@
-/* Copyright (C) 2006 Christian Schneider
+/* Copyright (C) 2006 Christian Schneider, 2019 Ian Hoogeboom
  * 
  * This file is part of Nomad.
  * 

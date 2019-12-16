@@ -2,8 +2,60 @@ Nomad - Nord Modular Editor
 ---------------------------
 
 Copyright (C) 2006 Christian Schneider, Marcus Andersson
+Copyright (C) 2019 Ian Hoogeboom
 
-http://nmedit.sf.net
+
+Version 0.4.20191216
+--------------------
+
+new features / improvements:
+- made the .pch file dype the default open and save service
+
+bugs fixed:
+- opening the file with the 'all type' gave a service error
+
+
+Version 0.4.20191212
+--------------------
+
+First 0.4 version release
+
+new features / improvements:
+- updated the icon and splash screen to read to identify the 0.4 version
+
+
+Version 0.4.0beta
+--------------------
+
+Beta version, not released
+
+new features / improvements:
+- changed the name of the enum variables and used the enum class
+- added coremidi4j for later macOS versions MIDI
+- updated the sac and jar bundler library
+- probably forgot some other changes to make it work again...
+
+bugs fixed:
+- make MIDI work again on macOS
+
+other:
+- moving older projects to separate archive location in the project
+- moving unused WaldorfMiniworks4Pole code to separate archive location in the project
+- many more cleanup...
+
+
+Version 0.3.2-pre
+-----------------
+
+Preview release
+
+bugs fixed:
+- empty module pane problem
+- invalid MidiPlug problem
+- no popups on modules/connectors shown
+
+The 0.3 and 0.2 version page can be found on: http://nmedit.sf.net
+
 
 Version 0.2.2-pre
 -----------------
