@@ -5,7 +5,7 @@ Copyright (C) 2006 Christian Schneider, Marcus Andersson
 Copyright (C) 2019 Ian Hoogeboom
 
 
-Version 0.4.working.
+Version 0.4.20191216
 --------------------
 
 new features / improvements:
