@@ -16,6 +16,10 @@
  * along with Nomad; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
+
+/*
+ * Updated on Dec 16, 2019
+ */
 package net.sf.nmedit.nomad.core.service.fileService;
 
 import java.io.File;

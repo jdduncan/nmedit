@@ -19,6 +19,7 @@
 
 /*
  * Created on Nov 23, 2006
+ * Updated on Dec 16, 2019
  */
 package net.sf.nmedit.nomad.core;
 

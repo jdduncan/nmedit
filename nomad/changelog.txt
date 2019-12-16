@@ -9,7 +9,7 @@ Version 0.4.20191216
 --------------------
 
 new features / improvements:
-- made the .pch file dype the default open and save service
+- made the .pch file type the default open and save service
 
 bugs fixed:
 - opening the file with the 'all type' gave a service error
