@@ -5,8 +5,8 @@
   <property name="installer-script" value="_INSTALLER_ant.xml" />
 
   <property name="nomad-source" value="./nomad-source/" />
-  <property name="dist" value="./nomad-dist/" />
-  <property name="osxdist" value="./osx-dist/" />
+  <property name="jardist" value="./nomad-dist/Nomad" />
+  <property name="osxdist" value="./nomad-dist/Nomad.app" />
   <property name="projectutils" location="project-utils"/>
   <property name="libprojectutils" location="${projectutils}/project-utils.jar"/>
 	
@@ -108,7 +108,7 @@ Note:
   <!-- compiles the classes and bundles them in a jar, afterwards delete classes and source -->
   <target name="make_jar_for_plugin_and_clean">
   	<!-- requires parameter plugin_id -->
-  	<property name="plugin_dir" value="${dist}/plugins/${plugin_id}" />
+  	<property name="plugin_dir" value="${jardist}/plugins/${plugin_id}" />
   	<!-- switch jpf-plugin configuration 'plugin.dist.xml' to 'plugin.xml' -->
   	<delete file="${plugin_dir}/plugin.xml" />
   	<rename src="${plugin_dir}/plugin.dist.xml" dest="${plugin_dir}/plugin.xml" />
@@ -123,30 +123,31 @@ Note:
 	
   <target name="clean-dist">
   	<!-- delete previous dist dir -->
-  	<delete dir="${dist}" />
+  	<delete dir="${jardist}" />
   </target>
 
   <target name="dist" depends="clean-dist,clean-libs,revert,configure,nomadjar,buildutils">
   	
   	<!-- creating dist root -->
-	<mkdir dir="${dist}"/>
+	<mkdir dir="${jardist}"/>
   	<!-- plugin directory -->
-  	<mkdir dir="${dist}/plugin-tmp" />
+  	<mkdir dir="${jardist}/plugin-tmp" />
   	
 
-  	<copy file="${nomad-source}/boot.properties" todir="${dist}" />
-	<copy file="${nomad-source}/log4j.dist.properties" tofile="${dist}/log4j.properties" />
-	<copy file="${nomad-source}/commons-logging.properties" todir="${dist}" />
-	<copy file="${nomad-source}/LICENSE_nomad.txt" todir="${dist}" />
-	<copy file="${nomad-source}/nomad.jar" todir="${dist}" />
-	<copy file="${nomad-source}/nomad.cmd" todir="${dist}" />
-	<copy file="${nomad-source}/splash04.png" todir="${dist}" />
+  	<copy file="${nomad-source}/boot.properties" todir="${jardist}" />
+	<copy file="${nomad-source}/log4j.dist.properties" tofile="${jardist}/log4j.properties" />
+	<copy file="${nomad-source}/commons-logging.properties" todir="${jardist}" />
+	<copy file="${nomad-source}/LICENSE_nomad.txt" todir="${jardist}" />
+	<copy file="${nomad-source}/nomad.jar" todir="${jardist}" />
+	<copy file="${nomad-source}/nomad.cmd" todir="${jardist}" />
+	<copy file="${nomad-source}/nomad.app.sh" todir="${jardist}" />
+	<copy file="${nomad-source}/splash04.png" todir="${jardist}" />
   	
-  	<copy todir="${dist}/libs">
+  	<copy todir="${jardist}/libs">
   		<fileset dir="${nomad-source}/libs" />
   	</copy>
 
-  	<copy todir="${dist}/plugins">
+  	<copy todir="${jardist}/plugins">
   		<fileset dir="${nomad-source}/plugins" />
   	</copy>
 
@@ -168,23 +169,23 @@ Note:
   	</antcall>
   	
   	<!-- delete unused files -->
-  	<delete includeEmptyDirs="true" dir="${dist}/plugins/net.sf.nmedit.nomad.core/forms" />
-  	<delete includeEmptyDirs="true" dir="${dist}/plugins/net.sf.nmedit.jsynth/forms" />
-  	<delete includeEmptyDirs="true" dir="${dist}/plugins/net.sf.nmedit.nordmodular/forms" />
+  	<delete includeEmptyDirs="true" dir="${jardist}/plugins/net.sf.nmedit.nomad.core/forms" />
+  	<delete includeEmptyDirs="true" dir="${jardist}/plugins/net.sf.nmedit.jsynth/forms" />
+  	<delete includeEmptyDirs="true" dir="${jardist}/plugins/net.sf.nmedit.nordmodular/forms" />
   	
   	<!-- delete remaining build scripts -->
   	<delete>    
-  		<fileset dir="${dist}/plugins" includes="**/build.xml"/>
+  		<fileset dir="${jardist}/plugins" includes="**/build.xml"/>
   	</delete>
   	
   	<!-- zip plugins -->
   	<!-- broken:
-  	<jpf-zip basedir="${dist}/plugins" 
+  	<jpf-zip basedir="${jardist}/plugins" 
   		includes="*/plugin.xml,*/plugin-fragment.xml" 
-  		destdir="${dist}/plugins">
+  		destdir="${jardist}/plugins">
   	</jpf-zip>
 	<delete includeemptydirs="true">
-		<fileset dir="${dist}/plugins">
+		<fileset dir="${jardist}/plugins">
 			<include name="**/*" />
 			<exclude name="*.zip" />
 		</fileset>
@@ -192,10 +193,10 @@ Note:
 
   	<!-- fixing dist -->
   	<echo>fixing dist</echo>
-  	<delete file="${dist}/libs/README_jpf.txt" />
-  	<delete file="${dist}/libs/RELEASE-NOTES_commons-logging.txt" />
-  	<delete file="${dist}/libs/NOTICE_log4j.txt" />
-  	<delete file="${dist}/libs/NOTICE_commons-logging.txt" />
+  	<delete file="${jardist}/libs/README_jpf.txt" />
+  	<delete file="${jardist}/libs/RELEASE-NOTES_commons-logging.txt" />
+  	<delete file="${jardist}/libs/NOTICE_log4j.txt" />
+  	<delete file="${jardist}/libs/NOTICE_commons-logging.txt" />
   	
   	<!-- validate dist -->
   	<!-- IH: Turned off for coremidi4j, as this is not Java 5 compatible. Is there an 8 equivalent? -->
@@ -223,9 +224,20 @@ Note:
   	</java>
   </target>
 
-	<taskdef name="jarbundler"
-	     classpath="ant/jarbundler-2.3.1.jar"
-         classname="net.sourceforge.jarbundler.JarBundler" />
+  <target name="osx-dist" depends="clean-osx-dist,dist">
+  	<copy todir="${osxdist}">
+  	  <fileset dir="${nomad-source}/macOS/Nomad.app/"/>
+  	</copy>
+  	<copy todir="${osxdist}/Contents/Resources/Java/">
+  	  <fileset dir="${jardist}"/>
+  	</copy>
+	<copy file="artwork/icns/nomad.icns" todir="${osxdist}/Contents/Resources/" />
+  </target>
+	
+<!--
+  <taskdef name="jarbundler"
+	classpath="ant/jarbundler-2.3.1.jar"
+    classname="net.sourceforge.jarbundler.JarBundler" />
          
   <target name="osx-dist" depends="clean-osx-dist,dist">
 	<mkdir dir="${osxdist}"/>
@@ -235,26 +247,29 @@ Note:
             mainclass="org.java.plugin.boot.Boot"
             jvmversion="1.8+"
             workingdirectory="$APP_PACKAGE/Contents/Resources/Java">
-       <jarfilelist dir="${dist}" files="nomad.jar"/>
+       <jarfilelist dir="${jardist}" files="nomad.jar"/>
        <javaproperty name="apple.laf.useScreenMenuBar" value="true"/>
-       <javafileset dir="${dist}">
+       <javafileset dir="${jardist}">
          <include name="**/*"/>
        </javafileset>
        
        <documenttype name="Nord Modular Patch" extensions="pch" role="Editor"/>
     </jarbundler>
-  </target>	
+  </target>
+-->	
   
   <target name="clean-osx-dist">
      <delete dir="${osxdist}"/>
   </target>
-	<!--
+	
+<!--
   <target name="clean-nomad">
   	<delete dir="${nomad-dist}" />
     <ant antfile="${nomad-source}/plugins/net.sf.nmedit.nomad.core/build.xml" dir="${nomad-source}/plugins/net.sf.nmedit.nomad.core/" target="clean" />
     <ant antfile="${nomad-source}/plugins/net.sf.nmedit.jsynth/build.xml" dir="${nomad-source}/plugins/net.sf.nmedit.jsynth/" target="clean" />
     <ant antfile="${nomad-source}/plugins/net.sf.nmedit.jsynth/build.xml" dir="${nomad-source}/plugins/net.sf.nmedit.nordmodular/" target="clean" />
   </target>
-	-->
+-->
+	
 </project>
 
