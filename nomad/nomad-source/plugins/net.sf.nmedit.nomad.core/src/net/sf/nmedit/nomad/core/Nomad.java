@@ -177,7 +177,7 @@ public class Nomad
     
     public Nomad(NomadPlugin plugin, MenuLayout menuLayout) 
     {
-        mainWindow = new JFrame("Nomad 0.4.20191216");
+        mainWindow = new JFrame("Nomad 0.4.20191218");
         menuBuilder = new MenuBuilder(menuLayout);
         this.pluginInstance = plugin;
         Nomad.instance = this;
