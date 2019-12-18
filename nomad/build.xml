@@ -141,6 +141,7 @@ Note:
 	<copy file="${nomad-source}/nomad.jar" todir="${jardist}" />
 	<copy file="${nomad-source}/nomad.cmd" todir="${jardist}" />
 	<copy file="${nomad-source}/nomad.app.sh" todir="${jardist}" />
+	<copy file="${nomad-source}/setjava.sh" todir="${jardist}" />
 	<copy file="${nomad-source}/splash04.png" todir="${jardist}" />
   	
   	<copy todir="${jardist}/libs">
