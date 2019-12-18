@@ -5,6 +5,13 @@ Copyright (C) 2006 Christian Schneider, Marcus Andersson
 Copyright (C) 2019 Ian Hoogeboom
 
 
+Version 0.4.20191218
+--------------------
+
+bugs fixed:
+- opening Nomad on macOS with double click (unkown developer exception still present)
+
+
 Version 0.4.20191216
 --------------------
 
