@@ -1,4 +1,4 @@
-#!/bin/bash
+!/bin/bash
 PATH_OF_ME=$1
 OUT_FILE=${PATH_OF_ME}/Contents/Resources/Java/java_info.txt
 echo "SHELL:" ${SHELL} > ${OUT_FILE}
