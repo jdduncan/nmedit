@@ -24,7 +24,7 @@ No target specified.
     <!-- 
             installs the referenced library
     -->
-    <target name="install" description="install libarary">
+    <target name="install" description="install coremidi4j libarary">
       <echo>installing library</echo>
       <copy todir="${target-path}/" overwrite="true">
         <fileset dir="${build-path}/"/>
@@ -34,9 +34,12 @@ No target specified.
     <!-- 
             uninstalls the referenced library
     -->
-    <target name="uninstall" description="uninstall libarary">
-      <echo>uninstalling library</echo>
-      <delete file="${target-path}/coremidi4j.jar" />
+    <target name="uninstall" description="uninstall coremidi4j libarary">
+      <echo>uninstalling coremidi4j library</echo>
+      <echo>${target-path}/coremidi4j-1.2.jar</echo>
+      <delete>
+    	  <fileset dir="${target-path}" includes="coremidi4j*.jar"/>
+      </delete>
     </target>
 
 </project>

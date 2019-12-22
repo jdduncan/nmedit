@@ -36,10 +36,13 @@ No target specified.
     -->
     <target name="uninstall" description="uninstall libarary">
       <echo>uninstalling library</echo>
-      <delete file="${target-path}/commons-logging.jar" />
+        <delete>
+      	  <fileset dir="${target-path}" includes="*commons-logging*"/>
+        </delete>
+      <!--delete file="${target-path}/commons-logging.jar" />
       <delete file="${target-path}/LICENSE_commons-logging.txt" />
       <delete file="${target-path}/NOTICE_commons-logging.txt" />
-      <delete file="${target-path}/RELEASE-NOTES_commons-logging.txt" />
+      <delete file="${target-path}/RELEASE-NOTES_commons-logging.txt" /-->
     </target>
 
 </project>

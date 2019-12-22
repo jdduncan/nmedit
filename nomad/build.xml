@@ -235,12 +235,11 @@ Note:
 	<copy file="artwork/icns/nomad.icns" todir="${osxdist}/Contents/Resources/" />
   </target>
 	
-<!--
   <taskdef name="jarbundler"
 	classpath="ant/jarbundler-2.3.1.jar"
     classname="net.sourceforge.jarbundler.JarBundler" />
          
-  <target name="osx-dist" depends="clean-osx-dist,dist">
+  <target name="osx-dist_jarbundler" depends="clean-osx-dist,dist">
 	<mkdir dir="${osxdist}"/>
   	<jarbundler dir="${osxdist}"
             name="Nomad"
@@ -257,7 +256,6 @@ Note:
        <documenttype name="Nord Modular Patch" extensions="pch" role="Editor"/>
     </jarbundler>
   </target>
--->	
   
   <target name="clean-osx-dist">
      <delete dir="${osxdist}"/>

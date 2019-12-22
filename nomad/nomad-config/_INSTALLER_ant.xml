@@ -30,7 +30,7 @@ No target specified.
       <ant antfile="./sac-plugin_ant.xml" dir="." target="install" />
       <ant antfile="./xerces-plugin_ant.xml" dir="." target="install" />
       <ant antfile="./batik-plugin_ant.xml" dir="." target="install" />
-      <ant antfile="./coremidi4j-lib-ant.xml" dir="." target="install" />
+      <ant antfile="./coremidi4j-lib_ant.xml" dir="." target="install" />
 
       <echo>compiling/installing project libraries</echo>
       <ant antfile="./jpdl-plugin_ant.xml" dir="." target="install" />
@@ -59,7 +59,7 @@ No target specified.
       <ant antfile="./jdom-plugin_ant.xml" dir="." target="uninstall" />
       <ant antfile="./sac-plugin_ant.xml" dir="." target="uninstall" />
       <ant antfile="./xerces-plugin_ant.xml" dir="." target="uninstall" />
-      <ant antfile="./coremidi4j-lib-ant.xml" dir="." target="uninstall" />
+      <ant antfile="./coremidi4j-lib_ant.xml" dir="." target="uninstall" />
 
       <echo>uninstalling project libraries</echo>
       <ant antfile="./jpdl-plugin_ant.xml" dir="." target="uninstall" />
