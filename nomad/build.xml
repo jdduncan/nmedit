@@ -240,6 +240,7 @@ Note:
     classname="net.sourceforge.jarbundler.JarBundler" />
          
   <target name="osx-dist_jarbundler" depends="clean-osx-dist,dist">
+  	<!-- URL to bundel JRE: http://www.balthisar.com/blog/bundle-the-jre/ -->
 	<mkdir dir="${osxdist}"/>
   	<jarbundler dir="${osxdist}"
             name="Nomad"
