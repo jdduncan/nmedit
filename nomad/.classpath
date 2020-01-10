@@ -7,7 +7,7 @@
 	<classpathentry kind="src" output="nomad-source/plugins/net.sf.nmedit.nordmodular/classes" path="nomad-source/plugins/net.sf.nmedit.nordmodular/src"/>
 	<classpathentry kind="src" output="nomad-source/plugins/net.sf.nmedit.jtheme/classes" path="nomad-source/plugins/net.sf.nmedit.jtheme/src"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/nmlibs"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/openjdk-13.0.1">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>

@@ -1,0 +1,22 @@
+Module jdk.xml.dom
+Package org.w3c.dom.css
+
+A Guide to Java 9 Modularity
+https://www.baeldung.com/java-9-modularity
+
+Java 9 Migration Guide: The Seven Most Common Challenges
+https://blog.codefx.org/java/java-9-migration-guide/
+
+Embracing Java 9 and beyond with Eclipse JDT
+https://www.eclipse.org/community/eclipse_newsletter/2018/june/java9andbeyond.php
+
+Migrating Your Project to Jigsaw Step by Step
+https://dzone.com/articles/migrating-your-project-to-jigsaw-step-by-step
+
+
+
+The package org.w3c.dom is accessible from more than one module: <unnamed>, java.xml
+
+That is a limitation of Java 9 and higher: the same package name must not be used in more than one module. Everything on the classpath is considered as contained in the <unnamed> module. Since org.w3c.dom is already used in the system library, your code and all dependencies/JARs must not use this package even without using JPMS (without having a module-info.java file). So, either use Java 8 or get rid of the code/dependency that contains the org.w3c.dom package.
+
+Your code and everything on the classpath must not contain the org.w3c.dom package (as it already used in the system library). Maybe a newer version of the JAR containing org.w3c.dom has in newer versions its own name space for packages instead of org.w3c.dom so it can be used in Java 9 and higher.
