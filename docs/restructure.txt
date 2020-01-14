@@ -1,0 +1,22 @@
+
+In project nmedit/nmlibs    (was: nmedit/libs)
+------------------------
+net.nmedit.nmlibs
+net.nmedit.nmlibs.jsynth    (was: net.sf.nmedit.jsynth)
+net.nmedit.nmlibs.xyz       (was: net.sf.nmedit.xyz)
+
+net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular
+net.nmedit.nmlibs.nordmodular.xyz.clavia.nordmodular
+                            (was: net.sf.nmedit.xyz.clavia.nordmodular.event)
+
+
+
+In project nmedit/nomad
+------------------------
+net.nmedit.nomad
+net.nmedit.nomad.core       (was: net.sf.nmedit.nomad.core)
+net.nmedit.nomad.jtheme     (was: net.sf.nmedit.jtheme)
+
+                            
+net.nmedit.nomad.projectutils
+

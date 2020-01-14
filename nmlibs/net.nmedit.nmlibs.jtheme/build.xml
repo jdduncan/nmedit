@@ -1,0 +1,62 @@
+<project name="jtheme" default="dist" basedir=".">
+
+  <property name="src" location="src"/>
+  <property name="build" location="build"/>
+  <property name="dist" location="dist"/>
+
+
+  <target name="init">
+    <mkdir dir="${build}"/>
+  </target>
+
+  <target name="compile" depends="init" description="compile the source">
+    <javac srcdir="${src}" destdir="${build}" debug="true">
+      <classpath>
+        <pathelement path="."/>
+        <pathelement location="../jpatch/dist/lib/jpatch.jar"/>
+        <pathelement location="../nmutils/dist/lib/nmutils.jar"/>
+        <pathelement location="../java_depencies/cssparser/cssparser.jar"/>
+        <pathelement location="../java_depencies/jdom/jdom.jar"/>
+        <pathelement location="../java_depencies/sac/sac.jar"/>
+        
+        <pathelement location="../java_depencies/commons-logging/commons-logging.jar"/>
+
+      	<pathelement location="../java_depencies/jdom/jdom.jar"/>
+      	
+      	<pathelement location="../java_depencies/batik/batik-transcoder.jar"/>
+        <pathelement location="../java_depencies/batik/batik-dom.jar"/>
+        <pathelement location="../java_depencies/batik/batik-css.jar"/>
+        <pathelement location="../java_depencies/batik/batik-parser.jar"/>
+        <pathelement location="../java_depencies/batik/batik-svg-dom.jar"/>
+        <pathelement location="../java_depencies/batik/batik-svggen.jar"/>
+        <pathelement location="../java_depencies/batik/batik-util.jar"/>
+        <pathelement location="../java_depencies/batik/batik-xml.jar"/>
+        <pathelement location="../java_depencies/batik/batik-ext.jar"/>
+        <pathelement location="../java_depencies/batik/batik-gvt.jar"/>
+        <pathelement location="../java_depencies/batik/batik-rasterizer.jar"/>
+      </classpath>
+	</javac>
+	<copy todir="${build}">
+	 <fileset dir="${src}">
+	  <include name="**/*.png" />
+	 </fileset>
+	</copy>
+  </target>
+
+  <target name="dist" depends="compile" description="generate the distribution">
+    <mkdir dir="${dist}/lib"/>
+    <jar jarfile="${dist}/lib/jtheme.jar">
+	 <fileset dir="${build}">
+	  <include name="**/*.class" />
+	  <include name="**/*.png" />
+	 </fileset>
+    </jar>
+  </target>
+
+  <target name="clean"
+          description="clean up">
+    <delete dir="${build}"/>
+    <delete dir="${dist}"/>
+  </target>
+</project>
+

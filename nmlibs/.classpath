@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-12"/>
+	<classpathentry kind="src" path="net.nmedit.nmlibs.jnmprotocol/test"/>
+	<classpathentry kind="src" path="net.nmedit.nmlibs.jnmprotocol2/test"/>
+	<classpathentry kind="src" path="net.nmedit.nmlibs.jpatch/test"/>
+	<classpathentry kind="src" path="net.nmedit.nmlibs.jpdl/test"/>
+	<classpathentry kind="src" path="net.nmedit.nmlibs.jpdl2/test"/>
+	<classpathentry kind="src" path="net.nmedit.nmlibs.nmutils/src"/>
+	<classpathentry kind="src" path="net.nmedit.nmlibs.nmutils/test"/>
+	<classpathentry kind="lib" path="net.nmedit.nmlibs.jnmprotocol2/dist/lib/jnmprotocol2.jar"/>
+	<classpathentry kind="lib" path="net.nmedit.nmlibs.jpatch/dist/lib/jpatch.jar"/>
+	<classpathentry kind="lib" path="net.nmedit.nmlibs.jpdl2/dist/lib/jpdl2.jar"/>
+	<classpathentry kind="lib" path="net.nmedit.nmlibs.jsynth/dist/lib/jsynth.jar"/>
+	<classpathentry kind="lib" path="net.nmedit.nmlibs.jtheme/dist/lib/jtheme.jar"/>
+	<classpathentry kind="lib" path="net.nmedit.nmlibs.nmutils/dist/lib/nmutils.jar"/>
+	<classpathentry kind="lib" path="net.nmedit.nmlibs.nordmodular/dist/lib/nordmodular.jar"/>
+	<classpathentry kind="lib" path="net.nmedit.nmlibs.patchmodifier/dist/lib/patchmodifier.jar"/>
+	<classpathentry kind="output" path="build"/>
+</classpath>
