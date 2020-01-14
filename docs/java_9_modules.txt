@@ -14,6 +14,10 @@ Migrating Your Project to Jigsaw Step by Step
 https://dzone.com/articles/migrating-your-project-to-jigsaw-step-by-step
 
 
+Project Jigsaw: Module System Quick-Start Guide
+https://openjdk.java.net/projects/jigsaw/quick-start
+
+
 
 The package org.w3c.dom is accessible from more than one module: <unnamed>, java.xml
 
