@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-12"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-12">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="src" path="net.nmedit.nmlibs.jnmprotocol/test"/>
+	<classpathentry kind="src" path="net.nmedit.nmlibs.jpdl/src"/>
+	<classpathentry kind="src" path="net.nmedit.nmlibs.jpdl2/src"/>
+	<classpathentry kind="src" path="net.nmedit.nmlibs.jsynth/src"/>
+	<classpathentry kind="src" path="net.nmedit.nmlibs.jpatch/src"/>
+	<classpathentry kind="src" path="net.nmedit.nmlibs.patchmodifier/src"/>
+	<classpathentry kind="src" path="net.nmedit.nmlibs.jnmprotocol/src"/>
+	<classpathentry kind="src" path="net.nmedit.nmlibs.nordmodular/test"/>
+	<classpathentry kind="src" path="net.nmedit.nmlibs.jtheme/src"/>
+	<classpathentry kind="src" path="net.nmedit.nmlibs.jnmprotocol2/src"/>
+	<classpathentry kind="src" path="net.nmedit.nmlibs.nordmodular/src"/>
 	<classpathentry kind="src" path="net.nmedit.nmlibs.jnmprotocol2/test"/>
 	<classpathentry kind="src" path="net.nmedit.nmlibs.jpatch/test"/>
 	<classpathentry kind="src" path="net.nmedit.nmlibs.jpdl/test"/>
