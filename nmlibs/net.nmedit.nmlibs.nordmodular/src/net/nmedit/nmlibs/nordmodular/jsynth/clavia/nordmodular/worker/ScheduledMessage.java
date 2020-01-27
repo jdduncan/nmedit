@@ -19,8 +19,8 @@
 
 import net.nmedit.nmlibs.jnmprotocol2.MidiMessage;
 import net.nmedit.nmlibs.jsynth.SynthException;
-import net.nmedit.nmlibs.jsynth.clavia.nordmodular.NordModular;
-import net.nmedit.nmlibs.jsynth.clavia.nordmodular.utils.NmUtils;
+import net.nmedit.nmlibs.nordmodular.jsynth.clavia.nordmodular.NordModular;
+import net.nmedit.nmlibs.nordmodular.jsynth.clavia.nordmodular.utils.NmUtils;
 
 public class ScheduledMessage implements ScheduledWorker
 {

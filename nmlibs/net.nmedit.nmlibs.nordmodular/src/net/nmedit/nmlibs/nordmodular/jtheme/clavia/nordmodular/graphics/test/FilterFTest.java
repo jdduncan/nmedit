@@ -35,7 +35,7 @@ import javax.swing.JSlider;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
-import net.nmedit.nmlibs.jtheme.clavia.nordmodular.graphics.FilterF;
+import net.nmedit.nmlibs.nordmodular.jtheme.clavia.nordmodular.graphics.FilterF;
 
 public class FilterFTest
 {

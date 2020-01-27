@@ -56,8 +56,8 @@ import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.event.PPatchSetti
 import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.event.PPatchSettingsListener;
 import net.nmedit.nmlibs.jpatch.event.PModuleContainerEvent;
 import net.nmedit.nmlibs.jpatch.event.PModuleContainerListener;
-import net.nmedit.nmlibs.jsynth.clavia.nordmodular.NmSlot;
-import net.nmedit.nmlibs.jtheme.clavia.nordmodular.misc.GradientProgressBar;
+import net.nmedit.nmlibs.nordmodular.jsynth.clavia.nordmodular.NmSlot;
+import net.nmedit.nmlibs.nordmodular.jtheme.clavia.nordmodular.misc.GradientProgressBar;
 import net.nmedit.nmlibs.nmutils.math.Math2;
 import net.nmedit.nmlibs.nmutils.swing.LimitedText;
 

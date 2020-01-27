@@ -29,8 +29,8 @@ import net.nmedit.nmlibs.jnmprotocol2.NmProtocolListener;
 import net.nmedit.nmlibs.jnmprotocol2.PatchListEntry;
 import net.nmedit.nmlibs.jnmprotocol2.PatchListMessage;
 import net.nmedit.nmlibs.jsynth.SynthException;
-import net.nmedit.nmlibs.jsynth.clavia.nordmodular.NmBank;
-import net.nmedit.nmlibs.jsynth.clavia.nordmodular.NordModular;
+import net.nmedit.nmlibs.nordmodular.jsynth.clavia.nordmodular.NmBank;
+import net.nmedit.nmlibs.nordmodular.jsynth.clavia.nordmodular.NordModular;
 
 public class GetPatchListWorker extends NmProtocolListener implements ScheduledWorker
 {

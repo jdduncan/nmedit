@@ -28,7 +28,7 @@ import javax.swing.event.ChangeListener;
 
 import net.nmedit.nmlibs.jtheme.JTContext;
 
-import net.nmedit.nmlibs.jtheme.clavia.nordmodular.graphics.Expander;
+import net.nmedit.nmlibs.nordmodular.jtheme.clavia.nordmodular.graphics.Expander;
 import net.nmedit.nmlibs.jtheme.component.JTControlAdapter;
 import net.nmedit.nmlibs.jtheme.component.JTDisplay;
 import net.nmedit.nmlibs.jtheme.store2.BindParameter;

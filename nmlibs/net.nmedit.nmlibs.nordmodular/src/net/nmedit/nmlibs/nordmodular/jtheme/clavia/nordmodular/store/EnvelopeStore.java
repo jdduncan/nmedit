@@ -22,7 +22,7 @@ import net.nmedit.nmlibs.jpatch.PModule;
 import net.nmedit.nmlibs.jpatch.PModuleDescriptor;
 import net.nmedit.nmlibs.jtheme.JTContext;
 import net.nmedit.nmlibs.jtheme.JTException;
-import net.nmedit.nmlibs.jtheme.clavia.nordmodular.JTEnvelopeDisplay;
+import net.nmedit.nmlibs.nordmodular.jtheme.clavia.nordmodular.JTEnvelopeDisplay;
 import net.nmedit.nmlibs.jtheme.store.StorageContext;
 import net.nmedit.nmlibs.jtheme.store2.AbstractMultiParameterElement;
 import net.nmedit.nmlibs.jtheme.store2.ComponentElement;

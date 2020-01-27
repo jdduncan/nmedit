@@ -27,9 +27,9 @@ import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.NMPatch;
 import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.parser.ParseException;
 import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.parser.PatchBuilder;
 import net.nmedit.nmlibs.jsynth.SynthException;
-import net.nmedit.nmlibs.jsynth.clavia.nordmodular.NmSlot;
-import net.nmedit.nmlibs.jsynth.clavia.nordmodular.NordModular;
-import net.nmedit.nmlibs.jsynth.clavia.nordmodular.utils.NmUtils;
+import net.nmedit.nmlibs.nordmodular.jsynth.clavia.nordmodular.NmSlot;
+import net.nmedit.nmlibs.nordmodular.jsynth.clavia.nordmodular.NordModular;
+import net.nmedit.nmlibs.nordmodular.jsynth.clavia.nordmodular.utils.NmUtils;
 
 public class GetPatchWorker extends NmProtocolListener implements ScheduledWorker
 {

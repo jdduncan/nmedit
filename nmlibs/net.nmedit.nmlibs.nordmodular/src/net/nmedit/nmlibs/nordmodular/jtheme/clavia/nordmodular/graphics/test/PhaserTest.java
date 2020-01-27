@@ -35,7 +35,7 @@ import javax.swing.JSlider;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
-import net.nmedit.nmlibs.jtheme.clavia.nordmodular.graphics.Phaser;
+import net.nmedit.nmlibs.nordmodular.jtheme.clavia.nordmodular.graphics.Phaser;
 
 
 public class PhaserTest

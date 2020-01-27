@@ -24,8 +24,8 @@ import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.NMPatch;
 import net.nmedit.nmlibs.jsynth.Bank;
 import net.nmedit.nmlibs.jsynth.Slot;
 import net.nmedit.nmlibs.jsynth.SynthException;
-import net.nmedit.nmlibs.jsynth.clavia.nordmodular.NmSlot;
-import net.nmedit.nmlibs.jsynth.clavia.nordmodular.NordModular;
+import net.nmedit.nmlibs.nordmodular.jsynth.clavia.nordmodular.NmSlot;
+import net.nmedit.nmlibs.nordmodular.jsynth.clavia.nordmodular.NordModular;
 import net.nmedit.nmlibs.jsynth.worker.PatchLocation;
 import net.nmedit.nmlibs.jsynth.worker.StorePatchWorker;
 

@@ -67,11 +67,11 @@ import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.parser.ParseExcep
 import net.nmedit.nmlibs.jpatch.event.PConnectionEvent;
 import net.nmedit.nmlibs.jpatch.event.PConnectionListener;
 import net.nmedit.nmlibs.jpatch.history.PUndoableEditSupport;
-import net.nmedit.nmlibs.jsynth.clavia.nordmodular.utils.NmUtils;
+import net.nmedit.nmlibs.nordmodular.jsynth.clavia.nordmodular.utils.NmUtils;
 import net.nmedit.nmlibs.jtheme.JTContext;
 import net.nmedit.nmlibs.jtheme.cable.Cable;
 import net.nmedit.nmlibs.jtheme.cable.JTCableManager;
-import net.nmedit.nmlibs.jtheme.clavia.nordmodular.misc.NMPatchImageExporter;
+import net.nmedit.nmlibs.nordmodular.jtheme.clavia.nordmodular.misc.NMPatchImageExporter;
 import net.nmedit.nmlibs.jtheme.component.JTConnector;
 import net.nmedit.nmlibs.jtheme.component.JTModule;
 import net.nmedit.nmlibs.jtheme.component.JTModuleContainer;

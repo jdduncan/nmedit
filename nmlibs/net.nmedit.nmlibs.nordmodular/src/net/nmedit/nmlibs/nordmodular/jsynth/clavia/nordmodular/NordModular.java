@@ -54,9 +54,9 @@ import net.nmedit.nmlibs.jsynth.MidiPortSupport;
 import net.nmedit.nmlibs.jsynth.SlotManager;
 import net.nmedit.nmlibs.jsynth.SynthException;
 import net.nmedit.nmlibs.jsynth.Synthesizer;
-import net.nmedit.nmlibs.jsynth.clavia.nordmodular.worker.NMStorePatchWorker;
-import net.nmedit.nmlibs.jsynth.clavia.nordmodular.worker.ScheduledMessage;
-import net.nmedit.nmlibs.jsynth.clavia.nordmodular.worker.Scheduler;
+import net.nmedit.nmlibs.nordmodular.jsynth.clavia.nordmodular.worker.NMStorePatchWorker;
+import net.nmedit.nmlibs.nordmodular.jsynth.clavia.nordmodular.worker.ScheduledMessage;
+import net.nmedit.nmlibs.nordmodular.jsynth.clavia.nordmodular.worker.Scheduler;
 import net.nmedit.nmlibs.jsynth.midi.MidiPort;
 import net.nmedit.nmlibs.jsynth.worker.StorePatchWorker;
 

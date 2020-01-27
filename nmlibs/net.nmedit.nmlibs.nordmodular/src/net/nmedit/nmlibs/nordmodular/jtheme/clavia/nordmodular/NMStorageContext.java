@@ -19,8 +19,8 @@
 package net.nmedit.nmlibs.nordmodular.jtheme.clavia.nordmodular;
 
 import net.nmedit.nmlibs.jtheme.JTContext;
-import net.nmedit.nmlibs.jtheme.clavia.nordmodular.store.EnvelopeStore;
-import net.nmedit.nmlibs.jtheme.clavia.nordmodular.store.ScrollbarSliderElement;
+import net.nmedit.nmlibs.nordmodular.jtheme.clavia.nordmodular.store.EnvelopeStore;
+import net.nmedit.nmlibs.nordmodular.jtheme.clavia.nordmodular.store.ScrollbarSliderElement;
 import net.nmedit.nmlibs.jtheme.store.DefaultStorageContext;
 
 public class NMStorageContext extends DefaultStorageContext

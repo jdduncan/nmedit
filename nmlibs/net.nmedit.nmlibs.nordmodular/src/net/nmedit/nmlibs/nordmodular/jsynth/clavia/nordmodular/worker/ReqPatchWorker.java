@@ -23,8 +23,8 @@ import net.nmedit.nmlibs.jnmprotocol2.ErrorMessage;
 import net.nmedit.nmlibs.jnmprotocol2.NmProtocolListener;
 import net.nmedit.nmlibs.jnmprotocol2.RequestPatchMessage;
 import net.nmedit.nmlibs.jsynth.SynthException;
-import net.nmedit.nmlibs.jsynth.clavia.nordmodular.NmSlot;
-import net.nmedit.nmlibs.jsynth.clavia.nordmodular.NordModular;
+import net.nmedit.nmlibs.nordmodular.jsynth.clavia.nordmodular.NmSlot;
+import net.nmedit.nmlibs.nordmodular.jsynth.clavia.nordmodular.NordModular;
 import net.nmedit.nmlibs.jsynth.worker.RequestPatchWorker;
 
 public class ReqPatchWorker extends

@@ -54,9 +54,9 @@ import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.parser.ParseExcep
 import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.parser.PatchBuilder;
 import net.nmedit.nmlibs.jsynth.Slot;
 import net.nmedit.nmlibs.jsynth.SynthException;
-import net.nmedit.nmlibs.jsynth.clavia.nordmodular.utils.BitstreamPatchParser;
-import net.nmedit.nmlibs.jsynth.clavia.nordmodular.utils.NmUtils.ParserErrorHandler;
-import net.nmedit.nmlibs.jsynth.clavia.nordmodular.worker.ScheduledMessage;
+import net.nmedit.nmlibs.nordmodular.jsynth.clavia.nordmodular.utils.BitstreamPatchParser;
+import net.nmedit.nmlibs.nordmodular.jsynth.clavia.nordmodular.utils.NmUtils.ParserErrorHandler;
+import net.nmedit.nmlibs.nordmodular.jsynth.clavia.nordmodular.worker.ScheduledMessage;
 import net.nmedit.nmlibs.jsynth.event.SlotEvent;
 import net.nmedit.nmlibs.jsynth.event.SlotListener;
 import net.nmedit.nmlibs.jsynth.event.SlotManagerListener;

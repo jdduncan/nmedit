@@ -30,8 +30,8 @@ import net.nmedit.nmlibs.jsynth.AbstractSlot;
 import net.nmedit.nmlibs.jsynth.Slot;
 import net.nmedit.nmlibs.jsynth.SlotManager;
 import net.nmedit.nmlibs.jsynth.SynthException;
-import net.nmedit.nmlibs.jsynth.clavia.nordmodular.worker.ReqPatchWorker;
-import net.nmedit.nmlibs.jsynth.clavia.nordmodular.worker.ScheduledMessage;
+import net.nmedit.nmlibs.nordmodular.jsynth.clavia.nordmodular.worker.ReqPatchWorker;
+import net.nmedit.nmlibs.nordmodular.jsynth.clavia.nordmodular.worker.ScheduledMessage;
 import net.nmedit.nmlibs.jsynth.worker.RequestPatchWorker;
 
 public class NmSlot extends AbstractSlot implements Slot

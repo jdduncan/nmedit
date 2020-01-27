@@ -41,7 +41,7 @@ import net.nmedit.nmlibs.jpatch.event.PModuleContainerEvent;
 import net.nmedit.nmlibs.jpatch.event.PModuleEvent;
 import net.nmedit.nmlibs.jpatch.event.PParameterEvent;
 import net.nmedit.nmlibs.jsynth.Slot;
-import net.nmedit.nmlibs.jsynth.clavia.nordmodular.utils.NmUtils;
+import net.nmedit.nmlibs.nordmodular.jsynth.clavia.nordmodular.utils.NmUtils;
 
 public class NmPatchSynchronizer extends AllEventsListener 
     implements PAssignmentListener, PropertyChangeListener, PPatchSettingsListener

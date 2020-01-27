@@ -30,11 +30,11 @@ import javax.swing.plaf.FontUIResource;
 
 import net.nmedit.nmlibs.jtheme.JTCustomContext;
 import net.nmedit.nmlibs.jtheme.JTPopupHandler;
-import net.nmedit.nmlibs.jtheme.clavia.nordmodular.plaf.JTBasicSliderScrollbarUI;
-import net.nmedit.nmlibs.jtheme.clavia.nordmodular.plaf.JTNM1KnobUI;
-import net.nmedit.nmlibs.jtheme.clavia.nordmodular.plaf.JTNM1ResetButtonUI;
-import net.nmedit.nmlibs.jtheme.clavia.nordmodular.plaf.JTNM1SliderUI;
-import net.nmedit.nmlibs.jtheme.clavia.nordmodular.plaf.NoteSeqEditorUI;
+import net.nmedit.nmlibs.nordmodular.jtheme.clavia.nordmodular.plaf.JTBasicSliderScrollbarUI;
+import net.nmedit.nmlibs.nordmodular.jtheme.clavia.nordmodular.plaf.JTNM1KnobUI;
+import net.nmedit.nmlibs.nordmodular.jtheme.clavia.nordmodular.plaf.JTNM1ResetButtonUI;
+import net.nmedit.nmlibs.nordmodular.jtheme.clavia.nordmodular.plaf.JTNM1SliderUI;
+import net.nmedit.nmlibs.nordmodular.jtheme.clavia.nordmodular.plaf.NoteSeqEditorUI;
 import net.nmedit.nmlibs.jtheme.component.JTButtonControl;
 import net.nmedit.nmlibs.jtheme.component.JTComponent;
 import net.nmedit.nmlibs.jtheme.component.JTConnector;

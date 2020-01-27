@@ -22,7 +22,7 @@ import java.util.Queue;
 
 import net.nmedit.nmlibs.jnmprotocol2.NmProtocol;
 import net.nmedit.nmlibs.jsynth.SynthException;
-import net.nmedit.nmlibs.jsynth.clavia.nordmodular.utils.NmUtils;
+import net.nmedit.nmlibs.nordmodular.jsynth.clavia.nordmodular.utils.NmUtils;
 
 public class Scheduler 
 {

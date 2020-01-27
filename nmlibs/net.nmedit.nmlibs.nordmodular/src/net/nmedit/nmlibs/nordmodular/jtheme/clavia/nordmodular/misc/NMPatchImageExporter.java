@@ -32,7 +32,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-import net.nmedit.nmlibs.jtheme.clavia.nordmodular.JTNMPatch;
+import net.nmedit.nmlibs.nordmodular.jtheme.clavia.nordmodular.JTNMPatch;
 import net.nmedit.nmlibs.jtheme.component.JTModuleContainer;
 import net.nmedit.nmlibs.jtheme.util.PatchImageExporter;
 

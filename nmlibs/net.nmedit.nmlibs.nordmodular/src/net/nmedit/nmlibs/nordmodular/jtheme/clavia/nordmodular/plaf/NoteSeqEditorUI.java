@@ -43,7 +43,7 @@ import javax.swing.border.Border;
 import javax.swing.plaf.ComponentUI;
 
 import net.nmedit.nmlibs.jtheme.JTContext;
-import net.nmedit.nmlibs.jtheme.clavia.nordmodular.NMNoteSeqEditor;
+import net.nmedit.nmlibs.nordmodular.jtheme.clavia.nordmodular.NMNoteSeqEditor;
 import net.nmedit.nmlibs.jtheme.component.JTComponent;
 import net.nmedit.nmlibs.jtheme.component.JTControl;
 import net.nmedit.nmlibs.jtheme.component.plaf.JTBasicControlUI;

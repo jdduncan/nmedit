@@ -20,7 +20,7 @@ package net.nmedit.nmlibs.nordmodular.jsynth.clavia.nordmodular.worker;
 
 import net.nmedit.nmlibs.jnmprotocol2.DeletePatchMessage;
 import net.nmedit.nmlibs.jsynth.SynthException;
-import net.nmedit.nmlibs.jsynth.clavia.nordmodular.NordModular;
+import net.nmedit.nmlibs.nordmodular.jsynth.clavia.nordmodular.NordModular;
 
 public class DeletePatchWorker
 {

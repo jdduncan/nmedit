@@ -28,7 +28,7 @@ import javax.swing.JFrame;
 import javax.swing.JScrollBar;
 
 import net.nmedit.nmlibs.jtheme.JTContext;
-import net.nmedit.nmlibs.jtheme.clavia.nordmodular.plaf.NoteSeqEditorUI;
+import net.nmedit.nmlibs.nordmodular.jtheme.clavia.nordmodular.plaf.NoteSeqEditorUI;
 import net.nmedit.nmlibs.jtheme.component.JTControl;
 import net.nmedit.nmlibs.jtheme.component.JTControlAdapter;
 import net.nmedit.nmlibs.jtheme.store2.BindParameter;
