@@ -1,4 +1,4 @@
-package net.nmedit.nomad.nomad.core.swing.explorer;
+package net.nmedit.nomad.core.swing.explorer;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

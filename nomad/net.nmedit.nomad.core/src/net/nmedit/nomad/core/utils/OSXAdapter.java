@@ -55,7 +55,7 @@ Copyright � 2003-2007 Apple, Inc., All Rights Reserved
 
 */
 
-package net.nmedit.nomad.nomad.core.utils;
+package net.nmedit.nomad.core.utils;
 
 import java.lang.reflect.*;
 

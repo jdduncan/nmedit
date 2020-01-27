@@ -20,7 +20,7 @@
 /*
  * Updated on Dec 16, 2019
  */
-package net.nmedit.nomad.nomad.core.service.fileService;
+package net.nmedit.nomad.core.service.fileService;
 
 import java.io.File;
 import java.util.Iterator;

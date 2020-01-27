@@ -20,7 +20,7 @@
  * Created on Nov 23, 2006
  * Updated on Dec 16, 2019
  */
-package net.nmedit.nomad.nomad.core;
+package net.nmedit.nomad.core;
 
 import java.awt.BorderLayout;
 import java.awt.Component;

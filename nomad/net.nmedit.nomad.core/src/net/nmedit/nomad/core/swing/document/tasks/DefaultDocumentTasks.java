@@ -20,7 +20,7 @@
 /*
  * Created on Jun 1, 2006
  */
-package net.nmedit.nomad.nomad.core.swing.document.tasks;
+package net.nmedit.nomad.core.swing.document.tasks;
 
 import java.io.File;
 import java.util.HashMap;

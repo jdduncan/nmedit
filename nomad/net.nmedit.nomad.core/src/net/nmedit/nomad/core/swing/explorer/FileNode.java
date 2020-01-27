@@ -20,7 +20,7 @@
 /*
  * Created on Oct 29, 2006
  */
-package net.nmedit.nomad.nomad.core.swing.explorer;
+package net.nmedit.nomad.core.swing.explorer;
 
 import java.awt.Component;
 import java.awt.Event;

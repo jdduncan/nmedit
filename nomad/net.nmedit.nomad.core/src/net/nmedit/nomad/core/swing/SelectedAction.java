@@ -1,7 +1,7 @@
 /**
  * 
  */
-package net.nmedit.nomad.nomad.core.swing;
+package net.nmedit.nomad.core.swing;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ItemEvent;

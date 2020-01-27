@@ -20,7 +20,7 @@
 /*
  * Created on Sep 13, 2006
  */
-package net.nmedit.nomad.nomad.core.swing.explorer.helpers;
+package net.nmedit.nomad.core.swing.explorer.helpers;
 
 import javax.swing.Icon;
 

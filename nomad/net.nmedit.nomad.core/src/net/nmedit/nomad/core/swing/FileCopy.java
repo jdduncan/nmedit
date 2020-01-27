@@ -20,7 +20,7 @@
 /*
  * Created on Sep 12, 2006
  */
-package net.nmedit.nomad.nomad.core.swing;
+package net.nmedit.nomad.core.swing;
 
 import java.io.File;
 import java.io.FileInputStream;

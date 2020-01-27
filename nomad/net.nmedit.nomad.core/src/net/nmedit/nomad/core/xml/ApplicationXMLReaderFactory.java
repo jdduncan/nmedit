@@ -20,7 +20,7 @@
 /*
  * Created on Nov 19, 2006
  */
-package net.nmedit.nomad.nomad.core.xml;
+package net.nmedit.nomad.core.xml;
 
 import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;

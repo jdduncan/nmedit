@@ -16,7 +16,7 @@
  * along with Nomad; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
-package net.nmedit.nomad.nomad.core.swing.tabs;
+package net.nmedit.nomad.core.swing.tabs;
 
 import javax.swing.plaf.ComponentUI;
 

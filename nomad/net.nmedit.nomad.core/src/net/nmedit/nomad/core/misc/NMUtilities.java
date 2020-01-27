@@ -20,7 +20,7 @@
 /*
  * Created on Nov 21, 2006
  */
-package net.nmedit.nomad.nomad.core.misc;
+package net.nmedit.nomad.core.misc;
 
 import java.awt.Color;
 import java.awt.Dimension;

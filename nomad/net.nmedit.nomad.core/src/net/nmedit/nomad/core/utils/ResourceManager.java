@@ -20,7 +20,7 @@
 /*
  * Created on Nov 24, 2006
  */
-package net.nmedit.nomad.nomad.core.utils;
+package net.nmedit.nomad.core.utils;
 
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
