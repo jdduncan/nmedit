@@ -18,7 +18,7 @@
  */
 package net.nmedit.nomad.core.service.initService;
 
-import net.sf.nmedit.nomad.core.service.Service;
+import net.nmedit.nmlibs.nomad.core.service.Service;
 
 public interface InitService extends Service
 {

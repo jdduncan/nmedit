@@ -16,20 +16,20 @@
  * along with Nomad; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
-package net.nmedit.nmlibs.jsynth.clavia.nordmodular.worker;
+package net.nmedit.nmlibs.nordmodular.jsynth.clavia.nordmodular.worker;
 
-import net.sf.nmedit.jnmprotocol2.ErrorMessage;
-import net.sf.nmedit.jnmprotocol2.GetPatchMessage;
-import net.sf.nmedit.jnmprotocol2.NmProtocolListener;
-import net.sf.nmedit.jnmprotocol2.PatchMessage;
-import net.sf.nmedit.jpatch.clavia.nordmodular.NM1ModuleDescriptions;
-import net.sf.nmedit.jpatch.clavia.nordmodular.NMPatch;
-import net.sf.nmedit.jpatch.clavia.nordmodular.parser.ParseException;
-import net.sf.nmedit.jpatch.clavia.nordmodular.parser.PatchBuilder;
-import net.sf.nmedit.jsynth.SynthException;
-import net.sf.nmedit.jsynth.clavia.nordmodular.NmSlot;
-import net.sf.nmedit.jsynth.clavia.nordmodular.NordModular;
-import net.sf.nmedit.jsynth.clavia.nordmodular.utils.NmUtils;
+import net.nmedit.nmlibs.jnmprotocol2.ErrorMessage;
+import net.nmedit.nmlibs.jnmprotocol2.GetPatchMessage;
+import net.nmedit.nmlibs.jnmprotocol2.NmProtocolListener;
+import net.nmedit.nmlibs.jnmprotocol2.PatchMessage;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.NM1ModuleDescriptions;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.NMPatch;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.parser.ParseException;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.parser.PatchBuilder;
+import net.nmedit.nmlibs.jsynth.SynthException;
+import net.nmedit.nmlibs.jsynth.clavia.nordmodular.NmSlot;
+import net.nmedit.nmlibs.jsynth.clavia.nordmodular.NordModular;
+import net.nmedit.nmlibs.jsynth.clavia.nordmodular.utils.NmUtils;
 
 public class GetPatchWorker extends NmProtocolListener implements ScheduledWorker
 {

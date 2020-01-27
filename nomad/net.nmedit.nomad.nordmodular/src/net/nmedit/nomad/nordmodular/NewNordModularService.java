@@ -24,20 +24,20 @@ import java.beans.PropertyChangeListener;
 
 import javax.swing.JOptionPane;
 
-import net.sf.nmedit.jpatch.clavia.nordmodular.NMData;
-import net.sf.nmedit.jsynth.SynthException;
-import net.sf.nmedit.jsynth.Synthesizer;
-import net.sf.nmedit.jsynth.clavia.nordmodular.NordModular;
-import net.sf.nmedit.jsynth.midi.MidiPlug;
-import net.sf.nmedit.jsynth.nomad.SynthRegistry;
-import net.sf.nmedit.jsynth.nomad.forms.SynthObjectForm;
-import net.sf.nmedit.nomad.core.Nomad;
-import net.sf.nmedit.nomad.core.forms.ExceptionDialog;
-import net.sf.nmedit.nomad.core.registry.GlobalRegistry;
-import net.sf.nmedit.nomad.core.registry.Registry;
-import net.sf.nmedit.nomad.core.service.Service;
-import net.sf.nmedit.nomad.core.service.synthService.NewSynthService;
-import net.sf.nmedit.nomad.core.swing.tabs.JTabbedPane2;
+import net.nmedit.nmlibs.jpatch.clavia.nordmodular.NMData;
+import net.nmedit.nmlibs.jsynth.SynthException;
+import net.nmedit.nmlibs.jsynth.Synthesizer;
+import net.nmedit.nmlibs.jsynth.clavia.nordmodular.NordModular;
+import net.nmedit.nmlibs.jsynth.midi.MidiPlug;
+import net.nmedit.nmlibs.jsynth.nomad.SynthRegistry;
+import net.nmedit.nmlibs.jsynth.nomad.forms.SynthObjectForm;
+import net.nmedit.nmlibs.nomad.core.Nomad;
+import net.nmedit.nmlibs.nomad.core.forms.ExceptionDialog;
+import net.nmedit.nmlibs.nomad.core.registry.GlobalRegistry;
+import net.nmedit.nmlibs.nomad.core.registry.Registry;
+import net.nmedit.nmlibs.nomad.core.service.Service;
+import net.nmedit.nmlibs.nomad.core.service.synthService.NewSynthService;
+import net.nmedit.nmlibs.nomad.core.swing.tabs.JTabbedPane2;
 
 public class NewNordModularService
     implements NewSynthService

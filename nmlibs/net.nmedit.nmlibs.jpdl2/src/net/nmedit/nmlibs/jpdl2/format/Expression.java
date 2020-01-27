@@ -20,8 +20,8 @@ package net.nmedit.nmlibs.jpdl2.format;
 
 import java.util.Collection;
 
-import net.sf.nmedit.jpdl2.stream.BitStream;
-import net.sf.nmedit.jpdl2.PDLParseContext;
+import net.nmedit.nmlibs.jpdl2.stream.BitStream;
+import net.nmedit.nmlibs.jpdl2.PDLParseContext;
 
 /**
  * Arithmetic or Boolean expression.

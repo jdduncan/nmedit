@@ -24,7 +24,7 @@ import javax.swing.event.UndoableEditListener;
 import javax.swing.undo.UndoManager;
 import javax.swing.undo.UndoableEdit;
 
-import net.sf.nmedit.jpatch.history.PUndoableEditSupport;
+import net.nmedit.nmlibs.jpatch.history.PUndoableEditSupport;
 
 public interface PPatch 
 {

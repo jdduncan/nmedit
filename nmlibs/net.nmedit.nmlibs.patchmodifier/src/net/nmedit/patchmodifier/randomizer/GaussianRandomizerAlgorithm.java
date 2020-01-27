@@ -20,7 +20,7 @@ package net.nmedit.nmlibs.patchmodifier.randomizer;
 
 import java.util.List;
 
-import net.sf.nmedit.jpatch.PParameter;
+import net.nmedit.nmlibs.jpatch.PParameter;
 
 public class GaussianRandomizerAlgorithm implements RandomizerAlgorithm
 {

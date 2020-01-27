@@ -16,7 +16,7 @@
  * along with Nomad; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
-package net.nmedit.nmlibs.jtheme.clavia.nordmodular.plaf;
+package net.nmedit.nmlibs.nordmodular.jtheme.clavia.nordmodular.plaf;
 
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -30,8 +30,8 @@ import java.util.Map;
 
 import javax.swing.JComponent;
 
-import net.sf.nmedit.jtheme.component.JTComponent;
-import net.sf.nmedit.jtheme.component.plaf.JTBasicKnobUI;
+import net.nmedit.nmlibs.jtheme.component.JTComponent;
+import net.nmedit.nmlibs.jtheme.component.plaf.JTBasicKnobUI;
 
 public class JTNM1KnobUI extends JTBasicKnobUI
 {

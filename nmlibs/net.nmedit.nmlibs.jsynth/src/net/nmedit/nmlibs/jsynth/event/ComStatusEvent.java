@@ -18,8 +18,8 @@
  */
 package net.nmedit.nmlibs.jsynth.event;
 
-import net.sf.nmedit.jsynth.ComStatus;
-import net.sf.nmedit.jsynth.Synthesizer;
+import net.nmedit.nmlibs.jsynth.ComStatus;
+import net.nmedit.nmlibs.jsynth.Synthesizer;
 
 public class ComStatusEvent extends SynthesizerEvent
 {

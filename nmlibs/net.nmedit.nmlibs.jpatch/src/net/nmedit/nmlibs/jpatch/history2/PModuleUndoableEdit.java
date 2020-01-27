@@ -25,8 +25,8 @@ import javax.swing.undo.CannotRedoException;
 import javax.swing.undo.CannotUndoException;
 import javax.swing.undo.UndoableEdit;
 
-import net.sf.nmedit.jpatch.PModule;
-import net.sf.nmedit.jpatch.PModuleContainer;
+import net.nmedit.nmlibs.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.PModuleContainer;
 
 public class PModuleUndoableEdit extends AbstractUndoableEdit
 {

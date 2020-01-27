@@ -18,8 +18,8 @@
  */
 package net.nmedit.nmlibs.jpatch.transform;
 
-import net.sf.nmedit.jpatch.PModule;
-import net.sf.nmedit.jpatch.PModuleDescriptor;
+import net.nmedit.nmlibs.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.PModuleDescriptor;
 
 /**
  * Contains the mappings which describe how one module

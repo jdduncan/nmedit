@@ -20,7 +20,7 @@
 /*
  * Created on Dec 19, 2006
  */
-package net.nmedit.nmlibs.jpatch.clavia.nordmodular.parser;
+package net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.parser;
 
 import java.io.IOException;
 import java.io.InputStream;

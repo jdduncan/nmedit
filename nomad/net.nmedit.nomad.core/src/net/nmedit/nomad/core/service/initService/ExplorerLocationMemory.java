@@ -36,12 +36,12 @@ import javax.swing.tree.TreeNode;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import net.sf.nmedit.nomad.core.Nomad;
-import net.sf.nmedit.nomad.core.jpf.TempDir;
-import net.sf.nmedit.nomad.core.service.Service;
-import net.sf.nmedit.nomad.core.swing.ExtensionFilter;
-import net.sf.nmedit.nomad.core.swing.explorer.ExplorerTree;
-import net.sf.nmedit.nomad.core.swing.explorer.FileContext;
+import net.nmedit.nmlibs.nomad.core.Nomad;
+import net.nmedit.nmlibs.nomad.core.jpf.TempDir;
+import net.nmedit.nmlibs.nomad.core.service.Service;
+import net.nmedit.nmlibs.nomad.core.swing.ExtensionFilter;
+import net.nmedit.nmlibs.nomad.core.swing.explorer.ExplorerTree;
+import net.nmedit.nmlibs.nomad.core.swing.explorer.FileContext;
 
 public class ExplorerLocationMemory implements InitService
 {

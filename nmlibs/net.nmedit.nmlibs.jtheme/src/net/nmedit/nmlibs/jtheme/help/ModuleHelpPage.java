@@ -38,12 +38,12 @@ import javax.swing.text.html.HTMLDocument;
 import javax.swing.text.html.StyleSheet;
 import javax.swing.text.html.parser.ParserDelegator;
 
-import net.sf.nmedit.jpatch.PConnectorDescriptor;
-import net.sf.nmedit.jpatch.PDescriptor;
-import net.sf.nmedit.jpatch.PModuleDescriptor;
-import net.sf.nmedit.jpatch.PParameterDescriptor;
-import net.sf.nmedit.jpatch.PRoles;
-import net.sf.nmedit.jtheme.JTContext;
+import net.nmedit.nmlibs.jpatch.PConnectorDescriptor;
+import net.nmedit.nmlibs.jpatch.PDescriptor;
+import net.nmedit.nmlibs.jpatch.PModuleDescriptor;
+import net.nmedit.nmlibs.jpatch.PParameterDescriptor;
+import net.nmedit.nmlibs.jpatch.PRoles;
+import net.nmedit.nmlibs.jtheme.JTContext;
 
 public class ModuleHelpPage extends JPanel
 {

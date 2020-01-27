@@ -20,16 +20,16 @@
 /*
  * Created on Dec 10, 2006
  */
-package net.nmedit.nmlibs.jpatch.clavia.nordmodular;
+package net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular;
 
 import java.io.IOException;
 import java.io.InputStream;
 
 import javax.xml.parsers.ParserConfigurationException;
 
-import net.sf.nmedit.jpatch.ModuleDescriptions;
-import net.sf.nmedit.jpatch.ModuleDescriptionsParser;
-import net.sf.nmedit.jpatch.impl.PBasicModuleMetrics;
+import net.nmedit.nmlibs.jpatch.ModuleDescriptions;
+import net.nmedit.nmlibs.jpatch.ModuleDescriptionsParser;
+import net.nmedit.nmlibs.jpatch.impl.PBasicModuleMetrics;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;

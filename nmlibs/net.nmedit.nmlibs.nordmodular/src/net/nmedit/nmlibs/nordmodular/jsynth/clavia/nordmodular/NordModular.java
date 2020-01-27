@@ -20,7 +20,7 @@
 /*
  * Created on Jan 2, 2007
  */
-package net.nmedit.nmlibs.jsynth.clavia.nordmodular;
+package net.nmedit.nmlibs.nordmodular.jsynth.clavia.nordmodular;
 
 import java.awt.EventQueue;
 import java.util.HashMap;
@@ -28,37 +28,37 @@ import java.util.Map;
 
 import javax.sound.midi.MidiUnavailableException;
 
-import net.sf.nmedit.jnmprotocol2.ActivePidListener;
-import net.sf.nmedit.jnmprotocol2.ErrorMessage;
-import net.sf.nmedit.jnmprotocol2.IAmMessage;
-import net.sf.nmedit.jnmprotocol2.MessageMulticaster;
-import net.sf.nmedit.jnmprotocol2.MidiDriver;
-import net.sf.nmedit.jnmprotocol2.MidiException;
-import net.sf.nmedit.jnmprotocol2.MidiMessage;
-import net.sf.nmedit.jnmprotocol2.NmMessageAcceptor;
-import net.sf.nmedit.jnmprotocol2.NmProtocol;
-import net.sf.nmedit.jnmprotocol2.NmProtocolListener;
-import net.sf.nmedit.jnmprotocol2.RequestSynthSettingsMessage;
-import net.sf.nmedit.jnmprotocol2.SlotActivatedMessage;
-import net.sf.nmedit.jnmprotocol2.SynthSettingsMessage;
-import net.sf.nmedit.jnmprotocol2.utils.ProtocolRunner;
-import net.sf.nmedit.jnmprotocol2.utils.ProtocolThreadExecutionPolicy;
-import net.sf.nmedit.jnmprotocol2.utils.QueueBuffer;
-import net.sf.nmedit.jnmprotocol2.utils.StoppableThread;
-import net.sf.nmedit.jnmprotocol2.utils.ProtocolRunner.ProtocolErrorHandler;
-import net.sf.nmedit.jpatch.clavia.nordmodular.NM1ModuleDescriptions;
-import net.sf.nmedit.jsynth.AbstractSynthesizer;
-import net.sf.nmedit.jsynth.ComStatus;
-import net.sf.nmedit.jsynth.DefaultMidiPorts;
-import net.sf.nmedit.jsynth.MidiPortSupport;
-import net.sf.nmedit.jsynth.SlotManager;
-import net.sf.nmedit.jsynth.SynthException;
-import net.sf.nmedit.jsynth.Synthesizer;
-import net.sf.nmedit.jsynth.clavia.nordmodular.worker.NMStorePatchWorker;
-import net.sf.nmedit.jsynth.clavia.nordmodular.worker.ScheduledMessage;
-import net.sf.nmedit.jsynth.clavia.nordmodular.worker.Scheduler;
-import net.sf.nmedit.jsynth.midi.MidiPort;
-import net.sf.nmedit.jsynth.worker.StorePatchWorker;
+import net.nmedit.nmlibs.jnmprotocol2.ActivePidListener;
+import net.nmedit.nmlibs.jnmprotocol2.ErrorMessage;
+import net.nmedit.nmlibs.jnmprotocol2.IAmMessage;
+import net.nmedit.nmlibs.jnmprotocol2.MessageMulticaster;
+import net.nmedit.nmlibs.jnmprotocol2.MidiDriver;
+import net.nmedit.nmlibs.jnmprotocol2.MidiException;
+import net.nmedit.nmlibs.jnmprotocol2.MidiMessage;
+import net.nmedit.nmlibs.jnmprotocol2.NmMessageAcceptor;
+import net.nmedit.nmlibs.jnmprotocol2.NmProtocol;
+import net.nmedit.nmlibs.jnmprotocol2.NmProtocolListener;
+import net.nmedit.nmlibs.jnmprotocol2.RequestSynthSettingsMessage;
+import net.nmedit.nmlibs.jnmprotocol2.SlotActivatedMessage;
+import net.nmedit.nmlibs.jnmprotocol2.SynthSettingsMessage;
+import net.nmedit.nmlibs.jnmprotocol2.utils.ProtocolRunner;
+import net.nmedit.nmlibs.jnmprotocol2.utils.ProtocolThreadExecutionPolicy;
+import net.nmedit.nmlibs.jnmprotocol2.utils.QueueBuffer;
+import net.nmedit.nmlibs.jnmprotocol2.utils.StoppableThread;
+import net.nmedit.nmlibs.jnmprotocol2.utils.ProtocolRunner.ProtocolErrorHandler;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.NM1ModuleDescriptions;
+import net.nmedit.nmlibs.jsynth.AbstractSynthesizer;
+import net.nmedit.nmlibs.jsynth.ComStatus;
+import net.nmedit.nmlibs.jsynth.DefaultMidiPorts;
+import net.nmedit.nmlibs.jsynth.MidiPortSupport;
+import net.nmedit.nmlibs.jsynth.SlotManager;
+import net.nmedit.nmlibs.jsynth.SynthException;
+import net.nmedit.nmlibs.jsynth.Synthesizer;
+import net.nmedit.nmlibs.jsynth.clavia.nordmodular.worker.NMStorePatchWorker;
+import net.nmedit.nmlibs.jsynth.clavia.nordmodular.worker.ScheduledMessage;
+import net.nmedit.nmlibs.jsynth.clavia.nordmodular.worker.Scheduler;
+import net.nmedit.nmlibs.jsynth.midi.MidiPort;
+import net.nmedit.nmlibs.jsynth.worker.StorePatchWorker;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;

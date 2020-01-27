@@ -45,17 +45,17 @@ import javax.swing.UIManager;
 import javax.swing.plaf.metal.MetalLookAndFeel;
 import javax.swing.plaf.metal.MetalTheme;
 
-import net.sf.nmedit.nmutils.Platform;
-import net.sf.nmedit.nmutils.properties.RootSystemProperties;
-import net.sf.nmedit.nmutils.properties.SystemProperties;
-import net.sf.nmedit.nmutils.properties.SystemPropertyFactory;
-import net.sf.nmedit.nomad.core.i18n.LocaleConfiguration;
-import net.sf.nmedit.nomad.core.jpf.JPFServiceInstallerTool;
-import net.sf.nmedit.nomad.core.menulayout.MenuBuilder;
-import net.sf.nmedit.nomad.core.menulayout.MenuLayout;
-import net.sf.nmedit.nomad.core.service.ServiceRegistry;
-import net.sf.nmedit.nomad.core.service.initService.InitService;
-import net.sf.nmedit.nomad.core.utils.NomadPropertyFactory;
+import net.nmedit.nmlibs.nmutils.Platform;
+import net.nmedit.nmlibs.nmutils.properties.RootSystemProperties;
+import net.nmedit.nmlibs.nmutils.properties.SystemProperties;
+import net.nmedit.nmlibs.nmutils.properties.SystemPropertyFactory;
+import net.nmedit.nmlibs.nomad.core.i18n.LocaleConfiguration;
+import net.nmedit.nmlibs.nomad.core.jpf.JPFServiceInstallerTool;
+import net.nmedit.nmlibs.nomad.core.menulayout.MenuBuilder;
+import net.nmedit.nmlibs.nomad.core.menulayout.MenuLayout;
+import net.nmedit.nmlibs.nomad.core.service.ServiceRegistry;
+import net.nmedit.nmlibs.nomad.core.service.initService.InitService;
+import net.nmedit.nmlibs.nomad.core.utils.NomadPropertyFactory;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;

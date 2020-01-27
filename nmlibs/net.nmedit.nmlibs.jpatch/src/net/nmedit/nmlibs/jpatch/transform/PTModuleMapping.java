@@ -20,17 +20,17 @@ package net.nmedit.nmlibs.jpatch.transform;
 
 import java.util.Collection;
 
-import net.sf.nmedit.jpatch.MoveOperation;
-import net.sf.nmedit.jpatch.PConnection;
-import net.sf.nmedit.jpatch.PConnectionManager;
-import net.sf.nmedit.jpatch.PConnector;
-import net.sf.nmedit.jpatch.PConnectorDescriptor;
-import net.sf.nmedit.jpatch.PModule;
-import net.sf.nmedit.jpatch.PModuleContainer;
-import net.sf.nmedit.jpatch.PModuleDescriptor;
-import net.sf.nmedit.jpatch.PParameter;
-import net.sf.nmedit.jpatch.PParameterDescriptor;
-import net.sf.nmedit.jpatch.PRuntimeException;
+import net.nmedit.nmlibs.jpatch.MoveOperation;
+import net.nmedit.nmlibs.jpatch.PConnection;
+import net.nmedit.nmlibs.jpatch.PConnectionManager;
+import net.nmedit.nmlibs.jpatch.PConnector;
+import net.nmedit.nmlibs.jpatch.PConnectorDescriptor;
+import net.nmedit.nmlibs.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.PModuleContainer;
+import net.nmedit.nmlibs.jpatch.PModuleDescriptor;
+import net.nmedit.nmlibs.jpatch.PParameter;
+import net.nmedit.nmlibs.jpatch.PParameterDescriptor;
+import net.nmedit.nmlibs.jpatch.PRuntimeException;
 
 /**
  * Defines how the the parameters and connectors of two modules are mapped to each other.

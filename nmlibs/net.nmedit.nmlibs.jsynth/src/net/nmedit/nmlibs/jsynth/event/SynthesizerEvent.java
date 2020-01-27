@@ -24,7 +24,7 @@ package net.nmedit.nmlibs.jsynth.event;
 
 import java.awt.Event;
 
-import net.sf.nmedit.jsynth.Synthesizer;
+import net.nmedit.nmlibs.jsynth.Synthesizer;
 
 public class SynthesizerEvent extends Event
 {

@@ -20,22 +20,22 @@
 /*
  * Created on Apr 18, 2006
  */
-package net.nmedit.nmlibs.jsynth.clavia.nordmodular.utils;
+package net.nmedit.nmlibs.nordmodular.jsynth.clavia.nordmodular.utils;
 
 import java.util.Collection;
 import java.util.Iterator;
 
-import net.sf.nmedit.jnmprotocol2.PDLData;
-import net.sf.nmedit.jnmprotocol2.utils.NmCharacter;
-import net.sf.nmedit.jpatch.clavia.nordmodular.Format;
-import net.sf.nmedit.jpatch.clavia.nordmodular.parser.PContentHandler;
-import net.sf.nmedit.jpatch.clavia.nordmodular.parser.PParser;
-import net.sf.nmedit.jpatch.clavia.nordmodular.parser.ParseException;
-import net.sf.nmedit.jpatch.clavia.nordmodular.parser.PatchBuilder;
-import net.sf.nmedit.jpdl2.stream.BitStream;
-import net.sf.nmedit.jpdl2.PDLException;
-import net.sf.nmedit.jpdl2.PDLPacket;
-import net.sf.nmedit.jpdl2.PDLPacketParser;
+import net.nmedit.nmlibs.jnmprotocol2.PDLData;
+import net.nmedit.nmlibs.jnmprotocol2.utils.NmCharacter;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.Format;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.parser.PContentHandler;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.parser.PParser;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.parser.ParseException;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.parser.PatchBuilder;
+import net.nmedit.nmlibs.jpdl2.stream.BitStream;
+import net.nmedit.nmlibs.jpdl2.PDLException;
+import net.nmedit.nmlibs.jpdl2.PDLPacket;
+import net.nmedit.nmlibs.jpdl2.PDLPacketParser;
 
 /**
  * Uses a {@link net.sf.nmedit.jpdl.BitStream} as source and

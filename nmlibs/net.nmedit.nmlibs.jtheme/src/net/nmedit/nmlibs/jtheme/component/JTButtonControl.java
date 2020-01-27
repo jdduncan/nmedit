@@ -24,8 +24,8 @@ import java.util.Map;
 import javax.swing.Icon;
 import javax.swing.SwingConstants;
 
-import net.sf.nmedit.jtheme.JTContext;
-import net.sf.nmedit.jtheme.component.misc.CallDescriptor;
+import net.nmedit.nmlibs.jtheme.JTContext;
+import net.nmedit.nmlibs.jtheme.component.misc.CallDescriptor;
 
 public class JTButtonControl extends JTControl
 {

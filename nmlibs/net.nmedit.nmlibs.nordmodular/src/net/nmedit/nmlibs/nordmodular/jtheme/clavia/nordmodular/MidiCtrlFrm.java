@@ -16,7 +16,7 @@
  * along with Nomad; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
-package net.nmedit.nmlibs.jtheme.clavia.nordmodular;
+package net.nmedit.nmlibs.nordmodular.jtheme.clavia.nordmodular;
 
 import java.awt.BorderLayout;
 import java.awt.Component;
@@ -42,14 +42,14 @@ import javax.swing.event.ListSelectionListener;
 import javax.swing.table.AbstractTableModel;
 import javax.swing.table.DefaultTableCellRenderer;
 
-import net.sf.nmedit.jpatch.ImageSource;
-import net.sf.nmedit.jpatch.ModuleDescriptions;
-import net.sf.nmedit.jpatch.PModule;
-import net.sf.nmedit.jpatch.PModuleDescriptor;
-import net.sf.nmedit.jpatch.PParameter;
-import net.sf.nmedit.jpatch.clavia.nordmodular.MidiController;
-import net.sf.nmedit.jpatch.clavia.nordmodular.MidiControllerSet;
-import net.sf.nmedit.jtheme.component.JTControl;
+import net.nmedit.nmlibs.jpatch.ImageSource;
+import net.nmedit.nmlibs.jpatch.ModuleDescriptions;
+import net.nmedit.nmlibs.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.PModuleDescriptor;
+import net.nmedit.nmlibs.jpatch.PParameter;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.MidiController;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.MidiControllerSet;
+import net.nmedit.nmlibs.jtheme.component.JTControl;
 
 public class MidiCtrlFrm implements ListSelectionListener
 {

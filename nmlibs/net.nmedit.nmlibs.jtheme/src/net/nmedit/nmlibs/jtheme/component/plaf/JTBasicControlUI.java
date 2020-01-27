@@ -42,12 +42,12 @@ import javax.swing.SwingConstants;
 import javax.swing.SwingUtilities;
 import javax.swing.UIDefaults;
 
-import net.sf.nmedit.jpatch.PParameter;
-import net.sf.nmedit.jtheme.JTContext;
-import net.sf.nmedit.jtheme.component.JTComponent;
-import net.sf.nmedit.jtheme.component.JTControl;
-import net.sf.nmedit.nmutils.Platform;
-import net.sf.nmedit.nmutils.swing.NMLazyActionMap;
+import net.nmedit.nmlibs.jpatch.PParameter;
+import net.nmedit.nmlibs.jtheme.JTContext;
+import net.nmedit.nmlibs.jtheme.component.JTComponent;
+import net.nmedit.nmlibs.jtheme.component.JTControl;
+import net.nmedit.nmlibs.nmutils.Platform;
+import net.nmedit.nmlibs.nmutils.swing.NMLazyActionMap;
 
 public abstract class JTBasicControlUI extends JTControlUI
 {

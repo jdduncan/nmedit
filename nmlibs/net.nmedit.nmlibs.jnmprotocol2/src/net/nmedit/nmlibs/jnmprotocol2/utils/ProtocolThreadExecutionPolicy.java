@@ -19,8 +19,8 @@
 
 package net.nmedit.nmlibs.jnmprotocol2.utils;
 
-import net.sf.nmedit.jnmprotocol2.NmProtocol;
-import net.sf.nmedit.jnmprotocol2.utils.ThreadExecutionPolicy;
+import net.nmedit.nmlibs.jnmprotocol2.NmProtocol;
+import net.nmedit.nmlibs.jnmprotocol2.utils.ThreadExecutionPolicy;
 
 /**
  * A policy to control the calls to {@link net.sf.nmedit.jnmprotocol2.NmProtocol#heartbeat()}

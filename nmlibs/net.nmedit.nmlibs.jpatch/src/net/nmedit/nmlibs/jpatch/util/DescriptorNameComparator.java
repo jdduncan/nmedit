@@ -22,7 +22,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import net.sf.nmedit.jpatch.PDescriptor;
+import net.nmedit.nmlibs.jpatch.PDescriptor;
 
 public class DescriptorNameComparator<D extends PDescriptor> implements Comparator<D>
 {

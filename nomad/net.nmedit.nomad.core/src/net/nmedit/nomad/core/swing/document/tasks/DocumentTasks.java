@@ -24,7 +24,7 @@ package net.nmedit.nomad.core.swing.document.tasks;
 
 import java.io.File;
 
-import net.sf.nmedit.nomad.core.swing.document.Document;
+import net.nmedit.nmlibs.nomad.core.swing.document.Document;
 
 public interface DocumentTasks
 {

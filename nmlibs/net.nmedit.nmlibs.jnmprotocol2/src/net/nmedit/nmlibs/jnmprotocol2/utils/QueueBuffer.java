@@ -28,7 +28,7 @@ import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Queue;
 
-import net.sf.nmedit.jnmprotocol2.utils.QueueBuffer;
+import net.nmedit.nmlibs.jnmprotocol2.utils.QueueBuffer;
 
 /**
  * A queue that is optimized for buffering and fast 

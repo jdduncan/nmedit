@@ -18,7 +18,7 @@
  */
 package net.nmedit.nmlibs.jpatch.impl;
 
-import net.sf.nmedit.jpatch.PModuleContainerDescriptor;
+import net.nmedit.nmlibs.jpatch.PModuleContainerDescriptor;
 
 /**
  * The reference implementation of interface {@link PModuleContainerDescriptor}.

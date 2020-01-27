@@ -18,16 +18,16 @@
 */
 package net.nmedit.nmlibs.jpdl2.impl;
 
-import net.sf.nmedit.jpdl2.dom.PDLBlock;
-import net.sf.nmedit.jpdl2.dom.PDLChoice;
-import net.sf.nmedit.jpdl2.dom.PDLConditional;
-import net.sf.nmedit.jpdl2.dom.PDLConstant;
-import net.sf.nmedit.jpdl2.dom.PDLInstruction;
-import net.sf.nmedit.jpdl2.dom.PDLItem;
-import net.sf.nmedit.jpdl2.dom.PDLOptional;
-import net.sf.nmedit.jpdl2.dom.PDLPacketRef;
-import net.sf.nmedit.jpdl2.dom.PDLSwitchStatement;
-import net.sf.nmedit.jpdl2.dom.PDLVariable;
+import net.nmedit.nmlibs.jpdl2.dom.PDLBlock;
+import net.nmedit.nmlibs.jpdl2.dom.PDLChoice;
+import net.nmedit.nmlibs.jpdl2.dom.PDLConditional;
+import net.nmedit.nmlibs.jpdl2.dom.PDLConstant;
+import net.nmedit.nmlibs.jpdl2.dom.PDLInstruction;
+import net.nmedit.nmlibs.jpdl2.dom.PDLItem;
+import net.nmedit.nmlibs.jpdl2.dom.PDLOptional;
+import net.nmedit.nmlibs.jpdl2.dom.PDLPacketRef;
+import net.nmedit.nmlibs.jpdl2.dom.PDLSwitchStatement;
+import net.nmedit.nmlibs.jpdl2.dom.PDLVariable;
 
 public abstract class PDLItemImpl implements PDLItem
 {

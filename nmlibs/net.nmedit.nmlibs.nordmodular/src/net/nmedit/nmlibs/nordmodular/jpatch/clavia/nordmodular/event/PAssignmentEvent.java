@@ -16,12 +16,12 @@
  * along with Nomad; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
-package net.nmedit.nmlibs.jpatch.clavia.nordmodular.event;
+package net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.event;
 
-import net.sf.nmedit.jpatch.PParameter;
-import net.sf.nmedit.jpatch.clavia.nordmodular.Knob;
-import net.sf.nmedit.jpatch.clavia.nordmodular.MidiController;
-import net.sf.nmedit.jpatch.event.PPatchEvent;
+import net.nmedit.nmlibs.jpatch.PParameter;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.Knob;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.MidiController;
+import net.nmedit.nmlibs.jpatch.event.PPatchEvent;
 
 public class PAssignmentEvent extends PPatchEvent
 {

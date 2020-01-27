@@ -24,7 +24,7 @@ package net.nmedit.nmlibs.jtheme.component;
 
 import javax.swing.SwingConstants;
 
-import net.sf.nmedit.jtheme.JTContext;
+import net.nmedit.nmlibs.jtheme.JTContext;
 
 public class JTSlider extends JTControl
 {

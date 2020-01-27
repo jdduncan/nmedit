@@ -23,20 +23,20 @@ import java.awt.event.ActionListener;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.sf.nmedit.jsynth.Slot;
-import net.sf.nmedit.jsynth.SynthException;
-import net.sf.nmedit.jsynth.Synthesizer;
-import net.sf.nmedit.jsynth.nomad.forms.SaveInSynthDialog;
-import net.sf.nmedit.jsynth.worker.PatchLocation;
-import net.sf.nmedit.jsynth.worker.StorePatchWorker;
-import net.sf.nmedit.nomad.core.Nomad;
-import net.sf.nmedit.nomad.core.menulayout.MLEntry;
-import net.sf.nmedit.nomad.core.menulayout.MenuLayout;
-import net.sf.nmedit.nomad.core.registry.GlobalRegistry;
-import net.sf.nmedit.nomad.core.service.Service;
-import net.sf.nmedit.nomad.core.service.initService.InitService;
-import net.sf.nmedit.nomad.core.swing.document.DefaultDocumentManager;
-import net.sf.nmedit.nomad.core.swing.document.Document;
+import net.nmedit.nmlibs.jsynth.Slot;
+import net.nmedit.nmlibs.jsynth.SynthException;
+import net.nmedit.nmlibs.jsynth.Synthesizer;
+import net.nmedit.nmlibs.jsynth.nomad.forms.SaveInSynthDialog;
+import net.nmedit.nmlibs.jsynth.worker.PatchLocation;
+import net.nmedit.nmlibs.jsynth.worker.StorePatchWorker;
+import net.nmedit.nmlibs.nomad.core.Nomad;
+import net.nmedit.nmlibs.nomad.core.menulayout.MLEntry;
+import net.nmedit.nmlibs.nomad.core.menulayout.MenuLayout;
+import net.nmedit.nmlibs.nomad.core.registry.GlobalRegistry;
+import net.nmedit.nmlibs.nomad.core.service.Service;
+import net.nmedit.nmlibs.nomad.core.service.initService.InitService;
+import net.nmedit.nmlibs.nomad.core.swing.document.DefaultDocumentManager;
+import net.nmedit.nmlibs.nomad.core.swing.document.Document;
 
 public class Installer implements InitService
 {

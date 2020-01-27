@@ -16,12 +16,12 @@
  * along with Nomad; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
-package net.nmedit.nmlibs.jtheme.clavia.nordmodular.plaf;
+package net.nmedit.nmlibs.nordmodular.jtheme.clavia.nordmodular.plaf;
 
 import javax.swing.JComponent;
 
-import net.sf.nmedit.jtheme.component.JTButtonControl;
-import net.sf.nmedit.jtheme.component.plaf.JTBasicButtonControlUI;
+import net.nmedit.nmlibs.jtheme.component.JTButtonControl;
+import net.nmedit.nmlibs.jtheme.component.plaf.JTBasicButtonControlUI;
 
 public class JTNM1ButtonUI extends JTBasicButtonControlUI
 {

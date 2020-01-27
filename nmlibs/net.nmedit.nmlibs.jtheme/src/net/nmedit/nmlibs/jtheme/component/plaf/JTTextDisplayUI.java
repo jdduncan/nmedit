@@ -21,7 +21,7 @@ package net.nmedit.nmlibs.jtheme.component.plaf;
 import javax.swing.JComponent;
 import javax.swing.border.Border;
 
-import net.sf.nmedit.jtheme.component.JTComponent;
+import net.nmedit.nmlibs.jtheme.component.JTComponent;
 
 public class JTTextDisplayUI extends JTLabelUI
 {

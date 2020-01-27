@@ -18,9 +18,9 @@
 */
 package net.nmedit.nmlibs.jpdl2.impl;
 
-import net.sf.nmedit.jpdl2.dom.PDLBlock;
-import net.sf.nmedit.jpdl2.dom.PDLCaseStatement;
-import net.sf.nmedit.jpdl2.dom.PDLItem;
+import net.nmedit.nmlibs.jpdl2.dom.PDLBlock;
+import net.nmedit.nmlibs.jpdl2.dom.PDLCaseStatement;
+import net.nmedit.nmlibs.jpdl2.dom.PDLItem;
 
 public class PDLCaseStatementImpl implements PDLCaseStatement
 {

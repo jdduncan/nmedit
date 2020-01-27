@@ -22,7 +22,7 @@
  */
 package net.nmedit.nmlibs.jsynth;
 
-import net.sf.nmedit.jsynth.event.PortAttachmentListener;
+import net.nmedit.nmlibs.jsynth.event.PortAttachmentListener;
 
 public interface Port
 {

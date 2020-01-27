@@ -20,7 +20,7 @@
 /*
  * Created on Mar 1, 2006
  */
-package net.nmedit.nmlibs.jpatch.clavia.nordmodular;
+package net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular;
 
 import java.awt.Color;
 

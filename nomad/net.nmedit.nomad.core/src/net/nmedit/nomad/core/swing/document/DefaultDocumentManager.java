@@ -38,9 +38,9 @@ import javax.swing.JPopupMenu;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
-import net.sf.nmedit.nomad.core.Nomad;
-import net.sf.nmedit.nomad.core.swing.tabs.FFTabBarUI;
-import net.sf.nmedit.nomad.core.swing.tabs.JTabbedPane2;
+import net.nmedit.nmlibs.nomad.core.Nomad;
+import net.nmedit.nmlibs.nomad.core.swing.tabs.FFTabBarUI;
+import net.nmedit.nmlibs.nomad.core.swing.tabs.JTabbedPane2;
 
 public class DefaultDocumentManager extends JTabbedPane2 implements DocumentManager, PropertyChangeListener
 {

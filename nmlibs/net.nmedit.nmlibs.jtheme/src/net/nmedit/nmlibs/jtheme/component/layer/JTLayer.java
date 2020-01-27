@@ -20,8 +20,8 @@ package net.nmedit.nmlibs.jtheme.component.layer;
 
 import java.awt.Graphics;
 
-import net.sf.nmedit.jtheme.JTContext;
-import net.sf.nmedit.jtheme.component.JTBaseComponent;
+import net.nmedit.nmlibs.jtheme.JTContext;
+import net.nmedit.nmlibs.jtheme.component.JTBaseComponent;
 
 public class JTLayer extends JTBaseComponent
 {

@@ -25,12 +25,12 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.NoSuchElementException;
 
-import net.sf.nmedit.jpdl2.PDLException;
-import net.sf.nmedit.jpdl2.PDLMessage;
-import net.sf.nmedit.jpdl2.PDLPacket;
-import net.sf.nmedit.jpdl2.PDLPacketParser;
-import net.sf.nmedit.jpdl2.stream.BitStream;
-import net.sf.nmedit.jpdl2.stream.IntStream;
+import net.nmedit.nmlibs.jpdl2.PDLException;
+import net.nmedit.nmlibs.jpdl2.PDLMessage;
+import net.nmedit.nmlibs.jpdl2.PDLPacket;
+import net.nmedit.nmlibs.jpdl2.PDLPacketParser;
+import net.nmedit.nmlibs.jpdl2.stream.BitStream;
+import net.nmedit.nmlibs.jpdl2.stream.IntStream;
 
 public abstract class MidiMessage
 {

@@ -28,7 +28,7 @@ import java.awt.Graphics2D;
 import javax.swing.JComponent;
 import javax.swing.plaf.ComponentUI;
 
-import net.sf.nmedit.jtheme.component.JTComponent;
+import net.nmedit.nmlibs.jtheme.component.JTComponent;
 
 /**
  * The base class for all UI delegates used by 

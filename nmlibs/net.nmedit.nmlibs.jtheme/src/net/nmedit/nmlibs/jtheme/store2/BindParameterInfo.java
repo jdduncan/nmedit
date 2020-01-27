@@ -26,9 +26,9 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-import net.sf.nmedit.jtheme.component.JTComponent;
-import net.sf.nmedit.jtheme.component.JTControlAdapter;
-import net.sf.nmedit.nmutils.collections.EmptyIterator;
+import net.nmedit.nmlibs.jtheme.component.JTComponent;
+import net.nmedit.nmlibs.jtheme.component.JTControlAdapter;
+import net.nmedit.nmlibs.nmutils.collections.EmptyIterator;
 
 /**
  * Caches all methods void (JTControlAdapter) of a specified class

@@ -30,12 +30,12 @@ import javax.swing.JComponent;
 import javax.swing.JViewport;
 import javax.swing.border.Border;
 
-import net.sf.nmedit.jpatch.dnd.ModulesBoundingBox;
-import net.sf.nmedit.jtheme.JTContext;
-import net.sf.nmedit.jtheme.component.JTLayerRoot;
-import net.sf.nmedit.jtheme.component.JTModuleContainer;
-import net.sf.nmedit.jtheme.component.plaf.SelectionPainter;
-import net.sf.nmedit.nmutils.dnd.DefaultEyeCandyTransferable;
+import net.nmedit.nmlibs.jpatch.dnd.ModulesBoundingBox;
+import net.nmedit.nmlibs.jtheme.JTContext;
+import net.nmedit.nmlibs.jtheme.component.JTLayerRoot;
+import net.nmedit.nmlibs.jtheme.component.JTModuleContainer;
+import net.nmedit.nmlibs.jtheme.component.plaf.SelectionPainter;
+import net.nmedit.nmlibs.nmutils.dnd.DefaultEyeCandyTransferable;
 
 public class DNDLayer extends JTLayer
 {

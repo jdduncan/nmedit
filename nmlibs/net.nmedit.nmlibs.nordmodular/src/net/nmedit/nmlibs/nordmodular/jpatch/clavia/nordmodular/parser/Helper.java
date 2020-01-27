@@ -16,7 +16,7 @@
  * along with Nomad; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
-package net.nmedit.nmlibs.jpatch.clavia.nordmodular.parser;
+package net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.parser;
 
 import java.io.IOException;
 import java.io.Serializable;
@@ -24,13 +24,13 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.ListIterator;
 
-import net.sf.nmedit.jpatch.PComponent;
-import net.sf.nmedit.jpatch.PDescriptor;
-import net.sf.nmedit.jpatch.PModule;
-import net.sf.nmedit.jpatch.PParameter;
-import net.sf.nmedit.jpatch.PParameterDescriptor;
-import net.sf.nmedit.jpatch.PRuntimeException;
-import net.sf.nmedit.jpatch.util.ObjectFilter;
+import net.nmedit.nmlibs.jpatch.PComponent;
+import net.nmedit.nmlibs.jpatch.PDescriptor;
+import net.nmedit.nmlibs.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.PParameter;
+import net.nmedit.nmlibs.jpatch.PParameterDescriptor;
+import net.nmedit.nmlibs.jpatch.PRuntimeException;
+import net.nmedit.nmlibs.jpatch.util.ObjectFilter;
 
 public class Helper
 {

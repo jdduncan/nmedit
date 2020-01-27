@@ -20,8 +20,8 @@ package net.nmedit.nmlibs.jtheme.component.plaf;
 
 import javax.swing.JComponent;
 
-import net.sf.nmedit.jtheme.JTContext;
-import net.sf.nmedit.jtheme.component.JTComponent;
+import net.nmedit.nmlibs.jtheme.JTContext;
+import net.nmedit.nmlibs.jtheme.component.JTComponent;
 
 public class UIInstance<T extends JTComponentUI>
 {

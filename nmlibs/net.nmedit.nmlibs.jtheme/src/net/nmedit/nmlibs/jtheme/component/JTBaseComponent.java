@@ -31,9 +31,9 @@ import java.util.List;
 
 import javax.swing.JComponent;
 
-import net.sf.nmedit.jtheme.JTContext;
-import net.sf.nmedit.jtheme.help.HelpHandler;
-import net.sf.nmedit.jtheme.help.HelpSupport;
+import net.nmedit.nmlibs.jtheme.JTContext;
+import net.nmedit.nmlibs.jtheme.help.HelpHandler;
+import net.nmedit.nmlibs.jtheme.help.HelpSupport;
 
 /**
  * A specialized version of JComponent.

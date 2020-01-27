@@ -18,7 +18,7 @@
 */
 package net.nmedit.nmlibs.jpdl2;
 
-import net.sf.nmedit.jpdl2.stream.BitStream;
+import net.nmedit.nmlibs.jpdl2.stream.BitStream;
 
 /**
  * The parse context object.

@@ -18,8 +18,8 @@
  */
 package net.nmedit.nmlibs.patchmodifier.randomizer;
 
-import net.sf.nmedit.jpatch.PModule;
-import net.sf.nmedit.jpatch.PPatch;
+import net.nmedit.nmlibs.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.PPatch;
 
 public interface Randomizer
 {

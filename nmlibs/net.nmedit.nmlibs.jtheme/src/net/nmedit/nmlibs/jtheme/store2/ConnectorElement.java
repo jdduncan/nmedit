@@ -21,15 +21,15 @@ package net.nmedit.nmlibs.jtheme.store2;
 import java.io.IOException;
 import java.io.Serializable;
 
-import net.sf.nmedit.jpatch.PConnector;
-import net.sf.nmedit.jpatch.PConnectorDescriptor;
-import net.sf.nmedit.jpatch.PModule;
-import net.sf.nmedit.jpatch.PModuleDescriptor;
-import net.sf.nmedit.jtheme.JTContext;
-import net.sf.nmedit.jtheme.JTException;
-import net.sf.nmedit.jtheme.component.JTComponent;
-import net.sf.nmedit.jtheme.component.JTConnector;
-import net.sf.nmedit.jtheme.store.StorageContext;
+import net.nmedit.nmlibs.jpatch.PConnector;
+import net.nmedit.nmlibs.jpatch.PConnectorDescriptor;
+import net.nmedit.nmlibs.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.PModuleDescriptor;
+import net.nmedit.nmlibs.jtheme.JTContext;
+import net.nmedit.nmlibs.jtheme.JTException;
+import net.nmedit.nmlibs.jtheme.component.JTComponent;
+import net.nmedit.nmlibs.jtheme.component.JTConnector;
+import net.nmedit.nmlibs.jtheme.store.StorageContext;
 
 import org.jdom.Element;
 

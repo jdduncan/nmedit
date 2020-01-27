@@ -24,8 +24,8 @@ package net.nmedit.nmlibs.jsynth;
 
 import javax.swing.event.EventListenerList;
 
-import net.sf.nmedit.jsynth.event.PortAttachmentEvent;
-import net.sf.nmedit.jsynth.event.PortAttachmentListener;
+import net.nmedit.nmlibs.jsynth.event.PortAttachmentEvent;
+import net.nmedit.nmlibs.jsynth.event.PortAttachmentListener;
 
 public abstract class AbstractPort implements Port
 {

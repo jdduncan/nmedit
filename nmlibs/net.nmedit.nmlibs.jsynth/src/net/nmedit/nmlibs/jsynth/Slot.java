@@ -24,8 +24,8 @@ package net.nmedit.nmlibs.jsynth;
 
 import java.beans.PropertyChangeListener;
 
-import net.sf.nmedit.jsynth.event.SlotListener;
-import net.sf.nmedit.jsynth.worker.RequestPatchWorker;
+import net.nmedit.nmlibs.jsynth.event.SlotListener;
+import net.nmedit.nmlibs.jsynth.worker.RequestPatchWorker;
 
 public interface Slot
 {

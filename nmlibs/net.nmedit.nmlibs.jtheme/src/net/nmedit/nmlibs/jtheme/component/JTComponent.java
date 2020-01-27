@@ -37,8 +37,8 @@ import javax.swing.JComponent;
 import javax.swing.border.Border;
 import javax.swing.plaf.ComponentUI;
 
-import net.sf.nmedit.jtheme.JTContext;
-import net.sf.nmedit.jtheme.component.plaf.JTComponentUI;
+import net.nmedit.nmlibs.jtheme.JTContext;
+import net.nmedit.nmlibs.jtheme.component.plaf.JTComponentUI;
 
 /**
  * A specialized version of JTBaseComponent. This class is

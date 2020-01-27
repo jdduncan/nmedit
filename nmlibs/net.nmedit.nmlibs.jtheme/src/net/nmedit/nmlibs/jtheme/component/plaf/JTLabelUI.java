@@ -37,9 +37,9 @@ import javax.swing.SwingConstants;
 import javax.swing.SwingUtilities;
 import javax.swing.border.Border;
 
-import net.sf.nmedit.jtheme.component.JTComponent;
-import net.sf.nmedit.jtheme.component.JTLabel;
-import net.sf.nmedit.nmutils.swing.NmSwingUtilities;
+import net.nmedit.nmlibs.jtheme.component.JTComponent;
+import net.nmedit.nmlibs.jtheme.component.JTLabel;
+import net.nmedit.nmlibs.nmutils.swing.NmSwingUtilities;
 
 public class JTLabelUI extends JTComponentUI implements SwingConstants
 {

@@ -20,7 +20,7 @@
 /*
  * Created on Jan 20, 2006
  */
-package net.nmedit.nmlibs.jtheme.clavia.nordmodular;
+package net.nmedit.nmlibs.nordmodular.jtheme.clavia.nordmodular;
 
 import java.awt.GradientPaint;
 import java.awt.Graphics;
@@ -28,8 +28,8 @@ import java.awt.Graphics2D;
 import java.awt.Paint;
 import java.awt.geom.Point2D;
 
-import net.sf.nmedit.jtheme.JTContext;
-import net.sf.nmedit.jtheme.component.JTDisplay;
+import net.nmedit.nmlibs.jtheme.JTContext;
+import net.nmedit.nmlibs.jtheme.component.JTDisplay;
 
 public class AudioLevelDisplay extends JTDisplay 
 {

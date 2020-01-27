@@ -19,7 +19,7 @@
 
 package net.nmedit.nmlibs.jnmprotocol2.utils;
 
-import net.sf.nmedit.jnmprotocol2.NmProtocol;
+import net.nmedit.nmlibs.jnmprotocol2.NmProtocol;
 
 public class ProtocolRunner implements Runnable
 {

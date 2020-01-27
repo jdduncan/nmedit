@@ -21,9 +21,9 @@ import java.util.Iterator;
 
 import javax.swing.event.EventListenerList;
 
-import net.sf.nmedit.jsynth.event.SlotEvent;
-import net.sf.nmedit.jsynth.event.SlotManagerListener;
-import net.sf.nmedit.nmutils.iterator.ArrayIterator;
+import net.nmedit.nmlibs.jsynth.event.SlotEvent;
+import net.nmedit.nmlibs.jsynth.event.SlotManagerListener;
+import net.nmedit.nmlibs.nmutils.iterator.ArrayIterator;
 
 public class DefaultSlotManager<T extends Synthesizer, L extends Slot> implements SlotManager<L>
 {

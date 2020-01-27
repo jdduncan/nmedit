@@ -42,7 +42,7 @@ import java.util.Map.Entry;
 
 import javax.imageio.ImageIO;
 
-import net.sf.nmedit.nmutils.graphics.GraphicsToolkit;
+import net.nmedit.nmlibs.nmutils.graphics.GraphicsToolkit;
 
 public class ImageCache implements Serializable
 {

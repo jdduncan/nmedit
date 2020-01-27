@@ -1,4 +1,4 @@
-package net.nmedit.nmlibs.jpatch.clavia.nordmodular.event;
+package net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.event;
 
 /* Copyright (C) 2006 Christian Schneider
  * 
@@ -18,12 +18,12 @@ package net.nmedit.nmlibs.jpatch.clavia.nordmodular.event;
  * along with Nomad; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
-import net.sf.nmedit.jpatch.AllEventsListener;
-import net.sf.nmedit.jpatch.clavia.nordmodular.NMPatch;
-import net.sf.nmedit.jpatch.event.PConnectionEvent;
-import net.sf.nmedit.jpatch.event.PModuleContainerEvent;
-import net.sf.nmedit.jpatch.event.PModuleEvent;
-import net.sf.nmedit.jpatch.event.PParameterEvent;
+import net.nmedit.nmlibs.jpatch.AllEventsListener;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.NMPatch;
+import net.nmedit.nmlibs.jpatch.event.PConnectionEvent;
+import net.nmedit.nmlibs.jpatch.event.PModuleContainerEvent;
+import net.nmedit.nmlibs.jpatch.event.PModuleEvent;
+import net.nmedit.nmlibs.jpatch.event.PParameterEvent;
 
 public class ModifiedListener extends AllEventsListener 
     implements PAssignmentListener, PPatchSettingsListener

@@ -31,9 +31,9 @@ import java.awt.RenderingHints;
 import javax.swing.JComponent;
 import javax.swing.UIDefaults;
 
-import net.sf.nmedit.jtheme.component.JTComponent;
-import net.sf.nmedit.jtheme.component.JTControl;
-import net.sf.nmedit.jtheme.component.misc.KnobMetrics;
+import net.nmedit.nmlibs.jtheme.component.JTComponent;
+import net.nmedit.nmlibs.jtheme.component.JTControl;
+import net.nmedit.nmlibs.jtheme.component.misc.KnobMetrics;
 
 public class JTBasicKnobUI extends JTBasicControlUI
 {

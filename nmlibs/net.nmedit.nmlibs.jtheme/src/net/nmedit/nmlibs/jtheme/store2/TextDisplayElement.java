@@ -20,16 +20,16 @@ package net.nmedit.nmlibs.jtheme.store2;
 
 import java.awt.Color;
 
-import net.sf.nmedit.jpatch.PModule;
-import net.sf.nmedit.jpatch.PModuleDescriptor;
-import net.sf.nmedit.jpatch.PParameter;
-import net.sf.nmedit.jpatch.PParameterDescriptor;
-import net.sf.nmedit.jtheme.JTContext;
-import net.sf.nmedit.jtheme.JTException;
-import net.sf.nmedit.jtheme.component.JTComponent;
-import net.sf.nmedit.jtheme.component.JTTextDisplay;
-import net.sf.nmedit.jtheme.store.CSSUtils;
-import net.sf.nmedit.jtheme.store.StorageContext;
+import net.nmedit.nmlibs.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.PModuleDescriptor;
+import net.nmedit.nmlibs.jpatch.PParameter;
+import net.nmedit.nmlibs.jpatch.PParameterDescriptor;
+import net.nmedit.nmlibs.jtheme.JTContext;
+import net.nmedit.nmlibs.jtheme.JTException;
+import net.nmedit.nmlibs.jtheme.component.JTComponent;
+import net.nmedit.nmlibs.jtheme.component.JTTextDisplay;
+import net.nmedit.nmlibs.jtheme.store.CSSUtils;
+import net.nmedit.nmlibs.jtheme.store.StorageContext;
 
 import org.jdom.Element;
 import org.w3c.dom.css.CSSStyleDeclaration;

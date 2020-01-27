@@ -24,10 +24,10 @@ import java.awt.Point;
 import java.awt.Rectangle;
 import java.awt.Shape;
 
-import net.sf.nmedit.jpatch.PConnector;
-import net.sf.nmedit.jpatch.PModule;
-import net.sf.nmedit.jtheme.component.JTComponent;
-import net.sf.nmedit.jtheme.component.JTConnector;
+import net.nmedit.nmlibs.jpatch.PConnector;
+import net.nmedit.nmlibs.jpatch.PModule;
+import net.nmedit.nmlibs.jtheme.component.JTComponent;
+import net.nmedit.nmlibs.jtheme.component.JTConnector;
 
 public class SimpleCable implements Cable
 {

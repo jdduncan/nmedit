@@ -23,10 +23,10 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import net.sf.nmedit.jpdl2.PDLPacket;
-import net.sf.nmedit.jpdl2.PDLParseContext;
-import net.sf.nmedit.jpdl2.stream.BitStream;
-import net.sf.nmedit.jpdl2.stream.PDLDataSource;
+import net.nmedit.nmlibs.jpdl2.PDLPacket;
+import net.nmedit.nmlibs.jpdl2.PDLParseContext;
+import net.nmedit.nmlibs.jpdl2.stream.BitStream;
+import net.nmedit.nmlibs.jpdl2.stream.PDLDataSource;
 
 public class PDLParseContextImpl implements PDLParseContext
 {

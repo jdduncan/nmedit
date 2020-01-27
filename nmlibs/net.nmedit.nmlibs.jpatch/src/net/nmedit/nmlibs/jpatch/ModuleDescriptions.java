@@ -47,10 +47,10 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.xml.sax.InputSource;
 
-import net.sf.nmedit.jpatch.impl.PBasicModuleDescriptor;
-import net.sf.nmedit.jpatch.js.JSContext;
-import net.sf.nmedit.jpatch.transform.PTTransformations;
-import net.sf.nmedit.nmutils.PluginObjectInputStream;
+import net.nmedit.nmlibs.jpatch.impl.PBasicModuleDescriptor;
+import net.nmedit.nmlibs.jpatch.js.JSContext;
+import net.nmedit.nmlibs.jpatch.transform.PTTransformations;
+import net.nmedit.nmlibs.nmutils.PluginObjectInputStream;
 
 public class ModuleDescriptions implements Iterable<PModuleDescriptor>
 {

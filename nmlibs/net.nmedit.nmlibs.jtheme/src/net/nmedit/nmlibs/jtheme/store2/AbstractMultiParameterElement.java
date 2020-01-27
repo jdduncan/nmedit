@@ -24,11 +24,11 @@ import java.lang.reflect.Method;
 import java.util.Iterator;
 import java.util.List;
 
-import net.sf.nmedit.jpatch.PModule;
-import net.sf.nmedit.jpatch.PParameter;
-import net.sf.nmedit.jtheme.component.JTComponent;
-import net.sf.nmedit.jtheme.component.JTParameterControlAdapter;
-import net.sf.nmedit.jtheme.store.StorageContext;
+import net.nmedit.nmlibs.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.PParameter;
+import net.nmedit.nmlibs.jtheme.component.JTComponent;
+import net.nmedit.nmlibs.jtheme.component.JTParameterControlAdapter;
+import net.nmedit.nmlibs.jtheme.store.StorageContext;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;

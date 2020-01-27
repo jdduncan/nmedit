@@ -19,7 +19,7 @@
 
 package net.nmedit.nmlibs.jnmprotocol;
 
-import net.sf.nmedit.jnmprotocol.MidiMessage;
+import net.nmedit.nmlibs.jnmprotocol.MidiMessage;
 
 
 

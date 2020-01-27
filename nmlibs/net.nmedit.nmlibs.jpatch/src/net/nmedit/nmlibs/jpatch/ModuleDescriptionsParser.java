@@ -36,17 +36,17 @@ import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
-import net.sf.nmedit.jpatch.PConnectorDescriptor;
-import net.sf.nmedit.jpatch.PParameterDescriptor;
-import net.sf.nmedit.jpatch.impl.PBasicConnectorDescriptor;
-import net.sf.nmedit.jpatch.impl.PBasicDescriptor;
-import net.sf.nmedit.jpatch.impl.PBasicLightDescriptor;
-import net.sf.nmedit.jpatch.impl.PBasicModuleDescriptor;
-import net.sf.nmedit.jpatch.impl.PBasicParameterDescriptor;
-import net.sf.nmedit.jpatch.impl.PBasicRoles;
-import net.sf.nmedit.jpatch.js.JSContext;
-import net.sf.nmedit.jpatch.js.JSFormatter;
-import net.sf.nmedit.nmutils.Hex;
+import net.nmedit.nmlibs.jpatch.PConnectorDescriptor;
+import net.nmedit.nmlibs.jpatch.PParameterDescriptor;
+import net.nmedit.nmlibs.jpatch.impl.PBasicConnectorDescriptor;
+import net.nmedit.nmlibs.jpatch.impl.PBasicDescriptor;
+import net.nmedit.nmlibs.jpatch.impl.PBasicLightDescriptor;
+import net.nmedit.nmlibs.jpatch.impl.PBasicModuleDescriptor;
+import net.nmedit.nmlibs.jpatch.impl.PBasicParameterDescriptor;
+import net.nmedit.nmlibs.jpatch.impl.PBasicRoles;
+import net.nmedit.nmlibs.jpatch.js.JSContext;
+import net.nmedit.nmlibs.jpatch.js.JSFormatter;
+import net.nmedit.nmlibs.nmutils.Hex;
 
 import org.mozilla.javascript.Function;
 import org.xml.sax.Attributes;

@@ -22,12 +22,12 @@ import javax.swing.undo.CannotRedoException;
 import javax.swing.undo.CannotUndoException;
 import javax.swing.undo.UndoableEdit;
 
-import net.sf.nmedit.jpatch.PConnector;
-import net.sf.nmedit.jpatch.PModule;
-import net.sf.nmedit.jpatch.PModuleContainer;
-import net.sf.nmedit.jpatch.PParameter;
-import net.sf.nmedit.jpatch.PPatch;
-import net.sf.nmedit.jpatch.PUndoableEditFactory;
+import net.nmedit.nmlibs.jpatch.PConnector;
+import net.nmedit.nmlibs.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.PModuleContainer;
+import net.nmedit.nmlibs.jpatch.PParameter;
+import net.nmedit.nmlibs.jpatch.PPatch;
+import net.nmedit.nmlibs.jpatch.PUndoableEditFactory;
 
 public class PBasicUndoableEditFactory implements PUndoableEditFactory
 {

@@ -19,9 +19,9 @@
 
 package net.nmedit.nmlibs.jnmprotocol2;
 
-import net.sf.nmedit.jnmprotocol2.AckMessage;
-import net.sf.nmedit.jnmprotocol2.LightMessage;
-import net.sf.nmedit.jnmprotocol2.NmProtocolListener;
+import net.nmedit.nmlibs.jnmprotocol2.AckMessage;
+import net.nmedit.nmlibs.jnmprotocol2.LightMessage;
+import net.nmedit.nmlibs.jnmprotocol2.NmProtocolListener;
 
 public class ActivePidListener extends NmProtocolListener
 {

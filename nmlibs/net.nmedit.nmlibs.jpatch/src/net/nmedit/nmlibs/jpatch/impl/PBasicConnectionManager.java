@@ -33,15 +33,15 @@ import java.util.Queue;
 import javax.swing.event.EventListenerList;
 import javax.swing.undo.UndoableEdit;
 
-import net.sf.nmedit.jpatch.PConnection;
-import net.sf.nmedit.jpatch.PConnectionManager;
-import net.sf.nmedit.jpatch.PConnector;
-import net.sf.nmedit.jpatch.PModule;
-import net.sf.nmedit.jpatch.PModuleContainer;
-import net.sf.nmedit.jpatch.PSignal;
-import net.sf.nmedit.jpatch.PUndoableEditFactory;
-import net.sf.nmedit.jpatch.event.PConnectionEvent;
-import net.sf.nmedit.jpatch.event.PConnectionListener;
+import net.nmedit.nmlibs.jpatch.PConnection;
+import net.nmedit.nmlibs.jpatch.PConnectionManager;
+import net.nmedit.nmlibs.jpatch.PConnector;
+import net.nmedit.nmlibs.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.PModuleContainer;
+import net.nmedit.nmlibs.jpatch.PSignal;
+import net.nmedit.nmlibs.jpatch.PUndoableEditFactory;
+import net.nmedit.nmlibs.jpatch.event.PConnectionEvent;
+import net.nmedit.nmlibs.jpatch.event.PConnectionListener;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;

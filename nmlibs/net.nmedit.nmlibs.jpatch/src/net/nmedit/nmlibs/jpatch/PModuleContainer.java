@@ -20,7 +20,7 @@ package net.nmedit.nmlibs.jpatch;
 
 import java.util.Collection;
 
-import net.sf.nmedit.jpatch.event.PModuleContainerListener;
+import net.nmedit.nmlibs.jpatch.event.PModuleContainerListener;
 
 public interface PModuleContainer extends PComponent, Iterable<PModule>
 {

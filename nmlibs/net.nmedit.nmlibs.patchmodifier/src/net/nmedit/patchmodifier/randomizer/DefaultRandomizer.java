@@ -21,14 +21,14 @@ package net.nmedit.nmlibs.patchmodifier.randomizer;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.sf.nmedit.jpatch.PModule;
-import net.sf.nmedit.jpatch.PModuleContainer;
-import net.sf.nmedit.jpatch.PParameter;
-import net.sf.nmedit.jpatch.PPatch;
-import net.sf.nmedit.jpatch.PRoles;
-import net.sf.nmedit.jpatch.event.PModuleContainerEvent;
-import net.sf.nmedit.jpatch.event.PModuleContainerListener;
-import net.sf.nmedit.jpatch.impl.PBasicRoles;
+import net.nmedit.nmlibs.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.PModuleContainer;
+import net.nmedit.nmlibs.jpatch.PParameter;
+import net.nmedit.nmlibs.jpatch.PPatch;
+import net.nmedit.nmlibs.jpatch.PRoles;
+import net.nmedit.nmlibs.jpatch.event.PModuleContainerEvent;
+import net.nmedit.nmlibs.jpatch.event.PModuleContainerListener;
+import net.nmedit.nmlibs.jpatch.impl.PBasicRoles;
 
 public class DefaultRandomizer 
   implements Randomizer, PModuleContainerListener

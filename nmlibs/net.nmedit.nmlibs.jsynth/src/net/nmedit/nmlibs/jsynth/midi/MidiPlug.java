@@ -26,7 +26,7 @@ import javax.sound.midi.MidiDevice;
 import javax.sound.midi.MidiSystem;
 import javax.sound.midi.MidiUnavailableException;
 
-import net.sf.nmedit.jsynth.Plug;
+import net.nmedit.nmlibs.jsynth.Plug;
 
 public class MidiPlug implements Plug
 {

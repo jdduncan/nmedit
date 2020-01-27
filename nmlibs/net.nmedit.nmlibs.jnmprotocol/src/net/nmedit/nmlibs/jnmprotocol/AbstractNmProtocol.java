@@ -26,13 +26,13 @@ import java.util.concurrent.locks.ReentrantLock;
 import javax.sound.midi.Receiver;
 import javax.sound.midi.Transmitter;
 
-import net.sf.nmedit.jnmprotocol.AbstractNmProtocol;
-import net.sf.nmedit.jnmprotocol.EnqueuedPacket;
-import net.sf.nmedit.jnmprotocol.MessageHandler;
-import net.sf.nmedit.jnmprotocol.MidiException;
-import net.sf.nmedit.jnmprotocol.MidiMessage;
-import net.sf.nmedit.jnmprotocol.utils.QueueBuffer;
-import net.sf.nmedit.jpdl.BitStream;
+import net.nmedit.nmlibs.jnmprotocol.AbstractNmProtocol;
+import net.nmedit.nmlibs.jnmprotocol.EnqueuedPacket;
+import net.nmedit.nmlibs.jnmprotocol.MessageHandler;
+import net.nmedit.nmlibs.jnmprotocol.MidiException;
+import net.nmedit.nmlibs.jnmprotocol.MidiMessage;
+import net.nmedit.nmlibs.jnmprotocol.utils.QueueBuffer;
+import net.nmedit.nmlibs.jpdl.BitStream;
 
 /**
  * Receives and sends javax.sound.midi.MidiMessage.

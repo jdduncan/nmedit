@@ -18,8 +18,8 @@
 */
 package net.nmedit.nmlibs.jpdl2.dom;
 
-import net.sf.nmedit.jpdl2.stream.BitStream;
-import net.sf.nmedit.jpdl2.stream.IntStream;
+import net.nmedit.nmlibs.jpdl2.stream.BitStream;
+import net.nmedit.nmlibs.jpdl2.stream.IntStream;
 
 /**
  * A item/statement in a packet declaration.

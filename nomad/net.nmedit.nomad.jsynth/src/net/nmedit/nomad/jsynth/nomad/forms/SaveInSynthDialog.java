@@ -40,12 +40,12 @@ import javax.swing.JList;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 
-import net.sf.nmedit.jsynth.Bank;
-import net.sf.nmedit.jsynth.Slot;
-import net.sf.nmedit.jsynth.Synthesizer;
-import net.sf.nmedit.jsynth.event.BankUpdateEvent;
-import net.sf.nmedit.jsynth.event.BankUpdateListener;
-import net.sf.nmedit.jsynth.worker.PatchLocation;
+import net.nmedit.nmlibs.jsynth.Bank;
+import net.nmedit.nmlibs.jsynth.Slot;
+import net.nmedit.nmlibs.jsynth.Synthesizer;
+import net.nmedit.nmlibs.jsynth.event.BankUpdateEvent;
+import net.nmedit.nmlibs.jsynth.event.BankUpdateListener;
+import net.nmedit.nmlibs.jsynth.worker.PatchLocation;
 
 public class SaveInSynthDialog extends JDialog 
 {

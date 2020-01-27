@@ -22,7 +22,7 @@
  */
 package net.nmedit.nmlibs.jsynth;
 
-import net.sf.nmedit.jsynth.event.BankUpdateListener;
+import net.nmedit.nmlibs.jsynth.event.BankUpdateListener;
 
 public interface Bank<S extends Synthesizer>
 {

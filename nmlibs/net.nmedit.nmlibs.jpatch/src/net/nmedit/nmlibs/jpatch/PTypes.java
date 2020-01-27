@@ -20,8 +20,8 @@ package net.nmedit.nmlibs.jpatch;
 
 import java.util.Iterator;
 
-import net.sf.nmedit.nmutils.collections.InsertInsertionSet;
-import net.sf.nmedit.nmutils.collections.UnmodifiableIterator;
+import net.nmedit.nmlibs.nmutils.collections.InsertInsertionSet;
+import net.nmedit.nmlibs.nmutils.collections.UnmodifiableIterator;
 
 /**
  * The reference implementation of interface {@link PTypes}.

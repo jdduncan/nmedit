@@ -26,8 +26,8 @@ import java.awt.RenderingHints;
 import javax.swing.ImageIcon;
 import javax.swing.JComponent;
 
-import net.sf.nmedit.jtheme.component.JTComponent;
-import net.sf.nmedit.jtheme.component.JTImage;
+import net.nmedit.nmlibs.jtheme.component.JTComponent;
+import net.nmedit.nmlibs.jtheme.component.JTImage;
 
 public class JTImageUI extends JTComponentUI
 {

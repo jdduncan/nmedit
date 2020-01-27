@@ -21,27 +21,27 @@ package net.nmedit.nmlibs.jpdl2;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.sf.nmedit.jpdl2.dom.PDLBlock;
-import net.sf.nmedit.jpdl2.dom.PDLChoice;
-import net.sf.nmedit.jpdl2.dom.PDLConditional;
-import net.sf.nmedit.jpdl2.dom.PDLConstant;
-import net.sf.nmedit.jpdl2.dom.PDLDocument;
-import net.sf.nmedit.jpdl2.dom.PDLFunction;
-import net.sf.nmedit.jpdl2.dom.PDLInstruction;
-import net.sf.nmedit.jpdl2.dom.PDLItem;
-import net.sf.nmedit.jpdl2.dom.PDLMultiplicity;
-import net.sf.nmedit.jpdl2.dom.PDLOptional;
-import net.sf.nmedit.jpdl2.dom.PDLPacketDecl;
-import net.sf.nmedit.jpdl2.dom.PDLPacketRef;
-import net.sf.nmedit.jpdl2.dom.PDLSwitchStatement;
-import net.sf.nmedit.jpdl2.dom.PDLVariable;
-import net.sf.nmedit.jpdl2.impl.PDLMessageImpl;
-import net.sf.nmedit.jpdl2.impl.PDLPacketImpl;
-import net.sf.nmedit.jpdl2.impl.PDLParseContextImpl;
-import net.sf.nmedit.jpdl2.stream.BitStream;
-import net.sf.nmedit.jpdl2.stream.IntStream;
-import net.sf.nmedit.jpdl2.stream.PDLDataSource;
-import net.sf.nmedit.jpdl2.utils.PDLUtils;
+import net.nmedit.nmlibs.jpdl2.dom.PDLBlock;
+import net.nmedit.nmlibs.jpdl2.dom.PDLChoice;
+import net.nmedit.nmlibs.jpdl2.dom.PDLConditional;
+import net.nmedit.nmlibs.jpdl2.dom.PDLConstant;
+import net.nmedit.nmlibs.jpdl2.dom.PDLDocument;
+import net.nmedit.nmlibs.jpdl2.dom.PDLFunction;
+import net.nmedit.nmlibs.jpdl2.dom.PDLInstruction;
+import net.nmedit.nmlibs.jpdl2.dom.PDLItem;
+import net.nmedit.nmlibs.jpdl2.dom.PDLMultiplicity;
+import net.nmedit.nmlibs.jpdl2.dom.PDLOptional;
+import net.nmedit.nmlibs.jpdl2.dom.PDLPacketDecl;
+import net.nmedit.nmlibs.jpdl2.dom.PDLPacketRef;
+import net.nmedit.nmlibs.jpdl2.dom.PDLSwitchStatement;
+import net.nmedit.nmlibs.jpdl2.dom.PDLVariable;
+import net.nmedit.nmlibs.jpdl2.impl.PDLMessageImpl;
+import net.nmedit.nmlibs.jpdl2.impl.PDLPacketImpl;
+import net.nmedit.nmlibs.jpdl2.impl.PDLParseContextImpl;
+import net.nmedit.nmlibs.jpdl2.stream.BitStream;
+import net.nmedit.nmlibs.jpdl2.stream.IntStream;
+import net.nmedit.nmlibs.jpdl2.stream.PDLDataSource;
+import net.nmedit.nmlibs.jpdl2.utils.PDLUtils;
 
 public class PDLPacketParser
 {

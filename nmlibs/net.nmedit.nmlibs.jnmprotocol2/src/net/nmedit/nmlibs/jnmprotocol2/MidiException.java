@@ -19,9 +19,9 @@
 
 package net.nmedit.nmlibs.jnmprotocol2;
 
-import net.sf.nmedit.jnmprotocol2.utils.NmCharacter;
-import net.sf.nmedit.jpdl2.stream.BitStream;
-import net.sf.nmedit.jpdl2.utils.PDLUtils;
+import net.nmedit.nmlibs.jnmprotocol2.utils.NmCharacter;
+import net.nmedit.nmlibs.jpdl2.stream.BitStream;
+import net.nmedit.nmlibs.jpdl2.utils.PDLUtils;
 
 public class MidiException extends Exception
 {

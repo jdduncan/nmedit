@@ -18,10 +18,10 @@
 */
 package net.nmedit.nmlibs.jpdl2.impl;
 
-import net.sf.nmedit.jpdl2.dom.PDLConstant;
-import net.sf.nmedit.jpdl2.dom.PDLItemType;
-import net.sf.nmedit.jpdl2.dom.PDLMultiplicity;
-import net.sf.nmedit.jpdl2.utils.PDLUtils;
+import net.nmedit.nmlibs.jpdl2.dom.PDLConstant;
+import net.nmedit.nmlibs.jpdl2.dom.PDLItemType;
+import net.nmedit.nmlibs.jpdl2.dom.PDLMultiplicity;
+import net.nmedit.nmlibs.jpdl2.utils.PDLUtils;
 
 public class PDLConstantImpl extends PDLItemImpl implements PDLConstant
 {

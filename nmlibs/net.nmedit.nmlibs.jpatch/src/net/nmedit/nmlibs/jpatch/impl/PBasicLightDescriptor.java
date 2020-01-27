@@ -18,8 +18,8 @@
  */
 package net.nmedit.nmlibs.jpatch.impl;
 
-import net.sf.nmedit.jpatch.PLightDescriptor;
-import net.sf.nmedit.jpatch.PModuleDescriptor;
+import net.nmedit.nmlibs.jpatch.PLightDescriptor;
+import net.nmedit.nmlibs.jpatch.PModuleDescriptor;
 
 public class PBasicLightDescriptor extends PBasicDescriptor implements
         PLightDescriptor//, Serializable

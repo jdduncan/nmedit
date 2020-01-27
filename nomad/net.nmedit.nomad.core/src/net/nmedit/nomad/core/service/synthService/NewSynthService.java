@@ -18,7 +18,7 @@
  */
 package net.nmedit.nomad.core.service.synthService;
 
-import net.sf.nmedit.nomad.core.service.Service;
+import net.nmedit.nmlibs.nomad.core.service.Service;
 
 public interface NewSynthService extends Service
 {

@@ -16,9 +16,9 @@
  * along with Nomad; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
-package net.nmedit.nmlibs.jsynth.clavia.nordmodular;
+package net.nmedit.nmlibs.nordmodular.jsynth.clavia.nordmodular;
 
-import net.sf.nmedit.jsynth.DefaultSlotManager;
+import net.nmedit.nmlibs.jsynth.DefaultSlotManager;
 
 public class NmSlotManager extends DefaultSlotManager<NordModular, NmSlot>
 {

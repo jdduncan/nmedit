@@ -16,13 +16,13 @@
  * along with Nomad; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
-package net.nmedit.nmlibs.jpatch.clavia.nordmodular;
+package net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular;
 
-import net.sf.nmedit.jnmprotocol2.LightMessage;
-import net.sf.nmedit.jnmprotocol2.MeterMessage;
-import net.sf.nmedit.jpatch.PLight;
-import net.sf.nmedit.jpatch.PLightDescriptor;
-import net.sf.nmedit.jpatch.PModule;
+import net.nmedit.nmlibs.jnmprotocol2.LightMessage;
+import net.nmedit.nmlibs.jnmprotocol2.MeterMessage;
+import net.nmedit.nmlibs.jpatch.PLight;
+import net.nmedit.nmlibs.jpatch.PLightDescriptor;
+import net.nmedit.nmlibs.jpatch.PModule;
 
 public class LightProcessor
 {

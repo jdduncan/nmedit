@@ -20,7 +20,7 @@ package net.nmedit.nmlibs.jtheme;
 
 import java.awt.event.MouseEvent;
 
-import net.sf.nmedit.jtheme.component.JTComponent;
+import net.nmedit.nmlibs.jtheme.component.JTComponent;
 
 public interface JTPopupHandler
 {

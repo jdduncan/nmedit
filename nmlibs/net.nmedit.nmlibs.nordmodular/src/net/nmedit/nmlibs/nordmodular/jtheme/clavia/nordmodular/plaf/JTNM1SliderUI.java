@@ -16,7 +16,7 @@
  * along with Nomad; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
-package net.nmedit.nmlibs.jtheme.clavia.nordmodular.plaf;
+package net.nmedit.nmlibs.nordmodular.jtheme.clavia.nordmodular.plaf;
 
 import java.awt.Color;
 import java.awt.Graphics2D;
@@ -26,10 +26,10 @@ import javax.swing.JComponent;
 import javax.swing.SwingConstants;
 import javax.swing.UIDefaults;
 
-import net.sf.nmedit.jtheme.component.JTComponent;
-import net.sf.nmedit.jtheme.component.JTControl;
-import net.sf.nmedit.jtheme.component.JTControlAdapter;
-import net.sf.nmedit.jtheme.component.plaf.JTBasicSliderUI;
+import net.nmedit.nmlibs.jtheme.component.JTComponent;
+import net.nmedit.nmlibs.jtheme.component.JTControl;
+import net.nmedit.nmlibs.jtheme.component.JTControlAdapter;
+import net.nmedit.nmlibs.jtheme.component.plaf.JTBasicSliderUI;
 
 public class JTNM1SliderUI extends JTBasicSliderUI implements SwingConstants
 {

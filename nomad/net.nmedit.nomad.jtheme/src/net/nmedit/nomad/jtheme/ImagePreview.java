@@ -33,7 +33,7 @@ import java.awt.image.BufferedImage;
 import javax.swing.JPanel;
 import javax.swing.SwingUtilities;
 
-import net.sf.nmedit.nmutils.graphics.GraphicsToolkit;
+import net.nmedit.nmlibs.nmutils.graphics.GraphicsToolkit;
 
 public class ImagePreview extends JPanel
 {

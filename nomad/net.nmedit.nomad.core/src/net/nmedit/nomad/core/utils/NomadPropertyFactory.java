@@ -2,9 +2,9 @@ package net.nmedit.nomad.core.utils;
 
 import java.util.Properties;
 
-import net.sf.nmedit.nmutils.properties.RootSystemProperties;
-import net.sf.nmedit.nmutils.properties.SystemProperties;
-import net.sf.nmedit.nmutils.properties.SystemPropertyFactory;
+import net.nmedit.nmlibs.nmutils.properties.RootSystemProperties;
+import net.nmedit.nmlibs.nmutils.properties.SystemProperties;
+import net.nmedit.nmlibs.nmutils.properties.SystemPropertyFactory;
 
 public class NomadPropertyFactory extends SystemPropertyFactory
 {

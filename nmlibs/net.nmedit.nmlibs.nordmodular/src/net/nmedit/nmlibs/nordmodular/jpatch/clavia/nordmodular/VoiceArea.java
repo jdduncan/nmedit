@@ -20,17 +20,17 @@
 /*
  * Created on Apr 7, 2006
  */
-package net.nmedit.nmlibs.jpatch.clavia.nordmodular;
+package net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular;
 
-import net.sf.nmedit.jpatch.CopyOperation;
-import net.sf.nmedit.jpatch.MoveOperation;
-import net.sf.nmedit.jpatch.PModule;
-import net.sf.nmedit.jpatch.PModuleContainerDescriptor;
-import net.sf.nmedit.jpatch.PModuleDescriptor;
-import net.sf.nmedit.jpatch.PParameter;
-import net.sf.nmedit.jpatch.clavia.nordmodular.PNMMorphSection.Assignments;
-import net.sf.nmedit.jpatch.clavia.nordmodular.misc.Cycles;
-import net.sf.nmedit.jpatch.impl.PBasicModuleContainer;
+import net.nmedit.nmlibs.jpatch.CopyOperation;
+import net.nmedit.nmlibs.jpatch.MoveOperation;
+import net.nmedit.nmlibs.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.PModuleContainerDescriptor;
+import net.nmedit.nmlibs.jpatch.PModuleDescriptor;
+import net.nmedit.nmlibs.jpatch.PParameter;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.PNMMorphSection.Assignments;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.misc.Cycles;
+import net.nmedit.nmlibs.jpatch.impl.PBasicModuleContainer;
 
 public class VoiceArea extends PBasicModuleContainer
 {

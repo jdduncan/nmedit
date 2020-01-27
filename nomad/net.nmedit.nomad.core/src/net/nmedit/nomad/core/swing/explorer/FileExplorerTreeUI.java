@@ -39,8 +39,8 @@ import javax.swing.plaf.TreeUI;
 import javax.swing.tree.TreeNode;
 import javax.swing.tree.TreePath;
 
-import net.sf.nmedit.nmutils.dnd.FileDnd;
-import net.sf.nmedit.nmutils.io.FileUtils;
+import net.nmedit.nmlibs.nmutils.dnd.FileDnd;
+import net.nmedit.nmlibs.nmutils.io.FileUtils;
 
 public class FileExplorerTreeUI extends ExplorerTreeUI {
 	public void installUI(JComponent c) {

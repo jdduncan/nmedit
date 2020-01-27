@@ -27,8 +27,8 @@ import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.sf.nmedit.jtheme.cable.JTCableManager;
-import net.sf.nmedit.jtheme.component.JTModuleContainer;
+import net.nmedit.nmlibs.jtheme.cable.JTCableManager;
+import net.nmedit.nmlibs.jtheme.component.JTModuleContainer;
 
 public abstract class PatchImageExporter
 {

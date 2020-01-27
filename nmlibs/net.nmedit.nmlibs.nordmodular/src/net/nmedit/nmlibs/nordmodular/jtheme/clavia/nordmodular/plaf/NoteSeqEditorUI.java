@@ -16,7 +16,7 @@
  * along with Nomad; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
-package net.nmedit.nmlibs.jtheme.clavia.nordmodular.plaf;
+package net.nmedit.nmlibs.nordmodular.jtheme.clavia.nordmodular.plaf;
 
 import java.awt.AlphaComposite;
 import java.awt.Color;
@@ -42,13 +42,13 @@ import javax.swing.SwingUtilities;
 import javax.swing.border.Border;
 import javax.swing.plaf.ComponentUI;
 
-import net.sf.nmedit.jtheme.JTContext;
-import net.sf.nmedit.jtheme.clavia.nordmodular.NMNoteSeqEditor;
-import net.sf.nmedit.jtheme.component.JTComponent;
-import net.sf.nmedit.jtheme.component.JTControl;
-import net.sf.nmedit.jtheme.component.plaf.JTBasicControlUI;
-import net.sf.nmedit.nmutils.Platform;
-import net.sf.nmedit.nmutils.swing.NMLazyActionMap;
+import net.nmedit.nmlibs.jtheme.JTContext;
+import net.nmedit.nmlibs.jtheme.clavia.nordmodular.NMNoteSeqEditor;
+import net.nmedit.nmlibs.jtheme.component.JTComponent;
+import net.nmedit.nmlibs.jtheme.component.JTControl;
+import net.nmedit.nmlibs.jtheme.component.plaf.JTBasicControlUI;
+import net.nmedit.nmlibs.nmutils.Platform;
+import net.nmedit.nmlibs.nmutils.swing.NMLazyActionMap;
 
 
 public class NoteSeqEditorUI extends JTBasicControlUI

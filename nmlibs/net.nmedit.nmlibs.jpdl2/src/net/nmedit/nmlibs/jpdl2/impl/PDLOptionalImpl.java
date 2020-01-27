@@ -18,8 +18,8 @@
 */
 package net.nmedit.nmlibs.jpdl2.impl;
 
-import net.sf.nmedit.jpdl2.dom.PDLItemType;
-import net.sf.nmedit.jpdl2.dom.PDLOptional;
+import net.nmedit.nmlibs.jpdl2.dom.PDLItemType;
+import net.nmedit.nmlibs.jpdl2.dom.PDLOptional;
 
 public class PDLOptionalImpl extends PDLBlockImpl implements PDLOptional
 {

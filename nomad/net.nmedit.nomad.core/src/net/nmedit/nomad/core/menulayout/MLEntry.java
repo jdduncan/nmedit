@@ -39,7 +39,7 @@ import javax.swing.event.EventListenerList;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import net.sf.nmedit.nmutils.iterator.BFSIterator;
+import net.nmedit.nmlibs.nmutils.iterator.BFSIterator;
 
 /**
  * A node in the menu layout. 

@@ -24,9 +24,9 @@ package net.nmedit.nmlibs.jpatch.event;
 
 import java.awt.Event;
 
-import net.sf.nmedit.jpatch.PModule;
-import net.sf.nmedit.jpatch.PModuleContainer;
-import net.sf.nmedit.jpatch.PParameter;
+import net.nmedit.nmlibs.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.PModuleContainer;
+import net.nmedit.nmlibs.jpatch.PParameter;
 
 /**
  * Parent class of all events in the JPatch API.

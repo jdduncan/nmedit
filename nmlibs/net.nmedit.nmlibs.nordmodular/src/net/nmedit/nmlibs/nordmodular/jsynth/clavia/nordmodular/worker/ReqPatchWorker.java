@@ -16,16 +16,16 @@
  * along with Nomad; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
-package net.nmedit.nmlibs.jsynth.clavia.nordmodular.worker;
+package net.nmedit.nmlibs.nordmodular.jsynth.clavia.nordmodular.worker;
 
-import net.sf.nmedit.jnmprotocol2.AckMessage;
-import net.sf.nmedit.jnmprotocol2.ErrorMessage;
-import net.sf.nmedit.jnmprotocol2.NmProtocolListener;
-import net.sf.nmedit.jnmprotocol2.RequestPatchMessage;
-import net.sf.nmedit.jsynth.SynthException;
-import net.sf.nmedit.jsynth.clavia.nordmodular.NmSlot;
-import net.sf.nmedit.jsynth.clavia.nordmodular.NordModular;
-import net.sf.nmedit.jsynth.worker.RequestPatchWorker;
+import net.nmedit.nmlibs.jnmprotocol2.AckMessage;
+import net.nmedit.nmlibs.jnmprotocol2.ErrorMessage;
+import net.nmedit.nmlibs.jnmprotocol2.NmProtocolListener;
+import net.nmedit.nmlibs.jnmprotocol2.RequestPatchMessage;
+import net.nmedit.nmlibs.jsynth.SynthException;
+import net.nmedit.nmlibs.jsynth.clavia.nordmodular.NmSlot;
+import net.nmedit.nmlibs.jsynth.clavia.nordmodular.NordModular;
+import net.nmedit.nmlibs.jsynth.worker.RequestPatchWorker;
 
 public class ReqPatchWorker extends
     NmProtocolListener implements RequestPatchWorker, ScheduledWorker

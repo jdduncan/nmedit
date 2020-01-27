@@ -22,14 +22,14 @@ import java.util.Iterator;
 
 import javax.swing.undo.UndoableEdit;
 
-import net.sf.nmedit.jpatch.PComponent;
-import net.sf.nmedit.jpatch.PConnector;
-import net.sf.nmedit.jpatch.PDescriptor;
-import net.sf.nmedit.jpatch.PLight;
-import net.sf.nmedit.jpatch.PParameter;
-import net.sf.nmedit.jpatch.PRoles;
-import net.sf.nmedit.jpatch.PUndoableEditFactory;
-import net.sf.nmedit.jpatch.history.PUndoableEditSupport;
+import net.nmedit.nmlibs.jpatch.PComponent;
+import net.nmedit.nmlibs.jpatch.PConnector;
+import net.nmedit.nmlibs.jpatch.PDescriptor;
+import net.nmedit.nmlibs.jpatch.PLight;
+import net.nmedit.nmlibs.jpatch.PParameter;
+import net.nmedit.nmlibs.jpatch.PRoles;
+import net.nmedit.nmlibs.jpatch.PUndoableEditFactory;
+import net.nmedit.nmlibs.jpatch.history.PUndoableEditSupport;
 
 /**
  * The reference implementation of interface {@link PComponent}.

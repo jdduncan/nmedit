@@ -21,11 +21,11 @@ package net.nmedit.nmlibs.jnmprotocol;
 
 import javax.swing.event.EventListenerList;
 
-import net.sf.nmedit.jnmprotocol.ActivePidListener;
-import net.sf.nmedit.jnmprotocol.ErrorMessage;
-import net.sf.nmedit.jnmprotocol.MessageHandler;
-import net.sf.nmedit.jnmprotocol.MidiMessage;
-import net.sf.nmedit.jnmprotocol.NmProtocolListener;
+import net.nmedit.nmlibs.jnmprotocol.ActivePidListener;
+import net.nmedit.nmlibs.jnmprotocol.ErrorMessage;
+import net.nmedit.nmlibs.jnmprotocol.MessageHandler;
+import net.nmedit.nmlibs.jnmprotocol.MidiMessage;
+import net.nmedit.nmlibs.jnmprotocol.NmProtocolListener;
 
 /**
  * Broadcasts midi messages to subscribed listeners. 

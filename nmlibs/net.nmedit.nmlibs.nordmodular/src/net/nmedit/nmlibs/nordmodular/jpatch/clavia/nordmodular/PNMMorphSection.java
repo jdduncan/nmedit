@@ -16,20 +16,20 @@
  * along with Nomad; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
-package net.nmedit.nmlibs.jpatch.clavia.nordmodular;
+package net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-import net.sf.nmedit.jpatch.PConnectionManager;
-import net.sf.nmedit.jpatch.PModule;
-import net.sf.nmedit.jpatch.PParameter;
-import net.sf.nmedit.jpatch.clavia.nordmodular.event.PAssignmentEvent;
-import net.sf.nmedit.jpatch.event.PModuleContainerListener;
-import net.sf.nmedit.jpatch.impl.PBasicModule;
-import net.sf.nmedit.jpatch.impl.PBasicModuleContainer;
-import net.sf.nmedit.nmutils.collections.UnmodifiableIterator;
+import net.nmedit.nmlibs.jpatch.PConnectionManager;
+import net.nmedit.nmlibs.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.PParameter;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.event.PAssignmentEvent;
+import net.nmedit.nmlibs.jpatch.event.PModuleContainerListener;
+import net.nmedit.nmlibs.jpatch.impl.PBasicModule;
+import net.nmedit.nmlibs.jpatch.impl.PBasicModuleContainer;
+import net.nmedit.nmlibs.nmutils.collections.UnmodifiableIterator;
 
 public class PNMMorphSection extends PBasicModuleContainer
 {

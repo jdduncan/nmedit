@@ -24,9 +24,9 @@ package net.nmedit.nmlibs.jsynth;
 
 import java.beans.PropertyChangeListener;
 
-import net.sf.nmedit.jsynth.event.ComStatusListener;
-import net.sf.nmedit.jsynth.event.SynthesizerStateListener;
-import net.sf.nmedit.jsynth.worker.StorePatchWorker;
+import net.nmedit.nmlibs.jsynth.event.ComStatusListener;
+import net.nmedit.nmlibs.jsynth.event.SynthesizerStateListener;
+import net.nmedit.nmlibs.jsynth.worker.StorePatchWorker;
 
 /**
  * Synthesizer is the base interface for remote synthesizers.

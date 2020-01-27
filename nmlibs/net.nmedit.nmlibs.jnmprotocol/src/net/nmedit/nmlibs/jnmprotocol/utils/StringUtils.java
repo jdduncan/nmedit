@@ -20,7 +20,7 @@
 
 package net.nmedit.nmlibs.jnmprotocol.utils;
 
-import net.sf.nmedit.jnmprotocol.utils.NmCharacter;
+import net.nmedit.nmlibs.jnmprotocol.utils.NmCharacter;
 
 public class StringUtils
 {

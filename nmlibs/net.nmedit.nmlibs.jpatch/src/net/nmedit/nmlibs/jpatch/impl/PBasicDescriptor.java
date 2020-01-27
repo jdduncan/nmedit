@@ -23,12 +23,12 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.NoSuchElementException;
 
-import net.sf.nmedit.jpatch.ImageSource;
-import net.sf.nmedit.jpatch.PConnectorDescriptor;
-import net.sf.nmedit.jpatch.PDescriptor;
-import net.sf.nmedit.jpatch.PLightDescriptor;
-import net.sf.nmedit.jpatch.PParameterDescriptor;
-import net.sf.nmedit.jpatch.PRoles;
+import net.nmedit.nmlibs.jpatch.ImageSource;
+import net.nmedit.nmlibs.jpatch.PConnectorDescriptor;
+import net.nmedit.nmlibs.jpatch.PDescriptor;
+import net.nmedit.nmlibs.jpatch.PLightDescriptor;
+import net.nmedit.nmlibs.jpatch.PParameterDescriptor;
+import net.nmedit.nmlibs.jpatch.PRoles;
 
 /**
  * The reference implementation of interface {@link PDescriptor}.

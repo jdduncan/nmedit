@@ -20,30 +20,30 @@
 /*
  * Created on May 25, 2006
  */
-package net.nmedit.nmlibs.jsynth.clavia.nordmodular.utils;
+package net.nmedit.nmlibs.nordmodular.jsynth.clavia.nordmodular.utils;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import net.sf.nmedit.jnmprotocol2.MidiException;
-import net.sf.nmedit.jnmprotocol2.PDLData;
-import net.sf.nmedit.jnmprotocol2.PatchMessage;
-import net.sf.nmedit.jpatch.PConnector;
-import net.sf.nmedit.jpatch.PModule;
-import net.sf.nmedit.jpatch.PParameter;
-import net.sf.nmedit.jpatch.clavia.nordmodular.Format;
-import net.sf.nmedit.jpatch.clavia.nordmodular.Header;
-import net.sf.nmedit.jpatch.clavia.nordmodular.Knob;
-import net.sf.nmedit.jpatch.clavia.nordmodular.MidiController;
-import net.sf.nmedit.jpatch.clavia.nordmodular.MidiControllerSet;
-import net.sf.nmedit.jpatch.clavia.nordmodular.NMPatch;
-import net.sf.nmedit.jpatch.clavia.nordmodular.PNMMorphSection;
-import net.sf.nmedit.jpatch.clavia.nordmodular.VoiceArea;
-import net.sf.nmedit.jpatch.clavia.nordmodular.parser.Helper;
-import net.sf.nmedit.jpdl2.PDLException;
-import net.sf.nmedit.jpdl2.PDLPacketParser;
-import net.sf.nmedit.jpdl2.stream.BitStream;
-import net.sf.nmedit.jpdl2.stream.IntStream;
+import net.nmedit.nmlibs.jnmprotocol2.MidiException;
+import net.nmedit.nmlibs.jnmprotocol2.PDLData;
+import net.nmedit.nmlibs.jnmprotocol2.PatchMessage;
+import net.nmedit.nmlibs.jpatch.PConnector;
+import net.nmedit.nmlibs.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.PParameter;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.Format;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.Header;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.Knob;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.MidiController;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.MidiControllerSet;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.NMPatch;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.PNMMorphSection;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.VoiceArea;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.parser.Helper;
+import net.nmedit.nmlibs.jpdl2.PDLException;
+import net.nmedit.nmlibs.jpdl2.PDLPacketParser;
+import net.nmedit.nmlibs.jpdl2.stream.BitStream;
+import net.nmedit.nmlibs.jpdl2.stream.IntStream;
 
 public class Patch2BitstreamBuilder
 {

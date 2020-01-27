@@ -28,8 +28,8 @@ import java.awt.geom.Point2D;
 import javax.swing.JComponent;
 import javax.swing.border.Border;
 
-import net.sf.nmedit.jtheme.component.JTComponent;
-import net.sf.nmedit.jtheme.component.JTLight;
+import net.nmedit.nmlibs.jtheme.component.JTComponent;
+import net.nmedit.nmlibs.jtheme.component.JTLight;
 
 public class JTBasicLightUI extends JTLightUI
 {

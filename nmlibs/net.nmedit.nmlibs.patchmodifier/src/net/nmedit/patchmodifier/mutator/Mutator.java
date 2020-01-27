@@ -40,7 +40,7 @@ import javax.swing.SwingUtilities;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
-import net.sf.nmedit.jpatch.PPatch;
+import net.nmedit.nmlibs.jpatch.PPatch;
 
 public class Mutator implements VariationSelectionListener{
 

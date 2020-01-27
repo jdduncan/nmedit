@@ -55,14 +55,14 @@ import javax.swing.tree.TreeNode;
 import javax.swing.tree.TreePath;
 import javax.swing.tree.TreeSelectionModel;
 
-import net.sf.nmedit.jpatch.ImageSource;
-import net.sf.nmedit.jpatch.ModuleDescriptions;
-import net.sf.nmedit.jpatch.PModuleDescriptor;
-import net.sf.nmedit.jtheme.util.JThemeUtils;
-import net.sf.nmedit.nomad.core.swing.ButtonBarBuilder;
-import net.sf.nmedit.nomad.core.swing.explorer.ContainerNode;
-import net.sf.nmedit.nomad.core.swing.explorer.ExplorerTree;
-import net.sf.nmedit.nomad.core.swing.explorer.LeafNode;
+import net.nmedit.nmlibs.jpatch.ImageSource;
+import net.nmedit.nmlibs.jpatch.ModuleDescriptions;
+import net.nmedit.nmlibs.jpatch.PModuleDescriptor;
+import net.nmedit.nmlibs.jtheme.util.JThemeUtils;
+import net.nmedit.nmlibs.nomad.core.swing.ButtonBarBuilder;
+import net.nmedit.nmlibs.nomad.core.swing.explorer.ContainerNode;
+import net.nmedit.nmlibs.nomad.core.swing.explorer.ExplorerTree;
+import net.nmedit.nmlibs.nomad.core.swing.explorer.LeafNode;
 
 public class ModulePane extends JPanel
 {

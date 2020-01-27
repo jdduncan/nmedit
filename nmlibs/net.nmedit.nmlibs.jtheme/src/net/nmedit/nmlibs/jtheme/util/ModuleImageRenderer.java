@@ -36,25 +36,25 @@ import java.util.Set;
 
 import javax.swing.SwingUtilities;
 
-import net.sf.nmedit.jpatch.PConnection;
-import net.sf.nmedit.jpatch.PConnectionManager;
-import net.sf.nmedit.jpatch.PConnector;
-import net.sf.nmedit.jpatch.PModule;
-import net.sf.nmedit.jpatch.PModuleContainer;
-import net.sf.nmedit.jpatch.PModuleDescriptor;
-import net.sf.nmedit.jpatch.impl.PBasicModule;
-import net.sf.nmedit.jtheme.JTContext;
-import net.sf.nmedit.jtheme.JTException;
-import net.sf.nmedit.jtheme.cable.Cable;
-import net.sf.nmedit.jtheme.cable.CableRenderer;
-import net.sf.nmedit.jtheme.cable.JTCableManager;
-import net.sf.nmedit.jtheme.cable.JTCableManagerImpl;
-import net.sf.nmedit.jtheme.component.JTConnector;
-import net.sf.nmedit.jtheme.component.JTModule;
-import net.sf.nmedit.jtheme.component.JTModuleContainer;
-import net.sf.nmedit.jtheme.component.plaf.SelectionPainter;
-import net.sf.nmedit.jtheme.store.StorageContext;
-import net.sf.nmedit.jtheme.store2.ModuleElement;
+import net.nmedit.nmlibs.jpatch.PConnection;
+import net.nmedit.nmlibs.jpatch.PConnectionManager;
+import net.nmedit.nmlibs.jpatch.PConnector;
+import net.nmedit.nmlibs.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.PModuleContainer;
+import net.nmedit.nmlibs.jpatch.PModuleDescriptor;
+import net.nmedit.nmlibs.jpatch.impl.PBasicModule;
+import net.nmedit.nmlibs.jtheme.JTContext;
+import net.nmedit.nmlibs.jtheme.JTException;
+import net.nmedit.nmlibs.jtheme.cable.Cable;
+import net.nmedit.nmlibs.jtheme.cable.CableRenderer;
+import net.nmedit.nmlibs.jtheme.cable.JTCableManager;
+import net.nmedit.nmlibs.jtheme.cable.JTCableManagerImpl;
+import net.nmedit.nmlibs.jtheme.component.JTConnector;
+import net.nmedit.nmlibs.jtheme.component.JTModule;
+import net.nmedit.nmlibs.jtheme.component.JTModuleContainer;
+import net.nmedit.nmlibs.jtheme.component.plaf.SelectionPainter;
+import net.nmedit.nmlibs.jtheme.store.StorageContext;
+import net.nmedit.nmlibs.jtheme.store2.ModuleElement;
 
 public class ModuleImageRenderer
 {

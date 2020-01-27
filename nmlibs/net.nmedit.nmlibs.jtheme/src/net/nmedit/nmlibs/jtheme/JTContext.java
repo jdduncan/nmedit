@@ -30,17 +30,17 @@ import javax.swing.UIDefaults;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import net.sf.nmedit.jtheme.cable.CableRenderer;
-import net.sf.nmedit.jtheme.cable.JTCableManagerImpl;
-import net.sf.nmedit.jtheme.cable.ShadowCableRenderer;
-import net.sf.nmedit.jtheme.component.JTComponent;
-import net.sf.nmedit.jtheme.component.JTKnob;
-import net.sf.nmedit.jtheme.component.JTLabel;
-import net.sf.nmedit.jtheme.component.JTLight;
-import net.sf.nmedit.jtheme.component.JTModuleContainer;
-import net.sf.nmedit.jtheme.component.JTSlider;
-import net.sf.nmedit.jtheme.component.plaf.mcui.JTModuleContainerUI;
-import net.sf.nmedit.jtheme.store.StorageContext;
+import net.nmedit.nmlibs.jtheme.cable.CableRenderer;
+import net.nmedit.nmlibs.jtheme.cable.JTCableManagerImpl;
+import net.nmedit.nmlibs.jtheme.cable.ShadowCableRenderer;
+import net.nmedit.nmlibs.jtheme.component.JTComponent;
+import net.nmedit.nmlibs.jtheme.component.JTKnob;
+import net.nmedit.nmlibs.jtheme.component.JTLabel;
+import net.nmedit.nmlibs.jtheme.component.JTLight;
+import net.nmedit.nmlibs.jtheme.component.JTModuleContainer;
+import net.nmedit.nmlibs.jtheme.component.JTSlider;
+import net.nmedit.nmlibs.jtheme.component.plaf.mcui.JTModuleContainerUI;
+import net.nmedit.nmlibs.jtheme.store.StorageContext;
 
 public abstract class JTContext
 {

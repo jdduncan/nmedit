@@ -51,22 +51,22 @@ import javax.swing.undo.UndoManager;
 
 import org.xml.sax.InputSource;
 
-import net.sf.nmedit.jpatch.PConnectorDescriptor;
-import net.sf.nmedit.jpatch.PDescriptor;
-import net.sf.nmedit.jpatch.PLightDescriptor;
-import net.sf.nmedit.jpatch.PModuleDescriptor;
-import net.sf.nmedit.jpatch.PParameterDescriptor;
-import net.sf.nmedit.jpatch.clavia.nordmodular.NM1ModuleDescriptions;
-import net.sf.nmedit.jpatch.clavia.nordmodular.NMPatch;
-//import net.sf.nmedit.jpatch.history.History;
-import net.sf.nmedit.jpatch.transform.PTTransformationsBuillder;
-import net.sf.nmedit.jpatch.transform.PTTransformations;
-import net.sf.nmedit.jsynth.clavia.nordmodular.utils.NmUtils;
-import net.sf.nmedit.jtheme.clavia.nordmodular.JTNM1Context;
-import net.sf.nmedit.jtheme.clavia.nordmodular.JTNMPatch;
-import net.sf.nmedit.jtheme.clavia.nordmodular.NMStorageContext;
-import net.sf.nmedit.jtheme.store.DefaultStorageContext;
-import net.sf.nmedit.jtheme.util.RelativeClassLoader;
+import net.nmedit.nmlibs.jpatch.PConnectorDescriptor;
+import net.nmedit.nmlibs.jpatch.PDescriptor;
+import net.nmedit.nmlibs.jpatch.PLightDescriptor;
+import net.nmedit.nmlibs.jpatch.PModuleDescriptor;
+import net.nmedit.nmlibs.jpatch.PParameterDescriptor;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.NM1ModuleDescriptions;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.NMPatch;
+//import net.nmedit.nmlibs.jpatch.history.History;
+import net.nmedit.nmlibs.jpatch.transform.PTTransformationsBuillder;
+import net.nmedit.nmlibs.jpatch.transform.PTTransformations;
+import net.nmedit.nmlibs.jsynth.clavia.nordmodular.utils.NmUtils;
+import net.nmedit.nmlibs.jtheme.clavia.nordmodular.JTNM1Context;
+import net.nmedit.nmlibs.jtheme.clavia.nordmodular.JTNMPatch;
+import net.nmedit.nmlibs.jtheme.clavia.nordmodular.NMStorageContext;
+import net.nmedit.nmlibs.jtheme.store.DefaultStorageContext;
+import net.nmedit.nmlibs.jtheme.util.RelativeClassLoader;
 
 /**
  * Note: add the nordmodular/data/ folder to the classpath.

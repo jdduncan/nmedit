@@ -26,7 +26,7 @@ import java.util.Iterator;
 import java.util.NoSuchElementException;
 import java.util.Set;
 
-import net.sf.nmedit.nmutils.Arrays15;
+import net.nmedit.nmlibs.nmutils.Arrays15;
 
 public class InsertInsertionSet<E> extends AbstractSet<E> implements Set<E>, Serializable
 {

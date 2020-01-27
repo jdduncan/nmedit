@@ -18,8 +18,8 @@
  */
 package net.nmedit.nmlibs.jsynth.event;
 
-import net.sf.nmedit.jsynth.Bank;
-import net.sf.nmedit.jsynth.Synthesizer;
+import net.nmedit.nmlibs.jsynth.Bank;
+import net.nmedit.nmlibs.jsynth.Synthesizer;
 
 public class BankUpdateEvent extends SynthesizerEvent
 {

@@ -18,9 +18,9 @@
  */
 package net.nmedit.nmlibs.jpatch.impl;
 
-import net.sf.nmedit.jpatch.PModule;
-import net.sf.nmedit.jpatch.PModuleDescriptor;
-import net.sf.nmedit.jpatch.PModuleMetrics;
+import net.nmedit.nmlibs.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.PModuleDescriptor;
+import net.nmedit.nmlibs.jpatch.PModuleMetrics;
 
 /**
  * The reference implementation of interface {@link PModuleMetrics} using

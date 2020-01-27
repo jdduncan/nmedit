@@ -23,7 +23,7 @@ import java.lang.reflect.Modifier;
 import java.util.HashMap;
 import java.util.Map;
 
-import net.sf.nmedit.jtheme.annotation.ParameterBinding;
+import net.nmedit.nmlibs.jtheme.annotation.ParameterBinding;
 
 public class PropertyDatabase
 {

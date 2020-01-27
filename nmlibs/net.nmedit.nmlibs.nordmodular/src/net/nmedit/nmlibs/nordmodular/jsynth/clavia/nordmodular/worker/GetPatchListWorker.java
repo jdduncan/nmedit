@@ -16,7 +16,7 @@
  * along with Nomad; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
-package net.nmedit.nmlibs.jsynth.clavia.nordmodular.worker;
+package net.nmedit.nmlibs.nordmodular.jsynth.clavia.nordmodular.worker;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -24,13 +24,13 @@ import java.util.List;
 
 import javax.swing.SwingUtilities;
 
-import net.sf.nmedit.jnmprotocol2.GetPatchListMessage;
-import net.sf.nmedit.jnmprotocol2.NmProtocolListener;
-import net.sf.nmedit.jnmprotocol2.PatchListEntry;
-import net.sf.nmedit.jnmprotocol2.PatchListMessage;
-import net.sf.nmedit.jsynth.SynthException;
-import net.sf.nmedit.jsynth.clavia.nordmodular.NmBank;
-import net.sf.nmedit.jsynth.clavia.nordmodular.NordModular;
+import net.nmedit.nmlibs.jnmprotocol2.GetPatchListMessage;
+import net.nmedit.nmlibs.jnmprotocol2.NmProtocolListener;
+import net.nmedit.nmlibs.jnmprotocol2.PatchListEntry;
+import net.nmedit.nmlibs.jnmprotocol2.PatchListMessage;
+import net.nmedit.nmlibs.jsynth.SynthException;
+import net.nmedit.nmlibs.jsynth.clavia.nordmodular.NmBank;
+import net.nmedit.nmlibs.jsynth.clavia.nordmodular.NordModular;
 
 public class GetPatchListWorker extends NmProtocolListener implements ScheduledWorker
 {

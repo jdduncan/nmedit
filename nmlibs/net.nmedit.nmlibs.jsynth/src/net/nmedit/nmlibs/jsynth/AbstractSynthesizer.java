@@ -29,10 +29,10 @@ import java.util.Map;
 
 import javax.swing.event.EventListenerList;
 
-import net.sf.nmedit.jsynth.event.ComStatusEvent;
-import net.sf.nmedit.jsynth.event.ComStatusListener;
-import net.sf.nmedit.jsynth.event.SynthesizerEvent;
-import net.sf.nmedit.jsynth.event.SynthesizerStateListener;
+import net.nmedit.nmlibs.jsynth.event.ComStatusEvent;
+import net.nmedit.nmlibs.jsynth.event.ComStatusListener;
+import net.nmedit.nmlibs.jsynth.event.SynthesizerEvent;
+import net.nmedit.nmlibs.jsynth.event.SynthesizerStateListener;
 
 public abstract class AbstractSynthesizer implements Synthesizer
 {

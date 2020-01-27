@@ -26,7 +26,7 @@ import java.util.Iterator;
 import java.util.NoSuchElementException;
 import java.util.Set;
 
-import net.sf.nmedit.jpatch.PRoles;
+import net.nmedit.nmlibs.jpatch.PRoles;
 
 public class PBasicRoles extends AbstractImmutableCollection<String> implements PRoles
 {

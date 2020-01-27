@@ -25,8 +25,8 @@ package net.nmedit.nmlibs.jnmprotocol.utils;
 import java.util.Arrays;
 import java.util.List;
 
-import net.sf.nmedit.jpdl.IntStream;
-import net.sf.nmedit.jpdl.Packet;
+import net.nmedit.nmlibs.jpdl.IntStream;
+import net.nmedit.nmlibs.jpdl.Packet;
 
 public class NmCharacter
 {

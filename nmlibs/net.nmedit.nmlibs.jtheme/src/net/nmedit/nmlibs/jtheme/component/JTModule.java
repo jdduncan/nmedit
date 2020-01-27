@@ -34,13 +34,13 @@ import java.awt.image.BufferedImage;
 import java.util.Collection;
 import java.util.LinkedList;
 
-import net.sf.nmedit.jpatch.PModule;
-import net.sf.nmedit.jpatch.event.PModuleEvent;
-import net.sf.nmedit.jpatch.event.PModuleListener;
-import net.sf.nmedit.jtheme.JTContext;
-import net.sf.nmedit.jtheme.cable.Cable;
-import net.sf.nmedit.jtheme.cable.JTCableManager;
-import net.sf.nmedit.jtheme.component.plaf.JTModuleUI;
+import net.nmedit.nmlibs.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.event.PModuleEvent;
+import net.nmedit.nmlibs.jpatch.event.PModuleListener;
+import net.nmedit.nmlibs.jtheme.JTContext;
+import net.nmedit.nmlibs.jtheme.cable.Cable;
+import net.nmedit.nmlibs.jtheme.cable.JTCableManager;
+import net.nmedit.nmlibs.jtheme.component.plaf.JTModuleUI;
 
 public class JTModule extends JTComponent
     implements PModuleListener

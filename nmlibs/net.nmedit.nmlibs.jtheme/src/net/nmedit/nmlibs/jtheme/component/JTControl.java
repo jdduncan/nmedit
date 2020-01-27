@@ -30,10 +30,10 @@ import javax.swing.SwingConstants;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
-import net.sf.nmedit.jtheme.JTContext;
-import net.sf.nmedit.jtheme.JTPopupHandler;
-import net.sf.nmedit.jtheme.component.plaf.JTControlUI;
-import net.sf.nmedit.jtheme.store2.BindParameter;
+import net.nmedit.nmlibs.jtheme.JTContext;
+import net.nmedit.nmlibs.jtheme.JTPopupHandler;
+import net.nmedit.nmlibs.jtheme.component.plaf.JTControlUI;
+import net.nmedit.nmlibs.jtheme.store2.BindParameter;
 
 public abstract class JTControl extends JTComponent implements ChangeListener
 {

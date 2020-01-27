@@ -5,7 +5,7 @@ package net.nmedit.nmlibs.jnmprotocol;
 
 import junit.framework.JUnit4TestAdapter;
 
-import net.sf.nmedit.jnmprotocol.utils.QueueBufferTest;
+import net.nmedit.nmlibs.jnmprotocol.utils.QueueBufferTest;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;

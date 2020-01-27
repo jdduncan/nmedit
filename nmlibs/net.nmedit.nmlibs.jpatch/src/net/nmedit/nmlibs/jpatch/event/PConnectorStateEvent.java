@@ -22,7 +22,7 @@
  */
 package net.nmedit.nmlibs.jpatch.event;
 
-import net.sf.nmedit.jpatch.PConnector;
+import net.nmedit.nmlibs.jpatch.PConnector;
 
 /**
  * Event sent by a {@link PConnector connector}.

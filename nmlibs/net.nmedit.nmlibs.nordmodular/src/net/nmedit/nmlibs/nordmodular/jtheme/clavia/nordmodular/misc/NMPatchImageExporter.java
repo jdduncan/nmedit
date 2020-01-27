@@ -16,7 +16,7 @@
  * along with Nomad; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
-package net.nmedit.nmlibs.jtheme.clavia.nordmodular.misc;
+package net.nmedit.nmlibs.nordmodular.jtheme.clavia.nordmodular.misc;
 
 import java.awt.Color;
 import java.awt.Font;
@@ -32,9 +32,9 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-import net.sf.nmedit.jtheme.clavia.nordmodular.JTNMPatch;
-import net.sf.nmedit.jtheme.component.JTModuleContainer;
-import net.sf.nmedit.jtheme.util.PatchImageExporter;
+import net.nmedit.nmlibs.jtheme.clavia.nordmodular.JTNMPatch;
+import net.nmedit.nmlibs.jtheme.component.JTModuleContainer;
+import net.nmedit.nmlibs.jtheme.util.PatchImageExporter;
 
 public class NMPatchImageExporter extends PatchImageExporter
 {

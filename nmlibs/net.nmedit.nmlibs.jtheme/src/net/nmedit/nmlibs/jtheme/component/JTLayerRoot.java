@@ -22,8 +22,8 @@ import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 
-import net.sf.nmedit.jtheme.JTContext;
-import net.sf.nmedit.jtheme.cable.JTCableManager;
+import net.nmedit.nmlibs.jtheme.JTContext;
+import net.nmedit.nmlibs.jtheme.cable.JTCableManager;
 
 public class JTLayerRoot extends JTBaseComponent
 {

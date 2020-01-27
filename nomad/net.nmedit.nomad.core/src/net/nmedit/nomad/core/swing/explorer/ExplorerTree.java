@@ -45,9 +45,9 @@ import javax.swing.tree.TreeNode;
 import javax.swing.tree.TreePath;
 import javax.swing.tree.TreeSelectionModel;
 
-import net.sf.nmedit.nmutils.Platform;
-import net.sf.nmedit.nmutils.io.FileUtils;
-import net.sf.nmedit.nomad.core.Nomad;
+import net.nmedit.nmlibs.nmutils.Platform;
+import net.nmedit.nmlibs.nmutils.io.FileUtils;
+import net.nmedit.nmlibs.nomad.core.Nomad;
 
 public class ExplorerTree extends JTree
 {

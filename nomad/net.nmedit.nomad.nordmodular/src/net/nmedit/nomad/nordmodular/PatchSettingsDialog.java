@@ -41,16 +41,16 @@ import javax.swing.JTextField;
 import javax.swing.SpinnerNumberModel;
 import javax.swing.SwingUtilities;
 
-import net.sf.nmedit.jpatch.PModule;
-import net.sf.nmedit.jpatch.clavia.nordmodular.Format;
-import net.sf.nmedit.jpatch.clavia.nordmodular.Header;
-import net.sf.nmedit.jpatch.clavia.nordmodular.NMPatch;
-import net.sf.nmedit.jpatch.clavia.nordmodular.VoiceArea;
-import net.sf.nmedit.jsynth.Slot;
-import net.sf.nmedit.jsynth.Synthesizer;
-import net.sf.nmedit.nomad.core.Nomad;
-import net.sf.nmedit.nomad.core.forms.PropertyDialogForm;
-import net.sf.nmedit.nomad.core.service.fileService.FileService;
+import net.nmedit.nmlibs.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.clavia.nordmodular.Format;
+import net.nmedit.nmlibs.jpatch.clavia.nordmodular.Header;
+import net.nmedit.nmlibs.jpatch.clavia.nordmodular.NMPatch;
+import net.nmedit.nmlibs.jpatch.clavia.nordmodular.VoiceArea;
+import net.nmedit.nmlibs.jsynth.Slot;
+import net.nmedit.nmlibs.jsynth.Synthesizer;
+import net.nmedit.nmlibs.nomad.core.Nomad;
+import net.nmedit.nmlibs.nomad.core.forms.PropertyDialogForm;
+import net.nmedit.nmlibs.nomad.core.service.fileService.FileService;
 
 public class PatchSettingsDialog 
 {

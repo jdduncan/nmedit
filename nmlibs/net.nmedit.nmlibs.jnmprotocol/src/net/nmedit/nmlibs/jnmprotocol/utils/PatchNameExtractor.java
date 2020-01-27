@@ -18,13 +18,13 @@
 */
 package net.nmedit.nmlibs.jnmprotocol.utils;
 
-import net.sf.nmedit.jnmprotocol.PDLData;
-import net.sf.nmedit.jnmprotocol.PatchMessage;
-import net.sf.nmedit.jnmprotocol.utils.NmCharacter;
-import net.sf.nmedit.jnmprotocol.utils.PatchNameExtractor;
-import net.sf.nmedit.jpdl.BitStream;
-import net.sf.nmedit.jpdl.Packet;
-import net.sf.nmedit.jpdl.PacketParser;
+import net.nmedit.nmlibs.jnmprotocol.PDLData;
+import net.nmedit.nmlibs.jnmprotocol.PatchMessage;
+import net.nmedit.nmlibs.jnmprotocol.utils.NmCharacter;
+import net.nmedit.nmlibs.jnmprotocol.utils.PatchNameExtractor;
+import net.nmedit.nmlibs.jpdl.BitStream;
+import net.nmedit.nmlibs.jpdl.Packet;
+import net.nmedit.nmlibs.jpdl.PacketParser;
 
 public class PatchNameExtractor
 {

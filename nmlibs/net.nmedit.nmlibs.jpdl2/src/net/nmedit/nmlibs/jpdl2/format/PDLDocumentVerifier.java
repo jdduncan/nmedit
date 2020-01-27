@@ -24,21 +24,21 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-import net.sf.nmedit.jpdl2.PDLException;
-import net.sf.nmedit.jpdl2.dom.PDLBlock;
-import net.sf.nmedit.jpdl2.dom.PDLCaseStatement;
-import net.sf.nmedit.jpdl2.dom.PDLChoice;
-import net.sf.nmedit.jpdl2.dom.PDLCondition;
-import net.sf.nmedit.jpdl2.dom.PDLDocument;
-import net.sf.nmedit.jpdl2.dom.PDLFunction;
-import net.sf.nmedit.jpdl2.dom.PDLItem;
-import net.sf.nmedit.jpdl2.dom.PDLItemType;
-import net.sf.nmedit.jpdl2.dom.PDLMultiplicity;
-import net.sf.nmedit.jpdl2.dom.PDLPacketDecl;
-import net.sf.nmedit.jpdl2.dom.PDLPacketRef;
-import net.sf.nmedit.jpdl2.impl.PDLCompiledCondition;
-import net.sf.nmedit.jpdl2.impl.PDLPacketDeclImpl;
-import net.sf.nmedit.jpdl2.utils.PDLUtils;
+import net.nmedit.nmlibs.jpdl2.PDLException;
+import net.nmedit.nmlibs.jpdl2.dom.PDLBlock;
+import net.nmedit.nmlibs.jpdl2.dom.PDLCaseStatement;
+import net.nmedit.nmlibs.jpdl2.dom.PDLChoice;
+import net.nmedit.nmlibs.jpdl2.dom.PDLCondition;
+import net.nmedit.nmlibs.jpdl2.dom.PDLDocument;
+import net.nmedit.nmlibs.jpdl2.dom.PDLFunction;
+import net.nmedit.nmlibs.jpdl2.dom.PDLItem;
+import net.nmedit.nmlibs.jpdl2.dom.PDLItemType;
+import net.nmedit.nmlibs.jpdl2.dom.PDLMultiplicity;
+import net.nmedit.nmlibs.jpdl2.dom.PDLPacketDecl;
+import net.nmedit.nmlibs.jpdl2.dom.PDLPacketRef;
+import net.nmedit.nmlibs.jpdl2.impl.PDLCompiledCondition;
+import net.nmedit.nmlibs.jpdl2.impl.PDLPacketDeclImpl;
+import net.nmedit.nmlibs.jpdl2.utils.PDLUtils;
 
 /**
  * ensures

@@ -20,21 +20,21 @@ package net.nmedit.nmlibs.jpdl2.utils;
 
 import java.util.Iterator;
 
-import net.sf.nmedit.jpdl2.dom.PDLBlock;
-import net.sf.nmedit.jpdl2.dom.PDLCaseStatement;
-import net.sf.nmedit.jpdl2.dom.PDLChoice;
-import net.sf.nmedit.jpdl2.dom.PDLConditional;
-import net.sf.nmedit.jpdl2.dom.PDLConstant;
-import net.sf.nmedit.jpdl2.dom.PDLDocument;
-import net.sf.nmedit.jpdl2.dom.PDLInstruction;
-import net.sf.nmedit.jpdl2.dom.PDLItem;
-import net.sf.nmedit.jpdl2.dom.PDLItemType;
-import net.sf.nmedit.jpdl2.dom.PDLMultiplicity;
-import net.sf.nmedit.jpdl2.dom.PDLOptional;
-import net.sf.nmedit.jpdl2.dom.PDLPacketDecl;
-import net.sf.nmedit.jpdl2.dom.PDLPacketRef;
-import net.sf.nmedit.jpdl2.dom.PDLSwitchStatement;
-import net.sf.nmedit.jpdl2.dom.PDLVariable;
+import net.nmedit.nmlibs.jpdl2.dom.PDLBlock;
+import net.nmedit.nmlibs.jpdl2.dom.PDLCaseStatement;
+import net.nmedit.nmlibs.jpdl2.dom.PDLChoice;
+import net.nmedit.nmlibs.jpdl2.dom.PDLConditional;
+import net.nmedit.nmlibs.jpdl2.dom.PDLConstant;
+import net.nmedit.nmlibs.jpdl2.dom.PDLDocument;
+import net.nmedit.nmlibs.jpdl2.dom.PDLInstruction;
+import net.nmedit.nmlibs.jpdl2.dom.PDLItem;
+import net.nmedit.nmlibs.jpdl2.dom.PDLItemType;
+import net.nmedit.nmlibs.jpdl2.dom.PDLMultiplicity;
+import net.nmedit.nmlibs.jpdl2.dom.PDLOptional;
+import net.nmedit.nmlibs.jpdl2.dom.PDLPacketDecl;
+import net.nmedit.nmlibs.jpdl2.dom.PDLPacketRef;
+import net.nmedit.nmlibs.jpdl2.dom.PDLSwitchStatement;
+import net.nmedit.nmlibs.jpdl2.dom.PDLVariable;
 
 
 /**

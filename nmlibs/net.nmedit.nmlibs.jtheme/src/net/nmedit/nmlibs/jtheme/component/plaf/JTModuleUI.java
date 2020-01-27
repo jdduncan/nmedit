@@ -55,20 +55,20 @@ import javax.swing.JTextField;
 import javax.swing.UIDefaults;
 import javax.swing.border.Border;
 
-import net.sf.nmedit.jpatch.ImageSource;
-import net.sf.nmedit.jpatch.ModuleDescriptions;
-import net.sf.nmedit.jpatch.PModule;
-import net.sf.nmedit.jpatch.PModuleDescriptor;
-import net.sf.nmedit.jpatch.history.PUndoableEditSupport;
-import net.sf.nmedit.jpatch.transform.PTModuleMapping;
-import net.sf.nmedit.jpatch.transform.PTTransformations;
-import net.sf.nmedit.jtheme.JTContext;
-import net.sf.nmedit.jtheme.component.JTComponent;
-import net.sf.nmedit.jtheme.component.JTModule;
-import net.sf.nmedit.jtheme.util.JThemeUtils;
-import net.sf.nmedit.nmutils.Platform;
-import net.sf.nmedit.nmutils.swing.EscapeKeyListener;
-import net.sf.nmedit.nmutils.swing.LimitedText;
+import net.nmedit.nmlibs.jpatch.ImageSource;
+import net.nmedit.nmlibs.jpatch.ModuleDescriptions;
+import net.nmedit.nmlibs.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.PModuleDescriptor;
+import net.nmedit.nmlibs.jpatch.history.PUndoableEditSupport;
+import net.nmedit.nmlibs.jpatch.transform.PTModuleMapping;
+import net.nmedit.nmlibs.jpatch.transform.PTTransformations;
+import net.nmedit.nmlibs.jtheme.JTContext;
+import net.nmedit.nmlibs.jtheme.component.JTComponent;
+import net.nmedit.nmlibs.jtheme.component.JTModule;
+import net.nmedit.nmlibs.jtheme.util.JThemeUtils;
+import net.nmedit.nmlibs.nmutils.Platform;
+import net.nmedit.nmlibs.nmutils.swing.EscapeKeyListener;
+import net.nmedit.nmlibs.nmutils.swing.LimitedText;
 
 public class JTModuleUI extends JTComponentUI
 {

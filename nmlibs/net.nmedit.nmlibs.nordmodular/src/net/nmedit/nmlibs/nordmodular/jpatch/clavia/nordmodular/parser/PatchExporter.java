@@ -20,7 +20,7 @@
 /*
  * Created on Dec 21, 2006
  */
-package net.nmedit.nmlibs.jpatch.clavia.nordmodular.parser;
+package net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.parser;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -28,21 +28,21 @@ import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
 
-import net.sf.nmedit.jpatch.PConnection;
-import net.sf.nmedit.jpatch.PConnector;
-import net.sf.nmedit.jpatch.InvalidDescriptorException;
-import net.sf.nmedit.jpatch.PModule;
-import net.sf.nmedit.jpatch.PModuleContainer;
-import net.sf.nmedit.jpatch.clavia.nordmodular.Format;
-import net.sf.nmedit.jpatch.clavia.nordmodular.Knob;
-import net.sf.nmedit.jpatch.clavia.nordmodular.MidiController;
-import net.sf.nmedit.jpatch.clavia.nordmodular.NMPatch;
-import net.sf.nmedit.jpatch.clavia.nordmodular.Note;
-import net.sf.nmedit.jpatch.clavia.nordmodular.NoteSet;
-import net.sf.nmedit.jpatch.clavia.nordmodular.PNMMorphSection;
-import net.sf.nmedit.jpatch.clavia.nordmodular.VoiceArea;
-import net.sf.nmedit.jpatch.clavia.nordmodular.PNMMorphSection.Assignments;
-import net.sf.nmedit.jpatch.PParameter;
+import net.nmedit.nmlibs.jpatch.PConnection;
+import net.nmedit.nmlibs.jpatch.PConnector;
+import net.nmedit.nmlibs.jpatch.InvalidDescriptorException;
+import net.nmedit.nmlibs.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.PModuleContainer;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.Format;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.Knob;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.MidiController;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.NMPatch;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.Note;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.NoteSet;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.PNMMorphSection;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.VoiceArea;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.PNMMorphSection.Assignments;
+import net.nmedit.nmlibs.jpatch.PParameter;
 
 public class PatchExporter
 {

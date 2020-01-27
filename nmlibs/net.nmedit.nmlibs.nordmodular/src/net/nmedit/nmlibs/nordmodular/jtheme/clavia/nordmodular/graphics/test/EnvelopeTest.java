@@ -20,7 +20,7 @@
 /*
  * Created on Nov 27, 2006
  */
-package net.nmedit.nmlibs.jtheme.clavia.nordmodular.graphics.test;
+package net.nmedit.nmlibs.nordmodular.jtheme.clavia.nordmodular.graphics.test;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -42,7 +42,7 @@ import javax.swing.JSlider;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
-import net.sf.nmedit.jtheme.clavia.nordmodular.graphics.Envelope;
+import net.nmedit.nmlibs.jtheme.clavia.nordmodular.graphics.Envelope;
 
 public class EnvelopeTest
 {

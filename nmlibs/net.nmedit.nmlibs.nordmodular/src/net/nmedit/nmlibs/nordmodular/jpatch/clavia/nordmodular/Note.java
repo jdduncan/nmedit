@@ -20,11 +20,11 @@
 /*
  * Created on Sep 4, 2006
  */
-package net.nmedit.nmlibs.jpatch.clavia.nordmodular;
+package net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular;
 
 import java.io.Serializable;
 
-import net.sf.nmedit.nmutils.collections.IndexedElement;
+import net.nmedit.nmlibs.nmutils.collections.IndexedElement;
 
 /**
  * A note configuration containing the note number, the notes attack

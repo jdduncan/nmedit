@@ -30,14 +30,14 @@ import java.util.Map;
 
 import javax.imageio.ImageIO;
 
-import net.sf.nmedit.jtheme.JTContext;
-import net.sf.nmedit.jtheme.JTException;
-import net.sf.nmedit.jtheme.css.FakeRule;
-import net.sf.nmedit.jtheme.image.ImageCache;
-import net.sf.nmedit.jtheme.image.ImageResource;
-import net.sf.nmedit.jtheme.store2.ComponentElement;
-import net.sf.nmedit.jtheme.store2.DefaultStore;
-import net.sf.nmedit.jtheme.store2.ModuleElement;
+import net.nmedit.nmlibs.jtheme.JTContext;
+import net.nmedit.nmlibs.jtheme.JTException;
+import net.nmedit.nmlibs.jtheme.css.FakeRule;
+import net.nmedit.nmlibs.jtheme.image.ImageCache;
+import net.nmedit.nmlibs.jtheme.image.ImageResource;
+import net.nmedit.nmlibs.jtheme.store2.ComponentElement;
+import net.nmedit.nmlibs.jtheme.store2.DefaultStore;
+import net.nmedit.nmlibs.jtheme.store2.ModuleElement;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;

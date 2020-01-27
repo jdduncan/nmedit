@@ -12,7 +12,7 @@ import java.util.List;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import net.sf.nmedit.nmutils.Platform;
+import net.nmedit.nmlibs.nmutils.Platform;
 
 public class FileDnd {
     

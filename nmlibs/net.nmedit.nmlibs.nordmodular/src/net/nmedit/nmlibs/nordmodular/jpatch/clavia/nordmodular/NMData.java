@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
 
-package net.nmedit.nmlibs.jpatch.clavia.nordmodular;
+package net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -26,10 +26,10 @@ import java.net.URL;
 
 import org.xml.sax.InputSource;
 
-import net.sf.nmedit.jpatch.clavia.nordmodular.NM1ModuleDescriptions;
-import net.sf.nmedit.jpatch.transform.PTTransformationsBuillder;
-import net.sf.nmedit.jpatch.transform.PTTransformations;
-import net.sf.nmedit.jtheme.util.RelativeClassLoader;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.NM1ModuleDescriptions;
+import net.nmedit.nmlibs.jpatch.transform.PTTransformationsBuillder;
+import net.nmedit.nmlibs.jpatch.transform.PTTransformations;
+import net.nmedit.nmlibs.jtheme.util.RelativeClassLoader;
 
 public class NMData
 {

@@ -22,7 +22,7 @@ import java.util.Iterator;
 
 import javax.swing.undo.UndoableEdit;
 
-import net.sf.nmedit.jpatch.history.PUndoableEditSupport;
+import net.nmedit.nmlibs.jpatch.history.PUndoableEditSupport;
 
 /**
  * A component in a patch.

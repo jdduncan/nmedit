@@ -20,7 +20,7 @@ package net.nmedit.nmlibs.jpdl2.dom;
 
 import java.util.Collection;
 
-import net.sf.nmedit.jpdl2.PDLParseContext;
+import net.nmedit.nmlibs.jpdl2.PDLParseContext;
 
 /**
  * A boolean condition used by the {@link PDLConditional} item.

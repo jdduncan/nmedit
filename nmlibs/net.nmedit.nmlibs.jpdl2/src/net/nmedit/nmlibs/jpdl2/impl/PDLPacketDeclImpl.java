@@ -18,7 +18,7 @@
 */
 package net.nmedit.nmlibs.jpdl2.impl;
 
-import net.sf.nmedit.jpdl2.dom.PDLPacketDecl;
+import net.nmedit.nmlibs.jpdl2.dom.PDLPacketDecl;
 
 public class PDLPacketDeclImpl extends PDLBlockImpl implements PDLPacketDecl
 {

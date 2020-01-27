@@ -16,7 +16,7 @@
  * along with Nomad; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
-package net.nmedit.nmlibs.jtheme.clavia.nordmodular;
+package net.nmedit.nmlibs.nordmodular.jtheme.clavia.nordmodular;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.MouseEvent;
@@ -25,17 +25,17 @@ import javax.swing.AbstractAction;
 import javax.swing.JMenu;
 import javax.swing.JPopupMenu;
 
-import net.sf.nmedit.jnmprotocol2.MorphKeyboardAssignmentMessage;
-import net.sf.nmedit.jpatch.PParameter;
-import net.sf.nmedit.jpatch.clavia.nordmodular.Knob;
-import net.sf.nmedit.jpatch.clavia.nordmodular.MidiController;
-import net.sf.nmedit.jpatch.clavia.nordmodular.NMPatch;
-import net.sf.nmedit.jpatch.clavia.nordmodular.PNMMorphSection;
-import net.sf.nmedit.jpatch.clavia.nordmodular.PNMMorphSection.Assignments;
-import net.sf.nmedit.jtheme.JTPopupHandler;
-import net.sf.nmedit.jtheme.component.JTComponent;
-import net.sf.nmedit.jtheme.component.JTControl;
-import net.sf.nmedit.jtheme.component.JTControlAdapter;
+import net.nmedit.nmlibs.jnmprotocol2.MorphKeyboardAssignmentMessage;
+import net.nmedit.nmlibs.jpatch.PParameter;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.Knob;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.MidiController;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.NMPatch;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.PNMMorphSection;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.PNMMorphSection.Assignments;
+import net.nmedit.nmlibs.jtheme.JTPopupHandler;
+import net.nmedit.nmlibs.jtheme.component.JTComponent;
+import net.nmedit.nmlibs.jtheme.component.JTControl;
+import net.nmedit.nmlibs.jtheme.component.JTControlAdapter;
 
 public class ControlPopupHandler implements JTPopupHandler
 {

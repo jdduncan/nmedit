@@ -27,21 +27,21 @@ import java.util.Iterator;
 import javax.swing.event.EventListenerList;
 import javax.swing.undo.UndoableEdit;
 
-import net.sf.nmedit.jpatch.CopyOperation;
-import net.sf.nmedit.jpatch.MoveOperation;
-import net.sf.nmedit.jpatch.PConnectionManager;
-import net.sf.nmedit.jpatch.PModule;
-import net.sf.nmedit.jpatch.PModuleContainer;
-import net.sf.nmedit.jpatch.PModuleContainerDescriptor;
-import net.sf.nmedit.jpatch.PModuleDescriptor;
-import net.sf.nmedit.jpatch.PModuleMetrics;
-import net.sf.nmedit.jpatch.PPatch;
-import net.sf.nmedit.jpatch.PUndoableEditFactory;
-import net.sf.nmedit.jpatch.dnd.ModulesBoundingBox;
-import net.sf.nmedit.jpatch.event.PModuleContainerEvent;
-import net.sf.nmedit.jpatch.event.PModuleContainerListener;
-import net.sf.nmedit.jpatch.history.PUndoableEditSupport;
-import net.sf.nmedit.nmutils.collections.ArrayMap;
+import net.nmedit.nmlibs.jpatch.CopyOperation;
+import net.nmedit.nmlibs.jpatch.MoveOperation;
+import net.nmedit.nmlibs.jpatch.PConnectionManager;
+import net.nmedit.nmlibs.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.PModuleContainer;
+import net.nmedit.nmlibs.jpatch.PModuleContainerDescriptor;
+import net.nmedit.nmlibs.jpatch.PModuleDescriptor;
+import net.nmedit.nmlibs.jpatch.PModuleMetrics;
+import net.nmedit.nmlibs.jpatch.PPatch;
+import net.nmedit.nmlibs.jpatch.PUndoableEditFactory;
+import net.nmedit.nmlibs.jpatch.dnd.ModulesBoundingBox;
+import net.nmedit.nmlibs.jpatch.event.PModuleContainerEvent;
+import net.nmedit.nmlibs.jpatch.event.PModuleContainerListener;
+import net.nmedit.nmlibs.jpatch.history.PUndoableEditSupport;
+import net.nmedit.nmlibs.nmutils.collections.ArrayMap;
 
 /**
  * The reference implementation of interface {@link PModuleContainer}.

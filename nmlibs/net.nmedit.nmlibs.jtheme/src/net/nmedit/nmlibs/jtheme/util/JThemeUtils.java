@@ -9,12 +9,12 @@ import java.awt.event.MouseWheelEvent;
 import javax.swing.SwingUtilities;
 import javax.swing.event.MenuDragMouseEvent;
 
-import net.sf.nmedit.jpatch.PModuleDescriptor;
-import net.sf.nmedit.jpatch.dnd.PDragDrop;
-import net.sf.nmedit.jtheme.JTContext;
-import net.sf.nmedit.jtheme.JTException;
-import net.sf.nmedit.nmutils.dnd.DefaultEyeCandyTransferable;
-import net.sf.nmedit.nmutils.dnd.EyeCandyTransferable;
+import net.nmedit.nmlibs.jpatch.PModuleDescriptor;
+import net.nmedit.nmlibs.jpatch.dnd.PDragDrop;
+import net.nmedit.nmlibs.jtheme.JTContext;
+import net.nmedit.nmlibs.jtheme.JTException;
+import net.nmedit.nmlibs.nmutils.dnd.DefaultEyeCandyTransferable;
+import net.nmedit.nmlibs.nmutils.dnd.EyeCandyTransferable;
 
 public class JThemeUtils {
     

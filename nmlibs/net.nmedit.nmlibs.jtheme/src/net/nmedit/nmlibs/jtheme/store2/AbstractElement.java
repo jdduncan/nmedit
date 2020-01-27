@@ -22,8 +22,8 @@ import java.io.IOException;
 import java.io.Serializable;
 import java.util.List;
 
-import net.sf.nmedit.jtheme.component.JTComponent;
-import net.sf.nmedit.jtheme.store.StorageContext;
+import net.nmedit.nmlibs.jtheme.component.JTComponent;
+import net.nmedit.nmlibs.jtheme.store.StorageContext;
 
 import org.jdom.Attribute;
 import org.jdom.Element;

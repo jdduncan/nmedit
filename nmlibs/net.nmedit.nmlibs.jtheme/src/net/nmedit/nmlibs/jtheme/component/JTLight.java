@@ -20,12 +20,12 @@ package net.nmedit.nmlibs.jtheme.component;
 
 import java.awt.Graphics;
 
-import net.sf.nmedit.jpatch.PLight;
-import net.sf.nmedit.jpatch.PLightDescriptor;
-import net.sf.nmedit.jpatch.event.PLightEvent;
-import net.sf.nmedit.jpatch.event.PLightListener;
-import net.sf.nmedit.jtheme.JTContext;
-import net.sf.nmedit.jtheme.util.RetargetMouseEventSupport;
+import net.nmedit.nmlibs.jpatch.PLight;
+import net.nmedit.nmlibs.jpatch.PLightDescriptor;
+import net.nmedit.nmlibs.jpatch.event.PLightEvent;
+import net.nmedit.nmlibs.jpatch.event.PLightListener;
+import net.nmedit.nmlibs.jtheme.JTContext;
+import net.nmedit.nmlibs.jtheme.util.RetargetMouseEventSupport;
 
 public class JTLight extends JTComponent
 implements PLightListener

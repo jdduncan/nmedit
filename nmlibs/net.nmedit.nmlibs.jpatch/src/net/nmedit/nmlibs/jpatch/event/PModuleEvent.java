@@ -22,7 +22,7 @@
  */
 package net.nmedit.nmlibs.jpatch.event;
 
-import net.sf.nmedit.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.PModule;
 
 /**
  * Event sent by a {@link PModule module}.

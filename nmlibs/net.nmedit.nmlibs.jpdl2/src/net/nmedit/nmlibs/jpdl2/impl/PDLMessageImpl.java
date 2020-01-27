@@ -18,8 +18,8 @@
 */
 package net.nmedit.nmlibs.jpdl2.impl;
 
-import net.sf.nmedit.jpdl2.PDLMessage;
-import net.sf.nmedit.jpdl2.PDLPacket;
+import net.nmedit.nmlibs.jpdl2.PDLMessage;
+import net.nmedit.nmlibs.jpdl2.PDLPacket;
 
 public class PDLMessageImpl implements PDLMessage
 {

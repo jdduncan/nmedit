@@ -24,7 +24,7 @@ import java.util.Properties;
 import java.util.Set;
 import java.util.Map.Entry;
 
-import net.sf.nmedit.nmutils.properties.type.Property;
+import net.nmedit.nmlibs.nmutils.properties.type.Property;
 
 public class RootSystemProperties extends SystemProperties
 {

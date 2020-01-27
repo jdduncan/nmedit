@@ -21,13 +21,13 @@ package net.nmedit.nmlibs.jtheme.store2;
 import java.io.IOException;
 import java.io.Serializable;
 
-import net.sf.nmedit.jpatch.PModule;
-import net.sf.nmedit.jpatch.PModuleDescriptor;
-import net.sf.nmedit.jpatch.PParameter;
-import net.sf.nmedit.jpatch.PParameterDescriptor;
-import net.sf.nmedit.jtheme.component.JTControl;
-import net.sf.nmedit.jtheme.component.JTParameterControlAdapter;
-import net.sf.nmedit.jtheme.store.StorageContext;
+import net.nmedit.nmlibs.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.PModuleDescriptor;
+import net.nmedit.nmlibs.jpatch.PParameter;
+import net.nmedit.nmlibs.jpatch.PParameterDescriptor;
+import net.nmedit.nmlibs.jtheme.component.JTControl;
+import net.nmedit.nmlibs.jtheme.component.JTParameterControlAdapter;
+import net.nmedit.nmlibs.jtheme.store.StorageContext;
 
 import org.jdom.Element;
 

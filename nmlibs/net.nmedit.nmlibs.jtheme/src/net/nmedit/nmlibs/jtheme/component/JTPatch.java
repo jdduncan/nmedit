@@ -26,12 +26,12 @@ import java.util.HashSet;
 
 import javax.swing.JComponent;
 
-import net.sf.nmedit.jpatch.PModule;
-import net.sf.nmedit.jpatch.PPatch;
-import net.sf.nmedit.jtheme.JTContext;
-import net.sf.nmedit.jtheme.component.plaf.mcui.ContainerAction;
-import net.sf.nmedit.jtheme.help.HelpHandler;
-import net.sf.nmedit.nmutils.swing.CopyCutPasteTarget;
+import net.nmedit.nmlibs.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.PPatch;
+import net.nmedit.nmlibs.jtheme.JTContext;
+import net.nmedit.nmlibs.jtheme.component.plaf.mcui.ContainerAction;
+import net.nmedit.nmlibs.jtheme.help.HelpHandler;
+import net.nmedit.nmlibs.nmutils.swing.CopyCutPasteTarget;
 
 public class JTPatch extends JComponent implements CopyCutPasteTarget
 {

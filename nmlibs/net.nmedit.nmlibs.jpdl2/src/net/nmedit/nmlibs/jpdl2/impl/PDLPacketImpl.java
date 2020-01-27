@@ -27,8 +27,8 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
-import net.sf.nmedit.jpdl2.PDLPacket;
-import net.sf.nmedit.jpdl2.dom.PDLPacketDecl;
+import net.nmedit.nmlibs.jpdl2.PDLPacket;
+import net.nmedit.nmlibs.jpdl2.dom.PDLPacketDecl;
 
 public class PDLPacketImpl implements PDLPacket
 {

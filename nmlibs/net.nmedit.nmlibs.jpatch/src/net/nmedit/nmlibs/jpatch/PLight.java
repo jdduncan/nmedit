@@ -18,7 +18,7 @@
  */
 package net.nmedit.nmlibs.jpatch;
 
-import net.sf.nmedit.jpatch.event.PLightListener;
+import net.nmedit.nmlibs.jpatch.event.PLightListener;
 
 public interface PLight extends PComponent
 {

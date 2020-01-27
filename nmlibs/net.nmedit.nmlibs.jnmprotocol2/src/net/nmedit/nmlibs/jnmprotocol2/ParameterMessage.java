@@ -19,8 +19,8 @@
 
 package net.nmedit.nmlibs.jnmprotocol2;
 
-import net.sf.nmedit.jpdl2.PDLPacket;
-import net.sf.nmedit.jpdl2.stream.BitStream;
+import net.nmedit.nmlibs.jpdl2.PDLPacket;
+import net.nmedit.nmlibs.jpdl2.stream.BitStream;
 
 public class ParameterMessage extends MidiMessage
 {

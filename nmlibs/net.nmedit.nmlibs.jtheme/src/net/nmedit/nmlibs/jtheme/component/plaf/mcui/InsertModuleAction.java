@@ -8,13 +8,13 @@ import java.util.ArrayList;
 import javax.swing.AbstractAction;
 import javax.swing.ImageIcon;
 
-import net.sf.nmedit.jpatch.PModule;
-import net.sf.nmedit.jpatch.PModuleContainer;
-import net.sf.nmedit.jpatch.PModuleDescriptor;
-import net.sf.nmedit.jpatch.dnd.PModuleTransferDataWrapper;
-import net.sf.nmedit.jtheme.JTException;
-import net.sf.nmedit.jtheme.component.JTModuleContainer;
-import net.sf.nmedit.jtheme.util.ModuleImageRenderer;
+import net.nmedit.nmlibs.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.PModuleContainer;
+import net.nmedit.nmlibs.jpatch.PModuleDescriptor;
+import net.nmedit.nmlibs.jpatch.dnd.PModuleTransferDataWrapper;
+import net.nmedit.nmlibs.jtheme.JTException;
+import net.nmedit.nmlibs.jtheme.component.JTModuleContainer;
+import net.nmedit.nmlibs.jtheme.util.ModuleImageRenderer;
 
 public class InsertModuleAction extends AbstractAction {
 	private PModuleDescriptor descriptor;

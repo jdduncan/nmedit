@@ -16,19 +16,19 @@
  * along with Nomad; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
-package net.nmedit.nmlibs.jpatch.clavia.nordmodular;
+package net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular;
 
 import java.awt.Point;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-import net.sf.nmedit.jpatch.AbstractMoveOperation;
-import net.sf.nmedit.jpatch.LayoutTool;
-import net.sf.nmedit.jpatch.PConnection;
-import net.sf.nmedit.jpatch.PConnectionManager;
-import net.sf.nmedit.jpatch.PConnector;
-import net.sf.nmedit.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.AbstractMoveOperation;
+import net.nmedit.nmlibs.jpatch.LayoutTool;
+import net.nmedit.nmlibs.jpatch.PConnection;
+import net.nmedit.nmlibs.jpatch.PConnectionManager;
+import net.nmedit.nmlibs.jpatch.PConnector;
+import net.nmedit.nmlibs.jpatch.PModule;
 
 public class NMMoveOperation extends AbstractMoveOperation
 {

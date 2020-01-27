@@ -16,12 +16,12 @@
  * along with Nomad; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
-package net.nmedit.nmlibs.jtheme.clavia.nordmodular;
+package net.nmedit.nmlibs.nordmodular.jtheme.clavia.nordmodular;
 
-import net.sf.nmedit.jtheme.JTContext;
-import net.sf.nmedit.jtheme.clavia.nordmodular.store.EnvelopeStore;
-import net.sf.nmedit.jtheme.clavia.nordmodular.store.ScrollbarSliderElement;
-import net.sf.nmedit.jtheme.store.DefaultStorageContext;
+import net.nmedit.nmlibs.jtheme.JTContext;
+import net.nmedit.nmlibs.jtheme.clavia.nordmodular.store.EnvelopeStore;
+import net.nmedit.nmlibs.jtheme.clavia.nordmodular.store.ScrollbarSliderElement;
+import net.nmedit.nmlibs.jtheme.store.DefaultStorageContext;
 
 public class NMStorageContext extends DefaultStorageContext
 {

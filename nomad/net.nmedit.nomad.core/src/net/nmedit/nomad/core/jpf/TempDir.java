@@ -19,7 +19,7 @@
 package net.nmedit.nomad.core.jpf;
 
 import java.io.File;
-import net.sf.nmedit.nmutils.Platform;
+import net.nmedit.nmlibs.nmutils.Platform;
 
 import org.java.plugin.Plugin;
 import org.java.plugin.PluginManager;

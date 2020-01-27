@@ -21,9 +21,9 @@ package net.nmedit.nmlibs.jnmprotocol2;
 
 import javax.sound.midi.InvalidMidiDataException;
 
-import net.sf.nmedit.jnmprotocol2.EnqueuedPacket;
-import net.sf.nmedit.jnmprotocol2.MidiException;
-import net.sf.nmedit.jnmprotocol2.utils.FastSysexMessage;
+import net.nmedit.nmlibs.jnmprotocol2.EnqueuedPacket;
+import net.nmedit.nmlibs.jnmprotocol2.MidiException;
+import net.nmedit.nmlibs.jnmprotocol2.utils.FastSysexMessage;
 
 public class EnqueuedPacket extends FastSysexMessage
 {

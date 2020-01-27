@@ -16,7 +16,7 @@
  * along with Nomad; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
-package net.nmedit.nmlibs.jtheme.clavia.nordmodular;
+package net.nmedit.nmlibs.nordmodular.jtheme.clavia.nordmodular;
 
 import java.awt.Color;
 import java.awt.Font;
@@ -28,40 +28,40 @@ import javax.swing.plaf.BorderUIResource;
 import javax.swing.plaf.ColorUIResource;
 import javax.swing.plaf.FontUIResource;
 
-import net.sf.nmedit.jtheme.JTCustomContext;
-import net.sf.nmedit.jtheme.JTPopupHandler;
-import net.sf.nmedit.jtheme.clavia.nordmodular.plaf.JTBasicSliderScrollbarUI;
-import net.sf.nmedit.jtheme.clavia.nordmodular.plaf.JTNM1KnobUI;
-import net.sf.nmedit.jtheme.clavia.nordmodular.plaf.JTNM1ResetButtonUI;
-import net.sf.nmedit.jtheme.clavia.nordmodular.plaf.JTNM1SliderUI;
-import net.sf.nmedit.jtheme.clavia.nordmodular.plaf.NoteSeqEditorUI;
-import net.sf.nmedit.jtheme.component.JTButtonControl;
-import net.sf.nmedit.jtheme.component.JTComponent;
-import net.sf.nmedit.jtheme.component.JTConnector;
-import net.sf.nmedit.jtheme.component.JTDisplay;
-import net.sf.nmedit.jtheme.component.JTImage;
-import net.sf.nmedit.jtheme.component.JTKnob;
-import net.sf.nmedit.jtheme.component.JTLabel;
-import net.sf.nmedit.jtheme.component.JTLight;
-import net.sf.nmedit.jtheme.component.JTModule;
-import net.sf.nmedit.jtheme.component.JTModuleContainer;
-import net.sf.nmedit.jtheme.component.JTSlider;
-import net.sf.nmedit.jtheme.component.JTTextDisplay;
-import net.sf.nmedit.jtheme.component.layer.DNDLayer;
-import net.sf.nmedit.jtheme.component.plaf.JTBasicButtonControlUI;
-import net.sf.nmedit.jtheme.component.plaf.JTBasicConnectorUI;
-import net.sf.nmedit.jtheme.component.plaf.JTBasicLightUI;
-import net.sf.nmedit.jtheme.component.plaf.JTButtonControlUI;
-import net.sf.nmedit.jtheme.component.plaf.JTDisplayUI;
-import net.sf.nmedit.jtheme.component.plaf.JTImageUI;
-import net.sf.nmedit.jtheme.component.plaf.JTLabelUI;
-import net.sf.nmedit.jtheme.component.plaf.JTLightUI;
-import net.sf.nmedit.jtheme.component.plaf.JTModuleUI;
-import net.sf.nmedit.jtheme.component.plaf.JTTextDisplayUI;
-import net.sf.nmedit.jtheme.component.plaf.mcui.JTModuleContainerUI;
-import net.sf.nmedit.jtheme.store.StorageContext;
-import net.sf.nmedit.jtheme.util.BoundingBoxBorder;
-import net.sf.nmedit.jtheme.util.SimpleSelectionBorder;
+import net.nmedit.nmlibs.jtheme.JTCustomContext;
+import net.nmedit.nmlibs.jtheme.JTPopupHandler;
+import net.nmedit.nmlibs.jtheme.clavia.nordmodular.plaf.JTBasicSliderScrollbarUI;
+import net.nmedit.nmlibs.jtheme.clavia.nordmodular.plaf.JTNM1KnobUI;
+import net.nmedit.nmlibs.jtheme.clavia.nordmodular.plaf.JTNM1ResetButtonUI;
+import net.nmedit.nmlibs.jtheme.clavia.nordmodular.plaf.JTNM1SliderUI;
+import net.nmedit.nmlibs.jtheme.clavia.nordmodular.plaf.NoteSeqEditorUI;
+import net.nmedit.nmlibs.jtheme.component.JTButtonControl;
+import net.nmedit.nmlibs.jtheme.component.JTComponent;
+import net.nmedit.nmlibs.jtheme.component.JTConnector;
+import net.nmedit.nmlibs.jtheme.component.JTDisplay;
+import net.nmedit.nmlibs.jtheme.component.JTImage;
+import net.nmedit.nmlibs.jtheme.component.JTKnob;
+import net.nmedit.nmlibs.jtheme.component.JTLabel;
+import net.nmedit.nmlibs.jtheme.component.JTLight;
+import net.nmedit.nmlibs.jtheme.component.JTModule;
+import net.nmedit.nmlibs.jtheme.component.JTModuleContainer;
+import net.nmedit.nmlibs.jtheme.component.JTSlider;
+import net.nmedit.nmlibs.jtheme.component.JTTextDisplay;
+import net.nmedit.nmlibs.jtheme.component.layer.DNDLayer;
+import net.nmedit.nmlibs.jtheme.component.plaf.JTBasicButtonControlUI;
+import net.nmedit.nmlibs.jtheme.component.plaf.JTBasicConnectorUI;
+import net.nmedit.nmlibs.jtheme.component.plaf.JTBasicLightUI;
+import net.nmedit.nmlibs.jtheme.component.plaf.JTButtonControlUI;
+import net.nmedit.nmlibs.jtheme.component.plaf.JTDisplayUI;
+import net.nmedit.nmlibs.jtheme.component.plaf.JTImageUI;
+import net.nmedit.nmlibs.jtheme.component.plaf.JTLabelUI;
+import net.nmedit.nmlibs.jtheme.component.plaf.JTLightUI;
+import net.nmedit.nmlibs.jtheme.component.plaf.JTModuleUI;
+import net.nmedit.nmlibs.jtheme.component.plaf.JTTextDisplayUI;
+import net.nmedit.nmlibs.jtheme.component.plaf.mcui.JTModuleContainerUI;
+import net.nmedit.nmlibs.jtheme.store.StorageContext;
+import net.nmedit.nmlibs.jtheme.util.BoundingBoxBorder;
+import net.nmedit.nmlibs.jtheme.util.SimpleSelectionBorder;
 
 public class JTNM1Context extends JTCustomContext
 {

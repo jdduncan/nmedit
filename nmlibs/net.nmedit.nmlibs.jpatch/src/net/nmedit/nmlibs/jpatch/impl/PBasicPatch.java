@@ -22,20 +22,20 @@ import java.io.File;
 import javax.swing.event.UndoableEditListener;
 import javax.swing.undo.UndoManager;
 import javax.swing.undo.UndoableEdit;
-import net.sf.nmedit.jpatch.ModuleDescriptions;
-import net.sf.nmedit.jpatch.PFactory;
-import net.sf.nmedit.jpatch.PModule;
-import net.sf.nmedit.jpatch.PModuleContainer;
-import net.sf.nmedit.jpatch.PModuleDescriptor;
-import net.sf.nmedit.jpatch.PModuleMetrics;
-import net.sf.nmedit.jpatch.PParameter;
-import net.sf.nmedit.jpatch.PPatch;
-import net.sf.nmedit.jpatch.PSettings;
-import net.sf.nmedit.jpatch.PUndoableEditFactory;
-import net.sf.nmedit.jpatch.history.HistoryUtils;
-import net.sf.nmedit.jpatch.history.PUndoableEditSupport;
-import net.sf.nmedit.jpatch.history.PBasicUndoableEditFactory;
-import net.sf.nmedit.jpatch.history.PUndoManager;
+import net.nmedit.nmlibs.jpatch.ModuleDescriptions;
+import net.nmedit.nmlibs.jpatch.PFactory;
+import net.nmedit.nmlibs.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.PModuleContainer;
+import net.nmedit.nmlibs.jpatch.PModuleDescriptor;
+import net.nmedit.nmlibs.jpatch.PModuleMetrics;
+import net.nmedit.nmlibs.jpatch.PParameter;
+import net.nmedit.nmlibs.jpatch.PPatch;
+import net.nmedit.nmlibs.jpatch.PSettings;
+import net.nmedit.nmlibs.jpatch.PUndoableEditFactory;
+import net.nmedit.nmlibs.jpatch.history.HistoryUtils;
+import net.nmedit.nmlibs.jpatch.history.PUndoableEditSupport;
+import net.nmedit.nmlibs.jpatch.history.PBasicUndoableEditFactory;
+import net.nmedit.nmlibs.jpatch.history.PUndoManager;
 
 /**
  * The reference implementation of interface {@link PPatch}.

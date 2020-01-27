@@ -20,8 +20,8 @@ package net.nmedit.nmlibs.jpatch;
 
 import java.util.Collection;
 
-import net.sf.nmedit.jpatch.event.PConnectorListener;
-import net.sf.nmedit.jpatch.impl.PBasicConnectionManager;
+import net.nmedit.nmlibs.jpatch.event.PConnectorListener;
+import net.nmedit.nmlibs.jpatch.impl.PBasicConnectionManager;
 
 /**
  * Connector of a {@link PModule module}.

@@ -27,8 +27,8 @@ import javax.sound.midi.Receiver;
 import javax.sound.midi.SysexMessage;
 import javax.sound.midi.Transmitter;
 
-import net.sf.nmedit.jnmprotocol2.utils.QueueBuffer;
-import net.sf.nmedit.jpdl2.stream.BitStream;
+import net.nmedit.nmlibs.jnmprotocol2.utils.QueueBuffer;
+import net.nmedit.nmlibs.jpdl2.stream.BitStream;
 
 /**
  * Receives and sends javax.sound.midi.MidiMessage.

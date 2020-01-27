@@ -21,11 +21,11 @@ package net.nmedit.nmlibs.jnmprotocol;
 
 import java.util.*;
 
-import net.sf.nmedit.jnmprotocol.MidiException;
-import net.sf.nmedit.jnmprotocol.MidiMessage;
-import net.sf.nmedit.jnmprotocol.NmProtocolListener;
-import net.sf.nmedit.jnmprotocol.utils.NmCharacter;
-import net.sf.nmedit.jpdl.*;
+import net.nmedit.nmlibs.jnmprotocol.MidiException;
+import net.nmedit.nmlibs.jnmprotocol.MidiMessage;
+import net.nmedit.nmlibs.jnmprotocol.NmProtocolListener;
+import net.nmedit.nmlibs.jnmprotocol.utils.NmCharacter;
+import net.nmedit.nmlibs.jpdl.*;
 
 public class SetPatchTitleMessage extends MidiMessage
 {

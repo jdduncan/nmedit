@@ -76,12 +76,12 @@ import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 import javax.swing.plaf.ColorUIResource;
 
-import net.sf.nmedit.nmutils.Platform;
-import net.sf.nmedit.nmutils.swing.NMLazyActionMap;
-import net.sf.nmedit.nmutils.swing.NmSwingUtilities;
-import net.sf.nmedit.nomad.core.Nomad;
-import net.sf.nmedit.nomad.core.menulayout.MLEntry;
-import net.sf.nmedit.nomad.core.misc.FocusStroke;
+import net.nmedit.nmlibs.nmutils.Platform;
+import net.nmedit.nmlibs.nmutils.swing.NMLazyActionMap;
+import net.nmedit.nmlibs.nmutils.swing.NmSwingUtilities;
+import net.nmedit.nmlibs.nomad.core.Nomad;
+import net.nmedit.nmlibs.nomad.core.menulayout.MLEntry;
+import net.nmedit.nmlibs.nomad.core.misc.FocusStroke;
 
 public class FFTabBarUI extends TabBarUI
 {

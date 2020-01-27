@@ -14,10 +14,10 @@ import javax.swing.tree.DefaultTreeModel;
 import javax.swing.tree.TreeNode;
 import javax.swing.tree.TreePath;
 
-import net.sf.nmedit.nmutils.io.FileUtils;
-import net.sf.nmedit.nomad.core.helpers.RuntimeMenuBuilder;
-import net.sf.nmedit.nomad.core.menulayout.MenuBuilder;
-import net.sf.nmedit.nomad.core.menulayout.MenuLayout;
+import net.nmedit.nmlibs.nmutils.io.FileUtils;
+import net.nmedit.nmlibs.nomad.core.helpers.RuntimeMenuBuilder;
+import net.nmedit.nmlibs.nomad.core.menulayout.MenuBuilder;
+import net.nmedit.nmlibs.nomad.core.menulayout.MenuLayout;
 
 public class FileExplorerTree extends ExplorerTree {
 	/**

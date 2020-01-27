@@ -46,8 +46,8 @@ import javax.swing.event.TreeSelectionListener;
 import javax.swing.tree.TreeNode;
 import javax.swing.tree.TreePath;
 
-import net.sf.nmedit.nomad.core.swing.explorer.ContainerNode;
-import net.sf.nmedit.nomad.core.swing.explorer.ExplorerTree;
+import net.nmedit.nmlibs.nomad.core.swing.explorer.ContainerNode;
+import net.nmedit.nmlibs.nomad.core.swing.explorer.ExplorerTree;
 
 public class PropertyDialogForm extends JPanel implements TreeSelectionListener
 {

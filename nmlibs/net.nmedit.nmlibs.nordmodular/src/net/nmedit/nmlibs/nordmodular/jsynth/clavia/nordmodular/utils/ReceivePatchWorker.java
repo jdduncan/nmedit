@@ -20,18 +20,18 @@
 /*
  * Created on Jan 9, 2007
  */
-package net.nmedit.nmlibs.jsynth.clavia.nordmodular.utils;
+package net.nmedit.nmlibs.nordmodular.jsynth.clavia.nordmodular.utils;
 
-import net.sf.nmedit.jnmprotocol2.GetPatchMessage;
-import net.sf.nmedit.jnmprotocol2.MidiException;
-import net.sf.nmedit.jnmprotocol2.NmProtocol;
-import net.sf.nmedit.jnmprotocol2.NmProtocolListener;
-import net.sf.nmedit.jnmprotocol2.PatchMessage;
-import net.sf.nmedit.jpatch.clavia.nordmodular.NM1ModuleDescriptions;
-import net.sf.nmedit.jpatch.clavia.nordmodular.NMPatch;
-import net.sf.nmedit.jpatch.clavia.nordmodular.parser.ParseException;
-import net.sf.nmedit.jpatch.clavia.nordmodular.parser.PatchBuilder;
-import net.sf.nmedit.jsynth.clavia.nordmodular.NordModular;
+import net.nmedit.nmlibs.jnmprotocol2.GetPatchMessage;
+import net.nmedit.nmlibs.jnmprotocol2.MidiException;
+import net.nmedit.nmlibs.jnmprotocol2.NmProtocol;
+import net.nmedit.nmlibs.jnmprotocol2.NmProtocolListener;
+import net.nmedit.nmlibs.jnmprotocol2.PatchMessage;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.NM1ModuleDescriptions;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.NMPatch;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.parser.ParseException;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.parser.PatchBuilder;
+import net.nmedit.nmlibs.jsynth.clavia.nordmodular.NordModular;
 
 public class ReceivePatchWorker extends NmProtocolListener
 {

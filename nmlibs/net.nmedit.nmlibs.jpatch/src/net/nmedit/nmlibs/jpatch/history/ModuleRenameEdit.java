@@ -21,7 +21,7 @@ package net.nmedit.nmlibs.jpatch.history;
 import javax.swing.undo.AbstractUndoableEdit;
 import javax.swing.undo.CannotUndoException;
 
-import net.sf.nmedit.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.PModule;
 
 public class ModuleRenameEdit extends AbstractUndoableEdit
 {

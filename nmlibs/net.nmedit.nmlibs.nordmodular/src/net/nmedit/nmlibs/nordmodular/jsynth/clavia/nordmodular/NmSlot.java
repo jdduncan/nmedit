@@ -20,19 +20,19 @@
 /*
  * Created on Jan 9, 2007
  */
-package net.nmedit.nmlibs.jsynth.clavia.nordmodular;
+package net.nmedit.nmlibs.nordmodular.jsynth.clavia.nordmodular;
 
-import net.sf.nmedit.jnmprotocol2.GetPatchMessage;
-import net.sf.nmedit.jnmprotocol2.MidiMessage;
-import net.sf.nmedit.jnmprotocol2.SlotsSelectedMessage;
-import net.sf.nmedit.jpatch.clavia.nordmodular.NMPatch;
-import net.sf.nmedit.jsynth.AbstractSlot;
-import net.sf.nmedit.jsynth.Slot;
-import net.sf.nmedit.jsynth.SlotManager;
-import net.sf.nmedit.jsynth.SynthException;
-import net.sf.nmedit.jsynth.clavia.nordmodular.worker.ReqPatchWorker;
-import net.sf.nmedit.jsynth.clavia.nordmodular.worker.ScheduledMessage;
-import net.sf.nmedit.jsynth.worker.RequestPatchWorker;
+import net.nmedit.nmlibs.jnmprotocol2.GetPatchMessage;
+import net.nmedit.nmlibs.jnmprotocol2.MidiMessage;
+import net.nmedit.nmlibs.jnmprotocol2.SlotsSelectedMessage;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.NMPatch;
+import net.nmedit.nmlibs.jsynth.AbstractSlot;
+import net.nmedit.nmlibs.jsynth.Slot;
+import net.nmedit.nmlibs.jsynth.SlotManager;
+import net.nmedit.nmlibs.jsynth.SynthException;
+import net.nmedit.nmlibs.jsynth.clavia.nordmodular.worker.ReqPatchWorker;
+import net.nmedit.nmlibs.jsynth.clavia.nordmodular.worker.ScheduledMessage;
+import net.nmedit.nmlibs.jsynth.worker.RequestPatchWorker;
 
 public class NmSlot extends AbstractSlot implements Slot
 {

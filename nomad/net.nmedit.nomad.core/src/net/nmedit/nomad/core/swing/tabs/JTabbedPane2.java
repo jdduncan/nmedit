@@ -35,7 +35,7 @@ import javax.swing.SingleSelectionModel;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
-import net.sf.nmedit.nmutils.Platform;
+import net.nmedit.nmlibs.nmutils.Platform;
 
 public class JTabbedPane2 extends JComponent
 {

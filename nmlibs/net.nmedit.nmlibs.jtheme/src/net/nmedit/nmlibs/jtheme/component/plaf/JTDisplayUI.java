@@ -30,7 +30,7 @@ import javax.swing.JComponent;
 import javax.swing.UIDefaults;
 import javax.swing.border.Border;
 
-import net.sf.nmedit.jtheme.component.JTComponent;
+import net.nmedit.nmlibs.jtheme.component.JTComponent;
 
 public class JTDisplayUI extends JTComponentUI
 {

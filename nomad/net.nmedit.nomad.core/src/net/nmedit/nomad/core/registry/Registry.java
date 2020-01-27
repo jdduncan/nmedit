@@ -25,7 +25,7 @@ import java.util.NoSuchElementException;
 
 import javax.swing.event.EventListenerList;
 
-import net.sf.nmedit.nmutils.collections.UnmodifiableIterator;
+import net.nmedit.nmlibs.nmutils.collections.UnmodifiableIterator;
 
 public class Registry<T> implements Iterable<T>
 {

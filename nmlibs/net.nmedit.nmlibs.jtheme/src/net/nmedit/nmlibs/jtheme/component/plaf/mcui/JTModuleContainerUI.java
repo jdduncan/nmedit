@@ -73,24 +73,24 @@ import javax.swing.SwingUtilities;
 import javax.swing.UIDefaults;
 import javax.swing.plaf.ComponentUI;
 
-import net.sf.nmedit.jpatch.PModule;
-import net.sf.nmedit.jpatch.PModuleContainer;
-import net.sf.nmedit.jpatch.PModuleDescriptor;
-import net.sf.nmedit.jpatch.PPatch;
-import net.sf.nmedit.jpatch.dnd.ModulesBoundingBox;
-import net.sf.nmedit.jpatch.dnd.PDragDrop;
-import net.sf.nmedit.jpatch.dnd.PModuleTransferData;
-import net.sf.nmedit.jpatch.dnd.PModuleTransferDataWrapper;
-import net.sf.nmedit.jtheme.JTContext;
-import net.sf.nmedit.jtheme.JTException;
-import net.sf.nmedit.jtheme.component.JTLayerRoot;
-import net.sf.nmedit.jtheme.component.JTModule;
-import net.sf.nmedit.jtheme.component.JTModuleContainer;
-import net.sf.nmedit.jtheme.component.layer.DNDLayer;
-import net.sf.nmedit.jtheme.util.ModuleImageRenderer;
-import net.sf.nmedit.nmutils.Platform;
-import net.sf.nmedit.nmutils.dnd.FileDnd;
-import net.sf.nmedit.nmutils.swing.ApplicationClipboard;
+import net.nmedit.nmlibs.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.PModuleContainer;
+import net.nmedit.nmlibs.jpatch.PModuleDescriptor;
+import net.nmedit.nmlibs.jpatch.PPatch;
+import net.nmedit.nmlibs.jpatch.dnd.ModulesBoundingBox;
+import net.nmedit.nmlibs.jpatch.dnd.PDragDrop;
+import net.nmedit.nmlibs.jpatch.dnd.PModuleTransferData;
+import net.nmedit.nmlibs.jpatch.dnd.PModuleTransferDataWrapper;
+import net.nmedit.nmlibs.jtheme.JTContext;
+import net.nmedit.nmlibs.jtheme.JTException;
+import net.nmedit.nmlibs.jtheme.component.JTLayerRoot;
+import net.nmedit.nmlibs.jtheme.component.JTModule;
+import net.nmedit.nmlibs.jtheme.component.JTModuleContainer;
+import net.nmedit.nmlibs.jtheme.component.layer.DNDLayer;
+import net.nmedit.nmlibs.jtheme.util.ModuleImageRenderer;
+import net.nmedit.nmlibs.nmutils.Platform;
+import net.nmedit.nmlibs.nmutils.dnd.FileDnd;
+import net.nmedit.nmlibs.nmutils.swing.ApplicationClipboard;
 
 public class JTModuleContainerUI extends ComponentUI
 {

@@ -22,7 +22,7 @@ import javax.swing.undo.AbstractUndoableEdit;
 import javax.swing.undo.CannotRedoException;
 import javax.swing.undo.CannotUndoException;
 
-import net.sf.nmedit.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.PModule;
 
 public class MoveEdit extends AbstractUndoableEdit
 {

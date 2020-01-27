@@ -18,23 +18,23 @@
 */
 package net.nmedit.nmlibs.jpdl2.test;
 
-import net.sf.nmedit.jpdl2.dom.PDLItem;
-import net.sf.nmedit.jpdl2.dom.PDLItemType;
-import net.sf.nmedit.jpdl2.format.Expression;
-import net.sf.nmedit.jpdl2.format.Opcodes;
-import net.sf.nmedit.jpdl2.impl.PDLBlockImpl;
-import net.sf.nmedit.jpdl2.impl.PDLCompiledCondition;
-import net.sf.nmedit.jpdl2.impl.PDLConditionalImpl;
-import net.sf.nmedit.jpdl2.impl.PDLConstantImpl;
-import net.sf.nmedit.jpdl2.impl.PDLFunctionImpl;
-import net.sf.nmedit.jpdl2.impl.PDLInstructionImpl;
-import net.sf.nmedit.jpdl2.impl.PDLMultiplicityImpl;
-import net.sf.nmedit.jpdl2.impl.PDLChoiceImpl;
-import net.sf.nmedit.jpdl2.impl.PDLOptionalImpl;
-import net.sf.nmedit.jpdl2.impl.PDLPacketRefImpl;
-import net.sf.nmedit.jpdl2.impl.PDLSwitchStatementImpl;
-import net.sf.nmedit.jpdl2.impl.PDLVariableImpl;
-import net.sf.nmedit.jpdl2.PDLException;
+import net.nmedit.nmlibs.jpdl2.dom.PDLItem;
+import net.nmedit.nmlibs.jpdl2.dom.PDLItemType;
+import net.nmedit.nmlibs.jpdl2.format.Expression;
+import net.nmedit.nmlibs.jpdl2.format.Opcodes;
+import net.nmedit.nmlibs.jpdl2.impl.PDLBlockImpl;
+import net.nmedit.nmlibs.jpdl2.impl.PDLCompiledCondition;
+import net.nmedit.nmlibs.jpdl2.impl.PDLConditionalImpl;
+import net.nmedit.nmlibs.jpdl2.impl.PDLConstantImpl;
+import net.nmedit.nmlibs.jpdl2.impl.PDLFunctionImpl;
+import net.nmedit.nmlibs.jpdl2.impl.PDLInstructionImpl;
+import net.nmedit.nmlibs.jpdl2.impl.PDLMultiplicityImpl;
+import net.nmedit.nmlibs.jpdl2.impl.PDLChoiceImpl;
+import net.nmedit.nmlibs.jpdl2.impl.PDLOptionalImpl;
+import net.nmedit.nmlibs.jpdl2.impl.PDLPacketRefImpl;
+import net.nmedit.nmlibs.jpdl2.impl.PDLSwitchStatementImpl;
+import net.nmedit.nmlibs.jpdl2.impl.PDLVariableImpl;
+import net.nmedit.nmlibs.jpdl2.PDLException;
 
 import org.junit.Test;
 

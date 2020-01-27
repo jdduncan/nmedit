@@ -1,4 +1,4 @@
-package net.nmedit.nmlibs.jtheme.clavia.nordmodular;
+package net.nmedit.nmlibs.nordmodular.jtheme.clavia.nordmodular;
 import java.awt.AWTEvent;
 import java.awt.event.ComponentEvent;
 

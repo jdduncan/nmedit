@@ -21,25 +21,25 @@ package net.nmedit.nmlibs.jnmprotocol2;
 
 import java.util.EventListener;
 
-import net.sf.nmedit.jnmprotocol2.AckMessage;
-import net.sf.nmedit.jnmprotocol2.ErrorMessage;
-import net.sf.nmedit.jnmprotocol2.IAmMessage;
-import net.sf.nmedit.jnmprotocol2.KnobAssignmentMessage;
-import net.sf.nmedit.jnmprotocol2.LightMessage;
-import net.sf.nmedit.jnmprotocol2.MeterMessage;
-import net.sf.nmedit.jnmprotocol2.MorphAssignmentMessage;
-import net.sf.nmedit.jnmprotocol2.MorphRangeChangeMessage;
-import net.sf.nmedit.jnmprotocol2.NewPatchInSlotMessage;
-import net.sf.nmedit.jnmprotocol2.NoteMessage;
-import net.sf.nmedit.jnmprotocol2.ParameterMessage;
-import net.sf.nmedit.jnmprotocol2.ParameterSelectMessage;
-import net.sf.nmedit.jnmprotocol2.PatchListMessage;
-import net.sf.nmedit.jnmprotocol2.PatchMessage;
-import net.sf.nmedit.jnmprotocol2.SetPatchTitleMessage;
-import net.sf.nmedit.jnmprotocol2.SlotActivatedMessage;
-import net.sf.nmedit.jnmprotocol2.SlotsSelectedMessage;
-import net.sf.nmedit.jnmprotocol2.SynthSettingsMessage;
-import net.sf.nmedit.jnmprotocol2.VoiceCountMessage;
+import net.nmedit.nmlibs.jnmprotocol2.AckMessage;
+import net.nmedit.nmlibs.jnmprotocol2.ErrorMessage;
+import net.nmedit.nmlibs.jnmprotocol2.IAmMessage;
+import net.nmedit.nmlibs.jnmprotocol2.KnobAssignmentMessage;
+import net.nmedit.nmlibs.jnmprotocol2.LightMessage;
+import net.nmedit.nmlibs.jnmprotocol2.MeterMessage;
+import net.nmedit.nmlibs.jnmprotocol2.MorphAssignmentMessage;
+import net.nmedit.nmlibs.jnmprotocol2.MorphRangeChangeMessage;
+import net.nmedit.nmlibs.jnmprotocol2.NewPatchInSlotMessage;
+import net.nmedit.nmlibs.jnmprotocol2.NoteMessage;
+import net.nmedit.nmlibs.jnmprotocol2.ParameterMessage;
+import net.nmedit.nmlibs.jnmprotocol2.ParameterSelectMessage;
+import net.nmedit.nmlibs.jnmprotocol2.PatchListMessage;
+import net.nmedit.nmlibs.jnmprotocol2.PatchMessage;
+import net.nmedit.nmlibs.jnmprotocol2.SetPatchTitleMessage;
+import net.nmedit.nmlibs.jnmprotocol2.SlotActivatedMessage;
+import net.nmedit.nmlibs.jnmprotocol2.SlotsSelectedMessage;
+import net.nmedit.nmlibs.jnmprotocol2.SynthSettingsMessage;
+import net.nmedit.nmlibs.jnmprotocol2.VoiceCountMessage;
 
 public abstract class NmProtocolListener implements EventListener
 {

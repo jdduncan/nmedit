@@ -20,7 +20,7 @@
 /*
  * Created on Nov 27, 2006
  */
-package net.nmedit.nmlibs.jtheme.clavia.nordmodular.graphics;
+package net.nmedit.nmlibs.nordmodular.jtheme.clavia.nordmodular.graphics;
 
 import java.awt.Rectangle;
 import java.awt.Shape;

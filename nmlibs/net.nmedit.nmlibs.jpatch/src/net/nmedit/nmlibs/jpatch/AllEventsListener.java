@@ -22,14 +22,14 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
-import net.sf.nmedit.jpatch.event.PConnectionEvent;
-import net.sf.nmedit.jpatch.event.PConnectionListener;
-import net.sf.nmedit.jpatch.event.PModuleContainerEvent;
-import net.sf.nmedit.jpatch.event.PModuleContainerListener;
-import net.sf.nmedit.jpatch.event.PModuleEvent;
-import net.sf.nmedit.jpatch.event.PModuleListener;
-import net.sf.nmedit.jpatch.event.PParameterEvent;
-import net.sf.nmedit.jpatch.event.PParameterListener;
+import net.nmedit.nmlibs.jpatch.event.PConnectionEvent;
+import net.nmedit.nmlibs.jpatch.event.PConnectionListener;
+import net.nmedit.nmlibs.jpatch.event.PModuleContainerEvent;
+import net.nmedit.nmlibs.jpatch.event.PModuleContainerListener;
+import net.nmedit.nmlibs.jpatch.event.PModuleEvent;
+import net.nmedit.nmlibs.jpatch.event.PModuleListener;
+import net.nmedit.nmlibs.jpatch.event.PParameterEvent;
+import net.nmedit.nmlibs.jpatch.event.PParameterListener;
 
 public class AllEventsListener
     implements PParameterListener,

@@ -22,9 +22,9 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-import net.sf.nmedit.jpdl2.dom.PDLDocument;
-import net.sf.nmedit.jpdl2.dom.PDLPacketDecl;
-import net.sf.nmedit.jpdl2.dom.PDLPacketRef;
+import net.nmedit.nmlibs.jpdl2.dom.PDLDocument;
+import net.nmedit.nmlibs.jpdl2.dom.PDLPacketDecl;
+import net.nmedit.nmlibs.jpdl2.dom.PDLPacketRef;
 
 public class PDLDocumentImpl implements PDLDocument
 {

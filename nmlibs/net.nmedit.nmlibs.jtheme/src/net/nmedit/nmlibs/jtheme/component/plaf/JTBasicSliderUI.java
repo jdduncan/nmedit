@@ -33,8 +33,8 @@ import javax.swing.SwingConstants;
 import javax.swing.UIDefaults;
 import javax.swing.border.Border;
 
-import net.sf.nmedit.jtheme.component.JTComponent;
-import net.sf.nmedit.jtheme.component.JTControl;
+import net.nmedit.nmlibs.jtheme.component.JTComponent;
+import net.nmedit.nmlibs.jtheme.component.JTControl;
 
 public class JTBasicSliderUI extends JTBasicControlUI implements SwingConstants
 {

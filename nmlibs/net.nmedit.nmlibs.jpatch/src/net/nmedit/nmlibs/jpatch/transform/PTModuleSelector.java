@@ -25,9 +25,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.NoSuchElementException;
 
-import net.sf.nmedit.jpatch.PDescriptor;
-import net.sf.nmedit.jpatch.PModuleDescriptor;
-import net.sf.nmedit.jpatch.PRuntimeException;
+import net.nmedit.nmlibs.jpatch.PDescriptor;
+import net.nmedit.nmlibs.jpatch.PModuleDescriptor;
+import net.nmedit.nmlibs.jpatch.PRuntimeException;
 
 /**
  * Selects a module and some of its parameters and connectors.

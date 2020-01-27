@@ -22,7 +22,7 @@ import java.util.Collection;
 
 import javax.swing.undo.UndoableEdit;
 
-import net.sf.nmedit.jpatch.event.PConnectionListener;
+import net.nmedit.nmlibs.jpatch.event.PConnectionListener;
 
 
 /**

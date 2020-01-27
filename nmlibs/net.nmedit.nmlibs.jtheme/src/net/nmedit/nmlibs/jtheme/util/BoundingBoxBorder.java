@@ -6,7 +6,7 @@ import java.awt.Insets;
 
 import javax.swing.border.Border;
 
-import net.sf.nmedit.jtheme.component.plaf.SelectionPainter;
+import net.nmedit.nmlibs.jtheme.component.plaf.SelectionPainter;
 
 public class BoundingBoxBorder implements Border
 {

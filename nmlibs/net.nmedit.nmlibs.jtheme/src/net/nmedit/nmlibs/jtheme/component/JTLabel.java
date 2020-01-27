@@ -22,8 +22,8 @@
  */
 package net.nmedit.nmlibs.jtheme.component;
 
-import net.sf.nmedit.jtheme.JTContext;
-import net.sf.nmedit.jtheme.util.RetargetMouseEventSupport;
+import net.nmedit.nmlibs.jtheme.JTContext;
+import net.nmedit.nmlibs.jtheme.util.RetargetMouseEventSupport;
 
 public class JTLabel extends JTComponent
 {

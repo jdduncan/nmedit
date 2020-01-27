@@ -7,9 +7,9 @@ import javax.sound.midi.MidiSystem;
 
 import junit.framework.Assert;
 import junit.framework.TestCase;
-import net.sf.nmedit.jnmprotocol.helper.GetPatchMessageReplyAcceptor;
-import net.sf.nmedit.jnmprotocol.utils.NmLookup;
-import net.sf.nmedit.jpdl.BitStream;
+import net.nmedit.nmlibs.jnmprotocol.helper.GetPatchMessageReplyAcceptor;
+import net.nmedit.nmlibs.jnmprotocol.utils.NmLookup;
+import net.nmedit.nmlibs.jpdl.BitStream;
 
 public class ProtocolTester extends TestCase
 {

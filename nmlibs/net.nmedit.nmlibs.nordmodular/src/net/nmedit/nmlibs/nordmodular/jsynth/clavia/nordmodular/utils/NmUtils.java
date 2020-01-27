@@ -20,7 +20,7 @@
 /*
  * Created on Jan 9, 2007
  */
-package net.nmedit.nmlibs.jsynth.clavia.nordmodular.utils;
+package net.nmedit.nmlibs.nordmodular.jsynth.clavia.nordmodular.utils;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedWriter;
@@ -38,40 +38,40 @@ import java.util.Collection;
 
 import javax.xml.parsers.ParserConfigurationException;
 
-import net.sf.nmedit.jnmprotocol2.DeleteCableMessage;
-import net.sf.nmedit.jnmprotocol2.DeleteModuleMessage;
-import net.sf.nmedit.jnmprotocol2.KnobAssignmentMessage;
-import net.sf.nmedit.jnmprotocol2.MidiCtrlAssignmentMessage;
-import net.sf.nmedit.jnmprotocol2.MidiException;
-import net.sf.nmedit.jnmprotocol2.MidiMessage;
-import net.sf.nmedit.jnmprotocol2.MorphAssignmentMessage;
-import net.sf.nmedit.jnmprotocol2.MorphRangeChangeMessage;
-import net.sf.nmedit.jnmprotocol2.MoveModuleMessage;
-import net.sf.nmedit.jnmprotocol2.NewCableMessage;
-import net.sf.nmedit.jnmprotocol2.NewModuleMessage;
-import net.sf.nmedit.jnmprotocol2.ParameterMessage;
-import net.sf.nmedit.jnmprotocol2.ParameterSelectMessage;
-import net.sf.nmedit.jnmprotocol2.PatchListEntry;
-import net.sf.nmedit.jnmprotocol2.PatchListMessage;
-import net.sf.nmedit.jnmprotocol2.PatchMessage;
-import net.sf.nmedit.jnmprotocol2.SetModuleTitleMessage;
-import net.sf.nmedit.jpatch.PConnector;
-import net.sf.nmedit.jpatch.PModule;
-import net.sf.nmedit.jpatch.PModuleContainer;
-import net.sf.nmedit.jpatch.PParameter;
-import net.sf.nmedit.jpatch.clavia.nordmodular.Format;
-import net.sf.nmedit.jpatch.clavia.nordmodular.NM1ModuleDescriptions;
-import net.sf.nmedit.jpatch.clavia.nordmodular.NMPatch;
-import net.sf.nmedit.jpatch.clavia.nordmodular.VoiceArea;
-import net.sf.nmedit.jpatch.clavia.nordmodular.parser.ErrorHandler;
-import net.sf.nmedit.jpatch.clavia.nordmodular.parser.Helper;
-import net.sf.nmedit.jpatch.clavia.nordmodular.parser.PParser;
-import net.sf.nmedit.jpatch.clavia.nordmodular.parser.ParseException;
-import net.sf.nmedit.jpatch.clavia.nordmodular.parser.PatchBuilder;
-import net.sf.nmedit.jpatch.clavia.nordmodular.parser.PatchExporter;
-import net.sf.nmedit.jpatch.clavia.nordmodular.parser.PatchFileWriter;
-import net.sf.nmedit.jsynth.SynthException;
-import net.sf.nmedit.jtheme.util.RelativeClassLoader;
+import net.nmedit.nmlibs.jnmprotocol2.DeleteCableMessage;
+import net.nmedit.nmlibs.jnmprotocol2.DeleteModuleMessage;
+import net.nmedit.nmlibs.jnmprotocol2.KnobAssignmentMessage;
+import net.nmedit.nmlibs.jnmprotocol2.MidiCtrlAssignmentMessage;
+import net.nmedit.nmlibs.jnmprotocol2.MidiException;
+import net.nmedit.nmlibs.jnmprotocol2.MidiMessage;
+import net.nmedit.nmlibs.jnmprotocol2.MorphAssignmentMessage;
+import net.nmedit.nmlibs.jnmprotocol2.MorphRangeChangeMessage;
+import net.nmedit.nmlibs.jnmprotocol2.MoveModuleMessage;
+import net.nmedit.nmlibs.jnmprotocol2.NewCableMessage;
+import net.nmedit.nmlibs.jnmprotocol2.NewModuleMessage;
+import net.nmedit.nmlibs.jnmprotocol2.ParameterMessage;
+import net.nmedit.nmlibs.jnmprotocol2.ParameterSelectMessage;
+import net.nmedit.nmlibs.jnmprotocol2.PatchListEntry;
+import net.nmedit.nmlibs.jnmprotocol2.PatchListMessage;
+import net.nmedit.nmlibs.jnmprotocol2.PatchMessage;
+import net.nmedit.nmlibs.jnmprotocol2.SetModuleTitleMessage;
+import net.nmedit.nmlibs.jpatch.PConnector;
+import net.nmedit.nmlibs.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.PModuleContainer;
+import net.nmedit.nmlibs.jpatch.PParameter;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.Format;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.NM1ModuleDescriptions;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.NMPatch;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.VoiceArea;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.parser.ErrorHandler;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.parser.Helper;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.parser.PParser;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.parser.ParseException;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.parser.PatchBuilder;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.parser.PatchExporter;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.parser.PatchFileWriter;
+import net.nmedit.nmlibs.jsynth.SynthException;
+import net.nmedit.nmlibs.jtheme.util.RelativeClassLoader;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;

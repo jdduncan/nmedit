@@ -26,15 +26,15 @@ import java.awt.Container;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.sf.nmedit.jpatch.PConnector;
-import net.sf.nmedit.jpatch.PConnectorDescriptor;
-import net.sf.nmedit.jpatch.PSignal;
-import net.sf.nmedit.jpatch.event.PConnectorListener;
-import net.sf.nmedit.jpatch.event.PConnectorStateEvent;
-import net.sf.nmedit.jtheme.JTContext;
-import net.sf.nmedit.jtheme.cable.Cable;
-import net.sf.nmedit.jtheme.cable.JTCableManager;
-import net.sf.nmedit.jtheme.component.plaf.JTConnectorUI;
+import net.nmedit.nmlibs.jpatch.PConnector;
+import net.nmedit.nmlibs.jpatch.PConnectorDescriptor;
+import net.nmedit.nmlibs.jpatch.PSignal;
+import net.nmedit.nmlibs.jpatch.event.PConnectorListener;
+import net.nmedit.nmlibs.jpatch.event.PConnectorStateEvent;
+import net.nmedit.nmlibs.jtheme.JTContext;
+import net.nmedit.nmlibs.jtheme.cable.Cable;
+import net.nmedit.nmlibs.jtheme.cable.JTCableManager;
+import net.nmedit.nmlibs.jtheme.component.plaf.JTConnectorUI;
 
 public class JTConnector extends JTComponent implements PConnectorListener
 {

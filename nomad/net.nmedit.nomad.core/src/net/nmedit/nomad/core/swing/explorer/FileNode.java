@@ -48,11 +48,11 @@ import javax.swing.tree.DefaultMutableTreeNode;
 import javax.swing.tree.TreeNode;
 import javax.swing.tree.TreePath;
 
-import net.sf.nmedit.nmutils.FileSort;
-import net.sf.nmedit.nmutils.Platform;
-import net.sf.nmedit.nmutils.io.FileUtils;
-import net.sf.nmedit.nmutils.swing.WorkIndicator;
-import net.sf.nmedit.nomad.core.Nomad;
+import net.nmedit.nmlibs.nmutils.FileSort;
+import net.nmedit.nmlibs.nmutils.Platform;
+import net.nmedit.nmlibs.nmutils.io.FileUtils;
+import net.nmedit.nmlibs.nmutils.swing.WorkIndicator;
+import net.nmedit.nmlibs.nomad.core.Nomad;
 
 public class FileNode implements ETreeNode, MouseListener,
     Transferable

@@ -24,9 +24,9 @@ package net.nmedit.nmlibs.jsynth.event;
 
 import java.awt.Event;
 
-import net.sf.nmedit.jsynth.Plug;
-import net.sf.nmedit.jsynth.Port;
-import net.sf.nmedit.jsynth.Synthesizer;
+import net.nmedit.nmlibs.jsynth.Plug;
+import net.nmedit.nmlibs.jsynth.Port;
+import net.nmedit.nmlibs.jsynth.Synthesizer;
 
 public class PortAttachmentEvent extends Event
 {

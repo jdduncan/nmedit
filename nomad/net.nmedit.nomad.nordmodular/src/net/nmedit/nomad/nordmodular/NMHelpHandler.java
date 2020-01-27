@@ -32,19 +32,19 @@ import javax.swing.JComponent;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import net.sf.nmedit.jpatch.PModule;
-import net.sf.nmedit.jpatch.PModuleDescriptor;
-import net.sf.nmedit.jpatch.impl.PBasicModule;
-import net.sf.nmedit.jtheme.JTContext;
-import net.sf.nmedit.jtheme.JTException;
-import net.sf.nmedit.jtheme.component.JTModule;
-import net.sf.nmedit.jtheme.help.HelpHandler;
-import net.sf.nmedit.jtheme.help.ModuleHelpPage;
-import net.sf.nmedit.jtheme.store2.ModuleElement;
-import net.sf.nmedit.jtheme.util.ModuleImageRenderer;
-import net.sf.nmedit.nomad.core.Nomad;
-import net.sf.nmedit.nomad.core.jpf.TempDir;
-import net.sf.nmedit.nomad.core.swing.document.Document;
+import net.nmedit.nmlibs.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.PModuleDescriptor;
+import net.nmedit.nmlibs.jpatch.impl.PBasicModule;
+import net.nmedit.nmlibs.jtheme.JTContext;
+import net.nmedit.nmlibs.jtheme.JTException;
+import net.nmedit.nmlibs.jtheme.component.JTModule;
+import net.nmedit.nmlibs.jtheme.help.HelpHandler;
+import net.nmedit.nmlibs.jtheme.help.ModuleHelpPage;
+import net.nmedit.nmlibs.jtheme.store2.ModuleElement;
+import net.nmedit.nmlibs.jtheme.util.ModuleImageRenderer;
+import net.nmedit.nmlibs.nomad.core.Nomad;
+import net.nmedit.nmlibs.nomad.core.jpf.TempDir;
+import net.nmedit.nmlibs.nomad.core.swing.document.Document;
 
 public class NMHelpHandler implements HelpHandler
 {

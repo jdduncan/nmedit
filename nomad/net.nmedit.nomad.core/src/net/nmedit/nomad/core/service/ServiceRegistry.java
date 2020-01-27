@@ -24,7 +24,7 @@ import java.util.Map;
 
 import javax.swing.event.EventListenerList;
 
-import net.sf.nmedit.nmutils.collections.EmptyIterator;
+import net.nmedit.nmlibs.nmutils.collections.EmptyIterator;
 
 public class ServiceRegistry
 {

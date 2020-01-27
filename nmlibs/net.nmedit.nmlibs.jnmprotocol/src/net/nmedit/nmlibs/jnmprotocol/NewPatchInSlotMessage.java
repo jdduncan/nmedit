@@ -19,9 +19,9 @@
 
 package net.nmedit.nmlibs.jnmprotocol;
 
-import net.sf.nmedit.jnmprotocol.MidiMessage;
-import net.sf.nmedit.jnmprotocol.NmProtocolListener;
-import net.sf.nmedit.jpdl.*;
+import net.nmedit.nmlibs.jnmprotocol.MidiMessage;
+import net.nmedit.nmlibs.jnmprotocol.NmProtocolListener;
+import net.nmedit.nmlibs.jpdl.*;
 
 public class NewPatchInSlotMessage extends MidiMessage
 {

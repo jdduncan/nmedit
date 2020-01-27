@@ -21,14 +21,14 @@ package net.nmedit.nmlibs.jpatch.impl;
 import javax.swing.event.EventListenerList;
 import javax.swing.undo.UndoableEdit;
 
-import net.sf.nmedit.jpatch.PModule;
-import net.sf.nmedit.jpatch.PModuleContainer;
-import net.sf.nmedit.jpatch.PParameter;
-import net.sf.nmedit.jpatch.PParameterDescriptor;
-import net.sf.nmedit.jpatch.PPatch;
-import net.sf.nmedit.jpatch.PUndoableEditFactory;
-import net.sf.nmedit.jpatch.event.PParameterEvent;
-import net.sf.nmedit.jpatch.event.PParameterListener;
+import net.nmedit.nmlibs.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.PModuleContainer;
+import net.nmedit.nmlibs.jpatch.PParameter;
+import net.nmedit.nmlibs.jpatch.PParameterDescriptor;
+import net.nmedit.nmlibs.jpatch.PPatch;
+import net.nmedit.nmlibs.jpatch.PUndoableEditFactory;
+import net.nmedit.nmlibs.jpatch.event.PParameterEvent;
+import net.nmedit.nmlibs.jpatch.event.PParameterListener;
 
 /**
  * The reference implementation of interface {@link PParameter}.

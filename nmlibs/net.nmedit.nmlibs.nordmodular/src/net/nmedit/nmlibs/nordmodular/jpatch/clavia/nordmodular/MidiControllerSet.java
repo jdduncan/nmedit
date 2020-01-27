@@ -20,14 +20,14 @@
 /*
  * Created on Apr 19, 2006
  */
-package net.nmedit.nmlibs.jpatch.clavia.nordmodular;
+package net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular;
 
 import java.util.AbstractList;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.sf.nmedit.jpatch.PModule;
-import net.sf.nmedit.jpatch.PParameter;
+import net.nmedit.nmlibs.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.PParameter;
 
 public class MidiControllerSet extends AbstractList<MidiController>
 {

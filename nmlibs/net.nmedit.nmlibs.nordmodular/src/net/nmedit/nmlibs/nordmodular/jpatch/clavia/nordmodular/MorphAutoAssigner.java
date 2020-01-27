@@ -1,13 +1,13 @@
-package net.nmedit.nmlibs.jpatch.clavia.nordmodular;
+package net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular;
 
-import net.sf.nmedit.jpatch.PModule;
-import net.sf.nmedit.jpatch.PModuleContainer;
-import net.sf.nmedit.jpatch.PParameter;
-import net.sf.nmedit.jpatch.clavia.nordmodular.PNMMorphSection.Assignments;
-import net.sf.nmedit.jpatch.event.PModuleContainerEvent;
-import net.sf.nmedit.jpatch.event.PModuleContainerListener;
-import net.sf.nmedit.jpatch.event.PParameterEvent;
-import net.sf.nmedit.jpatch.event.PParameterListener;
+import net.nmedit.nmlibs.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.PModuleContainer;
+import net.nmedit.nmlibs.jpatch.PParameter;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.PNMMorphSection.Assignments;
+import net.nmedit.nmlibs.jpatch.event.PModuleContainerEvent;
+import net.nmedit.nmlibs.jpatch.event.PModuleContainerListener;
+import net.nmedit.nmlibs.jpatch.event.PParameterEvent;
+import net.nmedit.nmlibs.jpatch.event.PParameterListener;
 
 public class MorphAutoAssigner implements PModuleContainerListener,
     PParameterListener

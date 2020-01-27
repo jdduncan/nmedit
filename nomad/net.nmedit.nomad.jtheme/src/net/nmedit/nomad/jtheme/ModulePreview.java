@@ -24,10 +24,10 @@ package net.nmedit.nomad.jtheme;
 
 import java.awt.Image;
 
-import net.sf.nmedit.jpatch.ModuleDescriptions;
-import net.sf.nmedit.jpatch.PModuleDescriptor;
-import net.sf.nmedit.jtheme.store.StorageContext;
-import net.sf.nmedit.jtheme.util.ModuleImageRenderer;
+import net.nmedit.nmlibs.jpatch.ModuleDescriptions;
+import net.nmedit.nmlibs.jpatch.PModuleDescriptor;
+import net.nmedit.nmlibs.jtheme.store.StorageContext;
+import net.nmedit.nmlibs.jtheme.util.ModuleImageRenderer;
 
 public class ModulePreview extends ImagePreview
 {

@@ -18,10 +18,10 @@
  */
 package net.nmedit.nmlibs.jpatch.impl;
 
-import net.sf.nmedit.jpatch.PConnectorDescriptor;
-import net.sf.nmedit.jpatch.PModuleDescriptor;
-import net.sf.nmedit.jpatch.PSignal;
-import net.sf.nmedit.jpatch.PSignalTypes;
+import net.nmedit.nmlibs.jpatch.PConnectorDescriptor;
+import net.nmedit.nmlibs.jpatch.PModuleDescriptor;
+import net.nmedit.nmlibs.jpatch.PSignal;
+import net.nmedit.nmlibs.jpatch.PSignalTypes;
 
 /**
  * The reference implementation of interface {@link PConnectorDescriptor}.

@@ -27,27 +27,27 @@ import java.util.List;
 import javax.swing.event.EventListenerList;
 import javax.swing.undo.UndoableEdit;
 
-import net.sf.nmedit.jpatch.InvalidDescriptorException;
-import net.sf.nmedit.jpatch.PComponent;
-import net.sf.nmedit.jpatch.PConnectionManager;
-import net.sf.nmedit.jpatch.PConnector;
-import net.sf.nmedit.jpatch.PConnectorDescriptor;
-import net.sf.nmedit.jpatch.PDescriptor;
-import net.sf.nmedit.jpatch.PLight;
-import net.sf.nmedit.jpatch.PLightDescriptor;
-import net.sf.nmedit.jpatch.PModule;
-import net.sf.nmedit.jpatch.PModuleContainer;
-import net.sf.nmedit.jpatch.PModuleDescriptor;
-import net.sf.nmedit.jpatch.PModuleMetrics;
-import net.sf.nmedit.jpatch.PParameter;
-import net.sf.nmedit.jpatch.PParameterDescriptor;
-import net.sf.nmedit.jpatch.PPatch;
-import net.sf.nmedit.jpatch.PUndoableEditFactory;
-import net.sf.nmedit.jpatch.event.PModuleEvent;
-import net.sf.nmedit.jpatch.event.PModuleListener;
-import net.sf.nmedit.jpatch.util.ObjectCache;
-import net.sf.nmedit.jpatch.util.ObjectFilter;
-import net.sf.nmedit.jpatch.util.ObjectFilterResult;
+import net.nmedit.nmlibs.jpatch.InvalidDescriptorException;
+import net.nmedit.nmlibs.jpatch.PComponent;
+import net.nmedit.nmlibs.jpatch.PConnectionManager;
+import net.nmedit.nmlibs.jpatch.PConnector;
+import net.nmedit.nmlibs.jpatch.PConnectorDescriptor;
+import net.nmedit.nmlibs.jpatch.PDescriptor;
+import net.nmedit.nmlibs.jpatch.PLight;
+import net.nmedit.nmlibs.jpatch.PLightDescriptor;
+import net.nmedit.nmlibs.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.PModuleContainer;
+import net.nmedit.nmlibs.jpatch.PModuleDescriptor;
+import net.nmedit.nmlibs.jpatch.PModuleMetrics;
+import net.nmedit.nmlibs.jpatch.PParameter;
+import net.nmedit.nmlibs.jpatch.PParameterDescriptor;
+import net.nmedit.nmlibs.jpatch.PPatch;
+import net.nmedit.nmlibs.jpatch.PUndoableEditFactory;
+import net.nmedit.nmlibs.jpatch.event.PModuleEvent;
+import net.nmedit.nmlibs.jpatch.event.PModuleListener;
+import net.nmedit.nmlibs.jpatch.util.ObjectCache;
+import net.nmedit.nmlibs.jpatch.util.ObjectFilter;
+import net.nmedit.nmlibs.jpatch.util.ObjectFilterResult;
 
 /**
  * The reference implementation of interface {@link PModule}.

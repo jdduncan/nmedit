@@ -16,52 +16,52 @@
  * along with Nomad; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
-package net.nmedit.nmlibs.jsynth.clavia.nordmodular;
+package net.nmedit.nmlibs.nordmodular.jsynth.clavia.nordmodular;
 
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 
-import net.sf.nmedit.jnmprotocol2.AckMessage;
-import net.sf.nmedit.jnmprotocol2.ErrorMessage;
-import net.sf.nmedit.jnmprotocol2.IAmMessage;
-import net.sf.nmedit.jnmprotocol2.KnobAssignmentMessage;
-import net.sf.nmedit.jnmprotocol2.LightMessage;
-import net.sf.nmedit.jnmprotocol2.MeterMessage;
-import net.sf.nmedit.jnmprotocol2.MorphRangeChangeMessage;
-import net.sf.nmedit.jnmprotocol2.NewPatchInSlotMessage;
-import net.sf.nmedit.jnmprotocol2.NmProtocolListener;
-import net.sf.nmedit.jnmprotocol2.NoteMessage;
-import net.sf.nmedit.jnmprotocol2.ParameterMessage;
-import net.sf.nmedit.jnmprotocol2.ParameterSelectMessage;
-import net.sf.nmedit.jnmprotocol2.PatchListMessage;
-import net.sf.nmedit.jnmprotocol2.PatchMessage;
-import net.sf.nmedit.jnmprotocol2.RequestPatchMessage;
-import net.sf.nmedit.jnmprotocol2.SetPatchTitleMessage;
-import net.sf.nmedit.jnmprotocol2.SlotActivatedMessage;
-import net.sf.nmedit.jnmprotocol2.SlotsSelectedMessage;
-import net.sf.nmedit.jnmprotocol2.SynthSettingsMessage;
-import net.sf.nmedit.jnmprotocol2.VoiceCountMessage;
-import net.sf.nmedit.jpatch.InvalidDescriptorException;
-import net.sf.nmedit.jpatch.PModule;
-import net.sf.nmedit.jpatch.PModuleContainer;
-import net.sf.nmedit.jpatch.PParameter;
-import net.sf.nmedit.jpatch.clavia.nordmodular.Format;
-import net.sf.nmedit.jpatch.clavia.nordmodular.Knob;
-import net.sf.nmedit.jpatch.clavia.nordmodular.NMPatch;
-import net.sf.nmedit.jpatch.clavia.nordmodular.VoiceArea;
-import net.sf.nmedit.jpatch.clavia.nordmodular.parser.Helper;
-import net.sf.nmedit.jpatch.clavia.nordmodular.parser.ParseException;
-import net.sf.nmedit.jpatch.clavia.nordmodular.parser.PatchBuilder;
-import net.sf.nmedit.jsynth.Slot;
-import net.sf.nmedit.jsynth.SynthException;
-import net.sf.nmedit.jsynth.clavia.nordmodular.utils.BitstreamPatchParser;
-import net.sf.nmedit.jsynth.clavia.nordmodular.utils.NmUtils.ParserErrorHandler;
-import net.sf.nmedit.jsynth.clavia.nordmodular.worker.ScheduledMessage;
-import net.sf.nmedit.jsynth.event.SlotEvent;
-import net.sf.nmedit.jsynth.event.SlotListener;
-import net.sf.nmedit.jsynth.event.SlotManagerListener;
-import net.sf.nmedit.jsynth.event.SynthesizerEvent;
-import net.sf.nmedit.jsynth.event.SynthesizerStateListener;
+import net.nmedit.nmlibs.jnmprotocol2.AckMessage;
+import net.nmedit.nmlibs.jnmprotocol2.ErrorMessage;
+import net.nmedit.nmlibs.jnmprotocol2.IAmMessage;
+import net.nmedit.nmlibs.jnmprotocol2.KnobAssignmentMessage;
+import net.nmedit.nmlibs.jnmprotocol2.LightMessage;
+import net.nmedit.nmlibs.jnmprotocol2.MeterMessage;
+import net.nmedit.nmlibs.jnmprotocol2.MorphRangeChangeMessage;
+import net.nmedit.nmlibs.jnmprotocol2.NewPatchInSlotMessage;
+import net.nmedit.nmlibs.jnmprotocol2.NmProtocolListener;
+import net.nmedit.nmlibs.jnmprotocol2.NoteMessage;
+import net.nmedit.nmlibs.jnmprotocol2.ParameterMessage;
+import net.nmedit.nmlibs.jnmprotocol2.ParameterSelectMessage;
+import net.nmedit.nmlibs.jnmprotocol2.PatchListMessage;
+import net.nmedit.nmlibs.jnmprotocol2.PatchMessage;
+import net.nmedit.nmlibs.jnmprotocol2.RequestPatchMessage;
+import net.nmedit.nmlibs.jnmprotocol2.SetPatchTitleMessage;
+import net.nmedit.nmlibs.jnmprotocol2.SlotActivatedMessage;
+import net.nmedit.nmlibs.jnmprotocol2.SlotsSelectedMessage;
+import net.nmedit.nmlibs.jnmprotocol2.SynthSettingsMessage;
+import net.nmedit.nmlibs.jnmprotocol2.VoiceCountMessage;
+import net.nmedit.nmlibs.jpatch.InvalidDescriptorException;
+import net.nmedit.nmlibs.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.PModuleContainer;
+import net.nmedit.nmlibs.jpatch.PParameter;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.Format;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.Knob;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.NMPatch;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.VoiceArea;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.parser.Helper;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.parser.ParseException;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.parser.PatchBuilder;
+import net.nmedit.nmlibs.jsynth.Slot;
+import net.nmedit.nmlibs.jsynth.SynthException;
+import net.nmedit.nmlibs.jsynth.clavia.nordmodular.utils.BitstreamPatchParser;
+import net.nmedit.nmlibs.jsynth.clavia.nordmodular.utils.NmUtils.ParserErrorHandler;
+import net.nmedit.nmlibs.jsynth.clavia.nordmodular.worker.ScheduledMessage;
+import net.nmedit.nmlibs.jsynth.event.SlotEvent;
+import net.nmedit.nmlibs.jsynth.event.SlotListener;
+import net.nmedit.nmlibs.jsynth.event.SlotManagerListener;
+import net.nmedit.nmlibs.jsynth.event.SynthesizerEvent;
+import net.nmedit.nmlibs.jsynth.event.SynthesizerStateListener;
 
 public class NmMessageHandler extends NmProtocolListener
     implements SlotManagerListener, PropertyChangeListener, SlotListener, SynthesizerStateListener

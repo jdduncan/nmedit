@@ -23,8 +23,8 @@ import java.awt.Point;
 import java.awt.Rectangle;
 import java.util.List;
 
-import net.sf.nmedit.jpatch.event.PModuleListener;
-import net.sf.nmedit.jpatch.util.ObjectFilter;
+import net.nmedit.nmlibs.jpatch.event.PModuleListener;
+import net.nmedit.nmlibs.jpatch.util.ObjectFilter;
 
 
 public interface PModule extends PComponent

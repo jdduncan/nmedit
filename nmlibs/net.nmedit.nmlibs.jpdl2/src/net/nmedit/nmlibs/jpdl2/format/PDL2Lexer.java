@@ -7,7 +7,7 @@
  * This class is a simple example lexer.
  */
 package net.nmedit.nmlibs.jpdl2.format;
-import net.sf.nmedit.jpdl2.utils.PDLUtils;
+import net.nmedit.nmlibs.jpdl2.utils.PDLUtils;
 
 @SuppressWarnings({"unused", "static-access"})
 

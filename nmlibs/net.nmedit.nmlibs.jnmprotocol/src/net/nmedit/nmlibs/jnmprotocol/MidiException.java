@@ -19,7 +19,7 @@
 
 package net.nmedit.nmlibs.jnmprotocol;
 
-import net.sf.nmedit.jnmprotocol.utils.StringUtils;
+import net.nmedit.nmlibs.jnmprotocol.utils.StringUtils;
 
 public class MidiException extends Exception
 {

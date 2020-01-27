@@ -20,7 +20,7 @@ package net.nmedit.nmlibs.jpatch;
 
 import javax.swing.undo.UndoableEdit;
 
-import net.sf.nmedit.jpatch.event.PParameterListener;
+import net.nmedit.nmlibs.jpatch.event.PParameterListener;
 
 /**
  * Parameter of a {@link PModule module}.

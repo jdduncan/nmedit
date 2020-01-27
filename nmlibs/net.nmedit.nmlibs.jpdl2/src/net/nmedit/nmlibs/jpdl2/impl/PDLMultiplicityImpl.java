@@ -18,7 +18,7 @@
 */
 package net.nmedit.nmlibs.jpdl2.impl;
 
-import net.sf.nmedit.jpdl2.dom.PDLMultiplicity;
+import net.nmedit.nmlibs.jpdl2.dom.PDLMultiplicity;
 
 public class PDLMultiplicityImpl implements PDLMultiplicity
 {

@@ -19,12 +19,12 @@ package net.nmedit.nmlibs.jpdl2.format;
 
 //#line 2 "/home/christian/dev/nmedit/libs/jpdl2/format/pdl2.byaccj"
 import java.io.*;
-import net.sf.nmedit.jpdl2.impl.*;
+import net.nmedit.nmlibs.jpdl2.impl.*;
 import java.util.ArrayList;
 import java.util.List;
-import net.sf.nmedit.jpdl2.*;
-import net.sf.nmedit.jpdl2.dom.*;
-import net.sf.nmedit.jpdl2.utils.*;
+import net.nmedit.nmlibs.jpdl2.*;
+import net.nmedit.nmlibs.jpdl2.dom.*;
+import net.nmedit.nmlibs.jpdl2.utils.*;
 //#line 25 "PDL2Parser.java"
 
 

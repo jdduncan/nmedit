@@ -18,7 +18,7 @@
  */
 package net.nmedit.nmlibs.jsynth.event;
 
-import net.sf.nmedit.jsynth.Slot;
+import net.nmedit.nmlibs.jsynth.Slot;
 
 public class SlotEvent extends SynthesizerEvent
 {

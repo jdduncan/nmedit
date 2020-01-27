@@ -26,7 +26,7 @@ import java.io.File;
 import java.io.FileFilter;
 import java.util.Queue;
 
-import net.sf.nmedit.nmutils.FileSort;
+import net.nmedit.nmlibs.nmutils.FileSort;
 
 /**
  * A file iterator capable of iterating directories recursive.

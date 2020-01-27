@@ -16,32 +16,32 @@
  * along with Nomad; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
-package net.nmedit.nmlibs.jsynth.clavia.nordmodular;
+package net.nmedit.nmlibs.nordmodular.jsynth.clavia.nordmodular;
 
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 
-import net.sf.nmedit.jnmprotocol2.MidiMessage;
-import net.sf.nmedit.jnmprotocol2.MorphAssignmentMessage;
-import net.sf.nmedit.jnmprotocol2.NmProtocol;
-import net.sf.nmedit.jnmprotocol2.SetPatchTitleMessage;
-import net.sf.nmedit.jpatch.AllEventsListener;
-import net.sf.nmedit.jpatch.PModule;
-import net.sf.nmedit.jpatch.PParameter;
-import net.sf.nmedit.jpatch.clavia.nordmodular.NMPatch;
-import net.sf.nmedit.jpatch.clavia.nordmodular.PNMMorphSection;
-import net.sf.nmedit.jpatch.clavia.nordmodular.VoiceArea;
-import net.sf.nmedit.jpatch.clavia.nordmodular.event.PAssignmentEvent;
-import net.sf.nmedit.jpatch.clavia.nordmodular.event.PAssignmentListener;
-import net.sf.nmedit.jpatch.clavia.nordmodular.event.PPatchSettingsEvent;
-import net.sf.nmedit.jpatch.clavia.nordmodular.event.PPatchSettingsListener;
-import net.sf.nmedit.jpatch.clavia.nordmodular.parser.Helper;
-import net.sf.nmedit.jpatch.event.PConnectionEvent;
-import net.sf.nmedit.jpatch.event.PModuleContainerEvent;
-import net.sf.nmedit.jpatch.event.PModuleEvent;
-import net.sf.nmedit.jpatch.event.PParameterEvent;
-import net.sf.nmedit.jsynth.Slot;
-import net.sf.nmedit.jsynth.clavia.nordmodular.utils.NmUtils;
+import net.nmedit.nmlibs.jnmprotocol2.MidiMessage;
+import net.nmedit.nmlibs.jnmprotocol2.MorphAssignmentMessage;
+import net.nmedit.nmlibs.jnmprotocol2.NmProtocol;
+import net.nmedit.nmlibs.jnmprotocol2.SetPatchTitleMessage;
+import net.nmedit.nmlibs.jpatch.AllEventsListener;
+import net.nmedit.nmlibs.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.PParameter;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.NMPatch;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.PNMMorphSection;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.VoiceArea;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.event.PAssignmentEvent;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.event.PAssignmentListener;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.event.PPatchSettingsEvent;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.event.PPatchSettingsListener;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.parser.Helper;
+import net.nmedit.nmlibs.jpatch.event.PConnectionEvent;
+import net.nmedit.nmlibs.jpatch.event.PModuleContainerEvent;
+import net.nmedit.nmlibs.jpatch.event.PModuleEvent;
+import net.nmedit.nmlibs.jpatch.event.PParameterEvent;
+import net.nmedit.nmlibs.jsynth.Slot;
+import net.nmedit.nmlibs.jsynth.clavia.nordmodular.utils.NmUtils;
 
 public class NmPatchSynchronizer extends AllEventsListener 
     implements PAssignmentListener, PropertyChangeListener, PPatchSettingsListener

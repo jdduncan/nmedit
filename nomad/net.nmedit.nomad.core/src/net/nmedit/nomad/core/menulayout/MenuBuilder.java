@@ -40,7 +40,7 @@ import javax.swing.JMenuItem;
 import javax.swing.JPopupMenu;
 import javax.swing.KeyStroke;
 
-import net.sf.nmedit.nmutils.Platform;
+import net.nmedit.nmlibs.nmutils.Platform;
 
 /**
  * The menu builder class. Uses a {@link net.sf.nmedit.nomad.core.menulayout.MenuLayout} and 

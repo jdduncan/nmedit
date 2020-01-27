@@ -16,11 +16,11 @@
  * along with Nomad; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
-package net.nmedit.nmlibs.jsynth.clavia.nordmodular.worker;
+package net.nmedit.nmlibs.nordmodular.jsynth.clavia.nordmodular.worker;
 
-import net.sf.nmedit.jnmprotocol2.DeletePatchMessage;
-import net.sf.nmedit.jsynth.SynthException;
-import net.sf.nmedit.jsynth.clavia.nordmodular.NordModular;
+import net.nmedit.nmlibs.jnmprotocol2.DeletePatchMessage;
+import net.nmedit.nmlibs.jsynth.SynthException;
+import net.nmedit.nmlibs.jsynth.clavia.nordmodular.NordModular;
 
 public class DeletePatchWorker
 {

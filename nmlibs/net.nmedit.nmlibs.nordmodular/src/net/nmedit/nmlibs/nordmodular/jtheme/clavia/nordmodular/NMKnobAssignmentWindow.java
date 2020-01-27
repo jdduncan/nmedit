@@ -1,4 +1,4 @@
-package net.nmedit.nmlibs.jtheme.clavia.nordmodular;
+package net.nmedit.nmlibs.nordmodular.jtheme.clavia.nordmodular;
 
 import java.awt.Dimension;
 import java.beans.PropertyChangeEvent;
@@ -11,19 +11,19 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JSeparator;
 
-import net.sf.nmedit.jpatch.PParameter;
-import net.sf.nmedit.jpatch.clavia.nordmodular.Knob;
-import net.sf.nmedit.jpatch.clavia.nordmodular.NMPatch;
-import net.sf.nmedit.jpatch.clavia.nordmodular.event.PAssignmentEvent;
-import net.sf.nmedit.jpatch.clavia.nordmodular.event.PAssignmentListener;
-import net.sf.nmedit.jpatch.impl.PBasicLight;
-import net.sf.nmedit.jpatch.impl.PBasicLightDescriptor;
-import net.sf.nmedit.jtheme.JTContext;
-import net.sf.nmedit.jtheme.JTException;
-import net.sf.nmedit.jtheme.component.JTControl;
-import net.sf.nmedit.jtheme.component.JTLabel;
-import net.sf.nmedit.jtheme.component.JTLight;
-import net.sf.nmedit.jtheme.component.JTParameterControlAdapter;
+import net.nmedit.nmlibs.jpatch.PParameter;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.Knob;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.NMPatch;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.event.PAssignmentEvent;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.event.PAssignmentListener;
+import net.nmedit.nmlibs.jpatch.impl.PBasicLight;
+import net.nmedit.nmlibs.jpatch.impl.PBasicLightDescriptor;
+import net.nmedit.nmlibs.jtheme.JTContext;
+import net.nmedit.nmlibs.jtheme.JTException;
+import net.nmedit.nmlibs.jtheme.component.JTControl;
+import net.nmedit.nmlibs.jtheme.component.JTLabel;
+import net.nmedit.nmlibs.jtheme.component.JTLight;
+import net.nmedit.nmlibs.jtheme.component.JTParameterControlAdapter;
 
 public class NMKnobAssignmentWindow implements PropertyChangeListener, PAssignmentListener
 {

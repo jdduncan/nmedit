@@ -1,17 +1,17 @@
-package net.nmedit.nmlibs.jpatch.clavia.nordmodular;
+package net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Hashtable;
 import java.util.List;
 
-import net.sf.nmedit.jpatch.CopyOperation;
-import net.sf.nmedit.jpatch.LayoutTool;
-import net.sf.nmedit.jpatch.PConnection;
-import net.sf.nmedit.jpatch.PConnectionManager;
-import net.sf.nmedit.jpatch.PConnector;
-import net.sf.nmedit.jpatch.PModule;
-import net.sf.nmedit.jpatch.history.PUndoableEditSupport;
+import net.nmedit.nmlibs.jpatch.CopyOperation;
+import net.nmedit.nmlibs.jpatch.LayoutTool;
+import net.nmedit.nmlibs.jpatch.PConnection;
+import net.nmedit.nmlibs.jpatch.PConnectionManager;
+import net.nmedit.nmlibs.jpatch.PConnector;
+import net.nmedit.nmlibs.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.history.PUndoableEditSupport;
 
 public class NMCopyOperation extends NMMoveOperation implements CopyOperation {
 

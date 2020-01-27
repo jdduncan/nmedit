@@ -18,8 +18,8 @@
  */
 package net.nmedit.nmlibs.jsynth;
 
-import net.sf.nmedit.jsynth.midi.MidiPlug;
-import net.sf.nmedit.jsynth.midi.MidiPort;
+import net.nmedit.nmlibs.jsynth.midi.MidiPlug;
+import net.nmedit.nmlibs.jsynth.midi.MidiPort;
 
 public class MidiPortSupport
 {

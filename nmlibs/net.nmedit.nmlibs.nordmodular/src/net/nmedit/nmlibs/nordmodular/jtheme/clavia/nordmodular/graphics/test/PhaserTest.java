@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
 
-package net.nmedit.nmlibs.jtheme.clavia.nordmodular.graphics.test;
+package net.nmedit.nmlibs.nordmodular.jtheme.clavia.nordmodular.graphics.test;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -35,7 +35,7 @@ import javax.swing.JSlider;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
-import net.sf.nmedit.jtheme.clavia.nordmodular.graphics.Phaser;
+import net.nmedit.nmlibs.jtheme.clavia.nordmodular.graphics.Phaser;
 
 
 public class PhaserTest

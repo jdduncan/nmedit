@@ -27,7 +27,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
-import net.sf.nmedit.jtheme.designer.ComponentView;
+import net.nmedit.nmlibs.jtheme.designer.ComponentView;
 
 /**
  * Test for the class {@link ComponentView}.

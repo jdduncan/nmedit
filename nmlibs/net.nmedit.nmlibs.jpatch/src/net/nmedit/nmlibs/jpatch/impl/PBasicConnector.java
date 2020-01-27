@@ -24,16 +24,16 @@ import java.util.Collections;
 
 import javax.swing.event.EventListenerList;
 
-import net.sf.nmedit.jpatch.PConnection;
-import net.sf.nmedit.jpatch.PConnectionManager;
-import net.sf.nmedit.jpatch.PConnector;
-import net.sf.nmedit.jpatch.PConnectorDescriptor;
-import net.sf.nmedit.jpatch.PModule;
-import net.sf.nmedit.jpatch.PModuleContainer;
-import net.sf.nmedit.jpatch.PSignal;
-import net.sf.nmedit.jpatch.PSignalTypes;
-import net.sf.nmedit.jpatch.event.PConnectorListener;
-import net.sf.nmedit.jpatch.event.PConnectorStateEvent;
+import net.nmedit.nmlibs.jpatch.PConnection;
+import net.nmedit.nmlibs.jpatch.PConnectionManager;
+import net.nmedit.nmlibs.jpatch.PConnector;
+import net.nmedit.nmlibs.jpatch.PConnectorDescriptor;
+import net.nmedit.nmlibs.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.PModuleContainer;
+import net.nmedit.nmlibs.jpatch.PSignal;
+import net.nmedit.nmlibs.jpatch.PSignalTypes;
+import net.nmedit.nmlibs.jpatch.event.PConnectorListener;
+import net.nmedit.nmlibs.jpatch.event.PConnectorStateEvent;
 
 /**
  * The reference implementation of interface {@link PConnector}.

@@ -20,7 +20,7 @@
 /*
  * Created on Jan 9, 2007
  */
-package net.nmedit.nmlibs.jpatch.clavia.nordmodular.parser;
+package net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.parser;
 
 public class ParseException extends Exception
 {

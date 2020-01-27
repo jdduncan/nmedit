@@ -19,7 +19,7 @@
 
 package net.nmedit.nmlibs.jnmprotocol.utils;
 
-import net.sf.nmedit.jnmprotocol.utils.ThreadExecutionPolicy;
+import net.nmedit.nmlibs.jnmprotocol.utils.ThreadExecutionPolicy;
 
 public class StoppableThread implements Runnable
 {

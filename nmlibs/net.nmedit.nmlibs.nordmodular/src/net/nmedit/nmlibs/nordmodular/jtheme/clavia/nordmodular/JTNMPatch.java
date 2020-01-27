@@ -16,7 +16,7 @@
  * along with Nomad; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
-package net.nmedit.nmlibs.jtheme.clavia.nordmodular;
+package net.nmedit.nmlibs.nordmodular.jtheme.clavia.nordmodular;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -54,33 +54,33 @@ import javax.swing.JSplitPane;
 import javax.swing.JViewport;
 import javax.swing.UIDefaults;
 
-import net.sf.nmedit.jpatch.PConnection;
-import net.sf.nmedit.jpatch.PConnector;
-import net.sf.nmedit.jpatch.PConnectorDescriptor;
-import net.sf.nmedit.jpatch.PModule;
-import net.sf.nmedit.jpatch.PSignal;
-import net.sf.nmedit.jpatch.PSignalTypes;
-import net.sf.nmedit.jpatch.clavia.nordmodular.Format;
-import net.sf.nmedit.jpatch.clavia.nordmodular.NMPatch;
-import net.sf.nmedit.jpatch.clavia.nordmodular.VoiceArea;
-import net.sf.nmedit.jpatch.clavia.nordmodular.parser.ParseException;
-import net.sf.nmedit.jpatch.event.PConnectionEvent;
-import net.sf.nmedit.jpatch.event.PConnectionListener;
-import net.sf.nmedit.jpatch.history.PUndoableEditSupport;
-import net.sf.nmedit.jsynth.clavia.nordmodular.utils.NmUtils;
-import net.sf.nmedit.jtheme.JTContext;
-import net.sf.nmedit.jtheme.cable.Cable;
-import net.sf.nmedit.jtheme.cable.JTCableManager;
-import net.sf.nmedit.jtheme.clavia.nordmodular.misc.NMPatchImageExporter;
-import net.sf.nmedit.jtheme.component.JTConnector;
-import net.sf.nmedit.jtheme.component.JTModule;
-import net.sf.nmedit.jtheme.component.JTModuleContainer;
-import net.sf.nmedit.jtheme.component.JTPatch;
-import net.sf.nmedit.jtheme.component.plaf.mcui.ContainerAction;
-import net.sf.nmedit.jtheme.store2.ModuleElement;
-import net.sf.nmedit.jtheme.util.JThemeUtils;
-import net.sf.nmedit.nmutils.Platform;
-import net.sf.nmedit.nmutils.graphics.GraphicsToolkit;
+import net.nmedit.nmlibs.jpatch.PConnection;
+import net.nmedit.nmlibs.jpatch.PConnector;
+import net.nmedit.nmlibs.jpatch.PConnectorDescriptor;
+import net.nmedit.nmlibs.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.PSignal;
+import net.nmedit.nmlibs.jpatch.PSignalTypes;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.Format;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.NMPatch;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.VoiceArea;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.parser.ParseException;
+import net.nmedit.nmlibs.jpatch.event.PConnectionEvent;
+import net.nmedit.nmlibs.jpatch.event.PConnectionListener;
+import net.nmedit.nmlibs.jpatch.history.PUndoableEditSupport;
+import net.nmedit.nmlibs.jsynth.clavia.nordmodular.utils.NmUtils;
+import net.nmedit.nmlibs.jtheme.JTContext;
+import net.nmedit.nmlibs.jtheme.cable.Cable;
+import net.nmedit.nmlibs.jtheme.cable.JTCableManager;
+import net.nmedit.nmlibs.jtheme.clavia.nordmodular.misc.NMPatchImageExporter;
+import net.nmedit.nmlibs.jtheme.component.JTConnector;
+import net.nmedit.nmlibs.jtheme.component.JTModule;
+import net.nmedit.nmlibs.jtheme.component.JTModuleContainer;
+import net.nmedit.nmlibs.jtheme.component.JTPatch;
+import net.nmedit.nmlibs.jtheme.component.plaf.mcui.ContainerAction;
+import net.nmedit.nmlibs.jtheme.store2.ModuleElement;
+import net.nmedit.nmlibs.jtheme.util.JThemeUtils;
+import net.nmedit.nmlibs.nmutils.Platform;
+import net.nmedit.nmlibs.nmutils.graphics.GraphicsToolkit;
 
 public class JTNMPatch extends JTPatch implements Transferable, PropertyChangeListener
 {

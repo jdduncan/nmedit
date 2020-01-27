@@ -30,8 +30,8 @@ import javax.swing.JComponent;
 import javax.swing.RepaintManager;
 import javax.swing.SwingUtilities;
 
-import net.sf.nmedit.jpatch.PModule;
-import net.sf.nmedit.jtheme.component.JTConnector;
+import net.nmedit.nmlibs.jpatch.PModule;
+import net.nmedit.nmlibs.jtheme.component.JTConnector;
 
 public class JTCableManagerImpl implements JTCableManager, Runnable
 {

@@ -20,11 +20,11 @@ package net.nmedit.nmlibs.jpatch.impl;
 
 import javax.swing.event.EventListenerList;
 
-import net.sf.nmedit.jpatch.PLight;
-import net.sf.nmedit.jpatch.PLightDescriptor;
-import net.sf.nmedit.jpatch.PModule;
-import net.sf.nmedit.jpatch.event.PLightEvent;
-import net.sf.nmedit.jpatch.event.PLightListener;
+import net.nmedit.nmlibs.jpatch.PLight;
+import net.nmedit.nmlibs.jpatch.PLightDescriptor;
+import net.nmedit.nmlibs.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.event.PLightEvent;
+import net.nmedit.nmlibs.jpatch.event.PLightListener;
 
 public class PBasicLight extends PBasicComponent<PLightDescriptor> implements PLight
 {

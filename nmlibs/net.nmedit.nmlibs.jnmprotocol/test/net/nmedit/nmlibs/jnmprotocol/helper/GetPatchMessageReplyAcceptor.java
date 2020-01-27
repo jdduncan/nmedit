@@ -3,18 +3,18 @@
  */
 package net.nmedit.nmlibs.jnmprotocol.helper;
 
-import net.sf.nmedit.jnmprotocol.AckMessage;
-import net.sf.nmedit.jnmprotocol.GetPatchMessage;
-import net.sf.nmedit.jnmprotocol.IAmMessage;
-import net.sf.nmedit.jnmprotocol.NmProtocol;
-import net.sf.nmedit.jnmprotocol.NmProtocolListener;
-import net.sf.nmedit.jnmprotocol.PatchMessage;
-import net.sf.nmedit.jnmprotocol.RequestPatchMessage;
-import net.sf.nmedit.jpdl.BitStream;
-import net.sf.nmedit.jpdl.Packet;
-import net.sf.nmedit.jpdl.PacketParser;
-import net.sf.nmedit.jpdl.Protocol;
-import net.sf.nmedit.jpdl.Tracer;
+import net.nmedit.nmlibs.jnmprotocol.AckMessage;
+import net.nmedit.nmlibs.jnmprotocol.GetPatchMessage;
+import net.nmedit.nmlibs.jnmprotocol.IAmMessage;
+import net.nmedit.nmlibs.jnmprotocol.NmProtocol;
+import net.nmedit.nmlibs.jnmprotocol.NmProtocolListener;
+import net.nmedit.nmlibs.jnmprotocol.PatchMessage;
+import net.nmedit.nmlibs.jnmprotocol.RequestPatchMessage;
+import net.nmedit.nmlibs.jpdl.BitStream;
+import net.nmedit.nmlibs.jpdl.Packet;
+import net.nmedit.nmlibs.jpdl.PacketParser;
+import net.nmedit.nmlibs.jpdl.Protocol;
+import net.nmedit.nmlibs.jpdl.Tracer;
 
 public class GetPatchMessageReplyAcceptor extends NmProtocolListener
 {

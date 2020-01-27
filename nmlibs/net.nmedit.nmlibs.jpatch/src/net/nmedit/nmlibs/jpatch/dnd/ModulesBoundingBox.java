@@ -10,7 +10,7 @@ import java.util.Collection;
 
 import javax.swing.SwingUtilities;
 
-import net.sf.nmedit.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.PModule;
 
 public class ModulesBoundingBox {
 	private Rectangle boundingBox;

@@ -7,12 +7,12 @@ import java.awt.event.WindowListener;
 
 import javax.swing.JFrame;
 
-import net.sf.nmedit.jpatch.clavia.nordmodular.NMPatch;
-import net.sf.nmedit.jtheme.clavia.nordmodular.NMKnobAssignmentWindow;
-import net.sf.nmedit.nomad.core.Nomad;
-import net.sf.nmedit.nomad.core.swing.document.Document;
-import net.sf.nmedit.nomad.core.swing.document.DocumentEvent;
-import net.sf.nmedit.nomad.core.swing.document.DocumentListener;
+import net.nmedit.nmlibs.jpatch.clavia.nordmodular.NMPatch;
+import net.nmedit.nmlibs.jtheme.clavia.nordmodular.NMKnobAssignmentWindow;
+import net.nmedit.nmlibs.nomad.core.Nomad;
+import net.nmedit.nmlibs.nomad.core.swing.document.Document;
+import net.nmedit.nmlibs.nomad.core.swing.document.DocumentEvent;
+import net.nmedit.nmlibs.nomad.core.swing.document.DocumentListener;
 
 public class KnobController implements ActionListener, DocumentListener, WindowListener
 {

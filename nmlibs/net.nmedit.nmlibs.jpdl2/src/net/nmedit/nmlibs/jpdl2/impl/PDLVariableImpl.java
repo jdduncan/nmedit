@@ -18,11 +18,11 @@
 */
 package net.nmedit.nmlibs.jpdl2.impl;
 
-import net.sf.nmedit.jpdl2.dom.PDLFunction;
-import net.sf.nmedit.jpdl2.dom.PDLItemType;
-import net.sf.nmedit.jpdl2.dom.PDLMultiplicity;
-import net.sf.nmedit.jpdl2.dom.PDLVariable;
-import net.sf.nmedit.jpdl2.utils.PDLUtils;
+import net.nmedit.nmlibs.jpdl2.dom.PDLFunction;
+import net.nmedit.nmlibs.jpdl2.dom.PDLItemType;
+import net.nmedit.nmlibs.jpdl2.dom.PDLMultiplicity;
+import net.nmedit.nmlibs.jpdl2.dom.PDLVariable;
+import net.nmedit.nmlibs.jpdl2.utils.PDLUtils;
 
 public class PDLVariableImpl extends PDLItemImpl implements PDLVariable
 {

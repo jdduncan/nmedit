@@ -26,11 +26,11 @@ import javax.sound.midi.MidiDevice;
 import javax.sound.midi.MidiSystem;
 import javax.sound.midi.MidiUnavailableException;
 
-import net.sf.nmedit.jsynth.AbstractPort;
-import net.sf.nmedit.jsynth.Plug;
-import net.sf.nmedit.jsynth.Port;
-import net.sf.nmedit.jsynth.SynthException;
-import net.sf.nmedit.jsynth.Synthesizer;
+import net.nmedit.nmlibs.jsynth.AbstractPort;
+import net.nmedit.nmlibs.jsynth.Plug;
+import net.nmedit.nmlibs.jsynth.Port;
+import net.nmedit.nmlibs.jsynth.SynthException;
+import net.nmedit.nmlibs.jsynth.Synthesizer;
 
 public class MidiPort extends AbstractPort implements Port
 {

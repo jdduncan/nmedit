@@ -29,8 +29,8 @@ import javax.swing.Icon;
 import javax.swing.JTree;
 import javax.swing.tree.DefaultTreeCellRenderer;
 
-import net.sf.nmedit.nomad.core.swing.explorer.ETreeNode;
-import net.sf.nmedit.nomad.core.swing.explorer.ExplorerTreeUI;
+import net.nmedit.nmlibs.nomad.core.swing.explorer.ETreeNode;
+import net.nmedit.nmlibs.nomad.core.swing.explorer.ExplorerTreeUI;
 
 public class ExplorerCellRenderer extends DefaultTreeCellRenderer
 {

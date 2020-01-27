@@ -21,11 +21,11 @@ package net.nmedit.nmlibs.jnmprotocol;
 
 import java.util.*;
 
-import net.sf.nmedit.jnmprotocol.MidiMessage;
-import net.sf.nmedit.jnmprotocol.NmProtocolListener;
-import net.sf.nmedit.jnmprotocol.PatchListEntry;
-import net.sf.nmedit.jnmprotocol.utils.NmCharacter;
-import net.sf.nmedit.jpdl.*;
+import net.nmedit.nmlibs.jnmprotocol.MidiMessage;
+import net.nmedit.nmlibs.jnmprotocol.NmProtocolListener;
+import net.nmedit.nmlibs.jnmprotocol.PatchListEntry;
+import net.nmedit.nmlibs.jnmprotocol.utils.NmCharacter;
+import net.nmedit.nmlibs.jpdl.*;
 
 /**
  * A message containing the names of consecutive patches

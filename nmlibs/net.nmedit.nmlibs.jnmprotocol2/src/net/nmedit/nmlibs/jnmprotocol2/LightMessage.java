@@ -19,9 +19,9 @@
 
 package net.nmedit.nmlibs.jnmprotocol2;
 
-import net.sf.nmedit.jnmprotocol2.MidiMessage;
-import net.sf.nmedit.jnmprotocol2.NmProtocolListener;
-import net.sf.nmedit.jpdl2.PDLPacket;
+import net.nmedit.nmlibs.jnmprotocol2.MidiMessage;
+import net.nmedit.nmlibs.jnmprotocol2.NmProtocolListener;
+import net.nmedit.nmlibs.jpdl2.PDLPacket;
 
 public class LightMessage extends MidiMessage
 {

@@ -22,9 +22,9 @@
  */
 package net.nmedit.nmlibs.jpatch.event;
 
-import net.sf.nmedit.jpatch.PConnection;
-import net.sf.nmedit.jpatch.PConnectionManager;
-import net.sf.nmedit.jpatch.PConnector;
+import net.nmedit.nmlibs.jpatch.PConnection;
+import net.nmedit.nmlibs.jpatch.PConnectionManager;
+import net.nmedit.nmlibs.jpatch.PConnector;
 
 /**
  * Event sent by the {@link PConnectionManager connection manager}.

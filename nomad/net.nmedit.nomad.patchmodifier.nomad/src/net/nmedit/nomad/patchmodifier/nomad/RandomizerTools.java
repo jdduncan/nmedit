@@ -21,17 +21,17 @@ package net.nmedit.nomad.patchmodifier.nomad;
 
 import java.util.Collection;
 
-import net.sf.nmedit.jpatch.PModule;
-import net.sf.nmedit.jpatch.PPatch;
-import net.sf.nmedit.jpatch.history.PUndoableEditSupport;
-import net.sf.nmedit.jtheme.component.JTPatch;
-import net.sf.nmedit.nomad.core.Nomad;
-import net.sf.nmedit.nomad.core.menulayout.ActionHandler;
-import net.sf.nmedit.nomad.core.menulayout.MLEntry;
-import net.sf.nmedit.nomad.core.menulayout.MenuLayout;
-import net.sf.nmedit.nomad.core.swing.document.Document;
-import net.sf.nmedit.patchmodifier.randomizer.Randomizer;
-import net.sf.nmedit.patchmodifier.randomizer.RandomizerFactory;
+import net.nmedit.nmlibs.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.PPatch;
+import net.nmedit.nmlibs.jpatch.history.PUndoableEditSupport;
+import net.nmedit.nmlibs.jtheme.component.JTPatch;
+import net.nmedit.nmlibs.nomad.core.Nomad;
+import net.nmedit.nmlibs.nomad.core.menulayout.ActionHandler;
+import net.nmedit.nmlibs.nomad.core.menulayout.MLEntry;
+import net.nmedit.nmlibs.nomad.core.menulayout.MenuLayout;
+import net.nmedit.nmlibs.nomad.core.swing.document.Document;
+import net.nmedit.nmlibs.patchmodifier.randomizer.Randomizer;
+import net.nmedit.nmlibs.patchmodifier.randomizer.RandomizerFactory;
 
 public class RandomizerTools
 {

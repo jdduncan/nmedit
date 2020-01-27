@@ -28,7 +28,7 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 
-import net.sf.nmedit.nmutils.iterator.FileIterator;
+import net.nmedit.nmlibs.nmutils.iterator.FileIterator;
 
 import org.junit.AfterClass;
 import org.junit.Assert;

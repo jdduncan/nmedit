@@ -23,11 +23,11 @@ import java.net.URL;
 
 import javax.swing.ImageIcon;
 
-import net.sf.nmedit.jtheme.clavia.nordmodular.JTNM1Context;
-import net.sf.nmedit.jtheme.clavia.nordmodular.NMStorageContext;
-import net.sf.nmedit.jtheme.store.DefaultStorageContext;
-import net.sf.nmedit.jtheme.util.RelativeClassLoader;
-import net.sf.nmedit.nomad.core.jpf.TempDir;
+import net.nmedit.nmlibs.jtheme.clavia.nordmodular.JTNM1Context;
+import net.nmedit.nmlibs.jtheme.clavia.nordmodular.NMStorageContext;
+import net.nmedit.nmlibs.jtheme.store.DefaultStorageContext;
+import net.nmedit.nmlibs.jtheme.util.RelativeClassLoader;
+import net.nmedit.nmlibs.nomad.core.jpf.TempDir;
 
 import org.xml.sax.InputSource;
 

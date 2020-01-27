@@ -4,7 +4,7 @@ import javax.swing.undo.AbstractUndoableEdit;
 import javax.swing.undo.CannotRedoException;
 import javax.swing.undo.CannotUndoException;
 
-import net.sf.nmedit.jpatch.PPatch;
+import net.nmedit.nmlibs.jpatch.PPatch;
 
 public class PatchNameEdit extends AbstractUndoableEdit
 {

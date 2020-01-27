@@ -21,7 +21,7 @@ package net.nmedit.nmlibs.jtheme.component;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
-import net.sf.nmedit.jpatch.PParameter;
+import net.nmedit.nmlibs.jpatch.PParameter;
 
 public class JTDefaultControlAdapter implements JTControlAdapter
 {

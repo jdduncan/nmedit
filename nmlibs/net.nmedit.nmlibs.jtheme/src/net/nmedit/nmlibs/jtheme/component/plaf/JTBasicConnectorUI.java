@@ -40,21 +40,21 @@ import java.util.Map;
 import javax.swing.JComponent;
 import javax.swing.SwingUtilities;
 
-import net.sf.nmedit.jpatch.PConnection;
-import net.sf.nmedit.jpatch.PConnectionManager;
-import net.sf.nmedit.jpatch.PConnector;
-import net.sf.nmedit.jpatch.PConnectorDescriptor;
-import net.sf.nmedit.jpatch.PSignal;
-import net.sf.nmedit.jpatch.PSignalTypes;
-import net.sf.nmedit.jpatch.history.PUndoableEditSupport;
-import net.sf.nmedit.jtheme.JTCursor;
-import net.sf.nmedit.jtheme.cable.Cable;
-import net.sf.nmedit.jtheme.cable.DragCable;
-import net.sf.nmedit.jtheme.component.JTComponent;
-import net.sf.nmedit.jtheme.cable.JTCableManager;
-import net.sf.nmedit.jtheme.component.JTConnector;
-import net.sf.nmedit.nmutils.Platform;
-import net.sf.nmedit.nmutils.graphics.RoundGradientPaint;
+import net.nmedit.nmlibs.jpatch.PConnection;
+import net.nmedit.nmlibs.jpatch.PConnectionManager;
+import net.nmedit.nmlibs.jpatch.PConnector;
+import net.nmedit.nmlibs.jpatch.PConnectorDescriptor;
+import net.nmedit.nmlibs.jpatch.PSignal;
+import net.nmedit.nmlibs.jpatch.PSignalTypes;
+import net.nmedit.nmlibs.jpatch.history.PUndoableEditSupport;
+import net.nmedit.nmlibs.jtheme.JTCursor;
+import net.nmedit.nmlibs.jtheme.cable.Cable;
+import net.nmedit.nmlibs.jtheme.cable.DragCable;
+import net.nmedit.nmlibs.jtheme.component.JTComponent;
+import net.nmedit.nmlibs.jtheme.cable.JTCableManager;
+import net.nmedit.nmlibs.jtheme.component.JTConnector;
+import net.nmedit.nmlibs.nmutils.Platform;
+import net.nmedit.nmlibs.nmutils.graphics.RoundGradientPaint;
 
 public class JTBasicConnectorUI extends JTConnectorUI
 {

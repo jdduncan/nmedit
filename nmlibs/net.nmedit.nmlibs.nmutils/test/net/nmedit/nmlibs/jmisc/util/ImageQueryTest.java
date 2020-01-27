@@ -32,7 +32,7 @@ import java.io.IOException;
 
 import javax.imageio.ImageIO;
 
-import net.sf.nmedit.nmutils.graphics.ImageQuery;
+import net.nmedit.nmlibs.nmutils.graphics.ImageQuery;
 
 import org.junit.AfterClass;
 import org.junit.BeforeClass;

@@ -26,7 +26,7 @@ import java.awt.Graphics;
 
 import javax.swing.border.Border;
 
-import net.sf.nmedit.jtheme.JTContext;
+import net.nmedit.nmlibs.jtheme.JTContext;
 
 public class JTKnob extends JTControl
 {

@@ -18,29 +18,29 @@
 */
 package net.nmedit.nmlibs.jnmprotocol;
 
-import net.sf.nmedit.jnmprotocol.AckMessage;
-import net.sf.nmedit.jnmprotocol.ErrorMessage;
-import net.sf.nmedit.jnmprotocol.IAmMessage;
-import net.sf.nmedit.jnmprotocol.KnobAssignmentMessage;
-import net.sf.nmedit.jnmprotocol.LightMessage;
-import net.sf.nmedit.jnmprotocol.MeterMessage;
-import net.sf.nmedit.jnmprotocol.MidiException;
-import net.sf.nmedit.jnmprotocol.MidiMessage;
-import net.sf.nmedit.jnmprotocol.MorphAssignmentMessage;
-import net.sf.nmedit.jnmprotocol.MorphRangeChangeMessage;
-import net.sf.nmedit.jnmprotocol.NewPatchInSlotMessage;
-import net.sf.nmedit.jnmprotocol.NmProtocol;
-import net.sf.nmedit.jnmprotocol.NmProtocolListener;
-import net.sf.nmedit.jnmprotocol.NoteMessage;
-import net.sf.nmedit.jnmprotocol.ParameterMessage;
-import net.sf.nmedit.jnmprotocol.ParameterSelectMessage;
-import net.sf.nmedit.jnmprotocol.PatchListMessage;
-import net.sf.nmedit.jnmprotocol.PatchMessage;
-import net.sf.nmedit.jnmprotocol.SetPatchTitleMessage;
-import net.sf.nmedit.jnmprotocol.SlotActivatedMessage;
-import net.sf.nmedit.jnmprotocol.SlotsSelectedMessage;
-import net.sf.nmedit.jnmprotocol.SynthSettingsMessage;
-import net.sf.nmedit.jnmprotocol.VoiceCountMessage;
+import net.nmedit.nmlibs.jnmprotocol.AckMessage;
+import net.nmedit.nmlibs.jnmprotocol.ErrorMessage;
+import net.nmedit.nmlibs.jnmprotocol.IAmMessage;
+import net.nmedit.nmlibs.jnmprotocol.KnobAssignmentMessage;
+import net.nmedit.nmlibs.jnmprotocol.LightMessage;
+import net.nmedit.nmlibs.jnmprotocol.MeterMessage;
+import net.nmedit.nmlibs.jnmprotocol.MidiException;
+import net.nmedit.nmlibs.jnmprotocol.MidiMessage;
+import net.nmedit.nmlibs.jnmprotocol.MorphAssignmentMessage;
+import net.nmedit.nmlibs.jnmprotocol.MorphRangeChangeMessage;
+import net.nmedit.nmlibs.jnmprotocol.NewPatchInSlotMessage;
+import net.nmedit.nmlibs.jnmprotocol.NmProtocol;
+import net.nmedit.nmlibs.jnmprotocol.NmProtocolListener;
+import net.nmedit.nmlibs.jnmprotocol.NoteMessage;
+import net.nmedit.nmlibs.jnmprotocol.ParameterMessage;
+import net.nmedit.nmlibs.jnmprotocol.ParameterSelectMessage;
+import net.nmedit.nmlibs.jnmprotocol.PatchListMessage;
+import net.nmedit.nmlibs.jnmprotocol.PatchMessage;
+import net.nmedit.nmlibs.jnmprotocol.SetPatchTitleMessage;
+import net.nmedit.nmlibs.jnmprotocol.SlotActivatedMessage;
+import net.nmedit.nmlibs.jnmprotocol.SlotsSelectedMessage;
+import net.nmedit.nmlibs.jnmprotocol.SynthSettingsMessage;
+import net.nmedit.nmlibs.jnmprotocol.VoiceCountMessage;
 
 /**
  * This class can be used to accept a specific midi message.

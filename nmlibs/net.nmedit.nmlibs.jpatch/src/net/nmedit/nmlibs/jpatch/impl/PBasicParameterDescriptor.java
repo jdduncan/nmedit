@@ -18,10 +18,10 @@
  */
 package net.nmedit.nmlibs.jpatch.impl;
 
-import net.sf.nmedit.jpatch.Formatter;
-import net.sf.nmedit.jpatch.PModuleDescriptor;
-import net.sf.nmedit.jpatch.PParameter;
-import net.sf.nmedit.jpatch.PParameterDescriptor;
+import net.nmedit.nmlibs.jpatch.Formatter;
+import net.nmedit.nmlibs.jpatch.PModuleDescriptor;
+import net.nmedit.nmlibs.jpatch.PParameter;
+import net.nmedit.nmlibs.jpatch.PParameterDescriptor;
 
 /**
  * The reference implementation of interface {@link PParameterDescriptor}.

@@ -2,12 +2,12 @@ package net.nmedit.nomad.patchmodifier.nomad;
 
 import javax.swing.JFrame;
 
-import net.sf.nmedit.nomad.core.swing.document.Document; 
+import net.nmedit.nmlibs.nomad.core.swing.document.Document; 
 
-import net.sf.nmedit.jpatch.PPatch;
-import net.sf.nmedit.nomad.core.swing.document.DocumentEvent;
-import net.sf.nmedit.nomad.core.swing.document.DocumentListener;
-import net.sf.nmedit.patchmodifier.mutator.Mutator;
+import net.nmedit.nmlibs.jpatch.PPatch;
+import net.nmedit.nmlibs.nomad.core.swing.document.DocumentEvent;
+import net.nmedit.nmlibs.nomad.core.swing.document.DocumentListener;
+import net.nmedit.nmlibs.patchmodifier.mutator.Mutator;
 
 public class MutatorController implements DocumentListener
 {

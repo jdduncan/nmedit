@@ -20,11 +20,11 @@
 /*
  * Created on Apr 19, 2006
  */
-package net.nmedit.nmlibs.jpatch.clavia.nordmodular;
+package net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular;
 
 import java.util.AbstractList;
 
-import net.sf.nmedit.jpatch.PParameter;
+import net.nmedit.nmlibs.jpatch.PParameter;
 
 public class KnobSet extends AbstractList<Knob>
 {

@@ -23,10 +23,10 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 
-import net.sf.nmedit.jpdl2.PDLException;
-import net.sf.nmedit.jpdl2.PDLParseContext;
-import net.sf.nmedit.jpdl2.dom.PDLFunction;
-import net.sf.nmedit.jpdl2.format.Expression;
+import net.nmedit.nmlibs.jpdl2.PDLException;
+import net.nmedit.nmlibs.jpdl2.PDLParseContext;
+import net.nmedit.nmlibs.jpdl2.dom.PDLFunction;
+import net.nmedit.nmlibs.jpdl2.format.Expression;
 
 public class PDLFunctionImpl implements PDLFunction
 {

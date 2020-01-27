@@ -20,7 +20,7 @@
 /*
  * Created on Dec 20, 2006
  */
-package net.nmedit.nmlibs.jpatch.clavia.nordmodular.parser;
+package net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.parser;
 
 public interface PContentHandler
 {

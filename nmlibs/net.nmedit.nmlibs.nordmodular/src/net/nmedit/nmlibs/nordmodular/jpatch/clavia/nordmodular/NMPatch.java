@@ -20,7 +20,7 @@
 /*
  * Created on Apr 10, 2006
  */
-package net.nmedit.nmlibs.jpatch.clavia.nordmodular;
+package net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular;
 
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
@@ -34,21 +34,21 @@ import java.util.Map;
 
 import javax.swing.event.EventListenerList;
 
-import net.sf.nmedit.jpatch.ModuleDescriptions;
-import net.sf.nmedit.jpatch.PModuleContainer;
-import net.sf.nmedit.jpatch.PPatch;
-import net.sf.nmedit.jpatch.clavia.nordmodular.event.ModifiedListener;
-import net.sf.nmedit.jpatch.clavia.nordmodular.event.PAssignmentEvent;
-import net.sf.nmedit.jpatch.clavia.nordmodular.event.PAssignmentListener;
-import net.sf.nmedit.jpatch.clavia.nordmodular.event.PPatchSettingsEvent;
-import net.sf.nmedit.jpatch.clavia.nordmodular.event.PPatchSettingsListener;
-import net.sf.nmedit.jpatch.clavia.nordmodular.parser.ParseException;
-import net.sf.nmedit.jpatch.clavia.nordmodular.parser.PatchExporter;
-import net.sf.nmedit.jpatch.clavia.nordmodular.parser.PatchFileWriter;
-import net.sf.nmedit.jpatch.impl.PBasicPatch;
-import net.sf.nmedit.jsynth.Slot;
-import net.sf.nmedit.jsynth.clavia.nordmodular.NmSlot;
-import net.sf.nmedit.jsynth.clavia.nordmodular.utils.NmUtils;
+import net.nmedit.nmlibs.jpatch.ModuleDescriptions;
+import net.nmedit.nmlibs.jpatch.PModuleContainer;
+import net.nmedit.nmlibs.jpatch.PPatch;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.event.ModifiedListener;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.event.PAssignmentEvent;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.event.PAssignmentListener;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.event.PPatchSettingsEvent;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.event.PPatchSettingsListener;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.parser.ParseException;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.parser.PatchExporter;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.parser.PatchFileWriter;
+import net.nmedit.nmlibs.jpatch.impl.PBasicPatch;
+import net.nmedit.nmlibs.jsynth.Slot;
+import net.nmedit.nmlibs.nordmodular.jsynth.clavia.nordmodular.NmSlot;
+import net.nmedit.nmlibs.nordmodular.jsynth.clavia.nordmodular.utils.NmUtils;
 
 /**
  * Implementation of the (virtual) patch according to the patch file format 3.0 specification.

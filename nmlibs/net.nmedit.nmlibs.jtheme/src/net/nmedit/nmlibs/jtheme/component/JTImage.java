@@ -23,7 +23,7 @@ import java.awt.Transparency;
 
 import javax.swing.ImageIcon;
 
-import net.sf.nmedit.jtheme.JTContext;
+import net.nmedit.nmlibs.jtheme.JTContext;
 
 public class JTImage extends JTComponent
 {

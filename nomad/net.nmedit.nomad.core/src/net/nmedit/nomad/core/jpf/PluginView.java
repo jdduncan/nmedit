@@ -51,11 +51,11 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.border.Border;
 
-import net.sf.nmedit.nomad.core.Nomad;
-import net.sf.nmedit.nomad.core.misc.FocusStroke;
-import net.sf.nmedit.nomad.core.swing.LinkLabel;
-import net.sf.nmedit.nomad.core.swing.document.Document;
-import net.sf.nmedit.nomad.core.swing.document.DocumentManager;
+import net.nmedit.nmlibs.nomad.core.Nomad;
+import net.nmedit.nmlibs.nomad.core.misc.FocusStroke;
+import net.nmedit.nmlibs.nomad.core.swing.LinkLabel;
+import net.nmedit.nmlibs.nomad.core.swing.document.Document;
+import net.nmedit.nmlibs.nomad.core.swing.document.DocumentManager;
 
 import org.java.plugin.PluginManager;
 import org.java.plugin.registry.Library;

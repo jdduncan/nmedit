@@ -18,10 +18,10 @@
  */
 package net.nmedit.nmlibs.jtheme.component;
 
-import net.sf.nmedit.jpatch.event.PParameterEvent;
-import net.sf.nmedit.jpatch.event.PParameterListener;
-import net.sf.nmedit.jpatch.PParameter;
-import net.sf.nmedit.jtheme.JTContext;
+import net.nmedit.nmlibs.jpatch.event.PParameterEvent;
+import net.nmedit.nmlibs.jpatch.event.PParameterListener;
+import net.nmedit.nmlibs.jpatch.PParameter;
+import net.nmedit.nmlibs.jtheme.JTContext;
 
 public class JTTextDisplay extends JTLabel implements PParameterListener
 {

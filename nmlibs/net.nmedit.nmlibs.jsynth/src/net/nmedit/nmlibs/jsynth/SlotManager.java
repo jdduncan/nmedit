@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */package net.nmedit.nmlibs.jsynth;
 
-import net.sf.nmedit.jsynth.event.SlotManagerListener;
+import net.nmedit.nmlibs.jsynth.event.SlotManagerListener;
 
 public interface SlotManager<T extends Slot> extends Manager, Iterable<T>
 {

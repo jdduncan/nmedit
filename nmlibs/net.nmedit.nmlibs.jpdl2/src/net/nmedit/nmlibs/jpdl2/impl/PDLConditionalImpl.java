@@ -18,9 +18,9 @@
 */
 package net.nmedit.nmlibs.jpdl2.impl;
 
-import net.sf.nmedit.jpdl2.dom.PDLCondition;
-import net.sf.nmedit.jpdl2.dom.PDLConditional;
-import net.sf.nmedit.jpdl2.dom.PDLItemType;
+import net.nmedit.nmlibs.jpdl2.dom.PDLCondition;
+import net.nmedit.nmlibs.jpdl2.dom.PDLConditional;
+import net.nmedit.nmlibs.jpdl2.dom.PDLItemType;
 
 public class PDLConditionalImpl extends PDLBlockImpl implements PDLConditional
 {

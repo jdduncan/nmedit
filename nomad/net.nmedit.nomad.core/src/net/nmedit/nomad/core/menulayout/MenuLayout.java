@@ -27,7 +27,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-import net.sf.nmedit.nomad.core.xml.ApplicationXMLReaderFactory;
+import net.nmedit.nmlibs.nomad.core.xml.ApplicationXMLReaderFactory;
 
 import org.xml.sax.Attributes;
 import org.xml.sax.ContentHandler;

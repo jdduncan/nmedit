@@ -19,11 +19,11 @@
 
 package net.nmedit.nmlibs.jnmprotocol;
 
-import net.sf.nmedit.jnmprotocol.AbstractNmProtocol;
-import net.sf.nmedit.jnmprotocol.EnqueuedPacket;
-import net.sf.nmedit.jnmprotocol.MidiException;
-import net.sf.nmedit.jnmprotocol.MidiMessage;
-import net.sf.nmedit.jpdl.BitStream;
+import net.nmedit.nmlibs.jnmprotocol.AbstractNmProtocol;
+import net.nmedit.nmlibs.jnmprotocol.EnqueuedPacket;
+import net.nmedit.nmlibs.jnmprotocol.MidiException;
+import net.nmedit.nmlibs.jnmprotocol.MidiMessage;
+import net.nmedit.nmlibs.jpdl.BitStream;
 
 public class NmProtocol extends AbstractNmProtocol
 {

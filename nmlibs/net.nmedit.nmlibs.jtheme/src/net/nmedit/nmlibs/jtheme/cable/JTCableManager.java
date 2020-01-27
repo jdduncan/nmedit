@@ -23,8 +23,8 @@ import java.util.Collection;
 
 import javax.swing.JComponent;
 
-import net.sf.nmedit.jpatch.PModule;
-import net.sf.nmedit.jtheme.component.JTConnector;
+import net.nmedit.nmlibs.jpatch.PModule;
+import net.nmedit.nmlibs.jtheme.component.JTConnector;
 
 public interface JTCableManager extends Iterable<Cable>
 {

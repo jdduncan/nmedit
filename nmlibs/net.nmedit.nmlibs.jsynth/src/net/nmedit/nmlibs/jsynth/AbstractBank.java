@@ -19,8 +19,8 @@
 
 import javax.swing.event.EventListenerList;
 
-import net.sf.nmedit.jsynth.event.BankUpdateEvent;
-import net.sf.nmedit.jsynth.event.BankUpdateListener;
+import net.nmedit.nmlibs.jsynth.event.BankUpdateEvent;
+import net.nmedit.nmlibs.jsynth.event.BankUpdateListener;
 
 public abstract class AbstractBank<S extends Synthesizer> implements Bank<S>
 {

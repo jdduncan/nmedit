@@ -20,7 +20,7 @@
 /*
  * Created on Apr 29, 2006
  */
-package net.nmedit.nmlibs.jtheme.clavia.nordmodular;
+package net.nmedit.nmlibs.nordmodular.jtheme.clavia.nordmodular;
 
 import java.awt.Color;
 import java.awt.ComponentOrientation;
@@ -51,15 +51,15 @@ import javax.swing.border.Border;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
-import net.sf.nmedit.jpatch.clavia.nordmodular.NMPatch;
-import net.sf.nmedit.jpatch.clavia.nordmodular.event.PPatchSettingsEvent;
-import net.sf.nmedit.jpatch.clavia.nordmodular.event.PPatchSettingsListener;
-import net.sf.nmedit.jpatch.event.PModuleContainerEvent;
-import net.sf.nmedit.jpatch.event.PModuleContainerListener;
-import net.sf.nmedit.jsynth.clavia.nordmodular.NmSlot;
-import net.sf.nmedit.jtheme.clavia.nordmodular.misc.GradientProgressBar;
-import net.sf.nmedit.nmutils.math.Math2;
-import net.sf.nmedit.nmutils.swing.LimitedText;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.NMPatch;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.event.PPatchSettingsEvent;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.event.PPatchSettingsListener;
+import net.nmedit.nmlibs.jpatch.event.PModuleContainerEvent;
+import net.nmedit.nmlibs.jpatch.event.PModuleContainerListener;
+import net.nmedit.nmlibs.jsynth.clavia.nordmodular.NmSlot;
+import net.nmedit.nmlibs.jtheme.clavia.nordmodular.misc.GradientProgressBar;
+import net.nmedit.nmlibs.nmutils.math.Math2;
+import net.nmedit.nmlibs.nmutils.swing.LimitedText;
 
 public class JTPatchSettingsBar extends JPanel implements PModuleContainerListener, PropertyChangeListener, PPatchSettingsListener 
 

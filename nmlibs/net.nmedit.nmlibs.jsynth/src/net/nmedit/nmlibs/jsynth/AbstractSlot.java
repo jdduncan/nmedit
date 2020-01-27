@@ -23,8 +23,8 @@ import java.beans.PropertyChangeSupport;
 
 import javax.swing.event.EventListenerList;
 
-import net.sf.nmedit.jsynth.event.SlotEvent;
-import net.sf.nmedit.jsynth.event.SlotListener;
+import net.nmedit.nmlibs.jsynth.event.SlotEvent;
+import net.nmedit.nmlibs.jsynth.event.SlotListener;
 
 public abstract class AbstractSlot implements Slot
 {

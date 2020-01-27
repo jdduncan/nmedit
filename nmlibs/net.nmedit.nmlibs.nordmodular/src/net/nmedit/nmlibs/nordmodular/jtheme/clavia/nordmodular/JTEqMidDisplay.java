@@ -16,7 +16,7 @@
  * along with Nomad; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
-package net.nmedit.nmlibs.jtheme.clavia.nordmodular;
+package net.nmedit.nmlibs.nordmodular.jtheme.clavia.nordmodular;
 
 import java.awt.Color;
 import java.awt.Graphics;
@@ -27,11 +27,11 @@ import java.awt.RenderingHints;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
-import net.sf.nmedit.jtheme.JTContext;
-import net.sf.nmedit.jtheme.clavia.nordmodular.graphics.EqualizerMid;
-import net.sf.nmedit.jtheme.component.JTControlAdapter;
-import net.sf.nmedit.jtheme.component.JTDisplay;
-import net.sf.nmedit.jtheme.store2.BindParameter;
+import net.nmedit.nmlibs.jtheme.JTContext;
+import net.nmedit.nmlibs.jtheme.clavia.nordmodular.graphics.EqualizerMid;
+import net.nmedit.nmlibs.jtheme.component.JTControlAdapter;
+import net.nmedit.nmlibs.jtheme.component.JTDisplay;
+import net.nmedit.nmlibs.jtheme.store2.BindParameter;
 
 public class JTEqMidDisplay extends JTDisplay implements ChangeListener
 {

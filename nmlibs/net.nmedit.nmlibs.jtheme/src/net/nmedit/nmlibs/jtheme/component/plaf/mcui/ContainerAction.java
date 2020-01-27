@@ -10,16 +10,16 @@ import java.awt.datatransfer.Transferable;
 import java.awt.event.ActionEvent;
 
 import javax.swing.AbstractAction;
-import net.sf.nmedit.jpatch.PModule;
-import net.sf.nmedit.jpatch.PModuleContainer;
-import net.sf.nmedit.jpatch.PPatch;
-import net.sf.nmedit.jpatch.PatchUtils;
-import net.sf.nmedit.jpatch.dnd.PModuleTransferDataWrapper;
-import net.sf.nmedit.jpatch.history.PUndoableEditSupport;
-import net.sf.nmedit.jtheme.cable.JTCableManager;
-import net.sf.nmedit.jtheme.component.JTModule;
-import net.sf.nmedit.jtheme.component.JTModuleContainer;
-import net.sf.nmedit.jtheme.util.ModuleImageRenderer;
+import net.nmedit.nmlibs.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.PModuleContainer;
+import net.nmedit.nmlibs.jpatch.PPatch;
+import net.nmedit.nmlibs.jpatch.PatchUtils;
+import net.nmedit.nmlibs.jpatch.dnd.PModuleTransferDataWrapper;
+import net.nmedit.nmlibs.jpatch.history.PUndoableEditSupport;
+import net.nmedit.nmlibs.jtheme.cable.JTCableManager;
+import net.nmedit.nmlibs.jtheme.component.JTModule;
+import net.nmedit.nmlibs.jtheme.component.JTModuleContainer;
+import net.nmedit.nmlibs.jtheme.util.ModuleImageRenderer;
 
 public class ContainerAction extends AbstractAction
 {

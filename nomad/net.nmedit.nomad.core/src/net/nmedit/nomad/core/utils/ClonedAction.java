@@ -25,7 +25,7 @@ import java.beans.PropertyChangeListener;
 import javax.swing.AbstractAction;
 import javax.swing.Action;
 
-import net.sf.nmedit.nomad.core.menulayout.MLEntry;
+import net.nmedit.nmlibs.nomad.core.menulayout.MLEntry;
 
 public class ClonedAction extends AbstractAction implements PropertyChangeListener
 {

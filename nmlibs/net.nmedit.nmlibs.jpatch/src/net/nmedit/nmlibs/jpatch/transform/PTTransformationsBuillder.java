@@ -26,7 +26,7 @@ import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
-import net.sf.nmedit.jpatch.ModuleDescriptions;
+import net.nmedit.nmlibs.jpatch.ModuleDescriptions;
 
 import org.xml.sax.Attributes;
 import org.xml.sax.InputSource;

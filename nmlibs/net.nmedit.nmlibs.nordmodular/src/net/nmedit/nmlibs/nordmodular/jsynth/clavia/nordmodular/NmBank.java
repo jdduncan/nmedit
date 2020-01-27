@@ -20,12 +20,12 @@
 /*
  * Created on Jan 16, 2007
  */
-package net.nmedit.nmlibs.jsynth.clavia.nordmodular;
+package net.nmedit.nmlibs.nordmodular.jsynth.clavia.nordmodular;
 
 import java.util.Collection;
 import java.util.Iterator;
-import net.sf.nmedit.jsynth.AbstractBank;
-import net.sf.nmedit.jsynth.clavia.nordmodular.worker.GetPatchListWorker;
+import net.nmedit.nmlibs.jsynth.AbstractBank;
+import net.nmedit.nmlibs.jsynth.clavia.nordmodular.worker.GetPatchListWorker;
 
 public class NmBank extends AbstractBank<NordModular>
 {

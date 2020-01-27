@@ -29,11 +29,11 @@ import javax.sound.midi.MidiUnavailableException;
 import javax.sound.midi.Sequencer;
 import javax.sound.midi.Synthesizer;
 
-import net.sf.nmedit.jnmprotocol.IAmMessage;
-import net.sf.nmedit.jnmprotocol.MessageHandler;
-import net.sf.nmedit.jnmprotocol.MidiDriver;
-import net.sf.nmedit.jnmprotocol.MidiMessage;
-import net.sf.nmedit.jnmprotocol.NmProtocol;
+import net.nmedit.nmlibs.jnmprotocol.IAmMessage;
+import net.nmedit.nmlibs.jnmprotocol.MessageHandler;
+import net.nmedit.nmlibs.jnmprotocol.MidiDriver;
+import net.nmedit.nmlibs.jnmprotocol.MidiMessage;
+import net.nmedit.nmlibs.jnmprotocol.NmProtocol;
 
 public class NmLookup
 {

@@ -18,7 +18,7 @@
  */
 package net.nmedit.nomad.nordmodular;
 
-import net.sf.nmedit.jnmprotocol2.PDLData;
+import net.nmedit.nmlibs.jnmprotocol2.PDLData;
 
 import org.java.plugin.Plugin;
 

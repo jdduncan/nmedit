@@ -18,7 +18,7 @@
  */
 package net.nmedit.nmlibs.jpatch.event;
 
-import net.sf.nmedit.jpatch.PLight;
+import net.nmedit.nmlibs.jpatch.PLight;
 
 public class PLightEvent extends PPatchEvent
 {

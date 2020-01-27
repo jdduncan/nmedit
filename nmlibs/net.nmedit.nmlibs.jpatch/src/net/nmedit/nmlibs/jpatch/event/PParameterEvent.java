@@ -22,8 +22,8 @@
  */
 package net.nmedit.nmlibs.jpatch.event;
 
-import net.sf.nmedit.jpatch.PModule;
-import net.sf.nmedit.jpatch.PParameter;
+import net.nmedit.nmlibs.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.PParameter;
 
 /**
  * Event sent by a {@link PParameter parameter}.

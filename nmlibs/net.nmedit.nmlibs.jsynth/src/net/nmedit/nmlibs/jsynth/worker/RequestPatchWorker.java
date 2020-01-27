@@ -18,7 +18,7 @@
  */
 package net.nmedit.nmlibs.jsynth.worker;
 
-import net.sf.nmedit.jsynth.SynthException;
+import net.nmedit.nmlibs.jsynth.SynthException;
 
 public interface RequestPatchWorker extends Worker
 {

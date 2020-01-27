@@ -26,7 +26,7 @@ import java.util.Collection;
 
 import javax.swing.JComponent;
 
-import net.sf.nmedit.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.PModule;
 
 /**
  * TODO replace class with a customizable approach.

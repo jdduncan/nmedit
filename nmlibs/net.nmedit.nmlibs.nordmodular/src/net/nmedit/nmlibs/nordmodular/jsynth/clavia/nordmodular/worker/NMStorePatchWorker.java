@@ -16,18 +16,18 @@
  * along with Nomad; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
-package net.nmedit.nmlibs.jsynth.clavia.nordmodular.worker;
+package net.nmedit.nmlibs.nordmodular.jsynth.clavia.nordmodular.worker;
 
-import net.sf.nmedit.jnmprotocol2.LoadPatchMessage;
-import net.sf.nmedit.jnmprotocol2.StorePatchMessage;
-import net.sf.nmedit.jpatch.clavia.nordmodular.NMPatch;
-import net.sf.nmedit.jsynth.Bank;
-import net.sf.nmedit.jsynth.Slot;
-import net.sf.nmedit.jsynth.SynthException;
-import net.sf.nmedit.jsynth.clavia.nordmodular.NmSlot;
-import net.sf.nmedit.jsynth.clavia.nordmodular.NordModular;
-import net.sf.nmedit.jsynth.worker.PatchLocation;
-import net.sf.nmedit.jsynth.worker.StorePatchWorker;
+import net.nmedit.nmlibs.jnmprotocol2.LoadPatchMessage;
+import net.nmedit.nmlibs.jnmprotocol2.StorePatchMessage;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.NMPatch;
+import net.nmedit.nmlibs.jsynth.Bank;
+import net.nmedit.nmlibs.jsynth.Slot;
+import net.nmedit.nmlibs.jsynth.SynthException;
+import net.nmedit.nmlibs.jsynth.clavia.nordmodular.NmSlot;
+import net.nmedit.nmlibs.jsynth.clavia.nordmodular.NordModular;
+import net.nmedit.nmlibs.jsynth.worker.PatchLocation;
+import net.nmedit.nmlibs.jsynth.worker.StorePatchWorker;
 
 public class NMStorePatchWorker implements StorePatchWorker
 {

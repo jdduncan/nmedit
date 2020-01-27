@@ -16,16 +16,16 @@
  * along with Nomad; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
-package net.nmedit.nmlibs.jtheme.clavia.nordmodular.store;
+package net.nmedit.nmlibs.nordmodular.jtheme.clavia.nordmodular.store;
 
-import net.sf.nmedit.jpatch.PModule;
-import net.sf.nmedit.jpatch.PModuleDescriptor;
-import net.sf.nmedit.jtheme.JTContext;
-import net.sf.nmedit.jtheme.JTException;
-import net.sf.nmedit.jtheme.clavia.nordmodular.JTEnvelopeDisplay;
-import net.sf.nmedit.jtheme.store.StorageContext;
-import net.sf.nmedit.jtheme.store2.AbstractMultiParameterElement;
-import net.sf.nmedit.jtheme.store2.ComponentElement;
+import net.nmedit.nmlibs.jpatch.PModule;
+import net.nmedit.nmlibs.jpatch.PModuleDescriptor;
+import net.nmedit.nmlibs.jtheme.JTContext;
+import net.nmedit.nmlibs.jtheme.JTException;
+import net.nmedit.nmlibs.jtheme.clavia.nordmodular.JTEnvelopeDisplay;
+import net.nmedit.nmlibs.jtheme.store.StorageContext;
+import net.nmedit.nmlibs.jtheme.store2.AbstractMultiParameterElement;
+import net.nmedit.nmlibs.jtheme.store2.ComponentElement;
 
 import org.jdom.Element;
 

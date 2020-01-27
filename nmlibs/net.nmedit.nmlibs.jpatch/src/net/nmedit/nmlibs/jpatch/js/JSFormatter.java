@@ -20,9 +20,9 @@ package net.nmedit.nmlibs.jpatch.js;
 
 import org.mozilla.javascript.Function;
 
-import net.sf.nmedit.jpatch.Formatter;
-import net.sf.nmedit.jpatch.PParameter;
-import net.sf.nmedit.jpatch.PParameterDescriptor;
+import net.nmedit.nmlibs.jpatch.Formatter;
+import net.nmedit.nmlibs.jpatch.PParameter;
+import net.nmedit.nmlibs.jpatch.PParameterDescriptor;
 
 public class JSFormatter implements Formatter
 {

@@ -20,14 +20,14 @@ package net.nmedit.nmlibs.jpdl2.test;
 
 import java.io.StringReader;
 
-import net.sf.nmedit.jpdl2.PDLException;
-import net.sf.nmedit.jpdl2.PDLMessage;
-import net.sf.nmedit.jpdl2.PDLPacket;
-import net.sf.nmedit.jpdl2.PDLPacketParser;
-import net.sf.nmedit.jpdl2.dom.PDLDocument;
-import net.sf.nmedit.jpdl2.dom.PDLItemType;
-import net.sf.nmedit.jpdl2.format.PDL2Parser;
-import net.sf.nmedit.jpdl2.stream.BitStream;
+import net.nmedit.nmlibs.jpdl2.PDLException;
+import net.nmedit.nmlibs.jpdl2.PDLMessage;
+import net.nmedit.nmlibs.jpdl2.PDLPacket;
+import net.nmedit.nmlibs.jpdl2.PDLPacketParser;
+import net.nmedit.nmlibs.jpdl2.dom.PDLDocument;
+import net.nmedit.nmlibs.jpdl2.dom.PDLItemType;
+import net.nmedit.nmlibs.jpdl2.format.PDL2Parser;
+import net.nmedit.nmlibs.jpdl2.stream.BitStream;
 
 import org.junit.Assert;
 import org.junit.Test;

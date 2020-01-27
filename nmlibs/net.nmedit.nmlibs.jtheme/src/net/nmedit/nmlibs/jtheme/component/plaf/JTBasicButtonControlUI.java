@@ -39,11 +39,11 @@ import javax.swing.SwingUtilities;
 import javax.swing.UIDefaults;
 import javax.swing.border.Border;
 
-import net.sf.nmedit.jtheme.component.JTButtonControl;
-import net.sf.nmedit.jtheme.component.JTComponent;
-import net.sf.nmedit.jtheme.component.JTControl;
-import net.sf.nmedit.jtheme.component.misc.CallDescriptor;
-import net.sf.nmedit.nmutils.Platform;
+import net.nmedit.nmlibs.jtheme.component.JTButtonControl;
+import net.nmedit.nmlibs.jtheme.component.JTComponent;
+import net.nmedit.nmlibs.jtheme.component.JTControl;
+import net.nmedit.nmlibs.jtheme.component.misc.CallDescriptor;
+import net.nmedit.nmlibs.nmutils.Platform;
 
 public class JTBasicButtonControlUI extends JTButtonControlUI implements SwingConstants
 {

@@ -26,7 +26,7 @@ import java.util.Set;
 
 import javax.swing.UIDefaults;
 
-import net.sf.nmedit.jtheme.component.JTComponent;
+import net.nmedit.nmlibs.jtheme.component.JTComponent;
 
 public abstract class JTCustomContext extends JTContext
 {
