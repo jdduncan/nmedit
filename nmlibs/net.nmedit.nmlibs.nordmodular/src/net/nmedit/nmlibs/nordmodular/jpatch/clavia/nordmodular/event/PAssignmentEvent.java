@@ -16,7 +16,7 @@
  * along with Nomad; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
-package net.sf.nmedit.jpatch.clavia.nordmodular.event;
+package net.nmedit.nmlibs.jpatch.clavia.nordmodular.event;
 
 import net.sf.nmedit.jpatch.PParameter;
 import net.sf.nmedit.jpatch.clavia.nordmodular.Knob;

@@ -20,7 +20,7 @@
 /*
  * Created on Dec 12, 2006
  */
-package net.sf.nmedit.jpatch;
+package net.nmedit.nmlibs.jpatch;
 
 
 public class ImageSource// implements Serializable

@@ -20,7 +20,7 @@
 /*
  * Created on Dec 20, 2006
  */
-package net.sf.nmedit.jpatch.clavia.nordmodular.parser;
+package net.nmedit.nmlibs.jpatch.clavia.nordmodular.parser;
 
 import java.util.List;
 import java.util.NoSuchElementException;

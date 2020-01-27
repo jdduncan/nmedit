@@ -20,7 +20,7 @@
 /*
  * Created on Feb 10, 2006
  */
-package net.sf.nmedit.jtheme.cable;
+package net.nmedit.nmlibs.jtheme.cable;
 
 import java.awt.Point;
 import java.awt.Rectangle;

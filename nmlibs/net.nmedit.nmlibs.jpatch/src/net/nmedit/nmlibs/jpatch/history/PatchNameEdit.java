@@ -1,4 +1,4 @@
-package net.sf.nmedit.jpatch.history;
+package net.nmedit.nmlibs.jpatch.history;
 
 import javax.swing.undo.AbstractUndoableEdit;
 import javax.swing.undo.CannotRedoException;

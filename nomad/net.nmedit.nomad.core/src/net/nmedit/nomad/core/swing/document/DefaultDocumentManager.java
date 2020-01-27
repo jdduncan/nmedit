@@ -20,7 +20,7 @@
 /*
  * Created on May 13, 2006
  */
-package net.sf.nmedit.nomad.core.swing.document;
+package net.nmedit.nomad.nomad.core.swing.document;
 
 import java.awt.Component;
 import java.awt.Container;

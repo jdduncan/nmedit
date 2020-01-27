@@ -20,7 +20,7 @@
 /*
  * Created on Aug 29, 2006
  */
-package net.sf.nmedit.nmutils.graphics;
+package net.nmedit.nmlibs.nmutils.graphics;
 
 import java.awt.Image;
 import java.awt.Toolkit;

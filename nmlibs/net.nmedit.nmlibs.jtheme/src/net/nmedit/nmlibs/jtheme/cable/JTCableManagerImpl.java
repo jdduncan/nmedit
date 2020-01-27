@@ -16,7 +16,7 @@
  * along with Nomad; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
-package net.sf.nmedit.jtheme.cable;
+package net.nmedit.nmlibs.jtheme.cable;
 
 import java.awt.EventQueue;
 import java.awt.Graphics2D;

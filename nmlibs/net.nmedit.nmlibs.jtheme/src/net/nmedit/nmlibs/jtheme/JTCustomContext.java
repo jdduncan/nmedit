@@ -16,7 +16,7 @@
  * along with Nomad; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
-package net.sf.nmedit.jtheme;
+package net.nmedit.nmlibs.jtheme;
 
 import java.awt.Image;
 import java.util.HashMap;

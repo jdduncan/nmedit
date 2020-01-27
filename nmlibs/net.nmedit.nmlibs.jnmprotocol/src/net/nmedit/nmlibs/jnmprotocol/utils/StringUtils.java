@@ -18,7 +18,7 @@
 */
 
 
-package net.sf.nmedit.jnmprotocol.utils;
+package net.nmedit.nmlibs.jnmprotocol.utils;
 
 import net.sf.nmedit.jnmprotocol.utils.NmCharacter;
 

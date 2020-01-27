@@ -20,7 +20,7 @@
 /*
  * Created on Sep 12, 2006
  */
-package net.sf.nmedit.nomad.core.swing.explorer.helpers;
+package net.nmedit.nomad.nomad.core.swing.explorer.helpers;
 
 import java.awt.Color;
 import java.awt.Component;

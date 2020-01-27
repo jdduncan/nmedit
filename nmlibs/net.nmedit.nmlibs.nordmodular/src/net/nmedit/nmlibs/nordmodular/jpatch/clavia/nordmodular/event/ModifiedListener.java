@@ -1,4 +1,4 @@
-package net.sf.nmedit.jpatch.clavia.nordmodular.event;
+package net.nmedit.nmlibs.jpatch.clavia.nordmodular.event;
 
 /* Copyright (C) 2006 Christian Schneider
  * 

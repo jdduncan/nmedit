@@ -20,7 +20,7 @@
 /*
  * Created on Sep 10, 2006
  */
-package net.sf.nmedit.nmutils.swing;
+package net.nmedit.nmlibs.nmutils.swing;
 
 import javax.swing.text.AttributeSet;
 import javax.swing.text.BadLocationException;

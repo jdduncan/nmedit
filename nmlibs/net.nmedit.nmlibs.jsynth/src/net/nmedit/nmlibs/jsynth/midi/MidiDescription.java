@@ -1,4 +1,4 @@
-package net.sf.nmedit.jsynth.midi;
+package net.nmedit.nmlibs.jsynth.midi;
 
 import javax.sound.midi.MidiDevice;
 import javax.sound.midi.MidiSystem;

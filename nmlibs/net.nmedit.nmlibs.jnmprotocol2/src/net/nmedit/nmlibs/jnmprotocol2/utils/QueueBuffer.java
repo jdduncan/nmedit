@@ -18,7 +18,7 @@
 */
 
 
-package net.sf.nmedit.jnmprotocol2.utils;
+package net.nmedit.nmlibs.jnmprotocol2.utils;
 
 import java.util.ArrayList;
 import java.util.Collection;

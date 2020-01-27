@@ -20,7 +20,7 @@
 /*
  * Created on Dec 18, 2006
  */
-package net.sf.nmedit.jpdl;
+package net.nmedit.nmlibs.jpdl;
 
 import org.junit.Test;
 import static org.junit.Assert.*;

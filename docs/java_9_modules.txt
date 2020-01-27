@@ -18,6 +18,9 @@ Project Jigsaw: Module System Quick-Start Guide
 https://openjdk.java.net/projects/jigsaw/quick-start
 
 
+Project Jigsaw in JDK 9: Modularity Comes To Java - Simon Ritter
+https://www.youtube.com/watch?v=Ks7J_qQVR7Y
+
 
 The package org.w3c.dom is accessible from more than one module: <unnamed>, java.xml
 

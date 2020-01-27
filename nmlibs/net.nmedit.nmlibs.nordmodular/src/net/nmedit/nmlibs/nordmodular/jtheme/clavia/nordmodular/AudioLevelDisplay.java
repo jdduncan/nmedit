@@ -20,7 +20,7 @@
 /*
  * Created on Jan 20, 2006
  */
-package net.sf.nmedit.jtheme.clavia.nordmodular;
+package net.nmedit.nmlibs.jtheme.clavia.nordmodular;
 
 import java.awt.GradientPaint;
 import java.awt.Graphics;

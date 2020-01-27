@@ -20,7 +20,7 @@
 /*
  * Created on Aug 29, 2006
  */
-package net.sf.nmedit.jmisc.util;
+package net.nmedit.nmlibs.jmisc.util;
 
 import static org.junit.Assert.assertTrue;
 

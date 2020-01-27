@@ -20,7 +20,7 @@
 /*
  * Created on Nov 25, 2006
  */
-package net.sf.nmedit.jtheme.component.plaf;
+package net.nmedit.nmlibs.jtheme.component.plaf;
 
 import java.awt.Color;
 import java.awt.Dimension;

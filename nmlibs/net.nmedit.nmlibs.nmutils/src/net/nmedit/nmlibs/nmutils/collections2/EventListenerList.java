@@ -20,7 +20,7 @@
 /*
  * Created on May 2, 2006
  */
-package net.sf.nmedit.nmutils.collections2;
+package net.nmedit.nmlibs.nmutils.collections2;
 
 /**
  * An efficient listener list implementation.

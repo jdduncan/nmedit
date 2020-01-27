@@ -20,7 +20,7 @@
 /*
  * Created on Apr 10, 2006
  */
-package net.sf.nmedit.jpatch.clavia.nordmodular;
+package net.nmedit.nmlibs.jpatch.clavia.nordmodular;
 
 import net.sf.nmedit.jpatch.PParameter;
 import net.sf.nmedit.jpatch.clavia.nordmodular.event.PAssignmentEvent;

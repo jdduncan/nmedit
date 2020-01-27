@@ -20,7 +20,7 @@
 /*
  * Created on May 2, 2006
  */
-package net.sf.nmedit.nmutils.graphics;
+package net.nmedit.nmlibs.nmutils.graphics;
 
 import java.awt.AlphaComposite;
 import java.awt.Color;

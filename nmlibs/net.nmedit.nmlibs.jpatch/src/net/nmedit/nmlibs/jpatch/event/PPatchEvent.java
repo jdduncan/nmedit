@@ -20,7 +20,7 @@
 /*
  * Created on Nov 30, 2006
  */
-package net.sf.nmedit.jpatch.event;
+package net.nmedit.nmlibs.jpatch.event;
 
 import java.awt.Event;
 

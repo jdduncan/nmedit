@@ -20,7 +20,7 @@
 /*
  * Created on Nov 23, 2006
  */
-package net.sf.nmedit.nomad.core;
+package net.nmedit.nomad.nomad.core;
 
 import java.io.File;
 import java.net.URISyntaxException;

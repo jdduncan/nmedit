@@ -20,7 +20,7 @@
 /*
  * Created on Aug 29, 2006
  */
-package net.sf.nmedit.jmisc.collections;
+package net.nmedit.nmlibs.jmisc.collections;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;

@@ -20,7 +20,7 @@
 /*
  * Created on Dec 18, 2006
  */
-package net.sf.nmedit.nmutils.io;
+package net.nmedit.nmlibs.nmutils.io;
 
 import java.io.IOException;
 import java.io.InputStream;

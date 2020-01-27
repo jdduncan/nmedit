@@ -20,7 +20,7 @@
 /*
  * Created on Jan 20, 2007
  */
-package net.sf.nmedit.jtheme.component.plaf;
+package net.nmedit.nmlibs.jtheme.component.plaf;
 
 import java.awt.Graphics;
 import java.awt.Graphics2D;

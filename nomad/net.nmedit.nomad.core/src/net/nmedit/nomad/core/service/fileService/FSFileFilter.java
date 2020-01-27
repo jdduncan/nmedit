@@ -16,7 +16,7 @@
  * along with Nomad; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
-package net.sf.nmedit.nomad.core.service.fileService;
+package net.nmedit.nomad.nomad.core.service.fileService;
 
 import net.sf.nmedit.nomad.core.service.ServiceAgent;
 import net.sf.nmedit.nomad.core.swing.ExtensionFilter;

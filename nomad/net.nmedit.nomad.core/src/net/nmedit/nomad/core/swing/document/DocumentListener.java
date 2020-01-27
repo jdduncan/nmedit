@@ -20,7 +20,7 @@
 /*
  * Created on May 24, 2006
  */
-package net.sf.nmedit.nomad.core.swing.document;
+package net.nmedit.nomad.nomad.core.swing.document;
 
 import java.util.EventListener;
 

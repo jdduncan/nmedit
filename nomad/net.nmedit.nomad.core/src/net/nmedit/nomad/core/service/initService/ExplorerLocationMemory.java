@@ -16,7 +16,7 @@
  * along with Nomad; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
-package net.sf.nmedit.nomad.core.service.initService;
+package net.nmedit.nomad.nomad.core.service.initService;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;

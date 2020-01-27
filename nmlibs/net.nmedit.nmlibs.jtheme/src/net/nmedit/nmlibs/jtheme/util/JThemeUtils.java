@@ -1,4 +1,4 @@
-package net.sf.nmedit.jtheme.util;
+package net.nmedit.nmlibs.jtheme.util;
 
 import java.awt.Component;
 import java.awt.Point;

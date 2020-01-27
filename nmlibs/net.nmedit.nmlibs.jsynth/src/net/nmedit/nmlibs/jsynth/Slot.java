@@ -20,7 +20,7 @@
 /*
  * Created on Dec 29, 2006
  */
-package net.sf.nmedit.jsynth;
+package net.nmedit.nmlibs.jsynth;
 
 import java.beans.PropertyChangeListener;
 

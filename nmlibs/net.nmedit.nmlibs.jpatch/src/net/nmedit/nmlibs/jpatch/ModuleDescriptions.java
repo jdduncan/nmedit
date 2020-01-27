@@ -20,7 +20,7 @@
 /*
  * Created on Dec 10, 2006
  */
-package net.sf.nmedit.jpatch;
+package net.nmedit.nmlibs.jpatch;
 
 import java.awt.Image;
 import java.awt.Toolkit;

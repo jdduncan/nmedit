@@ -20,7 +20,7 @@
 /*
  * Created on Nov 25, 2006
  */
-package net.sf.nmedit.jtheme.component;
+package net.nmedit.nmlibs.jtheme.component;
 
 import net.sf.nmedit.jtheme.JTContext;
 import net.sf.nmedit.jtheme.util.RetargetMouseEventSupport;

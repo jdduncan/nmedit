@@ -20,7 +20,7 @@
 /*
  * Created on Aug 29, 2006
  */
-package net.sf.nmedit.jmisc;
+package net.nmedit.nmlibs.jmisc;
 
 import junit.framework.JUnit4TestAdapter;
 

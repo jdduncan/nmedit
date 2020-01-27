@@ -1,4 +1,4 @@
-package net.sf.nmedit.nordmodular;
+package net.nmedit.nomad.nordmodular;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

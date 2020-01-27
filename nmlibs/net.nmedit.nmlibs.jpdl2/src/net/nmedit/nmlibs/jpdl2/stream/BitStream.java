@@ -20,7 +20,7 @@
 /*
  * Created on Dec 17, 2006
  */
-package net.sf.nmedit.jpdl2.stream;
+package net.nmedit.nmlibs.jpdl2.stream;
 
 import java.util.Arrays;
 

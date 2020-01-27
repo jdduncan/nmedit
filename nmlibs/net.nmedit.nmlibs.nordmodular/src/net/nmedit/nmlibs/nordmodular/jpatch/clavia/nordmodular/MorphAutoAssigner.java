@@ -1,4 +1,4 @@
-package net.sf.nmedit.jpatch.clavia.nordmodular;
+package net.nmedit.nmlibs.jpatch.clavia.nordmodular;
 
 import net.sf.nmedit.jpatch.PModule;
 import net.sf.nmedit.jpatch.PModuleContainer;

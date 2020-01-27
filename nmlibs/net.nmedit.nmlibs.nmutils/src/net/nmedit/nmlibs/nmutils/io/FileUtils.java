@@ -1,4 +1,4 @@
-package net.sf.nmedit.nmutils.io;
+package net.nmedit.nmlibs.nmutils.io;
 
 import java.io.File;
 import java.io.FileFilter;

@@ -1,4 +1,4 @@
-package net.sf.nmedit.jpatch.clavia.nordmodular;
+package net.nmedit.nmlibs.jpatch.clavia.nordmodular;
 
 import java.util.ArrayList;
 import java.util.Collection;

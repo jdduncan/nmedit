@@ -16,7 +16,7 @@
     along with this program; if not, write to the Free Software
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
-package net.sf.nmedit.jpdl2.impl;
+package net.nmedit.nmlibs.jpdl2.impl;
 
 import net.sf.nmedit.jpdl2.dom.PDLConstant;
 import net.sf.nmedit.jpdl2.dom.PDLItemType;

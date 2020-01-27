@@ -20,7 +20,7 @@
 /*
  * Created on Jan 21, 2007
  */
-package net.sf.nmedit.jtheme;
+package net.nmedit.nmlibs.jtheme;
 
 import java.awt.Image;
 

@@ -1,4 +1,4 @@
-package net.sf.nmedit.nomad.core.utils;
+package net.nmedit.nomad.nomad.core.utils;
 
 import java.util.Properties;
 

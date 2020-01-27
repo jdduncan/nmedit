@@ -20,7 +20,7 @@
 /*
  * Created on Jan 21, 2007
  */
-package net.sf.nmedit.jtheme.component;
+package net.nmedit.nmlibs.jtheme.component;
 
 import java.awt.AWTEvent;
 import java.awt.Graphics;

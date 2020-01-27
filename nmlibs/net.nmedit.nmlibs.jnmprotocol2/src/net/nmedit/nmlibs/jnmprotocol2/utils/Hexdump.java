@@ -1,4 +1,4 @@
-package net.sf.nmedit.jnmprotocol2.utils;
+package net.nmedit.nmlibs.jnmprotocol2.utils;
 
 public class Hexdump {
 	public static void printHex(byte[] b) {

@@ -20,7 +20,7 @@
 /*
  * Created on Sep 12, 2006
  */
-package net.sf.nmedit.nmutils;
+package net.nmedit.nmlibs.nmutils;
 
 import java.io.File;
 

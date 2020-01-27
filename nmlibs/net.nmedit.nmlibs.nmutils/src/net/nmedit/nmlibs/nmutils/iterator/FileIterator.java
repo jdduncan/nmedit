@@ -20,7 +20,7 @@
 /*
  * Created on Sep 5, 2006
  */
-package net.sf.nmedit.nmutils.iterator;
+package net.nmedit.nmlibs.nmutils.iterator;
 
 import java.io.File;
 import java.io.FileFilter;

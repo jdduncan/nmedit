@@ -1,4 +1,4 @@
-package net.sf.nmedit.jtheme.clavia.nordmodular;
+package net.nmedit.nmlibs.jtheme.clavia.nordmodular;
 
 import java.awt.Dimension;
 import java.beans.PropertyChangeEvent;

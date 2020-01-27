@@ -1,4 +1,4 @@
-package net.sf.nmedit.nmutils.swing;
+package net.nmedit.nmlibs.nmutils.swing;
 
 import java.awt.datatransfer.Clipboard;
 

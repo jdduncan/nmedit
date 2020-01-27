@@ -1,7 +1,7 @@
 /*
  * Created on Aug 29, 2006
  */
-package net.sf.nmedit.jnmprotocol;
+package net.nmedit.nmlibs.jnmprotocol;
 
 import junit.framework.JUnit4TestAdapter;
 

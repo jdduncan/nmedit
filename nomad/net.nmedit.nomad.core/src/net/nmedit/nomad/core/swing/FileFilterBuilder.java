@@ -20,7 +20,7 @@
 /*
  * Created on Jul 5, 2006
  */
-package net.sf.nmedit.nomad.core.swing;
+package net.nmedit.nomad.nomad.core.swing;
 
 import java.io.File;
 

@@ -16,7 +16,7 @@
  * along with Nomad; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
-package net.sf.nmedit.jsynth.midi;
+package net.nmedit.nmlibs.jsynth.midi;
 
 import java.util.ArrayList;
 import java.util.Collection;

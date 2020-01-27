@@ -20,7 +20,7 @@
 /*
  * Created on Aug 29, 2006
  */
-package net.sf.nmedit.jpdl2.test;
+package net.nmedit.nmlibs.jpdl2.test;
 
 import junit.framework.JUnit4TestAdapter;
 

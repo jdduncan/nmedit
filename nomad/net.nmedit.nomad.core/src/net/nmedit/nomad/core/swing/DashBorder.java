@@ -20,7 +20,7 @@
 /*
  * Created on Jun 22, 2006
  */
-package net.sf.nmedit.nomad.core.swing;
+package net.nmedit.nomad.nomad.core.swing;
 
 import java.awt.BasicStroke;
 import java.awt.Color;

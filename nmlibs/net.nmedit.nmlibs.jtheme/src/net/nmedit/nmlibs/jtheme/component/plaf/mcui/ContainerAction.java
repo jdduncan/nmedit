@@ -1,7 +1,7 @@
 /**
  * 
  */
-package net.sf.nmedit.jtheme.component.plaf.mcui;
+package net.nmedit.nmlibs.jtheme.component.plaf.mcui;
 
 import java.awt.Component;
 import java.awt.Point;

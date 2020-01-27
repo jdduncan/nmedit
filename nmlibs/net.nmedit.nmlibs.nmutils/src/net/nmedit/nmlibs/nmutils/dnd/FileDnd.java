@@ -1,4 +1,4 @@
-package net.sf.nmedit.nmutils.dnd;
+package net.nmedit.nmlibs.nmutils.dnd;
 
 import java.awt.datatransfer.DataFlavor;
 import java.awt.datatransfer.Transferable;

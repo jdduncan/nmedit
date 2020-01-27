@@ -15,7 +15,7 @@
  * You should have received a copy of the GNU General Public License
  * along with Nomad; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
- */package net.sf.nmedit.jsynth.clavia.nordmodular.worker;
+ */package net.nmedit.nmlibs.jsynth.clavia.nordmodular.worker;
 
 import java.util.LinkedList;
 import java.util.Queue;

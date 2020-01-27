@@ -20,7 +20,7 @@
 /*
  * Created on Jan 2, 2007
  */
-package net.sf.nmedit.jsynth;
+package net.nmedit.nmlibs.jsynth;
 
 public interface Plug
 {

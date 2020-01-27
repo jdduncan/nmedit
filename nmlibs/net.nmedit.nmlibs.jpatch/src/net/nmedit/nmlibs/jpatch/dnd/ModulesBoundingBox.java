@@ -1,7 +1,7 @@
 /**
  * 
  */
-package net.sf.nmedit.jpatch.dnd;
+package net.nmedit.nmlibs.jpatch.dnd;
 
 import java.awt.Image;
 import java.awt.Point;

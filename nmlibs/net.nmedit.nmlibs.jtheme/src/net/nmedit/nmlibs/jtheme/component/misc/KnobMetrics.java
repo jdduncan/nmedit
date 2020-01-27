@@ -20,7 +20,7 @@
 /*
  * Created on Jan 7, 2006
  */
-package net.sf.nmedit.jtheme.component.misc;
+package net.nmedit.nmlibs.jtheme.component.misc;
 
 import java.awt.geom.Point2D;
 

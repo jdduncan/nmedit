@@ -20,7 +20,7 @@
 /*
  * Created on Nov 1, 2006
  */
-package net.sf.nmedit.nomad.core.swing.explorer;
+package net.nmedit.nomad.nomad.core.swing.explorer;
 
 import java.awt.Event;
 import java.awt.event.MouseEvent;

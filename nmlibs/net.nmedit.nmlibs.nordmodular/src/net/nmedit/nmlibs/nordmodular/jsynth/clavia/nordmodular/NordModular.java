@@ -20,7 +20,7 @@
 /*
  * Created on Jan 2, 2007
  */
-package net.sf.nmedit.jsynth.clavia.nordmodular;
+package net.nmedit.nmlibs.jsynth.clavia.nordmodular;
 
 import java.awt.EventQueue;
 import java.util.HashMap;

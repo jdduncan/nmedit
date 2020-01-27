@@ -20,7 +20,7 @@
 /*
  * Created on May 25, 2006
  */
-package net.sf.nmedit.jsynth.clavia.nordmodular.utils;
+package net.nmedit.nmlibs.jsynth.clavia.nordmodular.utils;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package net.sf.nmedit.patchmodifier.nomad;
+package net.nmedit.nomad.patchmodifier.nomad;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

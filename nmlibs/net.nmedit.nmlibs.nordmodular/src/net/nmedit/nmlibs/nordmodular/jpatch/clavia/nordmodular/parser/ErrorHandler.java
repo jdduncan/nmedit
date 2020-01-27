@@ -20,7 +20,7 @@
 /*
  * Created on Jan 9, 2007
  */
-package net.sf.nmedit.jpatch.clavia.nordmodular.parser;
+package net.nmedit.nmlibs.jpatch.clavia.nordmodular.parser;
 
 public interface ErrorHandler
 {

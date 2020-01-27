@@ -20,7 +20,7 @@
 /*
  * Created on Jan 16, 2007
  */
-package net.sf.nmedit.jsynth.clavia.nordmodular;
+package net.nmedit.nmlibs.jsynth.clavia.nordmodular;
 
 import java.util.Collection;
 import java.util.Iterator;

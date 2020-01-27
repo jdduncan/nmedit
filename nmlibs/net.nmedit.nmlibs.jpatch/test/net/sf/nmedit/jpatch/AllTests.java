@@ -20,7 +20,7 @@
 /*
  * Created on Aug 29, 2006
  */
-package net.sf.nmedit.jpatch;
+package net.nmedit.nmlibs.jpatch;
 
 import junit.framework.JUnit4TestAdapter;
 

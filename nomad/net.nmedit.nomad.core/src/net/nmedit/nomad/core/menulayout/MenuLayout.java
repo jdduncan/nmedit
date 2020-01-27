@@ -20,7 +20,7 @@
 /*
  * Created on Nov 19, 2006
  */
-package net.sf.nmedit.nomad.core.menulayout;
+package net.nmedit.nomad.nomad.core.menulayout;
 
 import java.io.InputStream;
 import java.util.HashMap;

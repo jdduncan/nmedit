@@ -20,7 +20,7 @@
 /*
  * Created on Jan 13, 2007
  */
-package net.sf.nmedit.jnmprotocol.utils;
+package net.nmedit.nmlibs.jnmprotocol.utils;
 
 import java.util.Arrays;
 import java.util.List;

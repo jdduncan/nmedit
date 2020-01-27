@@ -1,4 +1,4 @@
-package net.sf.nmedit.jpatch;
+package net.nmedit.nmlibs.jpatch;
 
 import java.util.Collection;
 

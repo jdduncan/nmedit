@@ -20,7 +20,7 @@
 /*
  * Created on May 9, 2006
  */
-package net.sf.nmedit.nmutils.collections2;
+package net.nmedit.nmlibs.nmutils.collections2;
 
 import java.util.NoSuchElementException;
 

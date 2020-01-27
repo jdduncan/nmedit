@@ -1,4 +1,4 @@
-package net.sf.nmedit.nmutils;
+package net.nmedit.nmlibs.nmutils;
 
 import java.awt.event.MouseEvent;
 import javax.swing.SwingUtilities;

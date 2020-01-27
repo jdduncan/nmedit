@@ -20,7 +20,7 @@
 /*
  * Created on Apr 10, 2006
  */
-package net.sf.nmedit.jpatch.clavia.nordmodular;
+package net.nmedit.nmlibs.jpatch.clavia.nordmodular;
 
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;

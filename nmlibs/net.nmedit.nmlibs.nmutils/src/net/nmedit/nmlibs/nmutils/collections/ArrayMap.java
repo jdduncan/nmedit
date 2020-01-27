@@ -20,7 +20,7 @@
 /*
  * Created on Dec 18, 2006
  */
-package net.sf.nmedit.nmutils.collections;
+package net.nmedit.nmlibs.nmutils.collections;
 
 import java.io.IOException;
 import java.io.Serializable;

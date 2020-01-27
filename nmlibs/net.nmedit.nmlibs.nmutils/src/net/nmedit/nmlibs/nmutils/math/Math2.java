@@ -20,7 +20,7 @@
 /*
  * Created on Jun 20, 2006
  */
-package net.sf.nmedit.nmutils.math;
+package net.nmedit.nmlibs.nmutils.math;
 
 public class Math2
 {

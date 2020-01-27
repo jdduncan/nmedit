@@ -1,7 +1,7 @@
 /*
  * Created on Jan 10, 2007
  */
-package net.sf.nmedit.jnmprotocol.helper;
+package net.nmedit.nmlibs.jnmprotocol.helper;
 
 import net.sf.nmedit.jnmprotocol.AckMessage;
 import net.sf.nmedit.jnmprotocol.GetPatchMessage;

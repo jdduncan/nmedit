@@ -20,7 +20,7 @@
 /*
  * Created on Sep 2, 2006
  */
-package net.sf.nmedit.jmisc.collections;
+package net.nmedit.nmlibs.jmisc.collections;
 
 /**
  * An indexed object.

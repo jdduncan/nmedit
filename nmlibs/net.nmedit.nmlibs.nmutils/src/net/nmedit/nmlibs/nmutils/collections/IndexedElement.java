@@ -20,7 +20,7 @@
 /*
  * Created on Dec 19, 2006
  */
-package net.sf.nmedit.nmutils.collections;
+package net.nmedit.nmlibs.nmutils.collections;
 
 public interface IndexedElement<E>
 {

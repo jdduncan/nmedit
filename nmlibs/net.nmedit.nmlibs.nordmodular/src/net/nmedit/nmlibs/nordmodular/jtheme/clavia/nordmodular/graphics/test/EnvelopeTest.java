@@ -20,7 +20,7 @@
 /*
  * Created on Nov 27, 2006
  */
-package net.sf.nmedit.jtheme.clavia.nordmodular.graphics.test;
+package net.nmedit.nmlibs.jtheme.clavia.nordmodular.graphics.test;
 
 import java.awt.BorderLayout;
 import java.awt.Color;

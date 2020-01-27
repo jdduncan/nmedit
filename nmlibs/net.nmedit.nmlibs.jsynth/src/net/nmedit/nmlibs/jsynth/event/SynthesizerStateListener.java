@@ -20,7 +20,7 @@
 /*
  * Created on Dec 29, 2006
  */
-package net.sf.nmedit.jsynth.event;
+package net.nmedit.nmlibs.jsynth.event;
 
 public interface SynthesizerStateListener extends SynthListener
 {

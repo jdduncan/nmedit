@@ -13,7 +13,7 @@
 
 
 
-package net.sf.nmedit.jpdl2.format;
+package net.nmedit.nmlibs.jpdl2.format;
 
 
 

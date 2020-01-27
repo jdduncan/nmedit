@@ -20,7 +20,7 @@
 /*
  * Created on Apr 19, 2006
  */
-package net.sf.nmedit.jpatch.clavia.nordmodular;
+package net.nmedit.nmlibs.jpatch.clavia.nordmodular;
 
 import java.util.AbstractList;
 

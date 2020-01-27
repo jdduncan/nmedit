@@ -20,7 +20,7 @@
 /*
  * Created on Dec 17, 2006
  */
-package net.sf.nmedit.nmutils;
+package net.nmedit.nmlibs.nmutils;
 
 public class Timer
 {

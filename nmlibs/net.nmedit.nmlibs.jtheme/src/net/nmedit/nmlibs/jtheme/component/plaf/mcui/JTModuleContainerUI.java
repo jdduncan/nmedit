@@ -20,7 +20,7 @@
 /*
  * Created on Jan 21, 2007
  */
-package net.sf.nmedit.jtheme.component.plaf.mcui;
+package net.nmedit.nmlibs.jtheme.component.plaf.mcui;
 
 import java.awt.Color;
 import java.awt.Component;

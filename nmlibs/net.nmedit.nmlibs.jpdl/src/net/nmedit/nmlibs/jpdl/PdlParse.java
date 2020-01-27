@@ -13,7 +13,7 @@
 
 
 
-package net.sf.nmedit.jpdl;
+package net.nmedit.nmlibs.jpdl;
 
 
 

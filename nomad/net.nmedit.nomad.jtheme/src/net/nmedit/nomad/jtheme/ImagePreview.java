@@ -20,7 +20,7 @@
 /*
  * Created on Jun 29, 2006
  */
-package net.sf.nmedit.jtheme;
+package net.nmedit.nomad.jtheme;
 
 import java.awt.Dimension;
 import java.awt.Graphics;

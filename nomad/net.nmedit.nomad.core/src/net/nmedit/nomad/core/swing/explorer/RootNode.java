@@ -20,7 +20,7 @@
 /*
  * Created on Oct 29, 2006
  */
-package net.sf.nmedit.nomad.core.swing.explorer;
+package net.nmedit.nomad.nomad.core.swing.explorer;
 
 import java.util.Enumeration;
 import java.util.Vector;

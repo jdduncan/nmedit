@@ -1,4 +1,4 @@
-package net.sf.nmedit.patchmodifier.mutator;
+package net.nmedit.nmlibs.patchmodifier.mutator;
 
 import java.util.HashMap;
 import java.util.Vector;

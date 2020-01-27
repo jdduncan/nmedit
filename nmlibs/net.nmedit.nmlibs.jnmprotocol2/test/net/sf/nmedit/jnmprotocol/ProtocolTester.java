@@ -1,4 +1,4 @@
-package net.sf.nmedit.jnmprotocol;
+package net.nmedit.nmlibs.jnmprotocol;
 
 import java.util.Iterator;
 

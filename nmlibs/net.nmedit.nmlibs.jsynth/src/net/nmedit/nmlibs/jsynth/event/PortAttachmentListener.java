@@ -20,7 +20,7 @@
 /*
  * Created on Jan 2, 2007
  */
-package net.sf.nmedit.jsynth.event;
+package net.nmedit.nmlibs.jsynth.event;
 
 import java.util.EventListener;
 

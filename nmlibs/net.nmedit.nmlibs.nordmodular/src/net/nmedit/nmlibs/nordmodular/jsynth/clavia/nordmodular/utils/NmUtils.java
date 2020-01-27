@@ -20,7 +20,7 @@
 /*
  * Created on Jan 9, 2007
  */
-package net.sf.nmedit.jsynth.clavia.nordmodular.utils;
+package net.nmedit.nmlibs.jsynth.clavia.nordmodular.utils;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedWriter;

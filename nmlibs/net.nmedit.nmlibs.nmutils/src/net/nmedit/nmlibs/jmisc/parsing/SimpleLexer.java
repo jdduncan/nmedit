@@ -20,7 +20,7 @@
 /*
  * Created on Jun 11, 2006
  */
-package net.sf.nmedit.jmisc.parsing;
+package net.nmedit.nmlibs.jmisc.parsing;
 
 public interface SimpleLexer
 {

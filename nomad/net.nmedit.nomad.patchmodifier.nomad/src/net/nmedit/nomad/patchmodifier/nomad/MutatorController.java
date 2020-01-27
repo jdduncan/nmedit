@@ -1,4 +1,4 @@
-package net.sf.nmedit.patchmodifier.nomad;
+package net.nmedit.nomad.patchmodifier.nomad;
 
 import javax.swing.JFrame;
 
