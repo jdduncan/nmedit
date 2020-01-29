@@ -31,5 +31,12 @@
 	<classpathentry kind="lib" path="net.nmedit.nmlibs.nordmodular/dist/lib/nordmodular.jar"/>
 	<classpathentry kind="lib" path="net.nmedit.nmlibs.patchmodifier/dist/lib/patchmodifier.jar"/>
 	<classpathentry kind="lib" path="libs/commons-logging/commons-logging.jar"/>
+	<classpathentry kind="lib" path="libs/rhino/js.jar"/>
+	<classpathentry kind="lib" path="libs/batik/batik-transcoder.jar"/>
+	<classpathentry kind="lib" path="libs/jdom/jdom.jar"/>
+	<classpathentry kind="lib" path="libs/sac/sac.jar"/>
+	<classpathentry kind="lib" path="libs/coremidi4j/coremidi4j-1.2.jar"/>
+	<classpathentry kind="lib" path="libs/cssparser/cssparser.jar"/>
+	<classpathentry kind="lib" path="libs/junit/junit-4.13-rc-1.jar"/>
 	<classpathentry kind="output" path="build"/>
 </classpath>

@@ -81,6 +81,13 @@ public class GetPatchMessage extends MidiMessage
 	    ("GetPatchMessage(PDLPacket packet) not implemented", 0);
     }
 
+    public GetPatchMessage()
+    throws MidiException
+    {
+	throw new MidiException
+	    ("GetPatchMessage() not implemented", 0);
+    }
+
     public int getPid()
     {
         return get("pid");

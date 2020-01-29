@@ -453,7 +453,7 @@ public class BitStream implements Cloneable
      * @param b the byte value to convert
      * @return unsigned integer
      */
-    static final int unsignedByte(byte b)
+    public static final int unsignedByte(byte b)
     {
         return (int) (b & 0xFF);
     }    
@@ -470,7 +470,7 @@ public class BitStream implements Cloneable
      * @param b0 sets the bits  7.. 0
      * @return an integer created from four bytes 
      */
-    static final int b2i(byte b3, byte b2, byte b1, byte b0)
+    public static final int b2i(byte b3, byte b2, byte b1, byte b0)
     {
         return (unsignedByte(b3)<<24) | (unsignedByte(b2)<<16) | (unsignedByte(b1)<<8) | unsignedByte(b0);
     }
@@ -480,7 +480,7 @@ public class BitStream implements Cloneable
      * @param bitcount checked if in range <code>[0..32]</code>
      * @throws IllegalArgumentException if the condition is violated
      */
-    static final void ensureBitRange0to32(int bitcount) 
+    public static final void ensureBitRange0to32(int bitcount) 
         throws IllegalArgumentException
     {
         if ((bitcount>32) || (bitcount<0))
@@ -500,7 +500,7 @@ public class BitStream implements Cloneable
      * @param position contains the index
      * @return index encoded in the specified integer
      */
-    static final int indexof(int position)
+    public static final int indexof(int position)
     {
         return position >>> 5; // == position / 32
     }
@@ -519,7 +519,7 @@ public class BitStream implements Cloneable
      * @param position contains the index
      * @return index encoded in the specified integer
      */
-    static final int bitsof(int position)
+    public static final int bitsof(int position)
     {
         return position & 0x1F; // == position % 32
     }
@@ -531,7 +531,7 @@ public class BitStream implements Cloneable
      * @param bitcount number of least significant bits that are left unchanged 
      * @return value with 32-bitcount most significant bits cleared
      */
-    static final int unsetbits(int value, int bitcount)
+    public static final int unsetbits(int value, int bitcount)
     {
         return (bitcount<32) ? (value & ~(0xFFFFFFFF << bitcount)) : value;
     }

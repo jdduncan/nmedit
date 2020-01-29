@@ -1,0 +1,80 @@
+https://www.logicbig.com/tutorials/core-java-tutorial/modules/automatic-modules.html
+https://stackoverflow.com/questions/46713289/how-to-use-3rd-party-library-in-java9-module
+
+
+Execute the descriptor command of jar tool
+
+jar --file=/path/to/your/jar/log4j-api-2.9.1.jar --describe-module
+This would provide you an output similar to
+
+No module descriptor found. Derived automatic module.
+
+log4j.api@2.9.1 automatic
+
+In your module-info.java, declare a requires to that module name as:-
+
+module your.module {
+    requires log4j.api;
+}
+That's it.
+
+
+
+
+
+"C:\Program Files\Java\openjdk-13.0.1\bin\jar" --describe-module --file=js.jar
+No module descriptor found. Derived automatic module.
+
+js automatic
+requires java.base mandated
+contains org.mozilla.classfile
+contains org.mozilla.javascript
+contains org.mozilla.javascript.continuations
+contains org.mozilla.javascript.debug
+contains org.mozilla.javascript.jdk11
+contains org.mozilla.javascript.jdk13
+contains org.mozilla.javascript.optimizer
+contains org.mozilla.javascript.regexp
+contains org.mozilla.javascript.serialize
+contains org.mozilla.javascript.tools
+contains org.mozilla.javascript.tools.debugger
+contains org.mozilla.javascript.tools.debugger.downloaded
+contains org.mozilla.javascript.tools.idswitch
+contains org.mozilla.javascript.tools.jsc
+contains org.mozilla.javascript.tools.shell
+contains org.mozilla.javascript.xml
+contains org.mozilla.javascript.xmlimpl
+main-class org.mozilla.javascript.tools.shell.Main
+
+
+
+
+
+"C:\Program Files\Java\openjdk-13.0.1\bin\jar" --describe-module --file=batik-transcoder.jar
+No module descriptor found. Derived automatic module.
+
+batik.transcoder automatic
+requires java.base mandated
+contains org.apache.batik.transcoder
+contains org.apache.batik.transcoder.image
+contains org.apache.batik.transcoder.image.resources
+contains org.apache.batik.transcoder.keys
+contains org.apache.batik.transcoder.print
+contains org.apache.batik.transcoder.svg2svg
+contains org.apache.batik.transcoder.wmf
+contains org.apache.batik.transcoder.wmf.tosvg
+
+
+
+"C:\Program Files\Java\openjdk-13.0.1\bin\jdeps" --module-path . batik-transcoder.jar
+
+   org.apache.batik.transcoder.image                  -> com.sun.image.codec.jpeg                           JDK internal API (jdk8internals)
+
+
+
+
+
+
+
+
+
