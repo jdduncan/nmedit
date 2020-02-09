@@ -76,5 +76,12 @@ contains org.apache.batik.transcoder.wmf.tosvg
 
 
 
-
+'nomad-source/plugins/net.sf.nmedit.jpatch/lib/jpatch.jar'
+'nomad-source/plugins/net.sf.nmedit.jpdl2/lib/jpdl2.jar'
+'nomad-source/plugins/net.sf.nmedit.jsynth/lib/jsynth.jar'
+'nomad-source/plugins/net.sf.nmedit.jtheme/lib/jtheme.jar'
+'nomad-source/plugins/net.sf.nmedit.nmutils/lib/nmutils.jar'
+'nomad-source/plugins/net.sf.nmedit.nordmodular/lib/jnmprotocol2.jar'
+'nomad-source/plugins/net.sf.nmedit.nordmodular/lib/nordmodular.jar'
+'nomad-source/plugins/net.sf.nmedit.patchmodifier/lib/patchmodifier.jar'
 
