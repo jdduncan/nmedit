@@ -14,3 +14,4 @@ nomad/nomad-source/nomad.jar
 nomad/project-utils/project-utils.jar
 nomad/ant/jarbundler-2.3.1/
 nomad/ant/jarbundler-2.3.1.zip
+nmlibs/*/dist/lib/
