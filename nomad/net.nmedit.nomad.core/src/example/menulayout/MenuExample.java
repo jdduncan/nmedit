@@ -37,10 +37,10 @@ import javax.swing.JMenuItem;
 import javax.swing.JOptionPane;
 import javax.swing.JTextArea;
 
-import net.nmedit.nmlibs.nomad.core.i18n.LocaleConfiguration;
-import net.nmedit.nmlibs.nomad.core.menulayout.MLEntry;
-import net.nmedit.nmlibs.nomad.core.menulayout.MenuBuilder;
-import net.nmedit.nmlibs.nomad.core.menulayout.MenuLayout;
+import net.nmedit.nomad.core.i18n.LocaleConfiguration;
+import net.nmedit.nomad.core.menulayout.MLEntry;
+import net.nmedit.nomad.core.menulayout.MenuBuilder;
+import net.nmedit.nomad.core.menulayout.MenuLayout;
 
 public class MenuExample
 {

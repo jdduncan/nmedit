@@ -42,15 +42,15 @@ import javax.swing.SpinnerNumberModel;
 import javax.swing.SwingUtilities;
 
 import net.nmedit.nmlibs.jpatch.PModule;
-import net.nmedit.nmlibs.jpatch.clavia.nordmodular.Format;
-import net.nmedit.nmlibs.jpatch.clavia.nordmodular.Header;
-import net.nmedit.nmlibs.jpatch.clavia.nordmodular.NMPatch;
-import net.nmedit.nmlibs.jpatch.clavia.nordmodular.VoiceArea;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.Format;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.Header;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.NMPatch;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.VoiceArea;
 import net.nmedit.nmlibs.jsynth.Slot;
 import net.nmedit.nmlibs.jsynth.Synthesizer;
-import net.nmedit.nmlibs.nomad.core.Nomad;
-import net.nmedit.nmlibs.nomad.core.forms.PropertyDialogForm;
-import net.nmedit.nmlibs.nomad.core.service.fileService.FileService;
+import net.nmedit.nomad.core.Nomad;
+import net.nmedit.nomad.core.forms.PropertyDialogForm;
+import net.nmedit.nomad.core.service.fileService.FileService;
 
 public class PatchSettingsDialog 
 {

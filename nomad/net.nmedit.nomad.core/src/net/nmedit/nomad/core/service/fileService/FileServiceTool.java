@@ -28,8 +28,8 @@ import java.util.Iterator;
 import javax.swing.JFileChooser;
 import javax.swing.filechooser.FileFilter;
 
-import net.nmedit.nmlibs.nomad.core.service.ServiceRegistry;
-import net.nmedit.nmlibs.nomad.core.service.fileService.FileService;
+import net.nmedit.nomad.core.service.ServiceRegistry;
+import net.nmedit.nomad.core.service.fileService.FileService;
 
 public class FileServiceTool
 {

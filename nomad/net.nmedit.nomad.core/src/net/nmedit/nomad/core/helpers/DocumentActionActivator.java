@@ -28,12 +28,12 @@ import javax.swing.event.UndoableEditListener;
 import javax.swing.undo.UndoManager;
 import javax.swing.undo.UndoableEditSupport;
 
-import net.nmedit.nmlibs.nomad.core.menulayout.MLEntry;
-import net.nmedit.nmlibs.nomad.core.menulayout.MenuLayout;
-import net.nmedit.nmlibs.nomad.core.swing.document.Document;
-import net.nmedit.nmlibs.nomad.core.swing.document.DocumentEvent;
-import net.nmedit.nmlibs.nomad.core.swing.document.DocumentListener;
-import net.nmedit.nmlibs.nomad.core.swing.document.DocumentManager;
+import net.nmedit.nomad.core.menulayout.MLEntry;
+import net.nmedit.nomad.core.menulayout.MenuLayout;
+import net.nmedit.nomad.core.swing.document.Document;
+import net.nmedit.nomad.core.swing.document.DocumentEvent;
+import net.nmedit.nomad.core.swing.document.DocumentListener;
+import net.nmedit.nomad.core.swing.document.DocumentManager;
 
 public class DocumentActionActivator
     implements DocumentListener, ActionListener, UndoableEditListener

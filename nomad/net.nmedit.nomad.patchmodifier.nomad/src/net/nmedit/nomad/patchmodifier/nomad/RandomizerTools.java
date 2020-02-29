@@ -25,11 +25,11 @@ import net.nmedit.nmlibs.jpatch.PModule;
 import net.nmedit.nmlibs.jpatch.PPatch;
 import net.nmedit.nmlibs.jpatch.history.PUndoableEditSupport;
 import net.nmedit.nmlibs.jtheme.component.JTPatch;
-import net.nmedit.nmlibs.nomad.core.Nomad;
-import net.nmedit.nmlibs.nomad.core.menulayout.ActionHandler;
-import net.nmedit.nmlibs.nomad.core.menulayout.MLEntry;
-import net.nmedit.nmlibs.nomad.core.menulayout.MenuLayout;
-import net.nmedit.nmlibs.nomad.core.swing.document.Document;
+import net.nmedit.nomad.core.Nomad;
+import net.nmedit.nomad.core.menulayout.ActionHandler;
+import net.nmedit.nomad.core.menulayout.MLEntry;
+import net.nmedit.nomad.core.menulayout.MenuLayout;
+import net.nmedit.nomad.core.swing.document.Document;
 import net.nmedit.nmlibs.patchmodifier.randomizer.Randomizer;
 import net.nmedit.nmlibs.patchmodifier.randomizer.RandomizerFactory;
 

@@ -27,7 +27,7 @@ import javax.swing.event.TreeExpansionEvent;
 import javax.swing.event.TreeExpansionListener;
 import javax.swing.tree.TreePath;
 
-import net.nmedit.nmlibs.nomad.core.swing.explorer.ETreeNode;
+import net.nmedit.nomad.core.swing.explorer.ETreeNode;
 
 public class TreeDynamicTreeExpansion implements TreeExpansionListener
 {

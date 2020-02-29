@@ -28,7 +28,7 @@ import java.util.Formatter;
 import java.util.Locale;
 import java.util.ResourceBundle;
 
-import net.nmedit.nmlibs.nomad.core.i18n.LocaleConfiguration;
+import net.nmedit.nomad.core.i18n.LocaleConfiguration;
 
 public class ResourceManager implements PropertyChangeListener
 {

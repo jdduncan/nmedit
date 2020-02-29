@@ -52,7 +52,7 @@ import net.nmedit.nmlibs.nmutils.FileSort;
 import net.nmedit.nmlibs.nmutils.Platform;
 import net.nmedit.nmlibs.nmutils.io.FileUtils;
 import net.nmedit.nmlibs.nmutils.swing.WorkIndicator;
-import net.nmedit.nmlibs.nomad.core.Nomad;
+import net.nmedit.nomad.core.Nomad;
 
 public class FileNode implements ETreeNode, MouseListener,
     Transferable

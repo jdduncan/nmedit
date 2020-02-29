@@ -18,8 +18,8 @@
  */
 package net.nmedit.nomad.core.service.fileService;
 
-import net.nmedit.nmlibs.nomad.core.service.ServiceAgent;
-import net.nmedit.nmlibs.nomad.core.swing.ExtensionFilter;
+import net.nmedit.nomad.core.service.ServiceAgent;
+import net.nmedit.nomad.core.swing.ExtensionFilter;
 
 public class FSFileFilter extends ExtensionFilter implements ServiceAgent
 {

@@ -22,7 +22,7 @@ import java.io.File;
 
 import javax.swing.Icon;
 
-import net.nmedit.nmlibs.nomad.core.service.Service;
+import net.nmedit.nomad.core.service.Service;
 
 public interface FileService extends Service
 {

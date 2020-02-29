@@ -26,8 +26,8 @@ import java.awt.Event;
 import java.io.File;
 import java.io.FileFilter;
 
-import net.nmedit.nmlibs.nomad.core.swing.ExtensionFilter;
-import net.nmedit.nmlibs.nomad.core.swing.explorer.ExplorerTree;
+import net.nmedit.nomad.core.swing.ExtensionFilter;
+import net.nmedit.nomad.core.swing.explorer.ExplorerTree;
 
 public class FileContext extends FileNode implements TreeContext 
 {

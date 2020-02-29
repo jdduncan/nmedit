@@ -42,9 +42,9 @@ import javax.swing.plaf.metal.MetalTreeUI;
 import javax.swing.tree.TreePath;
 
 import net.nmedit.nmlibs.nmutils.Platform;
-import net.nmedit.nmlibs.nomad.core.Nomad;
-import net.nmedit.nmlibs.nomad.core.swing.explorer.helpers.ExplorerCellRenderer;
-import net.nmedit.nmlibs.nomad.core.swing.explorer.helpers.TreeDynamicTreeExpansion;
+import net.nmedit.nomad.core.Nomad;
+import net.nmedit.nomad.core.swing.explorer.helpers.ExplorerCellRenderer;
+import net.nmedit.nomad.core.swing.explorer.helpers.TreeDynamicTreeExpansion;
 
 public class ExplorerTreeUI extends MetalTreeUI
 {

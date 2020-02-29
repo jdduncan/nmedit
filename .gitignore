@@ -20,3 +20,4 @@ nomad/nomad-source/nomad.jar
 nomad/project-utils/project-utils.jar
 
 *.zip
+nomad/nomad-source/jpf-boot-error.txt

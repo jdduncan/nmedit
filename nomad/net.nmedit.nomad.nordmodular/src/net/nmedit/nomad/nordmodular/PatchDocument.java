@@ -32,12 +32,12 @@ import javax.swing.ImageIcon;
 import javax.swing.undo.UndoManager;
 import javax.swing.undo.UndoableEditSupport;
 
-import net.nmedit.nmlibs.jpatch.clavia.nordmodular.NMPatch;
+import net.nmedit.nmlibs.nordmodular.jpatch.clavia.nordmodular.NMPatch;
+import net.nmedit.nmlibs.nordmodular.jtheme.clavia.nordmodular.JTNMPatch;
 import net.nmedit.nmlibs.jsynth.Slot;
-import net.nmedit.nmlibs.jtheme.clavia.nordmodular.JTNMPatch;
-import net.nmedit.nmlibs.nomad.core.Nomad;
-import net.nmedit.nmlibs.nomad.core.swing.document.DefaultDocumentManager;
-import net.nmedit.nmlibs.nomad.core.swing.document.Document;
+import net.nmedit.nomad.core.Nomad;
+import net.nmedit.nomad.core.swing.document.DefaultDocumentManager;
+import net.nmedit.nomad.core.swing.document.Document;
 
 public class PatchDocument implements Document, 
     PropertyChangeListener, Transferable

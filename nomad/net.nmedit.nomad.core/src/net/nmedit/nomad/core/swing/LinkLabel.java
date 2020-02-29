@@ -29,7 +29,7 @@ import java.awt.event.MouseEvent;
 
 import javax.swing.JLabel;
 import net.nmedit.nmlibs.nmutils.Platform;
-import net.nmedit.nmlibs.nomad.core.misc.FocusStroke;
+import net.nmedit.nomad.core.misc.FocusStroke;
 
 public class LinkLabel extends JLabel
 {

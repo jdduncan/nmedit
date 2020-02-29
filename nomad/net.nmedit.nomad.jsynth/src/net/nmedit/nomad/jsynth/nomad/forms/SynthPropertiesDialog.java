@@ -41,8 +41,8 @@ import net.nmedit.nmlibs.jsynth.DefaultMidiPorts;
 import net.nmedit.nmlibs.jsynth.Synthesizer;
 import net.nmedit.nmlibs.jsynth.midi.MidiDescription;
 import net.nmedit.nmlibs.jsynth.midi.MidiPlug;
-import net.nmedit.nmlibs.nomad.core.forms.ExceptionDialog;
-import net.nmedit.nmlibs.nomad.core.forms.PropertyDialogForm;
+import net.nmedit.nomad.core.forms.ExceptionDialog;
+import net.nmedit.nomad.core.forms.PropertyDialogForm;
 
 public class SynthPropertiesDialog<S extends Synthesizer> extends PropertyDialogForm
 {

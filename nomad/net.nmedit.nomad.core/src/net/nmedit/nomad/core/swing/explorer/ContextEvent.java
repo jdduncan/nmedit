@@ -24,7 +24,7 @@ package net.nmedit.nomad.core.swing.explorer;
 
 import java.awt.Event;
 
-import net.nmedit.nmlibs.nomad.core.swing.explorer.ExplorerTree;
+import net.nmedit.nomad.core.swing.explorer.ExplorerTree;
 
 public class ContextEvent extends Event
 {

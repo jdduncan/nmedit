@@ -32,17 +32,17 @@ import javax.swing.SwingUtilities;
 import javax.swing.tree.TreeNode;
 
 import net.nmedit.nmlibs.nmutils.Platform;
-import net.nmedit.nmlibs.nomad.core.Nomad;
-import net.nmedit.nmlibs.nomad.core.menulayout.MLEntry;
-import net.nmedit.nmlibs.nomad.core.menulayout.MenuBuilder;
-import net.nmedit.nmlibs.nomad.core.menulayout.MenuLayout;
-import net.nmedit.nmlibs.nomad.core.service.ServiceRegistry;
-import net.nmedit.nmlibs.nomad.core.service.fileService.FileService;
-import net.nmedit.nmlibs.nomad.core.service.synthService.NewSynthService;
-import net.nmedit.nmlibs.nomad.core.swing.ExtensionFilter;
-import net.nmedit.nmlibs.nomad.core.swing.document.DefaultDocumentManager;
-import net.nmedit.nmlibs.nomad.core.swing.explorer.ExplorerTree;
-import net.nmedit.nmlibs.nomad.core.swing.explorer.FileContext;
+import net.nmedit.nomad.core.Nomad;
+import net.nmedit.nomad.core.menulayout.MLEntry;
+import net.nmedit.nomad.core.menulayout.MenuBuilder;
+import net.nmedit.nomad.core.menulayout.MenuLayout;
+import net.nmedit.nomad.core.service.ServiceRegistry;
+import net.nmedit.nomad.core.service.fileService.FileService;
+import net.nmedit.nomad.core.service.synthService.NewSynthService;
+import net.nmedit.nomad.core.swing.ExtensionFilter;
+import net.nmedit.nomad.core.swing.document.DefaultDocumentManager;
+import net.nmedit.nomad.core.swing.explorer.ExplorerTree;
+import net.nmedit.nomad.core.swing.explorer.FileContext;
 
 public class RuntimeMenuBuilder
 {   

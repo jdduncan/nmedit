@@ -42,9 +42,9 @@ import net.nmedit.nmlibs.jtheme.help.HelpHandler;
 import net.nmedit.nmlibs.jtheme.help.ModuleHelpPage;
 import net.nmedit.nmlibs.jtheme.store2.ModuleElement;
 import net.nmedit.nmlibs.jtheme.util.ModuleImageRenderer;
-import net.nmedit.nmlibs.nomad.core.Nomad;
-import net.nmedit.nmlibs.nomad.core.jpf.TempDir;
-import net.nmedit.nmlibs.nomad.core.swing.document.Document;
+import net.nmedit.nomad.core.Nomad;
+import net.nmedit.nomad.core.jpf.TempDir;
+import net.nmedit.nomad.core.swing.document.Document;
 
 public class NMHelpHandler implements HelpHandler
 {

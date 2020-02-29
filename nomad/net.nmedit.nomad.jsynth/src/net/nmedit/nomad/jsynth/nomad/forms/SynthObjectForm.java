@@ -84,19 +84,19 @@ import net.nmedit.nmlibs.jsynth.event.SlotEvent;
 import net.nmedit.nmlibs.jsynth.event.SlotListener;
 import net.nmedit.nmlibs.jsynth.event.SynthesizerEvent;
 import net.nmedit.nmlibs.jsynth.event.SynthesizerStateListener;
-import net.nmedit.nmlibs.jsynth.nomad.SimpleTextFilter;
+import net.nmedit.nomad.jsynth.nomad.SimpleTextFilter;
 import net.nmedit.nmlibs.jsynth.worker.PatchLocation;
 import net.nmedit.nmlibs.jsynth.worker.StorePatchWorker;
 import net.nmedit.nmlibs.nmutils.Platform;
-import net.nmedit.nmlibs.nomad.core.Nomad;
-import net.nmedit.nmlibs.nomad.core.forms.ExceptionDialog;
-import net.nmedit.nmlibs.nomad.core.swing.Factory;
-import net.nmedit.nmlibs.nomad.core.swing.JDropDownButtonControl;
-import net.nmedit.nmlibs.nomad.core.swing.SelectedAction;
-import net.nmedit.nmlibs.nomad.core.swing.explorer.ContainerNode;
-import net.nmedit.nmlibs.nomad.core.swing.explorer.ExplorerTree;
-import net.nmedit.nmlibs.nomad.core.swing.explorer.LeafNode;
-import net.nmedit.nmlibs.nomad.core.swing.explorer.RootNode;
+import net.nmedit.nomad.core.Nomad;
+import net.nmedit.nomad.core.forms.ExceptionDialog;
+import net.nmedit.nomad.core.swing.Factory;
+import net.nmedit.nomad.core.swing.JDropDownButtonControl;
+import net.nmedit.nomad.core.swing.SelectedAction;
+import net.nmedit.nomad.core.swing.explorer.ContainerNode;
+import net.nmedit.nomad.core.swing.explorer.ExplorerTree;
+import net.nmedit.nomad.core.swing.explorer.LeafNode;
+import net.nmedit.nomad.core.swing.explorer.RootNode;
 
 
 public class SynthObjectForm<S extends Synthesizer> extends JPanel

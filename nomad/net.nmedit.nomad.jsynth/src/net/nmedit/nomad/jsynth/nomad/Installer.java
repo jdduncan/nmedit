@@ -26,17 +26,17 @@ import java.util.List;
 import net.nmedit.nmlibs.jsynth.Slot;
 import net.nmedit.nmlibs.jsynth.SynthException;
 import net.nmedit.nmlibs.jsynth.Synthesizer;
-import net.nmedit.nmlibs.jsynth.nomad.forms.SaveInSynthDialog;
+import net.nmedit.nomad.jsynth.nomad.forms.SaveInSynthDialog;
 import net.nmedit.nmlibs.jsynth.worker.PatchLocation;
 import net.nmedit.nmlibs.jsynth.worker.StorePatchWorker;
-import net.nmedit.nmlibs.nomad.core.Nomad;
-import net.nmedit.nmlibs.nomad.core.menulayout.MLEntry;
-import net.nmedit.nmlibs.nomad.core.menulayout.MenuLayout;
-import net.nmedit.nmlibs.nomad.core.registry.GlobalRegistry;
-import net.nmedit.nmlibs.nomad.core.service.Service;
-import net.nmedit.nmlibs.nomad.core.service.initService.InitService;
-import net.nmedit.nmlibs.nomad.core.swing.document.DefaultDocumentManager;
-import net.nmedit.nmlibs.nomad.core.swing.document.Document;
+import net.nmedit.nomad.core.Nomad;
+import net.nmedit.nomad.core.menulayout.MLEntry;
+import net.nmedit.nomad.core.menulayout.MenuLayout;
+import net.nmedit.nomad.core.registry.GlobalRegistry;
+import net.nmedit.nomad.core.service.Service;
+import net.nmedit.nomad.core.service.initService.InitService;
+import net.nmedit.nomad.core.swing.document.DefaultDocumentManager;
+import net.nmedit.nomad.core.swing.document.Document;
 
 public class Installer implements InitService
 {

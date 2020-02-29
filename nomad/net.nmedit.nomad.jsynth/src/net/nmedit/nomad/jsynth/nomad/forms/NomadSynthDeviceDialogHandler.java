@@ -39,8 +39,8 @@ import javax.swing.tree.TreeModel;
 import javax.swing.tree.TreeNode;
 import javax.swing.tree.TreePath;
 
-import net.nmedit.nmlibs.nomad.core.service.ServiceRegistry;
-import net.nmedit.nmlibs.nomad.core.service.synthService.NewSynthService;
+import net.nmedit.nomad.core.service.ServiceRegistry;
+import net.nmedit.nomad.core.service.synthService.NewSynthService;
 
 public class NomadSynthDeviceDialogHandler extends JPanel
   implements ActionListener

@@ -19,7 +19,7 @@
 package net.nmedit.nomad.jsynth.nomad;
 
 import net.nmedit.nmlibs.jsynth.Synthesizer;
-import net.nmedit.nmlibs.nomad.core.registry.Registry;
+import net.nmedit.nomad.core.registry.Registry;
 
 public class SynthRegistry extends Registry<Synthesizer>
 {

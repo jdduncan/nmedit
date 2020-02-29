@@ -17,15 +17,16 @@
 	<classpathentry kind="lib" path="nomad-source/plugins/com.jgoodies.forms/lib/forms-1.1.0.jar"/>
 	<classpathentry kind="lib" path="nomad-source/plugins/com.jgoodies.looks/lib/looks-2.1.4.jar"/>
 	<classpathentry kind="lib" path="nomad-source/libs/commons-logging.jar"/>
-	<classpathentry kind="lib" path="nomad-source/plugins/net.sf.nmedit.nmutils/lib/nmutils.jar" sourcepath="/nmlibs/nmutils/src"/>
-	<classpathentry kind="lib" path="nomad-source/plugins/net.sf.nmedit.nordmodular/lib/nordmodular.jar" sourcepath="/nmlibs/nordmodular/src"/>
-	<classpathentry kind="lib" path="nomad-source/plugins/net.sf.nmedit.nordmodular/lib/jnmprotocol2.jar" sourcepath="/nmlibs/jnmprotocol2/src"/>
-	<classpathentry kind="lib" path="nomad-source/plugins/net.sf.nmedit.jpdl2/lib/jpdl2.jar" sourcepath="/nmlibs/jpdl2/src"/>
-	<classpathentry kind="lib" path="nomad-source/plugins/net.sf.nmedit.jpatch/lib/jpatch.jar" sourcepath="/nmlibs/jpatch/src"/>
-	<classpathentry kind="lib" path="nomad-source/plugins/net.sf.nmedit.patchmodifier/lib/patchmodifier.jar" sourcepath="/nmlibs/patchmodifier/src/"/>
-	<classpathentry kind="lib" path="nomad-source/plugins/net.sf.nmedit.jsynth/lib/jsynth.jar" sourcepath="/nmlibs/jsynth/src"/>
-	<classpathentry kind="lib" path="nomad-source/plugins/net.sf.nmedit.jtheme/lib/jtheme.jar" sourcepath="/nmlibs/jtheme/src"/>
 	<classpathentry kind="lib" path="nomad-source/libs/coremidi4j-1.2.jar"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/nmlibs"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/net.nmedit.nmlibs.jnmprotocol"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/net.nmedit.nmlibs.jnmprotocol2"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/net.nmedit.nmlibs.jpatch"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/net.nmedit.nmlibs.jpdl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/net.nmedit.nmlibs.jpdl2"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/net.nmedit.nmlibs.jsynth"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/net.nmedit.nmlibs.jtheme"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/net.nmedit.nmlibs.nmutils"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/net.nmedit.nmlibs.nordmodular"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/net.nmedit.nmlibs.patchmodifier"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

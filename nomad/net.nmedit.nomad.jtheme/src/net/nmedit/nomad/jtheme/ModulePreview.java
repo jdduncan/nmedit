@@ -26,6 +26,8 @@ import java.awt.Image;
 
 import net.nmedit.nmlibs.jpatch.ModuleDescriptions;
 import net.nmedit.nmlibs.jpatch.PModuleDescriptor;
+import net.nmedit.nmlibs.jtheme.JTContext;
+import net.nmedit.nmlibs.jtheme.JTException;
 import net.nmedit.nmlibs.jtheme.store.StorageContext;
 import net.nmedit.nmlibs.jtheme.util.ModuleImageRenderer;
 

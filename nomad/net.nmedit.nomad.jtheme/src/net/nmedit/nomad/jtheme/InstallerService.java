@@ -20,10 +20,10 @@ package net.nmedit.nomad.jtheme;
 
 import javax.swing.ImageIcon;
 
-import net.nmedit.nmlibs.nomad.core.Nomad;
-import net.nmedit.nmlibs.nomad.core.service.Service;
-import net.nmedit.nmlibs.nomad.core.service.initService.InitService;
-import net.nmedit.nmlibs.nomad.core.swing.tabs.JTabbedPane2;
+import net.nmedit.nomad.core.Nomad;
+import net.nmedit.nomad.core.service.Service;
+import net.nmedit.nomad.core.service.initService.InitService;
+import net.nmedit.nomad.core.swing.tabs.JTabbedPane2;
 
 public class InstallerService implements InitService
 {
