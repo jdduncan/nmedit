@@ -26,7 +26,7 @@ import java.util.NoSuchElementException;
 
 import static junit.framework.Assert.*;
 
-import net.nmedit.nmlibs.jnmprotocol2.utils.QueueBuffer;
+import net.nmedit.nmlibs.jnmprotocol.utils.QueueBuffer;
 
 import org.junit.Test;
 

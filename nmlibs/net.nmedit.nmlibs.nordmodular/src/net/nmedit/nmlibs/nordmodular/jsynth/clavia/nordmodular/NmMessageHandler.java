@@ -62,6 +62,7 @@ import net.nmedit.nmlibs.jsynth.event.SlotListener;
 import net.nmedit.nmlibs.jsynth.event.SlotManagerListener;
 import net.nmedit.nmlibs.jsynth.event.SynthesizerEvent;
 import net.nmedit.nmlibs.jsynth.event.SynthesizerStateListener;
+import net.nmedit.nmlibs.jpdl2.stream.BitStream;
 
 public class NmMessageHandler extends NmProtocolListener
     implements SlotManagerListener, PropertyChangeListener, SlotListener, SynthesizerStateListener

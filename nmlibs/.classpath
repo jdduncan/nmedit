@@ -15,8 +15,8 @@
 	<classpathentry kind="src" path="net.nmedit.nmlibs.jpatch/test"/>
 	<classpathentry kind="src" path="net.nmedit.nmlibs.jpdl/test"/>
 	<classpathentry kind="src" path="net.nmedit.nmlibs.jpdl2/test"/>
-	<classpathentry kind="src" path="net.nmedit.nmlibs.nmutils/src"/>
-	<classpathentry kind="src" path="net.nmedit.nmlibs.nmutils/test"/>
+	<classpathentry kind="src" output="net.nmedit.nmlibs.nmutils/build/src" path="net.nmedit.nmlibs.nmutils/src"/>
+	<classpathentry kind="src" output="net.nmedit.nmlibs.nmutils/build/test" path="net.nmedit.nmlibs.nmutils/test"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-12">
 		<attributes>
 			<attribute name="module" value="true"/>
