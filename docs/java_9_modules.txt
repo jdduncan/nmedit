@@ -22,6 +22,10 @@ Project Jigsaw in JDK 9: Modularity Comes To Java - Simon Ritter
 https://www.youtube.com/watch?v=Ks7J_qQVR7Y
 
 
+Java 9 Modules - Compilation Modes and Project Structure
+https://www.logicbig.com/tutorials/core-java-tutorial/modules/modes.html
+
+
 The package org.w3c.dom is accessible from more than one module: <unnamed>, java.xml
 
 That is a limitation of Java 9 and higher: the same package name must not be used in more than one module. Everything on the classpath is considered as contained in the <unnamed> module. Since org.w3c.dom is already used in the system library, your code and all dependencies/JARs must not use this package even without using JPMS (without having a module-info.java file). So, either use Java 8 or get rid of the code/dependency that contains the org.w3c.dom package.
